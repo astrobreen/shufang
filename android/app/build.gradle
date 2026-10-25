@@ -1,0 +1,57 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'app.shufang.reader'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'app.shufang.reader'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    // A fixed sideload key, so every build of the app can update the one before it.
+    // It is not a Play Store key. Keep android/keystore/shufang.jks if you want updates to install over old versions.
+    signingConfigs {
+        release {
+            storeFile file('../keystore/shufang.jks')
+            storePassword 'shufang-sideload'
+            keyAlias 'shufang'
+            keyPassword 'shufang-sideload'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            shrinkResources false
+        }
+    }
+
+    // The web app (the site/ folder of this repository) is bundled as the app's assets and served from inside the APK.
+    sourceSets {
+        main {
+            assets.srcDirs = ['../../site']
+        }
+    }
+
+    androidResources {
+        // PNGs are already compressed
+        noCompress 'png'
+    }
+
+    lint {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

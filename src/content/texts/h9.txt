@@ -1,0 +1,68 @@
+@lesson id=h9-01 level=9 type=article topic=Philosophy minutes=8 source=Original
+@title 传统与创新
+@titleen Tradition and Innovation
+@summary Why preserving the past and building the new are not enemies.
+在飞速发展的现代社会，传统与创新之间的关系常常被误解为一种非此即彼的对立。 // In today's fast-developing society, the relationship between tradition and innovation is often misread as an either-or opposition.
+有人认为，坚守传统意味着固步自封，拒绝进步；另一些人则担心，一味追求创新会使文化的根基被连根拔起。 // Some believe that holding to tradition means resting on one's laurels and refusing progress; others fear that blindly pursuing innovation will pull culture up by its roots.
+其实，这两种看法都失之偏颇。 // In fact, both views are one-sided.
+任何一种创新，都不可能凭空产生，它必然脱胎于前人积累的经验与智慧。 // No innovation can arise from nothing; it is bound to emerge from the experience and wisdom accumulated by predecessors.
+反过来，缺乏创新的传统终将失去活力，沦为博物馆里的陈列品。 // Conversely, a tradition lacking innovation will eventually lose vitality and decline into a museum exhibit.
+以中国的书法为例，千百年来，书家们既临摹经典，又不断求变，才有了篆、隶、楷、行、草各体争奇斗艳的局面。 // Take Chinese calligraphy: for centuries calligraphers both copied the classics and kept seeking change, which created a scene where seal, clerical, regular, running and cursive scripts vied in splendour.
+真正的传承，不是原封不动地保存，而是在理解其精神内核的基础上，赋予它新的时代内涵。 // True inheritance is not preserving things unchanged, but giving them new meaning for the age on the basis of understanding their inner spirit.
+正所谓"温故而知新"，唯有深入了解过去，我们才能更从容地面向未来。 // As the saying goes, "reviewing the old to know the new" — only by deeply understanding the past can we face the future more calmly.
+G: 非此即彼 ~ 非此即彼 means "either this or that". ~ 生活并非非此即彼。 ~ Life is not either-or. ~ 非此即彼
+G: 以……为例 ~ 以 A 为例 means "take A as an example". ~ 以北京为例，交通问题很严重。 ~ Take Beijing: its traffic problem is serious. ~ 为例
+Q: What is the common misunderstanding? ~ Tradition and innovation are opposed ~ Both are old ~ Innovation is cheap ~ Tradition is modern
+Q: What happens to tradition without innovation? ~ It loses vitality ~ It becomes stronger ~ It spreads ~ It changes name
+Q: What example is given? ~ Calligraphy ~ Cooking ~ Music ~ Architecture
+
+@lesson id=h9-02 level=9 type=article topic=Language minutes=8 source=Original
+@title 方言与普通话
+@titleen Dialects and Mandarin
+@summary Why standard speech and local tongues need each other.
+中国地域辽阔，方言众多，粗略地划分，就有官话、吴语、粤语、闽语、客家话、湘语和赣语七大方言区。 // China is vast and has many dialects; roughly divided, there are seven major dialect regions: Mandarin, Wu, Yue, Min, Hakka, Xiang and Gan.
+各方言之间的差异之大，往往使得不同地区的人无法直接交谈，甚至同一座城市的两个区县，口音也不尽相同。 // The differences are so large that people from different regions often cannot converse directly; even two districts of one city may have different accents.
+推广普通话，为人们的跨地域交流扫除了障碍，也有力地促进了教育的普及和经济的发展。 // Promoting Mandarin has removed barriers to cross-regional communication and powerfully advanced education and economic development.
+然而，随着普通话的普及，一些方言正在悄然消失，尤其是年轻一代，能说地道方言的人越来越少。 // However, as Mandarin spreads, some dialects are quietly vanishing, especially among the young, fewer of whom speak authentic dialect.
+方言不仅是一种交流工具，更承载着一方水土的历史记忆和风土人情。 // A dialect is not only a tool for communication but also carries a region's historical memory and local customs.
+许多古诗词用粤语或闽南语朗读，反而更加押韵，因为这些方言保留了不少古汉语的发音特点。 // Many classical poems rhyme better when read in Cantonese or Hokkien, because those dialects preserve many features of ancient pronunciation.
+因此，保护方言并不意味着否定普通话，两者完全可以相辅相成、和谐共存。 // Protecting dialects therefore does not mean denying Mandarin; the two can complement each other and coexist harmoniously.
+G: 相辅相成 ~ 相辅相成 is a chengyu: "complement each other". ~ 理论与实践相辅相成。 ~ Theory and practice complement each other. ~ 相辅相成
+G: 悄然 ~ 悄然 means "quietly; silently". ~ 夜幕悄然降临。 ~ Night quietly fell. ~ 悄然
+Q: How many major dialect regions are listed? ~ Seven ~ Three ~ Ten ~ Five
+Q: Why do ancient poems rhyme better in some dialects? ~ They keep old pronunciation features ~ They are slower ~ They are louder ~ They use songs
+Q: What is the writer's conclusion? ~ Dialects and Mandarin can coexist ~ Dialects should vanish ~ Mandarin is unnecessary ~ Poems should be rewritten
+
+@lesson id=h9-03 level=9 type=article topic=Art minutes=8 source=Original
+@title 中国山水画的意境
+@titleen The Artistic Mood of Chinese Landscape Painting
+@summary Why empty space matters in ink painting.
+与西方绘画追求写实不同，中国山水画更注重表现画家内心的感受与精神境界。 // Unlike Western painting's pursuit of realism, Chinese landscape painting emphasises the painter's inner feelings and spiritual realm.
+画家并不拘泥于对景物的如实描摹，而是将自然万物融入心中，经过提炼与取舍，再以笔墨抒发胸臆。 // Painters do not cling to faithful depiction; they take in the myriad things of nature, refine and select, then express their feelings with brush and ink.
+这就是所谓的"意在笔先"。 // This is the so-called "intent before the brush".
+在构图上，山水画讲究留白，一片空白既可以是云雾，也可以是江水，更可以是观者想象的天地。 // In composition, landscape painting values blank space: an empty area can be mist, a river, or the world imagined by the viewer.
+正因为有了这种"虚"与"实"的巧妙对比，画面才显得空灵悠远，耐人寻味。 // Because of this clever contrast of emptiness and substance, the picture seems ethereal, far-reaching and thought-provoking.
+元代画家黄公望的《富春山居图》，以淡雅的笔墨描绘了富春江两岸的秀美风光，被誉为中国十大传世名画之一。 // Yuan painter Huang Gongwang's "Dwelling in the Fuchun Mountains" depicts the lovely scenery of the Fuchun River in subtle ink, and is hailed as one of China's ten great surviving paintings.
+欣赏这样的画作，仿佛置身于山水之间，心灵得到了洗涤。 // Viewing such a work feels like standing among mountains and waters, with the soul cleansed.
+G: 耐人寻味 ~ 耐人寻味 means "thought-provoking". ~ 这部电影的结尾耐人寻味。 ~ The film's ending is thought-provoking. ~ 耐人寻味
+G: 拘泥于 ~ 拘泥于 means "to stick rigidly to". ~ 不要拘泥于形式。 ~ Don't be bound by form. ~ 拘泥
+Q: What does landscape painting stress? ~ The painter's inner feelings ~ Photographic accuracy ~ Bright colours ~ Portraits
+Q: What can blank space represent? ~ Mist, river or imagined world ~ Mistakes ~ Unfinished work ~ Paper quality
+Q: Which painting is mentioned? ~ Dwelling in the Fuchun Mountains ~ Mona Lisa ~ Along the River at Qingming ~ Starry Night
+
+@lesson id=h9-04 level=9 type=article topic=Law minutes=8 source=Original
+@title 数字时代的隐私
+@titleen Privacy in the Digital Age
+@summary Where convenience ends and surveillance begins.
+我们每天在网络上留下的足迹，正以前所未有的规模被收集、分析和利用。 // The footprints we leave online each day are being collected, analysed and used on an unprecedented scale.
+商家借助大数据精准投放广告，固然提高了营销效率，但也让消费者感到自己的一举一动都处于监视之下。 // Merchants use big data to target ads, which raises marketing efficiency but also makes consumers feel their every move is watched.
+更严重的是，个人信息一旦泄露，便可能被不法分子用于诈骗，造成难以挽回的损失。 // More seriously, once personal information leaks it may be used by criminals for fraud, causing irreparable loss.
+为了应对这一挑战，各国纷纷出台法律，加强对个人信息的保护，明确规定企业收集数据必须取得用户的明确同意。 // To meet this challenge, countries have enacted laws strengthening the protection of personal information, explicitly requiring firms to obtain users' clear consent before collecting data.
+然而，法律的完善往往滞后于技术的发展，许多用户在点击"同意"之前，根本没有认真阅读冗长晦涩的隐私条款。 // But the improvement of law often lags behind technology; many users click "agree" without really reading long, obscure privacy terms.
+可见，保护隐私不能仅靠立法，还需要企业恪守诚信、用户提高自我保护意识，形成多方共治的格局。 // Clearly protecting privacy cannot depend on legislation alone; firms must keep faith and users raise self-protection awareness, forming a pattern of shared governance.
+在便利与隐私之间寻求平衡，将是数字时代我们长期面临的课题。 // Seeking balance between convenience and privacy will be a long-term task in the digital age.
+G: 前所未有 ~ 前所未有 means "unprecedented". ~ 这是前所未有的成就。 ~ This is an unprecedented achievement. ~ 前所未有
+G: 固然 ~ 固然 concedes a point before a "but". ~ 价格固然重要，质量也不能忽视。 ~ Price matters, but quality can't be ignored. ~ 固然
+Q: What do merchants use big data for? ~ Targeting ads ~ Building roads ~ Teaching ~ Printing
+Q: What is the problem with privacy terms? ~ Users don't read them ~ They are too short ~ They are free ~ They are secret
+Q: What does the writer conclude? ~ A balance is needed ~ Ban data ~ Ignore laws ~ Delete apps

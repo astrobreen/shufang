@@ -1,0 +1,59 @@
+# ===================== LEVEL 5 · ADVANCED (≈HSK 5) =====================
+
+@lesson id=a01 level=5 type=article topic=Society minutes=5
+@title 慢:màn:slow;生活:shēng huó:life
+@titleen Slow Living
+@summary An essay on why "slow living" appeals to young city dwellers and how to start.
+S: 这几年:zhè jǐ nián:in recent years;，;“;慢生活:màn shēng huó:slow living;”;成:chéng:to become;了:le:(completed action);很多:hěn duō:many;城市:chéng shì:city;年轻人:nián qīng rén:young people;谈论:tán lùn:to discuss;的:de:(modifier particle);话题:huà tí:topic;。
+T: In recent years, "slow living" has become a topic that many young city dwellers talk about.
+S: 在:zài:in;快节奏:kuài jié zòu:fast-paced;的:de:(modifier particle);社会:shè huì:society;里:lǐ:within;，;人们:rén men:people;每天:měi tiān:every day;被:bèi:(passive marker);工作:gōng zuò:work;和:hé:and;手机:shǒu jī:phone;追着:zhuī zhe:chasing;跑:pǎo:to run;，;几乎:jī hū:almost;没有:méi yǒu:to have no;时间:shí jiān:time;停下来:tíng xià lai:to stop;想一想:xiǎng yi xiǎng:to think for a moment;自己:zì jǐ:oneself;真正:zhēn zhèng:truly;想要:xiǎng yào:to want;什么:shén me:what;。
+T: In a fast-paced society, people are chased by work and their phones every day, and have almost no time to stop and think about what they truly want.
+S: 所谓:suǒ wèi:so-called;慢生活:màn shēng huó:slow living;，;并:bìng:(emphasizes negation);不是:bú shì:is not;说:shuō:to say;什么:shén me:anything;都:dōu:all;不:bù:not;做:zuò:to do;，;而是:ér shì:but rather;学会:xué huì:to learn to;在:zài:in;忙碌:máng lù:busy;之中:zhī zhōng:amid;给:gěi:to give;自己:zì jǐ:oneself;留:liú:to leave;一点:yì diǎn:a little;空白:kòng bái:blank space;。
+T: So-called slow living does not mean doing nothing at all, but learning to leave a little blank space for yourself amid the busyness.
+S: 比如:bǐ rú:for example;，;下班:xià bān:to finish work;后:hòu:after;走路:zǒu lù:to walk;回家:huí jiā:to go home;，;而不是:ér bú shì:rather than;挤:jǐ:to squeeze into;地铁:dì tiě:subway;；;周末:zhōu mò:weekend;关掉:guān diào:to turn off;手机:shǒu jī:phone;，;认真地:rèn zhēn de:carefully;做:zuò:to make;一顿饭:yí dùn fàn:a meal;，;或者:huò zhě:or;陪:péi:to accompany;家人:jiā rén:family;聊聊天:liáo liao tiān:to chat;。
+T: For example, walking home after work rather than squeezing onto the subway; on weekends turning off your phone, carefully cooking a meal, or chatting with your family.
+S: 这些:zhè xiē:these;看似:kàn sì:seemingly;普通:pǔ tōng:ordinary;的:de:(modifier particle);小事:xiǎo shì:small things;，;却:què:yet;能:néng:can;让:ràng:to let;人:rén:people;重新:chóng xīn:anew;感受到:gǎn shòu dào:to feel;生活:shēng huó:life;的:de:(possessive particle);质感:zhì gǎn:texture;。
+T: These seemingly ordinary little things can make people feel the texture of life anew.
+S: 当然:dāng rán:of course;，;慢下来:màn xià lai:to slow down;并:bìng:(emphasizes negation);不:bù:not;容易:róng yì:easy;，;因为:yīn wèi:because;我们:wǒ men:we;早已:zǎo yǐ:long since;习惯:xí guàn:to be used to;了:le:(completed action);效率至上:xiào lǜ zhì shàng:efficiency above all;的:de:(modifier particle);思维:sī wéi:way of thinking;。
+T: Of course, slowing down is not easy, because we have long been used to a way of thinking that puts efficiency above all.
+S: 但:dàn:but;只要:zhǐ yào:as long as;从:cóng:from;一件:yí jiàn:one (measure word for matters);小事:xiǎo shì:small thing;开始:kāi shǐ:to begin;，;也许:yě xǔ:perhaps;就:jiù:then;能:néng:can;慢慢:màn màn:slowly;找回:zhǎo huí:to find again;内心:nèi xīn:inner heart;的:de:(modifier particle);平衡:píng héng:balance;。
+T: But as long as we start with one small thing, perhaps we can slowly find our inner balance again.
+G: 被 (passive) ~ 被 marks the passive: the subject receives the action. The doer, if named, follows 被. ~ 我被雨淋湿了。 ~ I got soaked by the rain. ~ 被
+G: 并不是 / 并不 ~ 并 before a negative word stresses a correction: "actually not / not at all". ~ 这并不难。 ~ This isn't hard at all. ~ 并
+G: 不是 A，而是 B ~ "not A but B". 而不是 A means "rather than A". ~ 他不是不想去，而是没时间。 ~ It's not that he doesn't want to go; he has no time. ~ 而是,而不是
+G: 只要…就… ~ "as long as … then …". It names the one condition that is enough. ~ 只要努力，就能成功。 ~ As long as you work hard, you can succeed. ~ 只要,就
+Q: What does slow living really mean, according to the essay? ~ Leaving some blank space amid a busy life ~ Doing nothing at all ~ Quitting your job
+Q: Which example does the writer give? ~ Walking home instead of taking the subway ~ Working longer hours ~ Buying a new phone
+Q: Why is slowing down difficult? ~ We are used to putting efficiency first ~ We have too much free time ~ Cities are too quiet
+Q: What does the writer suggest at the end? ~ Start with one small thing ~ Move to the countryside ~ Give up all technology
+
+@lesson id=a02 level=5 type=story topic=Fiction minutes=6
+@title 夜市:yè shì:night market;里:lǐ:in;的:de:(possessive particle);故事:gù shi:story
+@titleen A Story from the Night Market
+@summary A tofu-pudding seller who never raises his prices gives a homesick customer a bowl he cannot forget.
+S: 傍晚:bàng wǎn:early evening;六点:liù diǎn:six o'clock;，;老周:lǎo zhōu:Old Zhou (name);像:xiàng:like;往常:wǎng cháng:usual;一样:yí yàng:the same;推着:tuī zhe:pushing;小车:xiǎo chē:cart;来到:lái dào:to arrive at;夜市:yè shì:night market;。
+T: At six in the early evening, Old Zhou pushed his little cart to the night market as usual.
+S: 他:tā:he;卖:mài:to sell;的:de:(nominalizer);是:shì:to be;自己:zì jǐ:himself;做:zuò:to make;的:de:(modifier particle);豆腐脑:dòu fu nǎo:silky tofu pudding;，;一碗:yì wǎn:one bowl;只要:zhǐ yào:only;五块钱:wǔ kuài qián:five yuan;，;二十年来:èr shí nián lái:for twenty years;从:cóng:ever (with 没);没:méi:not;涨过价:zhǎng guo jià:to have raised prices;。
+T: What he sold was the tofu pudding he made himself, only five yuan a bowl, and in twenty years he had never raised the price.
+S: 有人:yǒu rén:someone;劝:quàn:to advise;他:tā:him;：;“;现在:xiàn zài:now;什么:shén me:any;东西:dōng xi:thing;都:dōu:all;涨价:zhǎng jià:to raise prices;了:le:(change of state);，;你:nǐ:you;也:yě:also;该:gāi:should;涨一涨:zhǎng yi zhǎng:to raise a little;。;”
+T: Someone advised him, "Everything has gone up in price now. You should raise yours a little too."
+S: 老周:lǎo zhōu:Old Zhou (name);只是:zhǐ shì:just;摇摇头:yáo yao tóu:to shake one's head;：;“;来:lái:to come;的:de:(nominalizer);都:dōu:all;是:shì:to be;熟人:shú rén:acquaintances;，;涨:zhǎng:to raise;了:le:(completed action);价:jià:price;，;他们:tā men:they;就:jiù:then;不好意思:bù hǎo yì si:to feel embarrassed;来:lái:to come;了:le:(change of state);。;”
+T: Old Zhou just shook his head: "The people who come are all familiar faces. If I raised the price, they'd feel too awkward to come."
+S: 那天:nà tiān:that day;夜里:yè lǐ:at night;，;一个:yí gè:one;年轻人:nián qīng rén:young man;在:zài:at;摊位:tān wèi:stall;前:qián:in front;站:zhàn:to stand;了:le:(completed action);很久:hěn jiǔ:for a long time;。
+T: That night, a young man stood in front of the stall for a long time.
+S: 他:tā:he;说:shuō:to say;，;小时候:xiǎo shí hou:as a child;每天:měi tiān:every day;放学:fàng xué:school finishes;，;妈妈:mā ma:mom;都:dōu:always;带:dài:to take;他:tā:him;来:lái:to come;这里:zhè lǐ:here;吃:chī:to eat;一碗:yì wǎn:a bowl of;豆腐脑:dòu fu nǎo:tofu pudding;。
+T: He said that when he was little, every day after school his mother would bring him here for a bowl of tofu pudding.
+S: 后来:hòu lái:later;他:tā:he;去:qù:to go to;国外:guó wài:abroad;工作:gōng zuò:to work;，;已经:yǐ jīng:already;十年:shí nián:ten years;没:méi:not;回来:huí lái:to come back;过:guo:(experience particle);了:le:(change of state);。
+T: Later he went abroad to work, and he hadn't been back in ten years.
+S: 老周:lǎo zhōu:Old Zhou (name);愣:lèng:to be stunned;了:le:(completed action);一下:yí xià:for a moment;，;递给:dì gěi:to hand to;他:tā:him;一碗:yì wǎn:a bowl of;热腾腾:rè téng téng:steaming hot;的:de:(modifier particle);豆腐脑:dòu fu nǎo:tofu pudding;，;说:shuō:to say;：;“;这碗:zhè wǎn:this bowl;，;不:bù:not;收:shōu:to charge;钱:qián:money;。;”
+T: Old Zhou was stunned for a moment, then handed him a steaming bowl of tofu pudding and said, "This bowl is on the house."
+S: 年轻人:nián qīng rén:young man;低下头:dī xià tóu:to lower one's head;，;喝:hē:to drink;了:le:(completed action);一口:yì kǒu:a mouthful;，;眼眶:yǎn kuàng:eye sockets;一下子:yí xià zi:suddenly;红:hóng:red;了:le:(change of state);——;味道:wèi dào:taste;竟然:jìng rán:unexpectedly;和:hé:with;记忆:jì yì:memory;里:lǐ:in;一模一样:yì mú yí yàng:exactly the same;。
+T: The young man lowered his head and took a mouthful, and his eyes suddenly turned red — the taste was, unexpectedly, exactly the same as in his memory.
+G: 像…一样 ~ 像 A 一样 means "like / the same as A". ~ 他像往常一样早起。 ~ He got up early, as usual. ~ 像,一样
+G: 从没…过 ~ 从没 + verb + 过 means "never (have done)". 过 marks past experience. ~ 我从没去过北京。 ~ I have never been to Beijing. ~ 从,过
+G: 竟然 ~ 竟然 expresses surprise that something is unexpected. ~ 他竟然忘了我的名字。 ~ He actually forgot my name! ~ 竟然
+G: 一下 / 一下子 ~ 一下 means "briefly"; 一下子 means "all of a sudden". ~ 她一下子哭了。 ~ She suddenly burst into tears. ~ 一下,一下子
+Q: Why has Old Zhou never raised his prices? ~ He doesn't want his regulars to feel awkward ~ He can't afford new signs ~ The market forbids it
+Q: What did the young man's mother do when he was little? ~ She took him for tofu pudding after school ~ She sold tofu pudding ~ She taught him to cook
+Q: How did the young man react after tasting it? ~ His eyes reddened because it tasted just like his memory ~ He complained it was too sweet ~ He asked for his money back
+Q: How long had the young man been away? ~ Ten years ~ One year ~ Twenty years

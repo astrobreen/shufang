@@ -1,0 +1,185 @@
+@lesson id=h5-01 level=5 type=article topic=History minutes=4 source=Original
+@title 故宫的故事
+@titleen The Story of the Forbidden City
+@summary A short history of China's imperial palace in Beijing.
+故宫位于北京市中心，是明清两代的皇宫。 // The Forbidden City lies in the heart of Beijing and was the imperial palace of the Ming and Qing dynasties.
+它建成于一四二零年，前后一共有二十四位皇帝在这里生活和处理国家大事。 // It was completed in 1420, and altogether twenty-four emperors lived here and handled affairs of state.
+整个故宫占地七十二万平方米，有九千多间房屋，是世界上最大的古代宫殿建筑群。 // The whole complex covers 720,000 square metres and has more than nine thousand rooms, making it the largest group of ancient palace buildings in the world.
+故宫的建筑严格按照中轴线排列，左右对称，显示出皇权的庄严。 // The buildings are strictly arranged along a central axis and are symmetrical on both sides, showing the solemnity of imperial power.
+黄色的琉璃瓦和红色的宫墙，在蓝天下显得格外醒目。 // The yellow glazed tiles and red palace walls stand out remarkably under the blue sky.
+一九二五年，故宫成为博物院，向普通人开放。 // In 1925 the Forbidden City became a museum, open to ordinary people.
+如今，每年有上千万游客来这里参观，为了保护文物，参观人数受到了一定的限制。 // Today more than ten million visitors come every year, and to protect the cultural relics the number of visitors is limited.
+人们走进故宫，仿佛走进了历史的深处。 // Walking into the Forbidden City, people feel as if they are entering the depths of history.
+G: 位于 ~ 位于 means "to be located in" and is formal. ~ 这座城市位于长江边。 ~ This city lies on the Yangtze. ~ 位于
+G: 为了 ~ 为了 + purpose means "in order to". ~ 为了健康，他每天跑步。 ~ For his health, he runs every day. ~ 为了
+Q: Which dynasties used the Forbidden City as their palace? ~ Ming and Qing ~ Tang and Song ~ Han and Jin ~ Yuan and Ming
+Q: How many emperors lived there? ~ Twenty-four ~ Ten ~ Fifty ~ Three
+Q: Why is the number of visitors limited? ~ To protect cultural relics ~ Because of cost ~ Because of weather ~ For security only
+
+@lesson id=h5-02 level=5 type=story topic=Folk tale minutes=4 source=Retelling of a traditional Chinese myth
+@title 嫦娥奔月
+@titleen Chang'e Flies to the Moon
+@summary The legend behind the Mid-Autumn Festival.
+很久很久以前，天上有十个太阳，晒得庄稼都枯死了，百姓苦不堪言。 // Long, long ago there were ten suns in the sky; they scorched the crops until they withered, and the people suffered terribly.
+有一位叫后羿的英雄，力气很大，箭射得特别准。 // A hero named Hou Yi was very strong and extremely accurate with his arrows.
+他爬上高山，一口气射下了九个太阳，只[zhǐ]留下一个给大地带来温暖。 // He climbed a high mountain and shot down nine suns in one breath, leaving only one to warm the earth.
+后来，西王母送给后羿一颗仙药，吃了以后可以长生不老。 // Later the Queen Mother of the West gave Hou Yi a magic pill; whoever swallowed it would live forever.
+后羿舍不得离开妻子嫦娥，就把药交给她保管。 // Hou Yi could not bear to leave his wife Chang'e, so he gave her the medicine to keep.
+有一天，坏人逄蒙趁后羿不在家，闯进来逼嫦娥交出仙药。 // One day the wicked Feng Meng took advantage of Hou Yi's absence, broke in and forced Chang'e to hand over the pill.
+情急之下，嫦娥把药吞了下去，身体立刻轻了起来，慢慢飘向天空，最后落在月亮上。 // In desperation Chang'e swallowed it; her body at once grew light and slowly floated into the sky, finally landing on the moon.
+后羿回来后非常思念妻子。 // When Hou Yi returned he missed his wife terribly.
+每年八月十五，他都会摆上嫦娥爱吃的水果和月饼，对着月亮祭拜。 // Every year on the fifteenth of the eighth month he would set out the fruit and mooncakes she loved and make offerings to the moon.
+这就是中秋节赏月、吃月饼习俗的由来。 // This is the origin of the Mid-Autumn custom of admiring the moon and eating mooncakes.
+G: 趁 ~ 趁 means "take advantage of (a moment)". ~ 趁热吃吧。 ~ Eat it while it's hot. ~ 趁
+G: 舍不得 ~ 舍不得 means "can't bear to part with or do". ~ 他舍不得扔掉旧书。 ~ He can't bear to throw out the old books. ~ 舍不得
+Q: Why did Hou Yi shoot down nine suns? ~ They were burning the crops ~ They were too bright ~ The gods ordered it ~ He wanted to be famous
+Q: Who gave Hou Yi the magic pill? ~ The Queen Mother of the West ~ A fairy ~ The Moon Rabbit ~ A monk
+Q: How does the story explain Mid-Autumn customs? ~ Hou Yi offered fruit and mooncakes to the moon ~ People feared the suns ~ The emperor ordered it ~ It is a harvest rule
+
+@lesson id=h5-03 level=5 type=dialogue topic=Shopping minutes=4 source=Original
+@title 网购的烦恼
+@titleen Troubles with Online Shopping
+@summary A customer complains to customer service about a wrong order.
+@speakers 客服 顾客
+顾客: 你好，我上周在你们店里买了一件蓝色的毛衣，可是收到的是灰色的。 // Hello, last week I bought a blue sweater in your shop, but the one I received is grey.
+客服: 非常抱歉给您带来不便。请问您的订单号是多少？ // I'm very sorry for the inconvenience. May I ask your order number?
+顾客: 在这儿：一二三四五六。我已经联系过你们两次了，一直没有人回复。 // Here: 123456. I've contacted you twice already and nobody has replied.
+客服: 实在对不起，最近订单太多，我们的处理速度有点儿慢。 // I'm truly sorry. We've had too many orders lately and are a little slow.
+顾客: 我不想要灰色的，我可以退货吗？ // I don't want the grey one. Can I return it?
+客服: 当然可以。您只要在手机上申请退货，快递员会上门取件，运费由我们承担。 // Of course. Just apply for a return on your phone; the courier will collect it from your door, and we cover the shipping.
+顾客: 那退款需要多长时间？ // And how long will the refund take?
+客服: 收到商品以后，一般三到五个工作日。为了表示歉意，我们再送您一张优惠券。 // After we receive the item it normally takes three to five working days. To apologise, we'll also send you a coupon.
+顾客: 好吧，谢谢你的耐心。 // All right, thanks for your patience.
+G: 由……承担 ~ 由 + party + 承担 means "to be borne by". ~ 费用由公司承担。 ~ The company bears the cost. ~ 承担
+G: 一般 ~ 一般 means "generally" or "usually". ~ 我一般七点起床。 ~ I usually get up at seven. ~ 一般
+Q: What was wrong with the order? ~ The colour was wrong ~ The size was wrong ~ It was damaged ~ It never arrived
+Q: Who pays for return shipping? ~ The shop ~ The customer ~ The courier ~ Nobody
+Q: How long does the refund take? ~ Three to five working days ~ One day ~ Two months ~ Immediately
+
+@lesson id=h5-04 level=5 type=article topic=Society minutes=4 source=Original
+@title 城市里的孤独
+@titleen Loneliness in the City
+@summary Why people feel alone in crowded places.
+走在大城市的街头，你会看到成千上万的人，可是很多人却觉得孤独。 // Walking down a big-city street you see thousands of people, yet many feel lonely.
+这听起来很矛盾，但其实并不奇怪。 // This sounds contradictory but is actually not strange.
+现代人工作压力大，下班回家已经很累，没有精力再和邻居、朋友交往。 // Modern people are under great work pressure, tired after getting home, and have no energy left to socialise with neighbours and friends.
+住了好几年的楼房里，有人连隔壁住着谁都不知道。 // In buildings where they have lived for years, some people don't even know who lives next door.
+手机和社交软件虽然让联系变得方便，却也让面对面的交流越来越少。 // Although phones and social apps make contact easy, they also reduce face-to-face communication.
+心理学家指出，长期的孤独感不仅影响情绪，还会损害身体健康。 // Psychologists point out that long-term loneliness not only affects mood but also harms physical health.
+要摆脱孤独，不妨从小事做起：和邻居打个招呼，参加社区活动，或者约朋友周末见一面。 // To escape loneliness, you might start with small things: greet a neighbour, join community activities, or invite a friend to meet at the weekend.
+只要愿意迈出第一步，我们就会发现，身边其实有很多善意。 // As long as we are willing to take the first step, we will find that there is plenty of kindness around us.
+G: 虽然……却…… ~ 虽然 A，却 B concedes A but stresses the contrast B. ~ 虽然很累，他却很开心。 ~ Although tired, he was happy. ~ 却
+G: 不妨 ~ 不妨 means "might as well" and gently suggests an action. ~ 你不妨试试这个办法。 ~ You might as well try this method. ~ 不妨
+Q: What does the article say about big cities? ~ Many people feel lonely despite crowds ~ People are very friendly ~ Neighbours know each other well ~ Life is slow
+Q: What do psychologists say loneliness can harm? ~ Mood and physical health ~ Memory only ~ Eyesight ~ Income
+Q: What does the writer suggest? ~ Start with small acts like greeting neighbours ~ Move house ~ Stop using phones ~ Work harder
+
+@lesson id=h5-05 level=5 type=article topic=Nature minutes=4 source=Original
+@title 保护大熊猫
+@titleen Protecting the Giant Panda
+@summary How conservation efforts have helped China's national treasure.
+大熊猫是中国的国宝，也是世界自然保护的象征。 // The giant panda is China's national treasure and a symbol of world conservation.
+它们主要生活在四川、陕西和甘肃的山区，以竹子为[wéi]食。 // They live mainly in the mountains of Sichuan, Shaanxi and Gansu and feed on bamboo.
+一只成年熊猫每天要吃十几公斤竹子，而且一天中有一半以上的时间都在吃。 // An adult panda eats more than ten kilograms of bamboo a day, spending over half of each day eating.
+由于森林被砍伐、竹子大面积开花枯死，熊猫曾经面临灭绝的危险。 // Because forests were felled and bamboo flowered and died over large areas, pandas once faced the danger of extinction.
+为了保护它们，中国建立了许多自然保护区，还成立了专门的研究和繁育基地。 // To protect them, China set up many nature reserves and established special research and breeding centres.
+经过几十年的努力，野生大熊猫的数量已经增加到近两千只。 // After decades of effort, the number of wild giant pandas has risen to nearly two thousand.
+二零二一年，大熊猫的保护等级从"濒危"降为[wéi]"易危"。 // In 2021 the panda's conservation status was lowered from "endangered" to "vulnerable".
+不过，专家提醒我们，气候变化仍然是对熊猫的一大威胁，保护工作不能松懈。 // However, experts remind us that climate change is still a major threat to pandas, and conservation work cannot be relaxed.
+G: 以……为…… ~ 以 A 为 B means "take A as B". ~ 他以教书为生。 ~ He makes a living by teaching. ~ 以
+G: 由于 ~ 由于 gives a formal reason. ~ 由于天气不好，航班取消了。 ~ Because of bad weather, the flight was cancelled. ~ 由于
+Q: What do pandas mainly eat? ~ Bamboo ~ Fruit ~ Fish ~ Grass
+Q: What helped pandas recover? ~ Nature reserves and breeding centres ~ Zoos only ~ Hunting laws ~ Less bamboo
+Q: What remains a threat? ~ Climate change ~ Tourists ~ Wolves ~ Rivers
+
+@lesson id=h5-06 level=5 type=article topic=History minutes=4 source=Original
+@title 丝绸之路
+@titleen The Silk Road
+@summary How an ancient trade route connected East and West.
+公元前一三八年，汉朝的使者张骞从长安出发，前往西域。 // In 138 BC, Zhang Qian, an envoy of the Han dynasty, set out from Chang'an for the Western Regions.
+他的任务是联合西域各国，共同对付北方的匈奴。 // His mission was to unite the Western states against the Xiongnu in the north.
+途中他被匈奴抓住，关了十多年，才终于逃出来。 // On the way he was captured by the Xiongnu and held for over ten years before finally escaping.
+虽然没有完成最初的任务，但他带回了大量关于西域的信息。 // Although he did not complete his original task, he brought back a great deal of information about the Western Regions.
+此后，一条连接东西方的贸易通道逐渐形成。 // After that, a trade route linking East and West gradually took shape.
+商队把中国的丝绸、茶叶和瓷器运往西方，又把香料、宝石和玻璃带回中国。 // Caravans carried Chinese silk, tea and porcelain to the West, and brought back spices, gems and glass.
+除了商品，宗教、艺术和技术也沿着这条路传播，比如佛教传入中国，造纸术传到了欧洲。 // Besides goods, religion, art and technology also spread along the road: Buddhism entered China, and papermaking reached Europe.
+今天，"丝绸之路"已经成为文化交流与合作的象征。 // Today the "Silk Road" has become a symbol of cultural exchange and cooperation.
+G: 逐渐 ~ 逐渐 means "gradually". ~ 天气逐渐变冷了。 ~ The weather is gradually getting cold. ~ 逐渐
+G: 除了……也…… ~ 除了 A 也 B means "besides A, also B". ~ 除了英语，他也会说法语。 ~ Besides English, he can also speak French. ~ 除了
+Q: Where did Zhang Qian start his journey? ~ Chang'an ~ Beijing ~ Luoyang ~ Nanjing
+Q: What was taken west along the road? ~ Silk, tea and porcelain ~ Spices and glass ~ Horses ~ Paper only
+Q: What spread to Europe? ~ Papermaking ~ Buddhism ~ Tea ~ Silk
+
+@lesson id=h5-07 level=5 type=article topic=Wellbeing minutes=4 source=Original
+@title 如何面对压力
+@titleen How to Deal with Stress
+@summary Practical advice for handling pressure at work and school.
+压力几乎是现代生活的一部分，适度的压力能让人更有动力，可是压力过大就会影响健康。 // Stress is almost part of modern life. A moderate amount of it can motivate us, but too much harms our health.
+面对压力，首先要学会接受它，而不是一味地逃避。 // Facing stress, first learn to accept it rather than simply avoid it.
+其次，可以把大任务分成几个小目标，一步一步完成，这样会轻松很多。 // Second, you can divide a big task into small goals and complete them step by step, which feels much lighter.
+运动也是缓解压力的好办法，哪怕每天只[zhǐ]走半个小时，心情都/会变好。 // Exercise is also a good way to relieve stress; even half an hour of walking a day will improve your mood.
+另外，保证充足的睡眠，少喝咖啡，也能让身体更有能量。 // In addition, getting enough sleep and drinking less coffee give the body more energy.
+最后，别把所有的问题都藏在心里，和家人朋友聊一聊，往往会发现事情没有想象中那么糟。 // Finally, don't hide all your problems inside; talk to family and friends, and you will often find things aren't as bad as imagined.
+如果压力长期无法缓解，应该及时寻求专业人士的帮助。 // If stress cannot be relieved for a long time, you should seek professional help in good time.
+G: 而不是 ~ A 而不是 B means "A, not B". ~ 我要的是自由，而不是金钱。 ~ What I want is freedom, not money. ~ 而不是
+G: 哪怕……也…… ~ 哪怕 A 也 B means "even if A, still B". ~ 哪怕下雨，我也要去。 ~ Even if it rains I'll go. ~ 哪怕
+Q: What does moderate stress do? ~ Gives motivation ~ Causes illness ~ Makes sleep better ~ Has no effect
+Q: How can big tasks feel easier? ~ By splitting them into small goals ~ By delaying them ~ By asking others ~ By ignoring them
+Q: What should you do if stress lasts long? ~ Seek professional help ~ Stay silent ~ Change job at once ~ Drink more coffee
+
+@lesson id=h5-08 level=5 type=story topic=History minutes=4 source=Retelling of history (Sima Qian, public domain)
+@title 孔子周游列国
+@titleen Confucius Travels Among the States
+@summary The teacher who spent thirteen years looking for a ruler who would listen.
+孔子是中国古代最伟大的思想家和教育家，出生在鲁国。 // Confucius was ancient China's greatest thinker and educator, born in the state of Lu.
+他年轻时在鲁国做过官，但是他的政治主张得不到国君的重视。 // As a young man he held office in Lu, but his political ideas were not valued by the ruler.
+五十五岁那年，孔子带着一批学生离开了鲁国，开始周游列国。 // At fifty-five Confucius left Lu with a group of students and began to travel among the states.
+他们走了很多国家，希望找到一位愿意实行仁政的君主。 // They visited many states hoping to find a ruler willing to practise benevolent government.
+一路上，他们遇到过战争、饥饿和危险，有一次甚至被人围困了七天，没有粮食吃。 // On the way they met war, hunger and danger; once they were even besieged for seven days without food.
+学生们很失望，孔子却依然在屋子里弹琴唱歌。 // The students were discouraged, but Confucius still played the zither and sang in the room.
+十几年后，孔子回到了家乡，把精力放在教学和整理古代典籍上。 // More than ten years later, Confucius returned home and put his energy into teaching and editing ancient classics.
+据说，他的学生有三千人，其中杰出的有七十二位。 // It is said he had three thousand students, seventy-two of them outstanding.
+他的思想对中国乃至东亚的文化产生了深远的影响。 // His thought has had a profound influence on the culture of China and even East Asia.
+G: 甚至 ~ 甚至 means "even" and adds an extreme example. ~ 他忙得甚至忘了吃饭。 ~ He was so busy that he even forgot to eat. ~ 甚至
+G: 乃至 ~ 乃至 means "and even" and raises the scale. ~ 这件事影响了全国乃至世界。 ~ This affected the whole country and even the world. ~ 乃至
+Q: At what age did Confucius leave Lu? ~ Fifty-five ~ Thirty ~ Seventy ~ Twenty
+Q: What was he searching for? ~ A ruler willing to practise benevolent government ~ Gold ~ New books ~ A new home
+Q: How did he react to hardship? ~ He kept playing music and singing ~ He gave up ~ He quarrelled with students ~ He went home at once
+
+@lesson id=h5-09 level=5 type=dialogue topic=Work minutes=4 source=Original
+@title 时间管理
+@titleen Time Management
+@summary A manager gives a junior colleague advice about planning her day.
+@speakers 经理 小林
+小林: 经理，我最近总觉得时间不够用，每天都在加班，工作却没做完。 // Manager, lately I always feel I don't have enough time. I work overtime every day yet the work isn't finished.
+经理: 你有没有试着把任务按重要程度排个序？ // Have you tried ranking your tasks by importance?
+小林: 没有，我一般是想到什么就做什么。 // No, I usually just do whatever comes to mind.
+经理: 这样很容易被小事分散精力。你可以每天早上先列一张清单，把最重要的三件事放在最前面。 // That makes it easy to be distracted by small things. Each morning you can first make a list and put the three most important things first.
+小林: 那不太重要的事情怎么办？ // What about the less important things?
+经理: 可以集中在下午处理，或者交给别人去做。 // You can handle them together in the afternoon, or pass them to someone else.
+小林: 可是同事们常常来找我帮忙，我不好意思拒绝。 // But colleagues often ask me for help and I feel awkward refusing.
+经理: 帮助别人是好事，但要学会适当地说"不"。你可以告诉他们，等你忙完手头的事再帮忙。 // Helping others is good, but learn to say "no" appropriately. You can tell them you'll help after finishing what's at hand.
+小林: 明白了，我这就试试。 // Understood. I'll try it right away.
+G: 按……排序 ~ 按 + criterion means "according to". ~ 请按年龄排队。 ~ Please line up by age. ~ 按
+G: 手头 ~ 手头的事 means "the matter at hand". ~ 我手头有很多工作。 ~ I have lots of work in hand. ~ 手头
+Q: What is Xiaolin's problem? ~ She works overtime but cannot finish ~ She is bored ~ She is lazy ~ She has no tasks
+Q: What does the manager suggest? ~ Rank tasks by importance ~ Quit the job ~ Work later ~ Stop helping
+Q: What should she do when colleagues ask for help? ~ Say no politely and help later ~ Always help at once ~ Ignore them ~ Tell the manager
+
+@lesson id=h5-10 level=5 type=article topic=Society minutes=4 source=Original
+@title 乡村的变化
+@titleen Changes in the Countryside
+@summary How a village changed in twenty years.
+二十年前，我的老家是一个安静而闭塞的小村庄，村里只有一条泥路，下雨天几乎没法出门。 // Twenty years ago my hometown was a quiet, isolated village with just one dirt road, almost impassable on rainy days.
+年轻人大多去城里打工，留在村里的只有老人和孩子。 // Most young people went to work in the cities, leaving only the old and the children.
+近年来，随着政府对农村的投入不断增加，村里的面貌发生了很大变化。 // In recent years, with the government's growing investment in rural areas, the village has changed greatly.
+路修好了，网络也通了，农民可以在网上销售自己种的水果和蔬菜。 // The road was repaired, the internet arrived, and farmers can sell their fruit and vegetables online.
+一些年轻人看到了机会，选择回到家乡创业，开起了民宿和农家乐。 // Some young people saw opportunities and chose to come back and start businesses, opening guesthouses and farm restaurants.
+村里的小学也重新开办了，孩子们不用再走几十里路去上学。 // The village primary school has reopened, and children no longer need to walk many miles to school.
+当然，变化也带来了新的问题，比如环境保护和传统文化的传承。 // Of course, change has also brought new problems such as environmental protection and the passing on of traditional culture.
+但我相信，只要大家共同努力，家乡的明天会更好。 // But I believe that if we all work together, tomorrow will be better for my hometown.
+G: 随着 ~ 随着 + change means "as ... progresses". ~ 随着年龄的增长，他变得更成熟了。 ~ As he grew older, he became more mature. ~ 随着
+G: 不用 ~ 不用 means "no need to". ~ 你不用担心。 ~ You don't need to worry. ~ 不用
+Q: What was the village like twenty years ago? ~ Quiet and isolated ~ Busy and modern ~ Rich ~ Crowded
+Q: What do farmers now do online? ~ Sell their produce ~ Study ~ Play games ~ Buy tractors
+Q: What new problem is mentioned? ~ Environmental protection and tradition ~ Lack of food ~ Floods ~ War

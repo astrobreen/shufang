@@ -1,0 +1,107 @@
+@lesson id=h8-01 level=8 type=article topic=Society minutes=7 source=Original
+@title 信息茧房
+@titleen The Information Cocoon
+@summary How personalised feeds narrow our view of the world.
+如今，人们获取信息的渠道越来越多，可是视野却未必随之开阔。 // Today people have more and more channels for information, yet their horizons have not necessarily widened.
+各类应用程序根据用户的浏览记录，不断推送他们感兴趣的内容，久而久之，人们接触到的信息便越来越单一。 // Apps push content users are interested in based on their browsing history, and over time the information people encounter becomes ever more uniform.
+学者把这种现象称为"信息茧房"：就像蚕被自己吐出的丝层层包裹，人们也被自己的偏好所束缚。 // Scholars call this the "information cocoon": just as silkworms are wrapped layer upon layer in their own thread, people are confined by their own preferences.
+身处茧房之中，人们容易对不同的观点产生排斥心理，甚至陷入偏执。 // Inside the cocoon, people easily develop an aversion to differing views and even fall into obsession.
+更令人担忧的是，算法为了吸引眼球，往往会放大情绪化的言论，导致社会共识日益撕裂。 // More worrying still, algorithms, to attract attention, often amplify emotional speech and lead to the widening tear of social consensus.
+要想打破茧房，个人首先应该有意识地接触不同来源的信息，多读书，多与持不同观点的人交流。 // To break the cocoon, individuals should first consciously encounter information from different sources, read more, and talk with people of differing views.
+平台方也应承担起社会责任，提高算法的透明度，让用户拥有选择的权利。 // Platforms should also shoulder social responsibility, make algorithms more transparent and give users the right to choose.
+唯有保持开放的心态，我们才不至于在信息的海洋里迷失方向。 // Only by keeping an open mind can we avoid losing our way in the ocean of information.
+G: 久而久之 ~ 久而久之 means "as time passes". ~ 久而久之，他习惯了这里的生活。 ~ Over time, he got used to life here. ~ 久而久之
+G: 唯有……才…… ~ 唯有 A 才 B is a formal version of 只有……才…… ~ 唯有坚持，才能成功。 ~ Only perseverance brings success. ~ 唯有
+Q: What does the cocoon metaphor suggest? ~ People are wrapped in their own preferences ~ Silk is valuable ~ Apps are slow ~ Insects are clever
+Q: What do algorithms often amplify? ~ Emotional speech ~ Quiet voices ~ Old news ~ Weather reports
+Q: What can individuals do? ~ Seek different sources and views ~ Avoid the internet ~ Use more apps ~ Stop reading
+
+@lesson id=h8-02 level=8 type=article topic=Economy minutes=7 source=Original
+@title 直播带货
+@titleen Livestream Selling
+@summary How livestreaming became a new kind of shopping mall.
+近几年，"直播带货"成为一种风靡全国的新型销售模式。 // In recent years "livestream selling" has become a new sales model sweeping the country.
+主播们一边介绍商品，一边与观众实时互动，激发了人们的购买欲望。 // Hosts introduce goods while interacting in real time with viewers, stimulating the desire to buy.
+对于农民来说，直播为农产品打开了销路；一些偏远地区的特产，因此走进了千家万户。 // For farmers, livestreaming has opened sales channels for produce; specialities from remote areas have thus entered countless households.
+然而，行业的繁荣也滋生了乱象：夸大宣传、虚假销售、数据造假等问题屡见不鲜。 // Yet the industry's boom also bred chaos: exaggerated claims, false sales and faked data are common.
+不少消费者因为一时冲动下单，收到货后才发现质量与宣传相差甚远。 // Many consumers ordered on impulse and found after receipt that the quality fell far short of the advertising.
+对此，监管部门出台了相关规定，要求主播如实介绍商品，并对违规行为严加处罚。 // In response, regulators issued rules requiring hosts to describe goods truthfully and punishing violations severely.
+长远来看，只有回归商品本身，靠品质赢得口碑，这一模式才可能走得长久。 // In the long run, only by returning to the goods themselves and winning reputation through quality can this model last.
+G: 屡见不鲜 ~ 屡见不鲜 is a chengyu: "commonly seen". ~ 这种情况屡见不鲜。 ~ This situation is common. ~ 屡见不鲜
+G: 相差甚远 ~ 相差甚远 means "differ greatly". ~ 理想与现实相差甚远。 ~ Ideals and reality differ greatly. ~ 相差甚远
+Q: What does the host do while selling? ~ Interacts with viewers in real time ~ Records silently ~ Ships goods ~ Writes reviews
+Q: How do farmers benefit? ~ New sales channels ~ Lower taxes ~ Free ads ~ Less work
+Q: What do regulators require? ~ Honest descriptions ~ Lower prices ~ Fewer hosts ~ Longer streams
+
+@lesson id=h8-03 level=8 type=article topic=Literature minutes=7 source=Original
+@title 为什么读经典
+@titleen Why Read the Classics
+@summary The case for reading old books in an age of short videos.
+在短视频占据我们大量时间的今天，捧起一本经典著作似乎成了一种奢侈。 // In an age when short videos take up much of our time, picking up a classic seems a luxury.
+然而，经典之所以经久不衰，正是因为它们经受住了时间的考验。 // Yet classics endure precisely because they have withstood the test of time.
+一部好的经典作品，往往能够穿越时空，触及人性中最本质的东西，无论是喜怒哀乐，还是爱恨情仇。 // A good classic often crosses time and space to touch what is most essential in human nature — joy, anger, sorrow and delight, love and hatred.
+读经典，不仅能开阔视野，更能锤炼思维：面对一部结构复杂、语言精美的长篇巨著，读者必须沉下心来，细细咀嚼。 // Reading classics not only broadens horizons but sharpens thought: faced with a complex, finely written masterpiece, readers must settle down and chew it over.
+这种深度阅读的能力，在碎片化阅读盛行的时代尤为珍贵。 // This capacity for deep reading is especially precious in an age of fragmented reading.
+当然，读经典不必追求速成，也不必强迫自己喜欢每一部名著。 // Of course, reading classics need not seek quick results, nor must you force yourself to like every celebrated work.
+不妨从自己感兴趣的作品入手，慢慢地，你会发现，那些曾经觉得晦涩难懂的文字，也会变得亲切起来。 // You might begin with works that interest you; slowly you'll find that words once obscure become familiar.
+与伟大的灵魂对话，本身就是一种无与伦比的享受。 // Conversing with great souls is itself an incomparable pleasure.
+G: 经久不衰 ~ 经久不衰 means "enduringly popular". ~ 这首歌经久不衰。 ~ This song has endured. ~ 经久不衰
+G: 无与伦比 ~ 无与伦比 means "unparalleled". ~ 她的美丽无与伦比。 ~ Her beauty is incomparable. ~ 无与伦比
+Q: Why do classics endure? ~ They withstood the test of time ~ They are short ~ They are cheap ~ They are new
+Q: What does deep reading require? ~ Settling down and chewing it over ~ Speed ~ Skipping ~ Short summaries
+Q: What does the writer say about enjoyment? ~ Talking with great souls is incomparable ~ Reading is a duty ~ Classics are boring ~ Movies are better
+
+@lesson id=h8-04 level=8 type=article topic=Environment minutes=7 source=Original
+@title 生态文明
+@titleen Ecological Civilisation
+@summary "Clear waters and green mountains are mountains of gold and silver."
+"绿水青山就是金山银山"，这句话如今已成为中国生态文明建设的理念。 // "Clear waters and green mountains are mountains of gold and silver" has become the concept of China's ecological civilisation.
+它的含义是：保护生态环境就是保护生产力，改善生态环境就是发展生产力。 // Its meaning: protecting the ecology protects productivity, and improving it develops productivity.
+过去，一些地方为了追求经济增长，不惜以牺牲环境为代价，结果土地荒漠化、河流污染、空气质量恶化，反过来制约了经济发展。 // In the past some places, in pursuit of growth, did not hesitate to sacrifice the environment, with the result that land desertified, rivers were polluted and air quality worsened, in turn restraining development.
+痛定思痛之后，各地开始调整产业结构，关停高污染企业，大力发展清洁能源和生态旅游。 // After a painful reflection, localities began adjusting industrial structure, closing heavily polluting firms and vigorously developing clean energy and eco-tourism.
+塞罕坝林场的建设者们，几十年如一日地植树造林，把一片荒原变成了百万亩林海。 // The builders of the Saihanba forest farm planted trees for decades as one day, turning a wasteland into a million-mu sea of forest.
+如今，这里不仅成为首都的绿色屏障，还吸引了大批游客前来体验。 // Today it is not only a green barrier for the capital but attracts many visitors.
+实践证明，经济发展与环境保护并不矛盾，关键在于找到可持续的发展道路。 // Practice proves economic development and environmental protection are not in conflict; the key is finding a sustainable path.
+G: 不惜 ~ 不惜 means "not hesitate to (at cost)". ~ 他不惜一切代价救人。 ~ He would pay any price to save people. ~ 不惜
+G: 痛定思痛 ~ 痛定思痛 is a chengyu: "reflect on a painful lesson". ~ 痛定思痛，他决定改变。 ~ Having reflected painfully, he decided to change. ~ 痛定思痛
+Q: What does the slogan equate? ~ Green mountains with gold and silver ~ Rivers with roads ~ Cities with forests ~ Oil with water
+Q: What did Saihanba builders do? ~ Planted forest on wasteland ~ Mined coal ~ Built dams ~ Raised cattle
+Q: What is the key to harmony of growth and ecology? ~ A sustainable path ~ Higher output ~ Fewer people ~ Imports
+
+@lesson id=h8-05 level=8 type=dialogue topic=Law minutes=7 source=Original
+@title 合同谈判
+@titleen Contract Negotiation
+@summary Two sides haggle over delivery dates and penalties.
+@speakers 甲方 乙方
+甲方: 贵公司的报价我们看过了，总体可以接受，但交货期限需要再商榷。 // We've seen your quotation. Overall acceptable, but the delivery deadline still needs discussion.
+乙方: 您希望在什么时间之前交货？ // By when would you like delivery?
+甲方: 最迟不能超过下个月十五号，否则会耽误我们的生产计划。 // No later than the fifteenth of next month, otherwise our production plan will be delayed.
+乙方: 恐怕有难度。原材料的采购周期较长，我们最快也要到月底。 // I'm afraid that's difficult. Raw material procurement takes long; the earliest is month-end.
+甲方: 那么，合同中应当写明延期交货的违约责任，比如每延迟一天，扣除百分之一的货款。 // Then the contract should specify liability for late delivery — for example, one percent of payment deducted per day of delay.
+乙方: 这个条款过于严苛，我们建议改为千分之五，并增加不可抗力的免责条款。 // That clause is too harsh. We propose 0.5 percent, plus a force-majeure exemption clause.
+甲方: 千分之五可以考虑，不过免责条款的范围必须界定清楚，以免日后产生争议。 // 0.5 percent is possible, but the scope of the exemption must be defined clearly to avoid later disputes.
+乙方: 没问题，我们让法务起草补充协议，双方确认后再签字盖章。 // No problem. We'll have legal draft a supplementary agreement and sign and seal once both confirm.
+G: 以免 ~ 以免 means "so as to avoid". ~ 提前出发，以免迟到。 ~ Set off early so as not to be late. ~ 以免
+G: 恐怕 ~ 恐怕 means "I'm afraid (that)". ~ 恐怕要下雨了。 ~ I'm afraid it will rain. ~ 恐怕
+Q: What does Party A object to? ~ The delivery deadline ~ The price ~ The quality ~ The colour
+Q: What does Party B propose for penalties? ~ 0.5% plus force-majeure clause ~ 5% ~ No penalty ~ Double
+Q: What happens next? ~ Legal drafts a supplementary agreement ~ They cancel ~ They sue ~ They delay
+
+@lesson id=h8-06 level=8 type=story topic=Idiom minutes=7 source=Retelling of a classic idiom story (Zhuangzi, public domain)
+@title 庖丁解牛
+@titleen Cook Ding Carves the Ox
+@summary A master cook shows how skill comes from understanding.
+战国时期，有位姓丁的厨师为魏惠王宰牛。 // In the Warring States period a cook named Ding butchered an ox for King Hui of Wei.
+他手所触及的，肩所倚靠的，脚所踩踏的，膝所抵住的，无不发出声响，刀刃进出时哗哗作响，合乎音乐的节拍。 // Where his hand touched, shoulder leaned, foot trod and knee pressed, there was sound; the blade swished in and out, in time with music.
+魏惠王赞叹道："好极了！你的技术怎么会高超到这种地步？" // King Hui exclaimed, "Excellent! How can your skill reach such heights?"
+厨师放下刀回答："我所追求的是'道'，已经超过了技术。 // The cook put down his knife: "What I pursue is the Way, which surpasses mere technique.
+刚开始宰牛时，我眼里看到的只是一整头牛；三年之后，我眼中就不再有整头的牛了。 // When I began butchering, all I saw was a whole ox; after three years I no longer saw the whole ox.
+如今我只用精神去接触，而不用眼睛去看，顺着牛体天然的结构，刀刃从骨节的空隙间游走，自然游刃有余。 // Now I meet it with spirit rather than eyes; following the ox's natural structure, my blade roams through the gaps between joints and has room to spare.
+技术好的厨师一年换一把刀，因为是割；一般的厨师一月换一把，因为是砍。 // A good cook changes knives yearly because he cuts; an average cook monthly because he hacks.
+我这把刀用了十九年，宰了数千头牛，刀刃却像刚磨过一样。" // "My knife has served nineteen years and carved thousands of oxen, yet its edge is as if newly ground."
+魏惠王听了说："我听了你的话，懂得了养生的道理。" // King Hui said, "Hearing you, I have learned the principle of nurturing life."
+G: 游刃有余 ~ 游刃有余 is a chengyu: "handle with ease". ~ 他处理这些问题游刃有余。 ~ He handles these problems with ease. ~ 游刃有余
+G: 合乎 ~ 合乎 means "conform to". ~ 这样做合乎规定。 ~ Doing so conforms to regulations. ~ 合乎
+Q: What did Cook Ding use his knife on? ~ An ox ~ A pig ~ Fish ~ Bamboo
+Q: What did he pursue beyond technique? ~ The Way (Dao) ~ Money ~ Fame ~ Speed
+Q: How long had his knife lasted? ~ Nineteen years ~ One year ~ A month ~ Three years

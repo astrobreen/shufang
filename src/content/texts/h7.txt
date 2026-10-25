@@ -1,0 +1,142 @@
+@lesson id=h7-01 level=7 type=article topic=Culture minutes=6 source=Original
+@title 春节的意义
+@titleen The Meaning of the Spring Festival
+@summary Why the Lunar New Year remains the heart of Chinese family life.
+春节是中国最隆重的传统节日，其历史可以追溯到三千多年前的祭祀活动。 // The Spring Festival is China's most solemn traditional holiday, its history traceable to sacrificial rites over three thousand years ago.
+关于它的由来，民间流传着"年兽"的传说：每到除夕，一头凶猛的怪兽就会出来伤害人畜，人们发现它害怕红色和响声，于是贴红对联、放鞭炮来驱赶它。 // About its origin, a folk legend tells of the "Nian beast": every New Year's Eve a fierce monster came out to harm people and livestock, and people discovered it feared red and loud noise, so they pasted red couplets and set off firecrackers to drive it away.
+这些习俗一直延续至今，寓意着辞旧迎新、驱邪避灾。 // These customs have continued to this day, symbolising seeing off the old and welcoming the new, and warding off evil and disaster.
+除夕夜，全家人围坐在一起吃年夜饭，北方人习惯包饺子，南方人则喜欢做年糕，各有各的讲究。 // On New Year's Eve the whole family sits together for the reunion dinner; northerners are used to making dumplings while southerners like making rice cake, each with its own customs.
+长辈会给晚辈发压岁钱，希望孩子们平安度过新的一年。 // Elders give children red envelopes, hoping the young will spend the new year safely.
+近年来，随着生活节奏加快，一些年轻人选择"云拜年"，通过视频向亲友问候。 // In recent years, as life speeds up, some young people choose "cloud greetings", greeting relatives and friends by video.
+尽管形式在改变，但团圆的意义始终如一。 // Though the form is changing, the meaning of reunion remains constant.
+每年春运期间，数亿人跨越千山万水回家，只为了和亲人共度这个特殊的夜晚。 // During the annual Spring Festival travel rush, hundreds of millions cross mountains and rivers to go home, just to share this special night with loved ones.
+G: 追溯 ~ 追溯 means "to trace back". ~ 这座寺庙的历史可以追溯到唐朝。 ~ This temple's history can be traced to the Tang. ~ 追溯
+G: 始终如一 ~ 始终如一 is an idiom: "consistent from beginning to end". ~ 他对待工作始终如一。 ~ He treats work consistently. ~ 始终如一
+Q: What did the Nian beast fear? ~ Red and loud noise ~ Water ~ Light ~ Silence
+Q: What do northerners traditionally make? ~ Dumplings ~ Rice cake ~ Noodles ~ Mooncakes
+Q: What stays constant? ~ The meaning of reunion ~ Customs ~ Travel ~ Food
+
+@lesson id=h7-02 level=7 type=article topic=Economy minutes=6 source=Original
+@title 移动支付改变生活
+@titleen How Mobile Payment Changed Life
+@summary China's journey from cash to QR codes.
+走在中国的街头，你会发现一个有趣的现象：从高档商场到路边小摊，几乎人人都用手机付款。 // Walking in Chinese streets you notice an interesting phenomenon: from upscale malls to roadside stalls, nearly everyone pays by phone.
+移动支付之所以能迅速普及，与其便捷性密不可分。 // The reason mobile payment spread so quickly is inseparable from its convenience.
+只要扫一下二维码，几秒钟就能完成交易，既省去了找零的麻烦，也避免了携带大量现金的风险。 // Just scan a QR code and a transaction is done in seconds, sparing the trouble of making change and avoiding the risk of carrying lots of cash.
+对商家而言，它降低了运营成本；对消费者而言，它还附带积分、优惠等福利。 // For merchants it lowers operating costs; for consumers it also brings points and discounts.
+与此同时，移动支付积累的海量数据，也为金融机构评估个人信用提供了依据。 // At the same time, the huge amount of data accumulated gives financial institutions a basis for assessing personal credit.
+然而，便利背后也隐藏着隐患，比如个人信息泄露、网络诈骗等问题时有发生。 // Yet behind the convenience lie hidden dangers, such as leaks of personal information and online fraud, which occur from time to time.
+一些老年人因为不会使用智能手机，在日常消费中反而遇到了不便。 // Some elderly people, unable to use smartphones, have instead met inconvenience in daily spending.
+为此，政府要求商家必须保留现金支付的选择，确保每个人都不被时代抛下。 // For this reason the government requires merchants to keep cash as an option, ensuring nobody is left behind.
+G: 之所以……是因为…… ~ 之所以 states the result first: "the reason that ... is because". ~ 他之所以成功，是因为他很努力。 ~ The reason he succeeded is that he worked hard. ~ 之所以
+G: 与此同时 ~ 与此同时 means "at the same time; meanwhile". ~ 与此同时，另一队也到了。 ~ Meanwhile another team arrived. ~ 与此同时
+Q: How do people mostly pay in China? ~ By phone ~ By cheque ~ By card only ~ By cash
+Q: What risk is mentioned? ~ Leakage of personal information ~ High fees ~ Slow speed ~ Counterfeit coins
+Q: What does the government require? ~ Merchants keep cash as an option ~ All use phones ~ Ban cash ~ Higher fees
+
+@lesson id=h7-03 level=7 type=story topic=Idiom minutes=6 source=Retelling of a classic idiom story (Zhuangzi / Han Feizi, public domain)
+@title 画蛇添足
+@titleen Drawing Legs on a Snake
+@summary Why doing too much can spoil the job.
+楚国有一个贵族，祭祀完祖先后，把一壶酒赏给了手下的几个门客。 // A noble of the state of Chu, after sacrificing to his ancestors, gave a pot of wine to several of his retainers.
+几个人商量说："这壶酒人多不够喝，一个人喝又有余。不如我们比赛画蛇，谁先画好，谁就喝这壶酒。" // They discussed: "There's not enough for many but more than enough for one. Let's have a snake-drawing contest — whoever finishes first drinks the wine."
+大家同意了，纷纷蹲在地上画了起来。 // Everyone agreed and squatted on the ground drawing.
+有一个人很快画完了，他拿起酒壶正要喝，回头看见别人还在埋头苦画。 // One man finished quickly; as he picked up the pot to drink, he looked back and saw the others still bent over their drawings.
+他得意地说："你们太慢了，我还能给蛇添上几只脚呢！" // He said proudly, "You're too slow; I can even add some feet to my snake!"
+就在他给蛇画脚的时候，另一个人也画完了，一把夺过酒壶说："蛇本来就没有脚，你画的哪里是蛇？" // While he was drawing the feet, another man finished and snatched the pot: "Snakes never had feet — what you've drawn isn't a snake!"
+说完，那人仰头把酒喝了个精光。 // With that, he tilted back his head and drained it all.
+后来，人们用"画蛇添足"比喻做了多余的事，反而把事情弄糟了。 // Later people used "drawing legs on a snake" to mean doing something superfluous and ruining the matter instead.
+G: 画蛇添足 ~ 画蛇添足 is a chengyu: "do something superfluous that spoils the whole". ~ 这个结尾真是画蛇添足。 ~ This ending is truly gilding the lily. ~ 画蛇添足
+G: 反而 ~ 反而 means "on the contrary; instead". ~ 吃了药，病反而更重了。 ~ He took medicine and got worse instead. ~ 反而
+Q: What was the contest? ~ Drawing a snake ~ Drinking wine ~ Running ~ Writing
+Q: Why was the winner's snake disqualified? ~ He added feet ~ He was late ~ It was ugly ~ He cheated
+Q: What does the idiom mean? ~ Doing superfluous things that spoil the result ~ Being clever ~ Working fast ~ Sharing
+
+@lesson id=h7-04 level=7 type=dialogue topic=Housing minutes=6 source=Original
+@title 租房纠纷
+@titleen A Rental Dispute
+@summary A tenant and a landlord argue over the deposit.
+@speakers 房东 租客
+租客: 房东，我下个月就要搬走了，想跟您商量一下押金的事。 // Landlord, I'm moving out next month and would like to discuss the deposit.
+房东: 按照合同，押金要等验房以后才能退。 // According to the contract, the deposit is returned only after inspection.
+租客: 我明白。不过我住的这两年，房子一直保持得很干净。 // I understand. But in these two years the flat has been kept very clean.
+房东: 干净归干净，墙上有几处划痕，沙发也有些磨损，这些都需要修理。 // Clean is clean, but there are some scratches on the wall and the sofa is worn; these all need repair.
+租客: 这些都属于正常使用造成的损耗吧？合同里写得很清楚，自然损耗不在赔偿范围之内。 // Surely these are normal wear and tear? The contract says clearly that natural wear isn't covered by compensation.
+房东: 话虽如此，但划痕明显是人为造成的。 // Even so, the scratches were clearly man-made.
+租客: 要不这样吧，我们找一位中间人评估一下，费用各出一半，您看怎么样？ // How about this: we find a neutral party to assess it, each paying half?
+房东: 也行，免得伤了和气。 // Fine, to avoid spoiling our good relations.
+G: 按照 ~ 按照 means "in accordance with". ~ 按照规定办理。 ~ Handle it according to regulations. ~ 按照
+G: 免得 ~ 免得 means "so as not to; lest". ~ 带上伞，免得淋湿。 ~ Take an umbrella lest you get wet. ~ 免得
+Q: When is the deposit returned? ~ After inspection ~ Immediately ~ Next year ~ Never
+Q: What does the landlord blame? ~ Man-made scratches ~ Water damage ~ Noise ~ Old furniture
+Q: What does the tenant propose? ~ A neutral assessor, costs split ~ Court ~ Paying in full ~ Leaving at night
+
+@lesson id=h7-05 level=7 type=article topic=Science minutes=6 source=Original
+@title 探索太空
+@titleen Exploring Space
+@summary China's space programme from Dongfanghong-1 to the space station.
+一九七〇年，中国成功发射了第一颗人造地球卫星"东方红一号"，开启了航天事业的新篇章。 // In 1970 China successfully launched its first artificial satellite, Dongfanghong-1, opening a new chapter in its space programme.
+二〇〇三年，杨利伟乘坐"神舟五号"飞船进入太空，使中国成为继苏联和美国之后第三个独立掌握载人航天技术的国家。 // In 2003 Yang Liwei flew into space aboard Shenzhou-5, making China the third country after the Soviet Union and the United States to master crewed spaceflight independently.
+此后，中国航天事业取得了一系列令人瞩目的成就：嫦娥探测器成功登陆月球背面，天问一号抵达火星，空间站也相继建成。 // Since then it has achieved a series of remarkable successes: the Chang'e probe landed on the far side of the Moon, Tianwen-1 reached Mars, and a space station was completed.
+航天技术不仅是国家综合实力的体现，更能带动材料、通信、医疗等领域的创新。 // Space technology reflects national strength and also drives innovation in materials, communications, medicine and other fields.
+许多日常使用的产品，如导航系统和不粘锅涂层，都源于航天技术的转化。 // Many everyday products, such as navigation systems and non-stick coatings, derive from space technology.
+当然，探索太空需要巨额投入，也伴随着极大的风险。 // Of course, space exploration needs huge investment and carries great risk.
+有人质疑把钱花在太空是否值得，但科学家们认为，人类对未知世界的好奇心，正是推动文明进步的根本动力。 // Some question whether money spent on space is worthwhile, but scientists believe humanity's curiosity about the unknown is the fundamental driver of civilisation's progress.
+G: 继……之后 ~ 继 A 之后 means "following A". ~ 继北京之后，上海也推出了新政策。 ~ Following Beijing, Shanghai introduced new policy. ~ 之后
+G: 令人瞩目 ~ 令人 + adjective means "makes people ...". ~ 这个成绩令人瞩目。 ~ This result is striking. ~ 瞩目
+Q: When was the first Chinese satellite launched? ~ 1970 ~ 1949 ~ 2003 ~ 1990
+Q: Who flew on Shenzhou-5? ~ Yang Liwei ~ Armstrong ~ Gagarin ~ Neil
+Q: What do scientists say drives progress? ~ Curiosity about the unknown ~ War ~ Profit ~ Fear
+
+@lesson id=h7-06 level=7 type=article topic=Philosophy minutes=6 source=Original
+@title 什么是幸福
+@titleen What Is Happiness?
+@summary Ancient thinkers and modern research on what makes a good life.
+幸福是一个古老而又常新的话题。 // Happiness is an ancient yet ever-new topic.
+儒家认为，幸福来自修身养性、尽到自己对家庭和社会的责任；道家则主张顺应自然，无欲无求才能获得内心的宁静。 // Confucians hold that happiness comes from cultivating oneself and fulfilling one's duties to family and society; Daoists advocate following nature, saying that only by desiring nothing can one gain inner peace.
+现代心理学研究发现，金钱与幸福之间并非简单的正比关系。 // Modern psychological research finds the relationship between money and happiness is not a simple proportion.
+当收入满足基本生活需要之后，再多的财富对幸福感的提升就十分有限了。 // Once income meets basic needs, additional wealth does very little to raise happiness.
+相反，良好的人际关系、有意义的工作以及对生活的掌控感，对幸福的影响更为深远。 // On the contrary, good relationships, meaningful work and a sense of control over life have a deeper influence on happiness.
+有一项持续了八十多年的追踪研究表明，那些与家人朋友联系密切的人，往往更健康，也更长寿。 // A study tracking people for over eighty years shows that those in close contact with family and friends tend to be healthier and live longer.
+可见，幸福并不遥远，它就藏在日常的点滴相处之中。 // Clearly, happiness is not far away; it is hidden in everyday moments with others.
+珍惜眼前的人，也许就是最朴素的幸福之道。 // Cherishing those in front of us may be the simplest path to happiness.
+G: 并非 ~ 并非 is a formal "is not at all". ~ 事情并非如此。 ~ It's not like that. ~ 并非
+G: 相反 ~ 相反 means "on the contrary". ~ 他没有生气，相反很高兴。 ~ He wasn't angry; on the contrary he was happy. ~ 相反
+Q: What do Confucians say leads to happiness? ~ Fulfilling duties ~ Wealth ~ Solitude ~ Fame
+Q: What does the study show? ~ Close relationships help health ~ Money is key ~ Work is bad ~ Travel is best
+Q: What is the closing idea? ~ Cherish those near you ~ Earn more ~ Seek fame ~ Move away
+
+@lesson id=h7-07 level=7 type=story topic=Idiom minutes=6 source=Retelling of a classic idiom story (Han Feizi, public domain)
+@title 守株待兔
+@titleen Waiting by a Stump for a Hare
+@summary The farmer who waited for luck to repeat.
+宋国有个农夫，每天辛辛苦苦地在田里耕作。 // In the state of Song there was a farmer who toiled in his field every day.
+有一天，一只野兔在田里飞快地奔跑，不小心撞到了田边的树桩上，当场死了。 // One day a wild hare ran swiftly through the field, accidentally hit the tree stump at its edge, and died on the spot.
+农夫不费吹灰之力就捡到了一只兔子，心里乐开了花。 // The farmer picked up a hare without the slightest effort and was overjoyed.
+从此以后，他再也无心种地，整天守在树桩旁边，等着另一只兔子自己撞上来。 // From then on he had no heart to farm, sitting by the stump all day waiting for another hare to hit it.
+日复一日，年复一年，再也没有兔子来了，农夫的田地也渐渐荒芜了。 // Day after day, year after year, no more hares came, and the farmer's fields gradually turned to weeds.
+邻居们都笑他愚蠢，他却依然固执地守着那根树桩。 // The neighbours all laughed at his foolishness, but he stubbornly kept guarding the stump.
+这个故事告诉我们，不能把偶然的成功当作必然，更不能放弃努力，坐等好运降临。 // This story tells us not to treat chance success as inevitable, still less to give up effort and wait for luck to arrive.
+G: 不费吹灰之力 ~ 不费吹灰之力 is a chengyu: "without the slightest effort". ~ 这对他来说不费吹灰之力。 ~ This costs him no effort. ~ 不费吹灰之力
+G: 日复一日 ~ 日复一日 means "day after day". ~ 他日复一日地练习。 ~ He practises day after day. ~ 日复一日
+Q: What happened to the hare? ~ It hit a stump and died ~ It escaped ~ It was caught in a trap ~ It was hunted
+Q: What happened to the farmer's fields? ~ They turned to weeds ~ They flourished ~ They were sold ~ They flooded
+Q: What is the moral? ~ Do not wait for luck to repeat ~ Be lucky ~ Hunt more ~ Help neighbours
+
+@lesson id=h7-08 level=7 type=article topic=Society minutes=6 source=Original
+@title 老龄化社会
+@titleen An Ageing Society
+@summary How China is adapting to a growing elderly population.
+随着生活水平的提高和医疗条件的改善，中国人的平均寿命不断延长，社会也随之步入老龄化。 // With rising living standards and improving medical care, Chinese life expectancy keeps lengthening and society has entered ageing.
+据统计，六十岁以上的老年人已经超过两亿，占总人口的近五分之一。 // According to statistics, the over-sixties exceed two hundred million, nearly one fifth of the total population.
+与此同时，出生率持续下降，劳动力供给逐渐减少，养老金面临着巨大的压力。 // At the same time the birth rate keeps falling, the labour supply is shrinking and pension funds face great pressure.
+传统的"养儿防老"观念正在受到挑战，因为很多年轻人工作繁忙，无暇照顾父母。 // The traditional notion of raising children for old-age support is being challenged, since many young people are too busy to care for their parents.
+为了应对这一局面，各地开始探索多种养老模式，如社区养老、居家养老和医养结合。 // To cope with this, localities are exploring various models of elderly care such as community care, home care and combined medical-and-care.
+不少城市还建立了老年大学，让老人们有机会学习绘画、摄影和智能手机的使用。 // Many cities have also set up universities for the elderly, giving them chances to learn painting, photography and how to use smartphones.
+专家指出，应对老龄化不能仅仅依靠政府，还需要家庭、社区和企业的共同参与。 // Experts point out that responding to ageing cannot rely on government alone but needs the joint participation of families, communities and firms.
+让每一位老人都能够安享晚年，是衡量一个社会文明程度的重要标志。 // Letting every elderly person enjoy their later years in peace is an important measure of a society's civilisation.
+G: 无暇 ~ 无暇 is formal for "have no time to". ~ 他无暇顾及这些细节。 ~ He has no time to attend to these details. ~ 无暇
+G: 随之 ~ 随之 means "along with that". ~ 经济发展了，生活水平也随之提高。 ~ The economy grew, and living standards rose with it. ~ 随之
+Q: How many Chinese are over sixty? ~ Over 200 million ~ 20 million ~ 2 billion ~ 50 million
+Q: What traditional idea is challenged? ~ Raising children for old-age support ~ Filial piety ~ Marriage ~ Education
+Q: What do cities provide for the elderly? ~ Universities for the elderly ~ Free cars ~ Free homes ~ Jobs

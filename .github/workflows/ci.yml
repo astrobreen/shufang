@@ -1,0 +1,23 @@
+name: CI
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Unit and data tests
+        run: npm test
+      - name: Rebuild the site from committed data and check it is up to date
+        run: |
+          python3 tools/make.py --no-data
+          git diff --exit-code site/index.html site/sw.js site/manifest.webmanifest
+      - name: Browser smoke test
+        run: |
+          npm i --no-save playwright
+          npx playwright install --with-deps chromium
+          npm run test:smoke

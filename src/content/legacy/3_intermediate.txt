@@ -1,0 +1,84 @@
+# ===================== LEVEL 3 · INTERMEDIATE (≈HSK 3) =====================
+
+@lesson id=i01 level=3 type=story topic=Travel minutes=4
+@title 迷路:mí lù:to get lost;了:le:(change of state)
+@titleen Lost
+@summary A traveller gets lost in Chengdu and is helped by a kind stranger.
+S: 上个月:shàng ge yuè:last month;，;我:wǒ:I;一个人:yí gè rén:alone;去:qù:to go to;成都:chéng dū:Chengdu;旅游:lǚ yóu:to travel;。
+T: Last month I travelled alone to Chengdu.
+S: 那天:nà tiān:that day;下午:xià wǔ:afternoon;，;我:wǒ:I;想:xiǎng:to want to;去:qù:to go to;一家:yì jiā:one (measure word for shops);很:hěn:very;有名:yǒu míng:famous;的:de:(modifier particle);火锅店:huǒ guō diàn:hotpot restaurant;，;可是:kě shì:but;走着走着:zǒu zhe zǒu zhe:while walking along;，;我:wǒ:I;发现:fā xiàn:to realize;自己:zì jǐ:oneself;迷路:mí lù:to get lost;了:le:(change of state);。
+T: That afternoon I wanted to go to a famous hotpot restaurant, but while walking I realized I was lost.
+S: 手机:shǒu jī:mobile phone;没有:méi yǒu:to have no;电:diàn:battery power;了:le:(change of state);，;我:wǒ:I;也:yě:also;没:méi:did not;带:dài:to bring;地图:dì tú:map;。
+T: My phone had run out of battery, and I hadn't brought a map either.
+S: 我:wǒ:I;站:zhàn:to stand;在:zài:at;路口:lù kǒu:intersection;，;不:bù:not;知道:zhī dào:to know;应该:yīng gāi:should;往:wǎng:toward;左:zuǒ:left;走:zǒu:to walk;还是:hái shi:or;往:wǎng:toward;右:yòu:right;走:zǒu:to walk;。
+T: I stood at the intersection, not knowing whether to go left or right.
+S: 这时候:zhè shí hou:at this moment;，;一位:yí wèi:one (polite measure word for people);老爷爷:lǎo yé ye:old gentleman;走:zǒu:to walk;了:le:(completed action);过来:guò lái:over (toward me);，;笑着:xiào zhe:smiling;问:wèn:to ask;我:wǒ:me;：;“;年轻人:nián qīng rén:young person;，;你:nǐ:you;需要:xū yào:to need;帮忙:bāng máng:help;吗:ma:(yes/no question particle);？;”
+T: Just then an old gentleman walked over and asked me with a smile, "Young man, do you need help?"
+S: 我:wǒ:I;告诉:gào su:to tell;他:tā:him;我:wǒ:I;要:yào:to want to;去:qù:to go to;那家:nà jiā:that (shop);火锅店:huǒ guō diàn:hotpot restaurant;，;他:tā:he;想了想:xiǎng le xiǎng:to think for a moment;说:shuō:to say;：;“;往:wǎng:toward;前:qián:forward;走:zǒu:to walk;两百:liǎng bǎi:two hundred;米:mǐ:meter;，;再:zài:then;向:xiàng:toward;右:yòu:right;拐:guǎi:to turn;，;你:nǐ:you;就:jiù:then;能:néng:can;看到:kàn dào:to see;了:le:(change of state);。;”
+T: I told him I wanted to go to that hotpot restaurant. He thought for a moment and said, "Walk straight for two hundred meters, then turn right, and you'll see it."
+S: 我:wǒ:I;谢:xiè:to thank;过:guo:(experience particle);老爷爷:lǎo yé ye:old gentleman;，;按照:àn zhào:according to;他:tā:he;说:shuō:to say;的:de:(modifier particle);方法:fāng fǎ:method, directions;走:zǒu:to walk;，;果然:guǒ rán:sure enough;很快:hěn kuài:very quickly;就:jiù:then;找到:zhǎo dào:to find;了:le:(completed action);。
+T: I thanked him, followed his directions, and sure enough I found it very quickly.
+S: 那天晚上:nà tiān wǎn shang:that evening;，;火锅:huǒ guō:hotpot;非常:fēi cháng:extremely;好吃:hǎo chī:delicious;，;但:dàn:but;我:wǒ:I;最:zuì:most;难忘:nán wàng:unforgettable;的:de:(modifier particle);，;还是:hái shi:still, nevertheless;老爷爷:lǎo yé ye:old gentleman;的:de:(possessive particle);笑容:xiào róng:smile;。
+T: The hotpot that evening was delicious, but what I remember most is still the old gentleman's smile.
+G: Verb + 着 ~ 着 after a verb shows an ongoing state or the manner of an action. Doubling it (走着走着) means "while walking along…". ~ 他笑着说。 ~ He said with a smile. ~ 笑着,走着走着
+G: 往 + Direction + Verb ~ 往 means "toward". Use it with directions: 往左, 往前. ~ 往右走。 ~ Walk toward the right. ~ 往
+G: 就 (then, soon) ~ 就 connects two actions and suggests the second follows soon or easily after the first. ~ 往前走，你就能看到了。 ~ Go straight and you'll see it. ~ 就
+G: 还是 (still) ~ Besides "or" in questions, 还是 can mean "still / after all" in statements. ~ 我最难忘的，还是他的笑容。 ~ What I remember most is still his smile. ~ 还是
+Q: Why did the narrator get lost? ~ The phone had no battery and there was no map ~ The restaurant had moved ~ The narrator couldn't read Chinese
+Q: What directions did the old man give? ~ Straight for 200 meters, then turn right ~ Turn left at once ~ Take the subway
+Q: What did the narrator remember most? ~ The old man's smile ~ The taste of the hotpot ~ The map
+
+@lesson id=i02 level=3 type=article topic=Food minutes=4
+@title 学:xué:to learn;做饭:zuò fàn:to cook
+@titleen Learning to Cook
+@summary Someone who always ordered takeout learns to cook and discovers practice pays off.
+S: 我:wǒ:I;以前:yǐ qián:before, in the past;从来不:cóng lái bù:never;做饭:zuò fàn:to cook;，;每天:měi tiān:every day;都:dōu:always;点:diǎn:to order;外卖:wài mài:takeout food;。
+T: I never used to cook. Every day I ordered takeout.
+S: 后来:hòu lái:later;我:wǒ:I;发现:fā xiàn:to realize;，;外卖:wài mài:takeout food;不但:bú dàn:not only;贵:guì:expensive;，;而且:ér qiě:but also;不太:bú tài:not very;健康:jiàn kāng:healthy;，;所以:suǒ yǐ:so;决定:jué dìng:to decide;自己:zì jǐ:by myself;学:xué:to learn;做饭:zuò fàn:to cook;。
+T: Later I realized takeout was not only expensive but also not very healthy, so I decided to learn to cook myself.
+S: 第一次:dì yī cì:the first time;做:zuò:to make;西红柿炒鸡蛋:xī hóng shì chǎo jī dàn:tomato and egg stir-fry;，;我:wǒ:I;把:bǎ:(object marker);盐:yán:salt;放:fàng:to put, to add;得:de:(complement particle);太多:tài duō:too much;，;鸡蛋:jī dàn:eggs;也:yě:also;炒:chǎo:to stir-fry;糊:hú:burnt;了:le:(completed action);。
+T: The first time I made tomato and egg stir-fry, I put in too much salt and burnt the eggs as well.
+S: 朋友:péng you:friend;尝:cháng:to taste;了:le:(completed action);一口:yì kǒu:one bite;，;笑着:xiào zhe:smiling;说:shuō:to say;：;“;还:hái:fairly;不错:bú cuò:not bad;，;就是:jiù shì:it's just that;有点:yǒu diǎn:a little;咸:xián:salty;。;”
+T: My friend took a bite and said with a smile, "Not bad, just a little salty."
+S: 现在:xiàn zài:now;，;我:wǒ:I;已经:yǐ jīng:already;学会:xué huì:to learn how to;做:zuò:to make;十几个:shí jǐ gè:over ten;菜:cài:dishes;了:le:(change of state);。
+T: Now I have already learned to make more than ten dishes.
+S: 虽然:suī rán:although;做:zuò:to cook;得:de:(complement particle);不算:bú suàn:not really;好:hǎo:good;，;但是:dàn shì:but;我:wǒ:I;很:hěn:very;喜欢:xǐ huan:to like;这种:zhè zhǒng:this kind of;感觉:gǎn jué:feeling;。
+T: Although I can't really say I cook well, I love this feeling.
+S: 做饭:zuò fàn:cooking;让:ràng:to let, to make;我:wǒ:me;知道:zhī dào:to know;，;只要:zhǐ yào:as long as;多:duō:more;练习:liàn xí:to practice;，;什么:shén me:whatever;事情:shì qing:thing, matter;都:dōu:all;会:huì:will;越来越:yuè lái yuè:more and more;容易:róng yì:easy;。
+T: Cooking has taught me that as long as you practice more, everything gets easier and easier.
+G: 不但…而且… ~ "not only … but also …". It links two points that build on each other. ~ 他不但会唱歌，而且会跳舞。 ~ He can not only sing, but also dance. ~ 不但,而且
+G: 把 sentence ~ 把 moves the object in front of the verb to show what you did to it and what the result was. ~ 我把盐放多了。 ~ I put in too much salt. ~ 把
+G: 虽然…但是… ~ "although … but …". Unlike English, Chinese normally uses both words. ~ 虽然很累，但是很开心。 ~ Although I'm tired, I'm happy. ~ 虽然,但是
+G: 越来越 ~ 越来越 + adjective means "more and more …". ~ 天气越来越冷。 ~ The weather is getting colder and colder. ~ 越来越
+Q: Why did the writer start learning to cook? ~ Takeout is expensive and not very healthy ~ A friend asked them to ~ The restaurant closed down
+Q: What went wrong the first time? ~ Too much salt and burnt eggs ~ Not enough salt ~ The tomatoes were bad
+Q: What did the friend say about the dish? ~ Not bad, just a little salty ~ It was delicious ~ It was too sour
+
+@lesson id=i03 level=3 type=dialogue topic=Technology minutes=3
+@title 手机:shǒu jī:phone;和:hé:and;朋友:péng you:friends
+@titleen Phones and Friends
+@summary Over dinner, Xiaomei asks David to put his phone away.
+@speakers 小美:xiǎo měi:Xiaomei (name); 大卫:dà wèi:David (name)
+S[小美]: 你:nǐ:you;怎么:zěn me:why, how come;一直:yì zhí:continuously;看:kàn:to look at;手机:shǒu jī:phone;？;我们:wǒ men:we;在:zài:(in progress);吃饭:chī fàn:to eat;呢:ne:(ongoing action particle);。
+T: Why do you keep looking at your phone? We're eating!
+S[大卫]: 对不起:duì bu qǐ:sorry;，;我:wǒ:I;在:zài:(in progress);回:huí:to reply to;工作:gōng zuò:work;的:de:(modifier particle);邮件:yóu jiàn:email;。
+T: Sorry, I'm replying to a work email.
+S[小美]: 现在:xiàn zài:now;是:shì:to be;休息:xiū xi:rest;时间:shí jiān:time;，;工作:gōng zuò:work;可以:kě yǐ:can;明天:míng tiān:tomorrow;再:zài:later;做:zuò:to do;。
+T: It's rest time now. Work can wait until tomorrow.
+S[大卫]: 你:nǐ:you;说:shuō:to say;得:de:(complement particle);对:duì:right;。;我:wǒ:I;最近:zuì jìn:recently;太:tài:too;忙:máng:busy;了:le:(goes with 太);，;手机:shǒu jī:phone;一:yì:as soon as;响:xiǎng:to ring;我:wǒ:I;就:jiù:then;想:xiǎng:to want to;看:kàn:to look;。
+T: You're right. I've been too busy lately. As soon as my phone rings, I want to look.
+S[小美]: 我:wǒ:I;也:yě:also;这样:zhè yàng:like this;。;所以:suǒ yǐ:so;我:wǒ:I;现在:xiàn zài:now;吃饭:chī fàn:to eat;的时候:de shí hou:when;，;会:huì:will;把:bǎ:(object marker);手机:shǒu jī:phone;放:fàng:to put;在:zài:in;包:bāo:bag;里:lǐ:inside;。
+T: I'm like that too. So now when I eat, I put my phone in my bag.
+S[大卫]: 这个:zhè ge:this;办法:bàn fǎ:method, idea;不错:bú cuò:not bad;，;我:wǒ:I;也:yě:also;试试:shì shi:to give it a try;。
+T: That's a good idea. I'll try it too.
+S[小美]: 那:nà:then, in that case;我们:wǒ men:we;今天:jīn tiān:today;先:xiān:first;聊聊天:liáo liao tiān:to have a chat;吧:ba:(suggestion particle);。
+T: Then let's chat for a while first today.
+S[大卫]: 好:hǎo:okay;，;你:nǐ:you;最近:zuì jìn:recently;有:yǒu:to have;什么:shén me:what;新鲜事:xīn xiān shì:something new;？
+T: Okay. Anything new with you lately?
+G: 怎么 + Verb ~ 怎么 can mean "how", but before a verb it often means "why / how come" and carries surprise or mild complaint. ~ 你怎么还没睡？ ~ How come you're not asleep yet? ~ 怎么
+G: 在 + Verb (+ 呢) ~ 在 before a verb shows the action is happening right now. 呢 at the end adds a "this is going on" feeling. ~ 我在看书呢。 ~ I'm reading right now. ~ 在,呢
+G: 一…就… ~ 一 + verb … 就 + verb means "as soon as … then …". ~ 他一回家就睡觉。 ~ As soon as he gets home, he sleeps. ~ 一,就
+G: 再 ~ 再 means "again" or "(do it) later". It is used for future actions. ~ 明天再做吧。 ~ Let's do it tomorrow. ~ 再
+Q: Why is Xiaomei unhappy with David? ~ He keeps looking at his phone during dinner ~ He arrived late ~ He forgot her birthday
+Q: What is David doing on his phone? ~ Replying to a work email ~ Playing a game ~ Texting a friend
+Q: What does Xiaomei do with her phone when she eats? ~ She puts it in her bag ~ She turns it off ~ She leaves it at home

@@ -1,0 +1,32 @@
+// UI test for the 成语 (idiom) section.  Run: node tests/chengyu.test.js
+const http = require('http'), fs = require('fs'), path = require('path'), assert = require('assert');
+const { chromium } = require('playwright');
+const root = path.join(__dirname, '..', 'site');
+const types = { '.html': 'text/html', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png' };
+const srv = http.createServer((q, r) => { const f = path.join(root, decodeURIComponent(q.url.split('?')[0]).replace(/\/$/, '/index.html')); if (!fs.existsSync(f)) { r.writeHead(404); return r.end(); } r.writeHead(200, { 'content-type': types[path.extname(f)] || 'application/octet-stream' }); fs.createReadStream(f).pipe(r); });
+(async () => {
+  await new Promise((r) => srv.listen(0, r));
+  const b = await chromium.launch(), p = await (await b.newContext({ viewport: { width: 400, height: 820 } })).newPage();
+  p.setDefaultTimeout(6000);
+  const errs = []; p.on('pageerror', (e) => errs.push(e.message));
+  await p.goto('http://localhost:' + srv.address().port + '/'); await p.waitForSelector('#tabs button');
+  assert(await p.$('.cyrow'), 'idiom of the day on Today');
+  await p.click('#tabs button[data-v="words"]'); await p.click('[data-act="wtab"][data-v="cy"]');
+  const n = await p.$$eval('.cyrow', (a) => a.length); assert(n >= 100, 'idiom list has ' + n);
+  await p.click('[data-act="cyf"][data-v="Animals"]');
+  const n2 = await p.$$eval('.cyrow', (a) => a.length); assert(n2 > 5 && n2 < n, 'topic filter');
+  await p.fill('#wq', 'snake'); const hits = await p.$$eval('.cyrow .cyh', (a) => a.map((x) => x.textContent)); assert(hits.includes('画蛇添足'), 'English search finds 画蛇添足');
+  assert(!(await p.$('#cychips .chip.on')), 'topic chip clears while searching');
+  await p.fill('#wq', 'hua she'); assert((await p.$$eval('.cyrow .cyh', (a) => a.map((x) => x.textContent))).includes('画蛇添足'), 'pinyin search');
+  await p.click('.cyrow >> nth=0'); await p.waitForSelector('.cybg');
+  assert((await p.textContent('#sheet .gl')).length > 10, 'meaning');
+  assert((await p.$$('#sheet .chr')).length === 4, 'four character buttons');
+  await p.click('#sheet [data-act="save"]'); await p.click('#sheet [data-act="close"]');
+  await p.click('#tabs button[data-v="practice"]'); await p.click('[data-act="flash-start"]'); await p.waitForTimeout(200);
+  await p.click('[data-act="flip"]');
+  const back = await p.textContent('.flash');
+  assert(!/lit\./.test(back) && /To ruin something/.test(back), 'flashcard shows the idiom meaning: ' + back.slice(0, 80));
+  assert(errs.length === 0, 'page errors: ' + errs.join('; '));
+  console.log('chengyu ui ok (' + n + ' idioms)');
+  await b.close(); srv.close();
+})().catch((e) => { console.error(e); process.exit(1); });

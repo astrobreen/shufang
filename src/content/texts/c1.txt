@@ -1,0 +1,275 @@
+@lesson id=c1-01 level=5 type=poem topic=Poetry minutes=1 source=Tang poem by Li Bai (public domain)
+@title 静夜思
+@titleen Quiet Night Thought
+@summary Li Bai, lying awake in the moonlight, thinks of his hometown.
+床前明月光， // Before my bed, the bright moonlight,
+疑是地/上[shang4]霜。 // I wonder if it is frost upon the ground.
+举头望{望=to gaze at}明月， // I raise my head to gaze at the bright moon,
+低头思故乡。 // I lower my head and think of home.
+Q: What does the poet see before his bed? ~ Moonlight ~ Snow ~ A candle ~ A river
+Q: What does the poet mistake the light for? ~ Frost on the ground ~ Water ~ Silver ~ Snow on a roof
+Q: What does he feel at the end? ~ He misses his hometown ~ He is angry ~ He is sleepy ~ He is afraid
+
+@lesson id=c1-02 level=5 type=poem topic=Poetry minutes=1 source=Tang poem by Meng Haoran (public domain)
+@title 春晓
+@titleen Spring Dawn
+@summary Meng Haoran wakes to birdsong and wonders how many blossoms fell in the night rain.
+春眠不觉晓， // Sleeping in spring, I don't notice the dawn;
+处[chu4]{处=place}处[chu4]{处=place}闻啼鸟。 // everywhere I hear birds singing.
+夜来风雨声， // Last night came the sound of wind and rain;
+花落知多少？ // how many flowers fell, who knows?
+Q: What does the poet not notice? ~ The dawn ~ The wind ~ The time of day ~ The cold
+Q: What does he hear everywhere? ~ Birds singing ~ Children playing ~ Temple bells ~ A river
+Q: What does he wonder at the end? ~ How many flowers fell ~ When spring will end ~ Where the birds went ~ Who is at the door
+
+@lesson id=c1-03 level=5 type=poem topic=Poetry minutes=1 source=Tang poem by Wang Zhihuan (public domain)
+@title 登鹳雀楼
+@titleen Climbing Stork Tower
+@summary Wang Zhihuan climbs a tower and reaches for a wider view.
+白日依山尽， // The white sun sinks behind the hills;
+黄河入海流。 // the Yellow River flows into the sea.
+欲穷千里目， // To see a thousand miles farther,
+更上一层楼。 // climb one more storey up the tower.
+Q: What flows into the sea? ~ The Yellow River ~ The Yangtze ~ A small stream ~ The Grand Canal
+Q: What does the poet want to see? ~ A thousand miles ~ The mountains ~ His home ~ The sunrise
+Q: What advice does the last line give? ~ Climb higher for a wider view ~ Go home ~ Rest more ~ Sit by the river
+
+@lesson id=c1-04 level=5 type=poem topic=Poetry minutes=1 source=Tang poem by Li Shen (public domain)
+@title 悯农
+@titleen Pity the Farmers
+@summary Li Shen reminds us how hard farmers work for each grain of rice.
+锄禾日当午， // Hoeing the seedlings at noon,
+汗滴禾下土。 // sweat drips onto the soil below.
+谁知/盘/中/餐， // Who knows that the food in our bowls,
+粒粒皆辛苦？ // every single grain, comes from hard labour?
+Q: Who is the poem about? ~ Farmers ~ Soldiers ~ Merchants ~ Scholars
+Q: When are they working? ~ At noon ~ At dawn ~ At night ~ At sunset
+Q: What is the message? ~ Don't waste food ~ Work less ~ Grow more rice ~ Buy more bowls
+
+@lesson id=c1-05 level=5 type=poem topic=Poetry minutes=1 source=Tang poem by Luo Binwang (public domain)
+@title 咏鹅
+@titleen Ode to the Goose
+@summary A child-poet describes geese on a clear pond.
+鹅，鹅，鹅， // Goose, goose, goose,
+曲项向天歌。 // with a curved neck you sing to the sky.
+白毛浮绿水， // White feathers float on green water;
+红掌拨清波。 // red webbed feet paddle the clear waves.
+Q: How does the goose sing? ~ With its neck curved to the sky ~ With its head down ~ At night only ~ In a flock
+Q: What colour are the feathers? ~ White ~ Grey ~ Yellow ~ Black
+Q: What colour is the water? ~ Green ~ Blue ~ Brown ~ Silver
+
+@lesson id=c1-06 level=6 type=poem topic=Poetry minutes=1 source=Tang poem by Wang Wei (public domain)
+@title 相思
+@titleen Longing
+@summary Wang Wei sends red beans as a symbol of missing someone.
+红豆生南国， // Red beans grow in the southern land;
+春来发几枝？ // how many sprigs sprout when spring comes?
+愿君多采撷， // I hope you will gather many,
+此物最相思。 // for these things stir longing most.
+Q: What grows in the south? ~ Red beans ~ Peach trees ~ Bamboo ~ Rice
+Q: What do red beans stand for? ~ Longing for someone ~ Wealth ~ Good health ~ Courage
+Q: What does the poet hope? ~ That you will gather many ~ That you will plant them ~ That you will eat them ~ That you will sell them
+
+@lesson id=c1-07 level=7 type=poem topic=Poetry minutes=1 source=Tang poem by Liu Zongyuan (public domain)
+@title 江雪
+@titleen River Snow
+@summary Liu Zongyuan paints a lonely old fisherman in the snow.
+千山鸟飞绝， // On a thousand hills the birds have stopped flying;
+万径人踪灭。 // on ten thousand paths no footprints remain.
+孤舟蓑笠翁， // A lone boat, an old man in a straw cape and hat,
+独钓寒江雪。 // fishes alone in the cold river snow.
+Q: What is missing from the hills? ~ Birds ~ Trees ~ Snow ~ Mist
+Q: What does the old man wear? ~ A straw cape and hat ~ A silk robe ~ A fur coat ~ A red scarf
+Q: What is the mood? ~ Lonely and still ~ Joyful ~ Noisy ~ Angry
+
+@lesson id=c1-08 level=5 type=poem topic=Poetry minutes=1 source=Tang poem by Li Bai (public domain)
+@title 赠汪伦
+@titleen To Wang Lun
+@summary Li Bai thanks a friend who sings a farewell on the shore.
+李白乘舟将欲行， // Li Bai is about to leave by boat,
+忽闻岸上踏歌声。 // when suddenly he hears stamping songs on the bank.
+桃花潭水深千尺， // Peach Blossom Pool is a thousand feet deep,
+不及汪伦送我情。 // yet it is no deeper than Wang Lun's feeling in seeing me off.
+Q: How is Li Bai leaving? ~ By boat ~ By horse ~ On foot ~ By cart
+Q: What does he hear? ~ Singing on the bank ~ A bell ~ A flute ~ Rain
+Q: What is compared with the pool? ~ Wang Lun's friendship ~ The sea ~ The sky ~ The moon
+
+@lesson id=c1-09 level=7 type=poem topic=Poetry minutes=1 source=Tang poem by Wang Wei (public domain)
+@title 鹿柴
+@titleen Deer Enclosure
+@summary Wang Wei listens to voices in an empty mountain as the sun slants through the forest.
+空山不见人， // The empty mountain shows no one,
+但闻人语响。 // yet voices echo faintly.
+返景入深林， // Returning sunlight enters the deep forest
+复照青苔上。 // and shines again upon the green moss.
+Q: What does the poet hear? ~ Human voices ~ A waterfall ~ A drum ~ Birds
+Q: What does the light fall on? ~ Green moss ~ A stream ~ A temple roof ~ Snow
+Q: What is the setting? ~ An empty mountain ~ A busy market ~ A village ~ A river
+
+@lesson id=c1-10 level=6 type=poem topic=Poetry minutes=1 source=Tang poem by Du Mu (public domain)
+@title 清明
+@titleen Qingming
+@summary Du Mu, walking in drizzle, asks a cowherd where to find wine.
+清明时节雨纷纷， // At Qingming time the rain falls in drifting threads;
+路上行人欲断魂。 // travellers on the road feel their spirits break.
+借问酒家何处有？ // May I ask where there is a tavern?
+牧童遥指杏花村。 // The cowherd points far off to Apricot Blossom Village.
+Q: What is the weather like? ~ Drizzly rain ~ Bright sun ~ Heavy snow ~ Strong wind
+Q: Who does the poet ask? ~ A cowherd ~ A soldier ~ A monk ~ A merchant
+Q: What does the cowherd point to? ~ Apricot Blossom Village ~ A bridge ~ A temple ~ A river
+
+@lesson id=c1-11 level=6 type=poem topic=Poetry minutes=1 source=Tang poem by Du Fu (public domain)
+@title 绝句
+@titleen Quatrain
+@summary Du Fu describes the view from his window in spring.
+两个黄鹂鸣翠柳， // Two orioles sing in the green willows;
+一行白鹭上青天。 // a line of white egrets rises into the blue sky.
+窗含西岭千秋雪， // The window frames the western peaks' snow of a thousand autumns;
+门泊东吴万里船。 // the door moors boats that have come ten thousand miles from Wu.
+Q: What sing in the willows? ~ Orioles ~ Sparrows ~ Cranes ~ Swallows
+Q: What rises into the sky? ~ Egrets ~ Kites ~ Clouds ~ Smoke
+Q: What does the window frame? ~ Snowy peaks ~ A garden ~ A river ~ A city
+
+@lesson id=c1-12 level=7 type=poem topic=Poetry minutes=1 source=Tang poem by Li Bai (public domain)
+@title 望庐山瀑布
+@titleen Gazing at the Waterfall on Mount Lu
+@summary Li Bai imagines the Milky Way tumbling from heaven.
+日照香炉生紫烟， // Sunlight on Incense Burner Peak raises purple mist;
+遥看瀑布挂前川。 // from afar the waterfall hangs before the river.
+飞流直下三千尺， // Flying down straight for three thousand feet,
+疑是银河落九天。 // it seems the Silver River is falling from the ninth heaven.
+Q: What does sunlight create? ~ Purple mist ~ A rainbow ~ Smoke ~ Shadows
+Q: How far does the water fall? ~ Three thousand feet ~ One hundred feet ~ A mile ~ Ten feet
+Q: What does the poet compare the waterfall to? ~ The Milky Way ~ A white horse ~ A silk ribbon ~ A dragon
+
+@lesson id=c1-13 level=7 type=poem topic=Poetry minutes=1 source=Tang poem by Li Bai (public domain)
+@title 早发白帝城
+@titleen Leaving Baidi City at Dawn
+@summary Li Bai sails swiftly down the Yangtze after being pardoned.
+朝[zhao1]辞白帝彩云间， // At dawn I left Baidi among the rosy clouds;
+千里江陵一日还[huan2]。 // a thousand li to Jiangling, and back in a single day.
+两岸猿声啼不住， // The monkeys on both banks cried without cease,
+轻舟已过万重[chong2]山。 // while my light boat passed ten thousand mountains.
+Q: When does the poet leave? ~ At dawn ~ At noon ~ At night ~ At dusk
+Q: What can he hear? ~ Monkeys crying ~ Temple bells ~ Drums ~ Flutes
+Q: What does the poem convey? ~ A swift, joyful journey ~ A slow trip ~ A sad farewell ~ A storm
+
+@lesson id=c1-14 level=8 type=poem topic=Poetry minutes=2 source=Song poem by Su Shi (public domain)
+@title 水调歌头（节选）
+@titleen Prelude to Water Melody (excerpt)
+@summary Su Shi, on Mid-Autumn night, wonders about the moon and longs for his brother.
+明月几时有？ // When did the bright moon first appear?
+把酒问青天。 // Cup in hand, I ask the blue sky.
+不知天上宫阙， // I do not know, in the palaces of heaven,
+今夕是何年。 // what year it is tonight.
+我欲乘风归去， // I wish to ride the wind and return there,
+又恐琼楼玉宇， // yet I fear those jade towers and crystal halls
+高处/不胜/寒。 // are too cold to bear up high.
+起舞弄清影， // I rise and dance with my clear shadow;
+何似在人间？ // how can that compare with being among men?
+但愿人长久， // I only wish that we may live long,
+千里共婵娟。 // and share the beauty of the moon, though a thousand miles apart.
+Q: When was the poem written? ~ On Mid-Autumn night ~ At the Spring Festival ~ On a snowy morning ~ At sunrise
+Q: What does the poet fear in heaven? ~ It is too cold up high ~ It is too noisy ~ It is too bright ~ It is too far
+Q: What does the last line wish for? ~ To share the moon from afar ~ A long journey ~ Great wealth ~ A new home
+
+@lesson id=c1-15 level=7 type=classic topic=Philosophy minutes=2 source=Analects of Confucius (public domain)
+@title 论语·学而（节选）
+@titleen Analects: On Learning (excerpt)
+@summary Confucius on learning, friendship and not minding being unrecognised.
+子曰：学而时习{习=to practise}之，不亦说[yue4]{说=to be pleased}乎？ // The Master said: To learn and then to practise it in due time, is that not a pleasure?
+有朋自远方来，不亦乐乎？ // To have friends come from afar, is that not a joy?
+人不知而不愠，不亦君子乎？ // To be unrecognised by others yet feel no resentment, is that not a gentleman?
+Q: What does Confucius say is a pleasure? ~ Learning and practising ~ Winning ~ Travelling ~ Eating
+Q: What brings joy? ~ Friends coming from afar ~ Gifts ~ Praise ~ Silence
+Q: What is the mark of a gentleman? ~ Not resenting being unrecognised ~ Wealth ~ Long life ~ Strength
+
+@lesson id=c1-16 level=7 type=classic topic=Philosophy minutes=2 source=Analects of Confucius (public domain)
+@title 论语·为政（节选）
+@titleen Analects: On Governing (excerpt)
+@summary Short sayings about learning and thinking.
+子曰：温故而知新，可以为[wei2]师矣。 // The Master said: One who revisits the old and learns the new is fit to be a teacher.
+学而不思则罔，思而不学则殆。 // Learning without thinking is confusing; thinking without learning is dangerous.
+知之为[wei2]知之，不知为[wei2]不知，是知也。 // To know what you know and to know what you do not know: that is knowledge.
+Q: What makes someone fit to be a teacher? ~ Revisiting the old and learning the new ~ Being old ~ Being rich ~ Writing books
+Q: What happens if you learn without thinking? ~ You become confused ~ You become wise ~ You become tired ~ You forget
+Q: What is true knowledge? ~ Knowing what you do and don't know ~ Knowing everything ~ Remembering books ~ Speaking well
+
+@lesson id=c1-17 level=8 type=classic topic=Philosophy minutes=2 source=Daodejing (public domain)
+@title 道德经·上善若水
+@titleen Daodejing: The Highest Good Is Like Water
+@summary Laozi praises water for benefiting all things without competing.
+上善若水。 // The highest good is like water.
+水善利万物而不争， // Water benefits all things and does not compete;
+处众人之所恶，故几[ji1]{几=nearly}于道。 // it settles in places that people despise, and so comes close to the Way.
+居善地，心善渊，与善仁，言善信， // In dwelling, be good at choosing the ground; in heart, be deep; in giving, be kind; in speech, be trustworthy;
+政善治，事善能，动善时。 // in government, be orderly; in affairs, be capable; in action, be timely.
+夫唯不争，故无尤。 // Only because it does not compete is it free from blame.
+Q: What is the highest good compared with? ~ Water ~ Fire ~ Mountains ~ Wind
+Q: What does water not do? ~ Compete ~ Flow ~ Help ~ Settle low
+Q: Why is water free from blame? ~ Because it does not compete ~ Because it is clean ~ Because it is quiet ~ Because it is deep
+
+@lesson id=c1-18 level=5 type=classic topic=Education minutes=2 source=Three Character Classic (public domain)
+@title 三字经（开头）
+@titleen Three Character Classic (opening)
+@summary Traditional first lessons about human nature and education.
+人之初，性本善。 // At the beginning, human nature is good.
+性相近，习相远。 // By nature people are alike; through habit they grow apart.
+苟不教，性乃迁。 // If they are not taught, their nature changes.
+教之道，贵以专。 // The way of teaching values focus.
+昔孟母，择邻处。 // Long ago Mencius's mother chose her neighbours carefully.
+子{子=son}不学，断机杼。 // When her son would not study, she cut the cloth on her loom.
+Q: According to the opening, human nature at birth is ... ~ Good ~ Bad ~ Neither ~ Unknown
+Q: What does teaching value? ~ Focus ~ Speed ~ Strictness ~ Money
+Q: What did Mencius's mother cut? ~ The cloth on her loom ~ Her hair ~ His books ~ A rope
+
+@lesson id=c1-19 level=8 type=classic topic=Education minutes=2 source=Xunzi (public domain)
+@title 劝学（节选）
+@titleen An Exhortation to Learning (excerpt)
+@summary Xunzi on how steady effort accomplishes great things.
+青{青=blue-green dye}，取之于蓝，而青{青=bluer}于蓝； // Blue is taken from the indigo plant, yet is bluer than indigo;
+冰，水为之，而寒于水。 // ice is made of water, yet is colder than water.
+不积跬步，无以至千里； // Without accumulating small steps, you cannot reach a thousand miles;
+不积小流，无以成江海。 // without gathering small streams, you cannot form rivers and seas.
+锲而舍之，朽木不折； // If you give up carving, even rotten wood cannot be snapped;
+锲而不舍，金石可镂。 // if you keep carving, even metal and stone can be engraved.
+Q: What does 青出于蓝 suggest? ~ A student can surpass the teacher ~ Blue is rare ~ Indigo is cheap ~ Ice is blue
+Q: What is needed to travel a thousand miles? ~ Accumulated small steps ~ A fast horse ~ A map ~ Good weather
+Q: What can persistence engrave? ~ Metal and stone ~ Water ~ Paper ~ Wind
+
+@lesson id=c1-20 level=8 type=classic topic=Literature minutes=2 source=Liu Yuxi (public domain)
+@title 陋室铭（节选）
+@titleen Inscription for a Humble Room (excerpt)
+@summary Liu Yuxi finds dignity in a plain study.
+山不在高，有仙则名{名=famous}。 // A mountain need not be high; with an immortal it becomes famous.
+水不在深，有龙则灵{灵=divine}。 // Water need not be deep; with a dragon it becomes divine.
+斯是陋室，惟吾德馨。 // This is a humble room, but my virtue makes it fragrant.
+苔痕上阶绿，草色入帘青。 // Moss traces climb the steps in green; grass colour enters the blinds in blue.
+谈笑有鸿儒，往来无白丁。 // Great scholars laugh and talk here; no commoners come and go.
+Q: What makes a mountain famous? ~ An immortal ~ Its height ~ Its trees ~ Its snow
+Q: How does the poet describe his room? ~ Humble but virtuous ~ Grand ~ Cold ~ Empty
+Q: What colour is the moss? ~ Green ~ Grey ~ Yellow ~ Brown
+
+@lesson id=c1-21 level=6 type=poem topic=Poetry minutes=1 source=Han Yuefu folk song (public domain)
+@title 江南
+@titleen South of the River
+@summary A cheerful Han dynasty folk song about fish playing among lotus leaves.
+江南可采莲，莲叶何田田。 // In the south one can pick lotus; how thick the lotus leaves are!
+鱼戏莲叶间。 // Fish play among the lotus leaves.
+鱼戏莲叶东，鱼戏莲叶西， // Fish play east of the leaves, fish play west of the leaves,
+鱼戏莲叶南，鱼戏莲叶北。 // fish play south of the leaves, fish play north of the leaves.
+Q: What can be picked in the south? ~ Lotus ~ Tea ~ Rice ~ Cotton
+Q: What are the fish doing? ~ Playing among the leaves ~ Sleeping ~ Hiding ~ Fighting
+Q: Which directions are mentioned? ~ East, west, south and north ~ Only east ~ Up and down ~ Left and right
+
+@lesson id=c1-22 level=7 type=poem topic=Poetry minutes=1 source=Northern folk song (public domain)
+@title 敕勒歌
+@titleen Song of the Chile
+@summary A grassland song from the northern steppes.
+敕勒川，阴山下。 // The Chile plain lies beneath the Yin Mountains.
+天似穹庐，笼盖四野。 // The sky is like a dome tent, covering the fields on all sides.
+天苍苍，野茫茫， // Sky so blue, field so vast;
+风吹草低见[xian4]{见=to appear}牛羊。 // when the wind bends the grass, cattle and sheep come into view.
+Q: What is the sky compared to? ~ A dome-shaped tent ~ A blue sea ~ A mirror ~ A roof
+Q: What can be seen when the wind blows? ~ Cattle and sheep ~ Horses ~ Rivers ~ Birds
+Q: What type of landscape is it? ~ Grassland ~ Desert ~ Forest ~ Seashore

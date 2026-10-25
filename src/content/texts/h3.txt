@@ -1,0 +1,263 @@
+@lesson id=h3-01 level=3 type=dialogue topic=Work minutes=3 source=Original
+@title 面试
+@titleen A Job Interview
+@summary A young graduate is interviewed for her first office job.
+@speakers 经理 小张
+经理: 请坐。先介绍一下你自己吧。 // Please sit down. First, tell us a bit about yourself.
+小张: 我叫张雪，去年从北京大学毕业，学的是新闻专业。 // My name is Zhang Xue. I graduated from Peking University last year, majoring in journalism.
+经理: 你为什么想来我们公司工作？ // Why do you want to work at our company?
+小张: 因为我一直很喜欢写作，而且贵公司的杂志很有名。 // Because I have always loved writing, and your magazine is very well known.
+经理: 你以前有工作经验吗？ // Do you have any previous work experience?
+小张: 大学的时候，我在一家报社实习了半年。 // At university I did a six-month internship at a newspaper.
+经理: 你觉得自己有什么优点？ // What do you think your strengths are?
+小张: 我做事很认真，也愿意学习新东西。 // I am careful in my work, and I am willing to learn new things.
+经理: 好的，我们下周会给你打电话。 // Good. We will call you next week.
+小张: 谢谢您给我这个机会。 // Thank you for giving me this opportunity.
+G: 为什么 ~ 为什么 asks the reason. Answer with 因为. ~ 你为什么迟到了？ ~ Why were you late? ~ 为什么
+G: 愿意 ~ 愿意 means "be willing to". ~ 我愿意帮你。 ~ I am willing to help you. ~ 愿意
+Q: What did Zhang Xue study? ~ Journalism ~ Law ~ Medicine ~ Business
+Q: Where did she intern? ~ At a newspaper ~ At a bank ~ At a school ~ At a hospital
+Q: When will the company call her? ~ Next week ~ Tomorrow ~ Next month ~ Today
+
+@lesson id=h3-02 level=3 type=story topic=Folk tale minutes=4 source=Retelling of a traditional Chinese folk tale
+@title 牛郎织女
+@titleen The Cowherd and the Weaver Girl
+@summary The love story behind the Qixi Festival.
+很久以前，有一个年轻人叫牛郎，他家很穷，只有一头老牛。 // Long ago there was a young man called Niulang. His family was poor and had only an old ox.
+这头老牛其实是天上的神仙，它很喜欢牛郎的善良。 // The old ox was actually a god from heaven, and it liked Niulang's kindness.
+有一天，老牛对牛郎说："明天，天上的仙女会来河边洗澡，你拿走一件衣服，就能娶她。" // One day the ox said to Niulang, "Tomorrow fairies from heaven will bathe at the river. If you take one of the dresses, you can marry her."
+第二天，牛郎照老牛说的做了，他认识了织女。 // The next day Niulang did what the ox said, and he met the Weaver Girl.
+他们结婚以后，生活得很幸福，还有了一儿一女。 // After they married, they lived happily and had a son and a daughter.
+可是，天上的王母知道了这件事，非常生气，把织女带回了天上。 // But the Queen Mother of Heaven learned of this, became very angry, and took the Weaver Girl back to heaven.
+牛郎带着孩子，想去天上找她。 // Niulang took the children, wanting to go to heaven to find her.
+这时，王母用一根金簪在天上画了一条大河，就是现在的银河。 // Then the Queen Mother drew a great river across the sky with a golden hairpin. That is the Milky Way.
+天上的喜鹊很感动，每年七月七日，它们飞来搭成一座桥，让牛郎和织女见面。 // The magpies in the sky were moved. Every year on the seventh of July they fly together to form a bridge so Niulang and the Weaver Girl can meet.
+G: 其实 ~ 其实 means "actually" and introduces the truth that differs from what you might think. ~ 他其实很害羞。 ~ He is actually very shy. ~ 其实
+G: 让 ~ 让 + person + verb means "let/make someone do something". ~ 妈妈让我早点儿睡。 ~ Mother told me to go to bed early. ~ 让
+Q: What was the old ox really? ~ A god from heaven ~ A farmer's pet ~ A magic horse ~ A dragon
+Q: What did the Queen Mother draw in the sky? ~ A river ~ A wall ~ A mountain ~ A road
+Q: Who builds the bridge every year? ~ The magpies ~ The cranes ~ The clouds ~ The stars
+
+@lesson id=h3-03 level=3 type=dialogue topic=Housing minutes=3 source=Original
+@title 租房子
+@titleen Renting a Flat
+@summary A student asks an agent about a flat.
+@speakers 中介 小李
+小李: 你好，我在网上看到你们有一套两居室要出租。 // Hello, I saw online that you have a two-bedroom flat for rent.
+中介: 对，在三楼，离地铁站只有五分钟。 // Yes, on the third floor, only five minutes from the subway station.
+小李: 一个月多少钱？ // How much is it per month?
+中介: 四千五，水电费要自己付。 // Four thousand five hundred. You pay for water and electricity yourself.
+小李: 有点儿贵。可以便宜一点儿吗？ // That's a bit expensive. Can it be a little cheaper?
+中介: 如果你租一年，我可以少五百块。 // If you rent for a year, I can take off five hundred yuan.
+小李: 房间里有家具吗？ // Is there furniture in the flat?
+中介: 有，床、桌子和洗衣机都有。 // Yes. There's a bed, a desk and a washing machine.
+小李: 我可以现在去看看吗？ // Can I go and look at it now?
+中介: 当然，我们现在就走。 // Of course, let's go right now.
+G: 如果……就…… ~ 如果 A，就 B means "if A, then B". ~ 如果下雨，我们就不去了。 ~ If it rains, we won't go. ~ 如果
+G: 离 ~ 离 measures distance between two places or times. ~ 我家离学校很近。 ~ My home is close to school. ~ 离
+Q: How far is the flat from the subway? ~ Five minutes ~ Twenty minutes ~ One hour ~ Next to it
+Q: How much is the rent if you rent for a year? ~ 4,000 yuan a month ~ 4,500 yuan a month ~ 5,000 yuan a month ~ 3,500 yuan a month
+Q: What will they do next? ~ Go to see the flat ~ Sign the contract ~ Call the owner ~ Wait until tomorrow
+
+@lesson id=h3-04 level=3 type=article topic=Technology minutes=3 source=Original
+@title 手机改变了我们的生活
+@titleen How Mobile Phones Changed Our Lives
+@summary An article about daily life with smartphones in China.
+十年前，很多人出门还带着钱包，现在只要带手机就够了。 // Ten years ago many people still carried wallets when going out. Now a phone is enough.
+买东西、坐车、点菜，都可以用手机付钱。 // Shopping, taking a bus and ordering food can all be paid for with a phone.
+人们也很少去银行，因为大部分事情可以在网上办。 // People also rarely go to the bank, because most things can be done online.
+很多年轻人用手机看新闻、听音乐、学外语。 // Many young people use their phones to read the news, listen to music and learn languages.
+但是，手机也带来了一些问题。 // But phones have also brought some problems.
+有的人每天看手机的时间太长，对眼睛不好。 // Some people look at their phones too long every day, which is bad for the eyes.
+吃饭的时候，大家常常都在玩儿手机，不说话。 // At meals everyone is often playing with their phones and not talking.
+所以，专家建议我们：每天给自己留一段"不看手机"的时间。 // So experts advise us: leave yourself some "no-phone" time every day.
+G: 只要……就够了 ~ 只要 + thing + 就够了 means "as long as you have ... it's enough". ~ 只要有一本书就够了。 ~ Just one book is enough. ~ 只要
+G: 对……不好 ~ 对 + object + adjective says whether something is good or bad for someone. ~ 喝太多咖啡对身体不好。 ~ Too much coffee is bad for the body. ~ 对
+Q: What do people now carry when going out? ~ A phone ~ A wallet ~ A bank card ~ A watch
+Q: What problem does the article mention? ~ People spend too long on their phones ~ Phones are too expensive ~ Phones break easily ~ Phone batteries are bad
+Q: What do experts advise? ~ Leave some no-phone time every day ~ Buy a new phone ~ Throw away phones ~ Use phones more
+
+@lesson id=h3-05 level=3 type=story topic=Fables minutes=3 source=Retelling of an Aesop fable (public domain)
+@title 乌鸦喝水
+@titleen The Crow Drinks Water
+@summary A thirsty crow finds a clever way to reach the water.
+夏天，天气很热，一只乌鸦飞了很久，又渴又累。 // In summer the weather was hot. A crow had flown for a long time and was both thirsty and tired.
+它看见路边有一个瓶子，瓶子里有一点儿水。 // It saw a bottle by the road with a little water in it.
+可是瓶子很高，水很少，乌鸦的嘴够不到水。 // But the bottle was tall, the water was low, and the crow's beak couldn't reach it.
+乌鸦想了很久，想不出好办法。 // The crow thought for a long time but could not think of a good way.
+忽然，它看到旁边有很多小石头。 // Suddenly it saw many small stones nearby.
+它想：把石头放进瓶子里，水就会变高。 // It thought: if I put stones into the bottle, the water will rise.
+于是，乌鸦一块一块地把石头放进瓶子里。 // So the crow dropped the stones into the bottle one by one.
+水越来越高，最后，乌鸦终于喝到了水。 // The water rose higher and higher, and at last the crow was able to drink.
+G: 越来越 ~ 越来越 + adjective means "more and more". ~ 天气越来越热。 ~ The weather is getting hotter and hotter. ~ 越来越
+G: 又……又…… ~ 又 A 又 B joins two qualities at the same time. ~ 这个菜又好吃又便宜。 ~ This dish is both tasty and cheap. ~ 又
+Q: Why could the crow not drink at first? ~ The bottle was tall and the water low ~ The water was dirty ~ The bottle was closed ~ There was no water
+Q: What did the crow put into the bottle? ~ Small stones ~ Sand ~ Leaves ~ Sticks
+Q: What happened to the water? ~ It rose ~ It disappeared ~ It froze ~ It spilled
+
+@lesson id=h3-06 level=3 type=article topic=Travel minutes=3 source=Original
+@title 西安三日游
+@titleen Three Days in Xi'an
+@summary A traveller's diary from the ancient capital.
+第一天，我们参观了兵马俑。 // On the first day we visited the Terracotta Army.
+兵马俑已经有两千多年的历史了，每一个士兵的脸都不一样。 // The Terracotta Army is more than two thousand years old, and every soldier's face is different.
+第二天，我们爬上了西安的古城墙，骑自行车走了一圈。 // On the second day we climbed Xi'an's ancient city wall and rode bicycles all the way around.
+从城墙上看下去，老城和新城就在眼前。 // Looking down from the wall, we could see the old city and the new city in front of us.
+晚上，我们去回民街吃小吃，有羊肉泡馍、凉皮和肉夹馍。 // In the evening we went to the Muslim Quarter for snacks: lamb stew with bread, cold noodles and meat buns.
+第三天，我们去了大雁塔，在广场上看了音乐喷泉。 // On the third day we went to the Big Wild Goose Pagoda and watched the musical fountain in the square.
+三天的时间太短了，我们一定会再来。 // Three days was too short. We will definitely come again.
+G: 已经……了 ~ 已经 ... 了 shows a state that has been reached. ~ 他已经二十岁了。 ~ He is already twenty. ~ 已经
+G: 一定 ~ 一定 means "definitely" or "must". ~ 明天你一定要来。 ~ You must come tomorrow. ~ 一定
+Q: What did they see on the first day? ~ The Terracotta Army ~ The Great Wall ~ The Forbidden City ~ The West Lake
+Q: How did they go round the city wall? ~ By bicycle ~ On foot ~ By bus ~ By taxi
+Q: How long was the trip? ~ Three days ~ One week ~ Two days ~ Ten days
+
+@lesson id=h3-07 level=3 type=dialogue topic=School minutes=3 source=Original
+@title 学汉语的方法
+@titleen Ways to Learn Chinese
+@summary Two learners share tips.
+@speakers 汤姆 小美
+汤姆: 小美，我的汉字总是记不住，你有什么好办法吗？ // Xiaomei, I can never remember my characters. Do you have any good methods?
+小美: 我觉得最好的办法是每天写一点儿，不要一次写太多。 // I think the best way is to write a little every day, not too much at once.
+汤姆: 还有呢？ // What else?
+小美: 你可以先学部首，很多汉字的意思和部首有关系。 // You can learn radicals first. The meaning of many characters is related to the radical.
+汤姆: 比如呢？ // For example?
+小美: 比如"河"、"海"、"游"，都有三点水，所以都跟水有关。 // For instance 河, 海 and 游 all have the water radical, so they are all connected with water.
+汤姆: 原来是这样！我以前不知道。 // So that's how it is! I didn't know before.
+小美: 另外，你可以多看中文电视，多跟中国人聊天儿。 // Also, you can watch more Chinese TV and chat with Chinese people more.
+汤姆: 好，我今天就开始。 // Good, I'll start today.
+G: 跟……有关 ~ 跟 A 有关 means "be related to A". ~ 这件事跟我有关。 ~ This matter concerns me. ~ 跟
+G: 比如 ~ 比如 introduces an example. ~ 我喜欢水果，比如苹果和香蕉。 ~ I like fruit, for example apples and bananas. ~ 比如
+Q: What is Tom's problem? ~ He can't remember characters ~ He can't speak ~ He can't listen ~ He has no time
+Q: What do 河, 海 and 游 have in common? ~ The water radical ~ The fire radical ~ The tree radical ~ The mouth radical
+Q: What else does Xiaomei suggest? ~ Watch Chinese TV and chat with Chinese people ~ Move to China ~ Buy a dictionary ~ Stop writing
+
+@lesson id=h3-08 level=3 type=article topic=Environment minutes=3 source=Original
+@title 少用塑料袋
+@titleen Use Fewer Plastic Bags
+@summary An article encouraging people to bring their own shopping bags.
+以前，我们去超市买东西，店员总是给我们很多塑料袋。 // In the past, when we went shopping at the supermarket, the staff always gave us many plastic bags.
+这些塑料袋用一次就扔了，可是几百年都不会消失。 // These plastic bags are thrown away after one use, but they will not disappear for hundreds of years.
+它们会污染河水和土地，也会伤害动物。 // They pollute rivers and soil, and they hurt animals.
+现在，很多国家都开始收费，鼓励大家自己带购物袋。 // Now many countries have begun to charge for them to encourage people to bring their own shopping bags.
+我觉得这是一个好办法。 // I think this is a good method.
+我的包里总是放着一个布袋，买东西的时候就能用上。 // I always keep a cloth bag in my backpack, and I can use it whenever I shop.
+每个人少用一个塑料袋，地球就会多一点儿干净。 // If everyone uses one fewer plastic bag, the earth will be a little cleaner.
+G: 总是 ~ 总是 means "always". ~ 他总是很早起床。 ~ He always gets up early. ~ 总是
+G: 会 ~ 会 is also used to say what will happen. ~ 明天会下雨。 ~ It will rain tomorrow. ~ 会
+Q: What happens to plastic bags? ~ They stay for hundreds of years ~ They disappear in a week ~ They turn into paper ~ They are reused by shops
+Q: What have many countries started to do? ~ Charge for plastic bags ~ Ban shopping ~ Print more bags ~ Give out free bags
+Q: What does the writer keep in the bag? ~ A cloth bag ~ A book ~ An umbrella ~ A bottle
+
+@lesson id=h3-09 level=3 type=dialogue topic=Daily life minutes=3 source=Original
+@title 堵车了
+@titleen Stuck in Traffic
+@summary A taxi ride turns into a long wait.
+@speakers 乘客 司机
+乘客: 师傅，前面怎么这么多车？ // Driver, why are there so many cars ahead?
+司机: 今天是周五，下班的人多，又赶上下雨。 // It's Friday, lots of people are leaving work, and on top of that it's raining.
+乘客: 我八点有个重要的会，现在已经七点半了。 // I have an important meeting at eight, and it's already half past seven.
+司机: 别着急，我换一条路试试。 // Don't worry. Let me try another road.
+乘客: 好的。这条路平时堵车吗？ // OK. Is this road usually jammed?
+司机: 不常堵，只是今天前面有一场交通事故。 // Not often. It's just that there's an accident ahead today.
+乘客: 那我还是坐地铁吧，请在这儿停车。 // Then I'd better take the subway. Please stop here.
+司机: 行，你下车往右走五十米就是地铁站。 // Fine. Get out and walk fifty metres to the right, and you'll find the station.
+乘客: 谢谢，多少钱？ // Thanks. How much?
+G: 又……又赶上 ~ 又 + verb adds another bad (or good) factor on top of the first. ~ 今天又冷又下雨。 ~ It's cold and raining today. ~ 又
+G: 还是 ~ 还是 suggests the better choice after thinking. ~ 太贵了，我还是不买了。 ~ It's too expensive; I'd better not buy it. ~ 还是
+Q: Why is there so much traffic? ~ Rush hour, rain and an accident ~ A parade ~ Road works ~ A football match
+Q: What time is the passenger's meeting? ~ Eight o'clock ~ Seven o'clock ~ Nine o'clock ~ Half past seven
+Q: What does the passenger decide to do? ~ Take the subway ~ Wait in the taxi ~ Walk to the office ~ Cancel the meeting
+
+@lesson id=h3-10 level=3 type=story topic=Fables minutes=3 source=Retelling of an Aesop fable (public domain)
+@title 狐狸和葡萄
+@titleen The Fox and the Grapes
+@summary A hungry fox cannot reach the grapes and pretends he doesn't want them.
+有一只狐狸，他走了一天路，又饿又渴。 // A fox had walked all day and was hungry and thirsty.
+他看到前面有一棵葡萄树，树上挂着一串一串紫色的葡萄。 // He saw a grape vine ahead, with bunches of purple grapes hanging from it.
+"看起来真好吃！"狐狸说。 // "They look delicious!" said the fox.
+可是葡萄挂得很高，他跳了一次，没吃到。 // But the grapes hung high. He jumped once and could not reach them.
+他又跳了一次，还是没吃到。 // He jumped again and still could not reach them.
+他跳了很多次，累得坐在地上。 // He jumped many times and was so tired that he sat on the ground.
+他看看葡萄，说："这些葡萄一定是酸的，我才不想吃呢。" // He looked at the grapes and said, "These grapes must be sour. I don't want them anyway."
+然后他就慢慢地走开了。 // Then he slowly walked away.
+G: 看起来 ~ 看起来 means "it looks like". ~ 你看起来很累。 ~ You look tired. ~ 看起来
+G: ……得 + result ~ Verb/adjective + 得 + result tells how strong the action was. ~ 他累得睡着了。 ~ He was so tired he fell asleep. ~ 得
+Q: What did the fox want? ~ Grapes ~ Apples ~ Water ~ A rabbit
+Q: Why could he not get them? ~ They were too high ~ They were behind a wall ~ A dog guarded them ~ They were not ripe
+Q: What did the fox say in the end? ~ The grapes must be sour ~ He would come back tomorrow ~ He was full ~ He needed a ladder
+
+@lesson id=h3-11 level=3 type=article topic=Culture minutes=3 source=Original
+@title 喝茶的文化
+@titleen Tea Culture
+@summary An introduction to the Chinese habit of drinking tea.
+中国人喜欢喝茶，已经有几千年的历史了。 // Chinese people love drinking tea, and have done so for thousands of years.
+常见的茶有绿茶、红茶和乌龙茶。 // Common teas include green tea, black tea and oolong tea.
+绿茶最新鲜，南方人特别喜欢。 // Green tea is the freshest, and southerners particularly like it.
+喝茶的时候，主人会先给客人倒茶。 // When drinking tea, the host will first pour tea for the guests.
+客人要用手指轻轻敲桌子，表示"谢谢"。 // The guest taps the table lightly with their fingers to say "thank you".
+很多老人每天早上都去茶馆，一边喝茶，一边聊天儿。 // Many older people go to a teahouse every morning to drink tea and chat.
+喝茶不但对身体好，还能让人安静下来。 // Drinking tea is not only good for the body, but also calms people down.
+G: 一边……一边…… ~ 一边 A 一边 B means doing two things at the same time. ~ 他一边走路一边听音乐。 ~ He walks while listening to music. ~ 一边
+G: 不但……还…… ~ 不但 A 还 B means "not only A but also B". ~ 她不但漂亮，还很聪明。 ~ She is not only pretty but also smart. ~ 不但
+Q: Which tea do southerners especially like? ~ Green tea ~ Black tea ~ Oolong tea ~ Flower tea
+Q: How does a guest say thank you? ~ Taps the table ~ Bows deeply ~ Claps hands ~ Says nothing
+Q: Where do many older people go in the morning? ~ A teahouse ~ A park ~ A library ~ A market
+
+@lesson id=h3-12 level=3 type=dialogue topic=Hobbies minutes=3 source=Original
+@title 我想学做饭
+@titleen I Want to Learn to Cook
+@summary A student asks his mother to teach him cooking.
+@speakers 妈妈 大卫
+大卫: 妈妈，我想学做饭，你能教我吗？ // Mum, I want to learn to cook. Can you teach me?
+妈妈: 怎么忽然想学做饭了？ // Why do you suddenly want to learn cooking?
+大卫: 下个月我要去外地上大学，不会做饭的话，每天只能吃外卖。 // Next month I'm going to university in another city. If I can't cook, I'll have to eat takeaway every day.
+妈妈: 好主意。我们先学最简单的：西红柿炒鸡蛋。 // Good idea. Let's start with the simplest: scrambled eggs with tomatoes.
+大卫: 需要什么？ // What do we need?
+妈妈: 两个西红柿，三个鸡蛋，还有一点儿油和盐。 // Two tomatoes, three eggs, and a little oil and salt.
+大卫: 先放什么？ // What goes in first?
+妈妈: 先炒鸡蛋，炒好以后放在一边，再炒西红柿。 // Fry the eggs first. When they're done, put them aside and fry the tomatoes.
+大卫: 最后把鸡蛋放回去，对吗？ // And finally put the eggs back in, right?
+妈妈: 对，你学得真快！ // Right, you learn fast!
+G: 不……的话 ~ ……的话 turns the first part into a condition. ~ 不快点儿的话，我们会迟到。 ~ If we don't hurry, we'll be late. ~ 的话
+G: 只能 ~ 只能 means "can only" or "have no choice but to". ~ 下雨了，我们只能在家看电视。 ~ It's raining, so we can only watch TV at home. ~ 只能
+Q: Why does David want to learn cooking? ~ He will study in another city ~ He is bored ~ He wants a job ~ His mother is ill
+Q: What is the first dish he learns? ~ Scrambled eggs with tomatoes ~ Fried rice ~ Dumplings ~ Noodle soup
+Q: What is fried first? ~ The eggs ~ The tomatoes ~ The rice ~ The onions
+
+@lesson id=h3-13 level=3 type=article topic=Daily life minutes=3 source=Original
+@title 早起的好处
+@titleen The Benefits of Getting Up Early
+@summary A writer explains why she changed her morning habits.
+以前我是一个爱睡懒觉的人，每天都是快迟到了才起床。 // I used to love sleeping in, and got up every day only when I was nearly late.
+后来，我听朋友说早起对身体好，就决定试一试。 // Later I heard from a friend that getting up early is good for your health, so I decided to try.
+我把闹钟放得很远，这样就不能再睡了。 // I put the alarm clock far away, so I couldn't go back to sleep.
+开始的几天，我很不习惯，一整天都没有精神。 // For the first few days I wasn't used to it, and had no energy all day.
+可是过了两个星期，我发现早上的时间特别安静，没有人打扰我。 // But after two weeks I found that the morning is especially quiet, and nobody disturbs me.
+我可以先跑步，再慢慢地吃早饭，还能读半个小时的书。 // I can go for a run first, then eat breakfast slowly, and even read for half an hour.
+现在，我每天早上的心情都很好。 // Now my mood is good every morning.
+G: 以前……后来…… ~ 以前 and 后来 contrast how things were and how they became. ~ 以前他不爱运动，后来爱上了跑步。 ~ He used to dislike sport, but later fell in love with running. ~ 后来
+G: 才 ~ 才 means "only then" and shows something happens later than expected. ~ 他十点才起床。 ~ He didn't get up until ten. ~ 才
+Q: What kind of person was the writer before? ~ A person who slept in ~ An early bird ~ A night worker ~ A runner
+Q: Where did she put the alarm clock? ~ Far away ~ Under the pillow ~ In the kitchen ~ Next to the bed
+Q: What did she find after two weeks? ~ The morning is very quiet ~ She felt always tired ~ She had no time ~ Breakfast was boring
+
+@lesson id=h3-14 level=3 type=dialogue topic=Culture minutes=3 source=Original
+@title 去朋友家做客
+@titleen Visiting a Friend's Home
+@summary Good manners when you visit a Chinese family.
+@speakers 小王 玛丽
+小王: 欢迎欢迎！快请进，不用换鞋。 // Welcome, welcome! Please come in. No need to take your shoes off.
+玛丽: 谢谢。这是我给你们带的一点儿水果。 // Thank you. Here is some fruit I brought for you.
+小王: 你太客气了，来就来嘛，还带什么东西！ // You're too polite. Just coming would be fine. Why bring anything?
+玛丽: 在我们国家，去别人家做客，一定要带礼物。 // In my country, you must bring a gift when you visit someone's home.
+小王: 在中国也是这样。来，先喝点儿茶。 // It's the same in China. Come on, have some tea first.
+玛丽: 你们家真漂亮！ // Your home is beautiful!
+小王: 哪里哪里，很小的。饭马上就好，请再等一会儿。 // Not at all, it's very small. Dinner will be ready soon. Please wait a little longer.
+玛丽: 我能帮你做点儿什么吗？ // Can I help you with anything?
+小王: 不用，你是客人，坐着聊天儿就行。 // No, you are a guest. Just sit and chat.
+G: 哪里哪里 ~ 哪里哪里 is a modest reply to a compliment. ~ A: 你汉语说得真好！ B: 哪里哪里。 ~ A: You speak Chinese really well! B: Not at all. ~ 哪里哪里
+G: 来就来嘛 ~ A verb repeated with 嘛 means "it's enough to do it, no need for more". ~ 来就来，别带东西。 ~ Just come; don't bring anything. ~ 来
+Q: What did Mary bring? ~ Some fruit ~ Flowers ~ Wine ~ Cakes
+Q: Is Mary required to take off her shoes? ~ No ~ Yes ~ Only in winter ~ Only if asked
+Q: What does Xiao Wang say when Mary praises his home? ~ Not at all, it's very small ~ Thank you, it is lovely ~ It's not mine ~ I agree

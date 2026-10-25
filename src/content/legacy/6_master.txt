@@ -1,0 +1,57 @@
+# ===================== LEVEL 6 · MASTER (HSK 6 and beyond) =====================
+
+@lesson id=m01 level=6 type=article topic=Culture minutes=6
+@title 城市:chéng shì:city;的:de:(possessive particle);记忆:jì yì:memory
+@titleen A City's Memory
+@summary An essay on the old streets and shops that quietly hold a city's collective memory.
+S: 一座:yí zuò:one (measure word for cities);城市:chéng shì:city;的:de:(possessive particle);记忆:jì yì:memory;，;往往:wǎng wǎng:often;不是:bú shì:is not;藏:cáng:to hide;在:zài:in;博物馆:bó wù guǎn:museum;里:lǐ:inside;，;而是:ér shì:but rather;散落:sàn luò:to be scattered;在:zài:in;那些:nà xiē:those;不起眼:bù qǐ yǎn:unremarkable;的:de:(modifier particle);角落:jiǎo luò:corner;。
+T: A city's memory is often not hidden in museums, but scattered in those unremarkable corners.
+S: 一条:yì tiáo:one (measure word for streets);被:bèi:(passive marker);梧桐树:wú tóng shù:plane tree;遮蔽:zhē bì:to shade;的:de:(modifier particle);老街:lǎo jiē:old street;，;一家:yì jiā:one (measure word for shops);开:kāi:to run (a shop);了:le:(completed action);半个:bàn ge:half a;世纪:shì jì:century;的:de:(modifier particle);裁缝铺:cái feng pù:tailor's shop;，;或者:huò zhě:or;某个:mǒu ge:a certain;清晨:qīng chén:early morning;飘出:piāo chū:to waft out;豆浆:dòu jiāng:soy milk;香气:xiāng qì:fragrance;的:de:(modifier particle);巷口:xiàng kǒu:mouth of an alley;。
+T: An old street shaded by plane trees, a tailor's shop that has been open for half a century, or an alley entrance from which the smell of soy milk drifts on some early morning.
+S: 然而:rán ér:however;，;随着:suí zhe:along with;城市:chéng shì:city;更新:gēng xīn:renewal;的:de:(modifier particle);步伐:bù fá:pace;不断:bú duàn:continuously;加快:jiā kuài:to speed up;，;这些:zhè xiē:these;承载着:chéng zài zhe:bearing;集体:jí tǐ:collective;记忆:jì yì:memory;的:de:(modifier particle);空间:kōng jiān:space;正在:zhèng zài:in the process of;悄然:qiǎo rán:quietly;消失:xiāo shī:to disappear;。
+T: However, as the pace of urban renewal keeps quickening, these spaces that carry collective memory are quietly disappearing.
+S: 推土机:tuī tǔ jī:bulldozer;轰鸣:hōng míng:to roar;而:ér:and then;过:guò:to pass;，;留下:liú xià:to leave behind;的:de:(nominalizer);是:shì:to be;整齐划一:zhěng qí huà yī:uniform;的:de:(modifier particle);高楼:gāo lóu:high-rise;，;却:què:yet;也:yě:also;抹去:mǒ qù:to wipe away;了:le:(completed action);几代人:jǐ dài rén:several generations;共同:gòng tóng:shared;的:de:(modifier particle);情感:qíng gǎn:emotional;坐标:zuò biāo:coordinates;。
+T: Bulldozers roar past, leaving uniform high-rises behind, yet also wiping out the emotional coordinates shared by several generations.
+S: 有人:yǒu rén:some people;认为:rèn wéi:to think;，;这:zhè:this;是:shì:to be;发展:fā zhǎn:development;必须:bì xū:must;付出:fù chū:to pay;的:de:(modifier particle);代价:dài jià:price, cost;；;也:yě:also;有人:yǒu rén:some people;主张:zhǔ zhāng:to advocate;，;保护:bǎo hù:to protect;老街:lǎo jiē:old street;并:bìng:(emphasizes negation);不:bù:not;意味着:yì wèi zhe:to mean;拒绝:jù jué:to reject;现代化:xiàn dài huà:modernization;，;而是:ér shì:but rather;让:ràng:to let;新旧:xīn jiù:the new and the old;在:zài:in;同一片:tóng yí piàn:the same (piece of);土壤:tǔ rǎng:soil;里:lǐ:inside;和谐共生:hé xié gòng shēng:to coexist harmoniously;。
+T: Some believe this is the price development must pay; others argue that protecting old streets does not mean rejecting modernization, but letting the new and the old coexist harmoniously in the same soil.
+S: 究竟:jiū jìng:on earth;该:gāi:should;如何:rú hé:how;取舍:qǔ shě:to choose between;，;恐怕:kǒng pà:I'm afraid;没有:méi yǒu:to have no;标准:biāo zhǔn:standard;答案:dá àn:answer;。
+T: How exactly to choose, I'm afraid, has no standard answer.
+S: 但:dàn:but;至少:zhì shǎo:at least;我们:wǒ men:we;应当:yīng dāng:ought to;意识到:yì shí dào:to realize;，;当:dāng:when;最后:zuì hòu:last;一块:yí kuài:one (piece);老砖:lǎo zhuān:old brick;被:bèi:(passive marker);拆下:chāi xià:to take down;时:shí:when;，;失去:shī qù:to lose;的:de:(nominalizer);不仅:bù jǐn:not only;是:shì:to be;建筑:jiàn zhù:architecture;本身:běn shēn:itself;，;还有:hái yǒu:also;一座:yí zuò:one (measure word for cities);城市:chéng shì:city;的:de:(possessive particle);灵魂:líng hún:soul;。
+T: But we should at least realize that when the last old brick is taken down, what is lost is not only the building itself, but also the soul of a city.
+G: 随着… ~ 随着 + a change introduces a trend that goes along with the result: "as / along with …". ~ 随着天气变冷，人们穿上了厚衣服。 ~ As the weather gets colder, people put on thick clothes. ~ 随着
+G: 并不意味着… ~ 意味着 means "to imply / to mean". 并不意味着 corrects a wrong inference: "does not necessarily mean". ~ 努力并不意味着一定成功。 ~ Working hard doesn't necessarily mean success. ~ 意味着
+G: 不仅…，还… ~ "not only … but also …", a bit more formal than 不但…而且…. ~ 他不仅聪明，还很努力。 ~ He is not only smart but also hardworking. ~ 不仅,还有
+G: 恐怕 ~ 恐怕 expresses a worried guess: "I'm afraid that …", usually about a bad outcome. ~ 明天恐怕要下雨。 ~ I'm afraid it will rain tomorrow. ~ 恐怕
+Q: Where does the essay say a city's memory often lies? ~ In ordinary corners such as old streets and small shops ~ In museums ~ In history books
+Q: What is happening to these spaces? ~ They are quietly disappearing ~ They are being rebuilt exactly as before ~ They are being sold abroad
+Q: According to supporters of preservation, protecting old streets does not mean what? ~ Rejecting modernization ~ Stopping all construction ~ Raising rents
+Q: What is lost when the last old brick is taken down? ~ The building and also the soul of a city ~ Only the building ~ Only the street name
+
+@lesson id=m02 level=6 type=story topic=Fiction minutes=7
+@title 一把:yì bǎ:one (measure word for umbrellas);伞:sǎn:umbrella
+@titleen An Umbrella
+@summary A small act of kindness on a rainy evening stays with a woman for years.
+S: 雨:yǔ:rain;是:shì:to be;在:zài:at;傍晚:bàng wǎn:early evening;时分:shí fèn:time;突然:tū rán:suddenly;下起来:xià qǐ lai:to start to fall;的:de:(emphasis particle);。
+T: The rain started suddenly in the early evening.
+S: 她:tā:she;站:zhàn:to stand;在:zài:at;书店:shū diàn:bookshop;门口:mén kǒu:entrance;，;望着:wàng zhe:gazing at;灰蒙蒙:huī méng méng:hazy grey;的:de:(modifier particle);街道:jiē dào:street;，;犹豫着:yóu yù zhe:hesitating;要不要:yào bu yào:whether or not;冲进:chōng jìn:to dash into;雨里:yǔ lǐ:the rain;。
+T: She stood at the entrance of a bookshop, gazing at the hazy grey street, hesitating over whether to dash out into the rain.
+S: “;用:yòng:to use;我的:wǒ de:mine;吧:ba:(suggestion particle);。;”;身后:shēn hòu:behind her;传来:chuán lái:to come (of sound);一个:yí gè:one;陌生:mò shēng:unfamiliar;的:de:(modifier particle);声音:shēng yīn:voice;。
+T: "Use mine." An unfamiliar voice came from behind her.
+S: 一个:yí gè:one;戴:dài:to wear;眼镜:yǎn jìng:glasses;的:de:(modifier particle);男人:nán rén:man;把:bǎ:(object marker);一把:yì bǎ:one (measure word for umbrellas);黑伞:hēi sǎn:black umbrella;递:dì:to hand;了:le:(completed action);过来:guò lái:over;，;神色:shén sè:expression;平静:píng jìng:calm;，;仿佛:fǎng fú:as if;这:zhè:this;只是:zhǐ shì:merely;一件:yí jiàn:one (measure word for matters);再:zài:(in the pattern 再…不过);寻常:xún cháng:ordinary;不过:bú guò:(nothing) more than;的:de:(modifier particle);小事:xiǎo shì:small matter;。
+T: A man with glasses held out a black umbrella, his expression calm, as if this were nothing more than the most ordinary of small matters.
+S: 她:tā:she;下意识地:xià yì shí de:instinctively;推辞:tuī cí:to decline politely;：;“;那:nà:then;你:nǐ:you;呢:ne:and you? (follow-up question);？;”
+T: She instinctively declined: "What about you?"
+S: “;我家:wǒ jiā:my home;就:jiù:just;在:zài:to be at;对面:duì miàn:opposite;，;淋:lín:to get rained on;几步:jǐ bù:a few steps;不:bú:not;碍事:ài shì:to matter;。;”;他:tā:he;说完:shuō wán:to finish speaking;便:biàn:then;转身:zhuǎn shēn:to turn around;走进:zǒu jìn:to walk into;了:le:(completed action);雨幕:yǔ mù:curtain of rain;，;背影:bèi yǐng:silhouette seen from behind;很快:hěn kuài:very quickly;消失:xiāo shī:to disappear;在:zài:in;人群:rén qún:crowd;中:zhōng:among;。
+T: "My home is just across the street. Getting rained on for a few steps is nothing." Having said this, he turned and walked into the curtain of rain, and his back soon disappeared into the crowd.
+S: 后来:hòu lái:afterwards;的:de:(modifier particle);许多:xǔ duō:many;年里:nián lǐ:years;，;她:tā:she;始终:shǐ zhōng:all along;没能:méi néng:was unable;忘记:wàng jì:to forget;那把:nà bǎ:that (umbrella);伞:sǎn:umbrella;，;也:yě:also;没能:méi néng:was unable;忘记:wàng jì:to forget;那个:nà ge:that;转身:zhuǎn shēn:turning around;的:de:(modifier particle);瞬间:shùn jiān:moment;。
+T: In the many years that followed, she was never able to forget that umbrella, nor that moment when he turned away.
+S: 她:tā:she;并:bìng:(emphasizes negation);不:bù:not;确定:què dìng:to be sure;那:nà:that;是不是:shì bu shì:whether it was;爱情:ài qíng:love;，;只:zhǐ:only;知道:zhī dào:to know;，;在:zài:on;那个:nà ge:that;雨天:yǔ tiān:rainy day;，;有:yǒu:there was;一种:yì zhǒng:a kind of;温暖:wēn nuǎn:warmth;悄无声息地:qiǎo wú shēng xī de:without a sound;落进:luò jìn:to fall into;了:le:(completed action);她:tā:she;的:de:(possessive particle);生活:shēng huó:life;。
+T: She wasn't sure whether it was love. She only knew that on that rainy day, a kind of warmth had quietly fallen into her life.
+G: 把 + Object + Verb + Complement ~ 把 moves the object before the verb to show what is done to it and where it ends up. ~ 他把书递给了我。 ~ He handed the book to me. ~ 把
+G: 再…不过 ~ 再 + adjective + 不过 means "it can't be more …": the most … there could be. ~ 这是再简单不过的问题。 ~ This is the simplest question imaginable. ~ 再,不过
+G: 仿佛 ~ 仿佛 means "as if / seemingly" and is common in literary writing. ~ 她仿佛听到了雨声。 ~ It was as if she heard the sound of rain. ~ 仿佛
+G: 始终没能… ~ 始终 means "all along". 没能 + verb means "was unable to …" despite wanting to. ~ 我始终没能联系上他。 ~ I was never able to get in touch with him. ~ 始终,没能
+Q: Where was the woman standing when the rain began? ~ At the entrance of a bookshop ~ At a bus stop ~ Inside a café
+Q: What did the man say about his home? ~ It was just across the street ~ It was far away ~ He didn't have one
+Q: How did he react when she asked, "What about you?" ~ He said it didn't matter and walked into the rain ~ He bought another umbrella ~ He asked to walk with her
+Q: How does the woman feel years later? ~ She never forgot it and is unsure whether it was love ~ She is angry about it ~ She can't remember it

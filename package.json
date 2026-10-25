@@ -1,0 +1,18 @@
+{
+  "name": "shufang",
+  "version": "1.0.0",
+  "description": "Shufang \u4e66\u623f: a graded Chinese reader and study room (HSK 3.0, levels 1-9). Static, offline-capable PWA.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "serve": "python3 -m http.server 8080 --directory site",
+    "build": "python3 tools/make.py",
+    "build:site": "python3 tools/make.py --no-data",
+    "test": "node tests/core.test.js && node tests/data.test.js",
+    "test:smoke": "node tests/chengyu.test.js && node tests/smoke.js && node tests/placement.test.js && node tests/audio.test.js && node tests/hover.test.js && node tests/android.test.js",
+    "icons": "node tools/make_icons.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}

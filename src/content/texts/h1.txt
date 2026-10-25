@@ -1,0 +1,258 @@
+@lesson id=h1-01 level=1 type=article topic=Daily life minutes=2 source=Original
+@title 我叫王明
+@titleen My Name Is Wang Ming
+@summary A boy introduces himself, his age and his city.
+我叫王明。 // My name is Wang Ming.
+我是中国人。 // I am Chinese.
+我今年十二岁。 // I am twelve years old this year.
+我住在北京。 // I live in Beijing.
+我是学生，我在北京一中学习。 // I am a student, and I study at Beijing No. 1 Middle School.
+我的老师姓李。 // My teacher's surname is Li.
+我喜欢我的学校，也喜欢我的老师。 // I like my school, and I like my teacher too.
+你叫什么名字？ // What is your name?
+G: 我是…… ~ 是 (shì) means "to be". Use it to say who or what someone is. ~ 我是学生。 ~ I am a student. ~ 是
+G: 我住在…… ~ 住在 + place tells where you live. ~ 我住在上海。 ~ I live in Shanghai. ~ 在
+Q: How old is Wang Ming? ~ Twelve ~ Ten ~ Fifteen ~ Twenty
+Q: Where does Wang Ming live? ~ Beijing ~ Shanghai ~ Chengdu ~ Hong Kong
+Q: What is his teacher's surname? ~ Li ~ Wang ~ Zhang ~ Chen
+
+@lesson id=h1-02 level=1 type=dialogue topic=Time minutes=2 source=Original
+@title 现在几点了？
+@titleen What Time Is It Now?
+@summary Two friends check the time before school.
+@speakers 小明 小红
+小明: 小红，现在几点了？ // Xiaohong, what time is it now?
+小红: 现在七点半。 // It is half past seven now.
+小明: 啊！八点上课，我们快走吧。 // Oh! Class starts at eight. Let's hurry.
+小红: 不要急，学校很近。 // Don't worry, the school is very close.
+小明: 你吃早饭了吗？ // Did you eat breakfast?
+小红: 吃了。我吃了一个鸡蛋和一个面包。 // Yes. I ate an egg and a piece of bread.
+小明: 我没吃。我现在很饿。 // I didn't eat. I'm very hungry now.
+小红: 我有一个苹果，给你。 // I have an apple. Here you go.
+小明: 谢谢你！ // Thank you!
+G: 几点 ~ Ask the time with 几点 (what hour). Answer with number + 点. ~ 现在几点？ ~ What time is it now?  ~ 几
+G: 了 after a verb ~ 了 after a verb shows the action is finished. ~ 我吃了早饭。 ~ I ate breakfast. ~ 了
+Q: What time is it now? ~ 7:30 ~ 8:00 ~ 7:00 ~ 8:30
+Q: What did Xiaohong eat for breakfast? ~ An egg and bread ~ Noodles ~ Rice and soup ~ Nothing
+Q: What does Xiaohong give Xiaoming? ~ An apple ~ An egg ~ Some bread ~ A book
+
+@lesson id=h1-03 level=1 type=dialogue topic=Shopping minutes=2 source=Original
+@title 买苹果
+@titleen Buying Apples
+@summary A customer buys apples and asks about the price.
+@speakers 顾客 老板
+顾客: 老板，苹果怎么卖？ // Boss, how much are the apples?
+老板: 五块钱一斤。 // Five yuan per jin.
+顾客: 太贵了。三块钱，可以吗？ // Too expensive. Three yuan, okay?
+老板: 不行不行。四块钱吧。 // No, no. Make it four yuan.
+顾客: 好吧。我要两斤。 // All right. I want two jin.
+老板: 一共八块钱。 // Eight yuan in total.
+顾客: 给你十块钱。 // Here is ten yuan.
+老板: 找你两块钱。再见！ // Here's two yuan change. Goodbye!
+顾客: 再见！ // Goodbye!
+G: 太……了 ~ 太 + adjective + 了 means "too ..." or "so ...". ~ 这个太大了。 ~ This one is too big. ~ 太
+G: 一共 ~ 一共 means "altogether" and is used when you add up numbers. ~ 一共多少钱？ ~ How much is it altogether? ~ 一共
+Q: How much does one jin of apples cost at first? ~ 5 yuan ~ 3 yuan ~ 4 yuan ~ 8 yuan
+Q: How many jin does the customer buy? ~ Two ~ One ~ Three ~ Five
+Q: How much change does the customer get? ~ 2 yuan ~ 1 yuan ~ 5 yuan ~ None
+
+@lesson id=h1-04 level=1 type=dialogue topic=Weather minutes=2 source=Original
+@title 今天天气怎么样？
+@titleen How Is the Weather Today?
+@summary A mother and her son decide what to wear.
+@speakers 妈妈 小明
+妈妈: 小明，你看，外面在下雨。 // Xiaoming, look. It is raining outside.
+小明: 真的吗？昨天天气很好。 // Really? The weather was very good yesterday.
+妈妈: 今天很冷，你要多穿一点儿。 // It is very cold today. You should wear a bit more.
+小明: 我不冷，我不想穿这件衣服。 // I'm not cold. I don't want to wear this piece of clothing.
+妈妈: 不行，你会生病的。 // No. You will get sick.
+小明: 好吧。我能带我的新雨伞吗？ // Fine. Can I take my new umbrella?
+妈妈: 当然可以。明天天气会好吗？ // Of course. Will the weather be good tomorrow?
+小明: 不知道。电视上说明天会有太阳。 // I don't know. The TV says it will be sunny tomorrow.
+G: 在 + verb ~ 在 before a verb means the action is going on right now. ~ 他在看书。 ~ He is reading. ~ 在
+G: 会 for the future ~ 会 can also mean "will" when you guess what is going to happen. ~ 明天会下雨。 ~ It will rain tomorrow. ~ 会
+Q: What is the weather like today? ~ Rainy and cold ~ Sunny and hot ~ Windy and warm ~ Snowy
+Q: What does Xiaoming want to take? ~ A new umbrella ~ A coat ~ A hat ~ A book
+Q: What does the TV say about tomorrow? ~ It will be sunny ~ It will rain ~ It will snow ~ It will be cold
+
+@lesson id=h1-05 level=1 type=article topic=Family minutes=2 source=Original
+@title 我的同学
+@titleen My Classmate
+@summary A girl describes her best friend at school.
+我有一个好朋友，她叫安娜。 // I have a good friend. Her name is Anna.
+安娜是我的同学，她是美国人。 // Anna is my classmate. She is American.
+她的汉语说得很好。 // She speaks Chinese very well.
+她有一只小狗，小狗的名字叫"豆豆"。 // She has a little dog. The dog's name is "Doudou".
+我们每天一起去学校，一起回家。 // Every day we go to school together and go home together.
+星期六，我们常常去她家玩儿。 // On Saturdays we often go to her home to play.
+她妈妈做的菜很好吃。 // The food her mother cooks is very tasty.
+G: 说得很好 ~ Verb + 得 + adjective tells how well someone does something. ~ 他跑得很快。 ~ He runs very fast. ~ 得
+G: 一起 ~ 一起 means "together". ~ 我们一起吃饭。 ~ We eat together. ~ 一起
+Q: What is the friend's name? ~ Anna ~ Mary ~ Doudou ~ Xiaomei
+Q: What is Doudou? ~ A little dog ~ A cat ~ A classmate ~ A book
+Q: When do they often go to her home? ~ On Saturdays ~ On Mondays ~ Every night ~ On Sundays only
+
+@lesson id=h1-06 level=1 type=dialogue topic=Food minutes=3 source=Original
+@title 你想吃什么？
+@titleen What Would You Like to Eat?
+@summary Two people order lunch in a restaurant.
+@speakers 服务员 马克
+服务员: 你好，请坐。你们想吃什么？ // Hello, please sit down. What would you like to eat?
+马克: 我想吃米饭和鸡肉。 // I would like rice and chicken.
+服务员: 你要喝什么？ // What would you like to drink?
+马克: 我要一杯茶。我朋友要一杯水。 // I'll have a cup of tea. My friend will have a glass of water.
+服务员: 好的，请等一下。 // All right, please wait a moment.
+马克: 对不起，这个菜我没点。 // Sorry, I didn't order this dish.
+服务员: 啊，不好意思，我马上拿走。 // Oh, I'm sorry. I'll take it away right away.
+马克: 没关系。菜很好吃，谢谢！ // It's okay. The food is delicious, thank you!
+G: 想 + verb ~ 想 before a verb means "would like to" or "want to". ~ 我想喝茶。 ~ I would like to drink tea. ~ 想
+G: 对不起 / 没关系 ~ Say 对不起 to say sorry, and 没关系 to answer "it doesn't matter". ~ 对不起，我来晚了。 ~ Sorry, I am late. ~ 对不起
+Q: What does Mark want to eat? ~ Rice and chicken ~ Noodles and beef ~ Fish and soup ~ Only a salad
+Q: What does Mark's friend drink? ~ Water ~ Tea ~ Coffee ~ Milk
+Q: What was wrong with the dish? ~ Mark did not order it ~ It was cold ~ It was too salty ~ It was too small
+
+@lesson id=h1-07 level=1 type=article topic=Hobbies minutes=2 source=Original
+@title 我喜欢运动
+@titleen I Like Sports
+@summary A boy tells what sports he and his family like.
+我喜欢运动。 // I like sports.
+我最喜欢踢足球。 // I like playing football best.
+星期天上午，我常常和朋友们在学校踢球。 // On Sunday mornings I often play football with my friends at school.
+我爸爸喜欢打篮球，他打得很好。 // My father likes playing basketball, and he plays very well.
+我妈妈不喜欢运动，她喜欢看书。 // My mother does not like sports. She likes reading.
+我姐姐会游泳，她每个星期去游两次。 // My older sister can swim. She goes swimming twice a week.
+你喜欢什么运动？ // What sports do you like?
+G: 喜欢 + verb ~ 喜欢 can be followed by a verb to say what you like doing. ~ 我喜欢看电影。 ~ I like watching movies. ~ 喜欢
+G: 最 ~ 最 means "most" and goes before the word it describes. ~ 我最喜欢吃面条。 ~ I like noodles most. ~ 最
+Q: Which sport does the boy like best? ~ Football ~ Basketball ~ Swimming ~ Running
+Q: What does the mother like to do? ~ Read ~ Swim ~ Play basketball ~ Play football
+Q: How often does the older sister go swimming? ~ Twice a week ~ Every day ~ Once a month ~ Never
+
+@lesson id=h1-08 level=1 type=dialogue topic=Family minutes=2 source=Original
+@title 这是谁？
+@titleen Who Is This?
+@summary A girl shows a family photo to her friend.
+@speakers 小美 大卫
+大卫: 小美，这是谁？ // Xiaomei, who is this?
+小美: 这是我爸爸，这是我妈妈。 // This is my father, and this is my mother.
+大卫: 这个小孩儿是谁？ // Who is this little child?
+小美: 他是我弟弟，他今年五岁。 // He is my younger brother. He is five years old this year.
+大卫: 你家有几口人？ // How many people are there in your family?
+小美: 有五口人：爸爸、妈妈、哥哥、弟弟和我。 // Five: father, mother, older brother, younger brother, and me.
+大卫: 你哥哥在哪儿工作？ // Where does your older brother work?
+小美: 他在医院工作，他是医生。 // He works at a hospital. He is a doctor.
+G: 几口人 ~ 家有几口人？ asks how many people are in a family. 口 is the measure word for family members. ~ 我家有四口人。 ~ There are four people in my family. ~ 几
+G: 在 + place + verb ~ 在 + place goes before the verb to say where something happens. ~ 他在家看书。 ~ He reads at home. ~ 在
+Q: How old is Xiaomei's younger brother? ~ Five ~ Three ~ Eight ~ Ten
+Q: How many people are in Xiaomei's family? ~ Five ~ Four ~ Six ~ Three
+Q: What does Xiaomei's older brother do? ~ He is a doctor ~ He is a teacher ~ He is a student ~ He is a driver
+
+@lesson id=h1-09 level=1 type=article topic=School minutes=2 source=Original
+@title 星期一的学校
+@titleen School on Monday
+@summary A short description of a busy Monday at school.
+星期一，我七点起床。 // On Monday I get up at seven.
+我吃了早饭，八点去学校。 // I eat breakfast and go to school at eight.
+上午我们有三节课：汉语课、数学课和英语课。 // In the morning we have three classes: Chinese, math and English.
+中午我们在学校吃饭。 // At noon we eat at school.
+下午有一节体育课，我们踢足球。 // In the afternoon there is one PE class and we play football.
+我下午四点回家。 // I go home at four in the afternoon.
+晚上我先做作业，然后看一会儿电视。 // In the evening I do homework first, and then watch TV for a while.
+G: 先……然后…… ~ 先 and 然后 put actions in order: first this, then that. ~ 我先吃饭，然后看书。 ~ I eat first, then I read. ~ 先,然后
+G: 一会儿 ~ 一会儿 means "a little while". ~ 请等一会儿。 ~ Please wait a moment. ~ 一会儿
+Q: What time does the boy get up? ~ At seven ~ At six ~ At eight ~ At nine
+Q: What class is there in the afternoon? ~ PE ~ Chinese ~ Math ~ English
+Q: What does he do first in the evening? ~ Homework ~ Watch TV ~ Eat dinner ~ Sleep
+
+@lesson id=h1-10 level=1 type=story topic=Animals minutes=3 source=Original
+@title 小狗找骨头
+@titleen The Little Dog Looks for a Bone
+@summary A little dog cannot find his bone, until a bird helps him.
+小狗有一根骨头。 // A little dog had a bone.
+他很喜欢这根骨头，不想给别人吃。 // He liked this bone very much and did not want to give it to anyone.
+下午，他把骨头放在树下，然后去喝水。 // In the afternoon he put the bone under a tree, and then went to drink water.
+他回来的时候，骨头不见了！ // When he came back, the bone was gone!
+小狗很难过，他到处找，可是找不到。 // The little dog was very sad. He searched everywhere but could not find it.
+这时，一只小鸟说："我看到了，小猫把它拿走了。" // At that moment a little bird said, "I saw it. The kitten took it away."
+小狗去找小猫。小猫说："对不起，我以为这是我的。" // The little dog went to find the kitten. The kitten said, "I'm sorry. I thought it was mine."
+小猫把骨头还给了小狗，他们成了好朋友。 // The kitten gave the bone back to the little dog, and they became good friends.
+G: 找不到 ~ Verb + 不 + result means "cannot do it". ~ 我看不到你。 ~ I cannot see you. ~ 不
+G: 把 ~ 把 moves the object before the verb: it tells what is done to the thing. ~ 我把书放在桌子上。 ~ I put the book on the table. ~ 把
+Q: Where did the dog put the bone? ~ Under a tree ~ In the house ~ On the table ~ In the river
+Q: Who saw what happened? ~ A little bird ~ A cat ~ A duck ~ A horse
+Q: How does the story end? ~ They become friends ~ The dog is angry ~ The bone is lost ~ The cat runs away
+
+@lesson id=h1-11 level=1 type=dialogue topic=Celebrations minutes=2 source=Original
+@title 生日快乐！
+@titleen Happy Birthday!
+@summary Friends sing and give gifts at a birthday party.
+@speakers 小红 小李 妈妈
+小红: 大家好！今天是我的生日。 // Hello, everyone! Today is my birthday.
+小李: 生日快乐！这是给你的礼物。 // Happy birthday! This is a gift for you.
+小红: 谢谢！是一本书吗？ // Thank you! Is it a book?
+小李: 对，你不是喜欢看书吗？ // Yes. Don't you like reading?
+妈妈: 来，吃蛋糕吧。你们想吃大的还是小的？ // Come, let's have cake. Would you like a big piece or a small one?
+小李: 我想吃大的。 // I'd like a big one.
+小红: 你今年多大了？ // How old are you this year?
+小李: 我十一岁。你呢？ // I'm eleven. And you?
+小红: 我今天十二岁了。 // I am twelve today.
+G: 是……吗 ~ A question with 是……吗 asks whether something is true. ~ 你是老师吗？ ~ Are you a teacher? ~ 是
+G: 还是 ~ 还是 means "or" in a question that gives a choice. ~ 你喝茶还是喝咖啡？ ~ Do you drink tea or coffee? ~ 还是
+Q: Whose birthday is it? ~ Xiaohong's ~ Xiaoli's ~ Mother's ~ Teacher's
+Q: What is the gift? ~ A book ~ A cake ~ A toy ~ A hat
+Q: How old is Xiaohong today? ~ Twelve ~ Eleven ~ Ten ~ Thirteen
+
+@lesson id=h1-12 level=1 type=dialogue topic=Languages minutes=2 source=Original
+@title 你会说汉语吗？
+@titleen Can You Speak Chinese?
+@summary A new student chats with a classmate about languages.
+@speakers 玛丽 小王
+小王: 你好！你是新同学吗？ // Hello! Are you the new student?
+玛丽: 是的，我叫玛丽，我是英国人。 // Yes, my name is Mary, and I'm British.
+小王: 你会说汉语吗？ // Can you speak Chinese?
+玛丽: 会一点儿，我学了半年。 // A little. I have studied for half a year.
+小王: 你说得很好！汉字难吗？ // You speak very well! Are Chinese characters difficult?
+玛丽: 有点儿难，可是很有意思。 // A bit difficult, but very interesting.
+小王: 我可以教你，你也可以教我英语。 // I can teach you, and you can teach me English.
+玛丽: 好啊！我们是好朋友了。 // Great! We are good friends now.
+G: 会 ~ 会 means "can" for a skill you have learned. ~ 我会游泳。 ~ I can swim. ~ 会
+G: 有点儿 ~ 有点儿 + adjective means "a bit" and is often used for something you don't quite like. ~ 今天有点儿冷。 ~ It is a bit cold today. ~ 有点儿
+Q: Where is Mary from? ~ Britain ~ America ~ China ~ Japan
+Q: How long has Mary studied Chinese? ~ Half a year ~ Two years ~ One month ~ Ten years
+Q: What does Mary say about Chinese characters? ~ A bit difficult but interesting ~ Very easy ~ Boring ~ Impossible
+
+@lesson id=h1-13 level=1 type=dialogue topic=Travel minutes=2 source=Original
+@title 坐出租车
+@titleen Taking a Taxi
+@summary A passenger tells the driver where to go.
+@speakers 司机 汤姆
+司机: 你好，你去哪儿？ // Hello, where are you going?
+汤姆: 我去火车站。请开快一点儿。 // I'm going to the train station. Please drive a bit faster.
+司机: 现在路上车很多，要二十分钟。 // There are many cars on the road now. It will take twenty minutes.
+汤姆: 没关系，我的火车九点才开。 // That's all right. My train doesn't leave until nine.
+司机: 你是第一次来北京吗？ // Is this your first time in Beijing?
+汤姆: 不是，我去年来过。 // No, I came last year.
+司机: 到了，一共二十五块。 // We're here. It's twenty-five yuan in total.
+汤姆: 给你。谢谢，再见！ // Here you are. Thank you, goodbye!
+G: 去 + place ~ 去 + place means "go to a place". ~ 我去学校。 ~ I go to school. ~ 去
+G: 来过 ~ Verb + 过 means "have done it before". ~ 我去过中国。 ~ I have been to China. ~ 过
+Q: Where does Tom want to go? ~ The train station ~ The airport ~ The hotel ~ The school
+Q: How long will the trip take? ~ Twenty minutes ~ Five minutes ~ One hour ~ Two hours
+Q: How much is the fare? ~ 25 yuan ~ 20 yuan ~ 52 yuan ~ 15 yuan
+
+@lesson id=h1-14 level=1 type=article topic=Home minutes=2 source=Original
+@title 这是我的房间
+@titleen This Is My Room
+@summary A girl shows what is in her room.
+这是我的房间。 // This is my room.
+房间不大，可是很干净。 // The room is not big, but it is very clean.
+桌子上有一台电脑和一些书。 // On the desk there is a computer and some books.
+床在桌子的左边，椅子在桌子前面。 // The bed is on the left of the desk, and the chair is in front of the desk.
+窗户旁边有一盆花，花是红色的。 // Next to the window there is a pot of flowers, and the flowers are red.
+墙上有一张地图。 // On the wall there is a map.
+我很喜欢我的房间，因为我可以在这里看书、听音乐。 // I like my room very much because I can read and listen to music here.
+G: 在……左边 ~ Place words like 左边, 前面 and 旁边 follow the thing they relate to. ~ 书在桌子上面。 ~ The book is on the desk. ~ 左边
+G: 有 for existence ~ "Place + 有 + thing" says what is in a place. ~ 桌子上有一本书。 ~ There is a book on the desk. ~ 有
+Q: What is on the desk? ~ A computer and books ~ A flower ~ A map ~ A lamp
+Q: What colour are the flowers? ~ Red ~ White ~ Yellow ~ Blue
+Q: What is on the wall? ~ A map ~ A clock ~ A photo ~ A picture of a dog

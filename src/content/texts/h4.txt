@@ -1,0 +1,159 @@
+@lesson id=h4-01 level=4 type=story topic=Idioms minutes=3 source=Retelling of a classical idiom story (Han Fei Zi, public domain)
+@title 守株待兔
+@titleen Waiting by the Stump for a Hare
+@summary A farmer stops working because of one lucky accident.
+古时候，宋国有一个农民，每天在田里辛苦地工作。 // In ancient times there was a farmer in the state of Song who worked hard in his field every day.
+有一天，一只兔子跑得太快，一头撞在田边的树桩上，死了。 // One day a hare ran so fast that it crashed head-first into a tree stump at the edge of the field and died.
+农民不费力气就得到了一只兔子，心里非常高兴。 // The farmer got a hare without any effort and was delighted.
+从那以后，他再也不想种地了。 // From then on he no longer wanted to farm.
+他每天坐在树桩旁边，等着兔子自己撞过来。 // Every day he sat beside the stump, waiting for hares to run into it.
+可是，他等了很多天，一只兔子也没有等到。 // But he waited many days and not one hare came.
+田里的草长得比庄稼还高，别人都笑他太傻了。 // The weeds in his field grew taller than the crops, and everyone laughed at how foolish he was.
+这个故事告诉我们：不能把偶然的好运当作每天都会发生的事。 // The story tells us: don't treat a stroke of luck as something that will happen every day.
+G: 从那以后 ~ 从……以后 marks the starting point of a change. ~ 从那以后，他每天跑步。 ~ From then on he ran every day. ~ 以后
+G: 比……还…… ~ A 比 B 还 + adjective means "even more ... than B". ~ 他比我还高。 ~ He is even taller than me. ~ 还
+Q: What happened to the hare? ~ It hit a stump and died ~ It was caught in a net ~ It ran away ~ It fell into a well
+Q: What did the farmer do after that? ~ He sat by the stump waiting ~ He kept farming ~ He moved away ~ He built a fence
+Q: What is the moral? ~ Don't rely on luck ~ Work faster ~ Hunt hares ~ Plant more crops
+
+@lesson id=h4-02 level=4 type=story topic=Idioms minutes=3 source=Retelling of a classical idiom story (Zhan Guo Ce, public domain)
+@title 画蛇添足
+@titleen Drawing Feet on a Snake
+@summary A drawing contest teaches that more is not always better.
+楚国有几个人在一起喝酒，可是只有一壶，不够大家喝。 // Several men of Chu were drinking together, but there was only one jug, not enough for everyone.
+有人说："我们来比赛画蛇，谁先画好，这壶酒就归谁。" // Someone said, "Let's have a snake-drawing contest. Whoever finishes first gets the jug."
+大家都低头开始画。其中一个人画得最快，一会儿就画好了。 // Everyone bent down and began to draw. One man drew fastest and finished in no time.
+他拿起酒壶，看见别人还在画，就得意地说："你们太慢了，我还有时间给蛇加几只脚呢！" // He picked up the jug, saw the others still drawing, and said proudly, "You're too slow. I even have time to add feet to the snake!"
+他还没有画完，另一个人已经画好了。 // Before he could finish, another man had already completed his drawing.
+那个人把酒壶抢过去，说："蛇本来就没有脚，你画的不是蛇。" // That man snatched the jug and said, "Snakes have no feet to begin with. What you drew isn't a snake."
+说完，他把壶里的酒喝光了。 // Having said this, he drank all the wine in the jug.
+后来，人们用"画蛇添足"来说：做了多余的事，反而把事情弄坏了。 // Later people used "drawing feet on a snake" to mean that doing something unnecessary only spoils things.
+G: 本来 ~ 本来 means "originally" or "in the first place". ~ 我本来想去，后来下雨了。 ~ I originally wanted to go, but then it rained. ~ 本来
+G: 反而 ~ 反而 shows the result is the opposite of what you expect. ~ 他吃了药，病反而更重了。 ~ He took medicine and got worse instead. ~ 反而
+Q: What was the prize? ~ A jug of wine ~ A snake ~ Some money ~ A new house
+Q: Why did the first man lose? ~ He added feet to the snake ~ He drew too slowly ~ He could not draw ~ He drank the wine
+Q: What does the idiom mean? ~ Doing unnecessary things spoils the result ~ Be quick ~ Drawing is hard ~ Share your wine
+
+@lesson id=h4-03 level=4 type=story topic=Idioms minutes=3 source=Retelling of a classical idiom story (Han Fei Zi, public domain)
+@title 自相矛盾
+@titleen Contradicting Oneself
+@summary A merchant's boast about his spear and shield is easily tested.
+从前，楚国有一个人在街上卖矛和盾。 // Long ago a man in the state of Chu was selling spears and shields in the street.
+他先举起盾，大声说："我的盾是世界上最结实的，什么东西都刺不破！" // First he held up a shield and shouted, "My shield is the strongest in the world. Nothing can pierce it!"
+然后他又举起矛，说："我的矛是世界上最锋利的，什么东西都能刺破！" // Then he held up a spear and said, "My spear is the sharpest in the world. It can pierce anything!"
+旁边有一个人问他："如果用你的矛去刺你的盾，会怎么样呢？" // A man nearby asked him, "What would happen if you used your spear to pierce your shield?"
+卖东西的人张着嘴，一句话也说不出来。 // The seller opened his mouth but could not say a word.
+周围的人都笑了，他只好拿着东西回家了。 // The people around him laughed, and he had to take his things and go home.
+后来，人们用"自相矛盾"来形容说话或做事前后不一致。 // Later people used "contradicting oneself" to describe talking or acting inconsistently.
+G: 什么……都…… ~ 什么 + noun + 都 means "any ... at all". ~ 什么菜我都爱吃。 ~ I like to eat any dish. ~ 都
+G: 只好 ~ 只好 means "have no choice but to". ~ 车坏了，我们只好走路。 ~ The car broke down, so we had to walk. ~ 只好
+Q: What did the man sell? ~ Spears and shields ~ Swords ~ Bows ~ Armour only
+Q: What question did the bystander ask? ~ What if the spear pierces the shield ~ How much is it ~ Where is it made ~ Who bought it
+Q: What does 自相矛盾 describe? ~ Saying things that contradict each other ~ Selling weapons ~ Being strong ~ Being quiet
+
+@lesson id=h4-04 level=4 type=story topic=Idioms minutes=3 source=Retelling of a classical idiom story (Zhuangzi, public domain)
+@title 井底之蛙
+@titleen The Frog at the Bottom of the Well
+@summary A frog thinks his well is the whole world until a turtle visits.
+有一只青蛙，一直住在一口浅井里。 // There was a frog who had always lived in a shallow well.
+他每天在井里游泳、跳来跳去，觉得自己是世界上最快乐的动物。 // Every day he swam and hopped about in the well, and thought he was the happiest creature in the world.
+有一天，一只从东海来的大海龟路过那里。 // One day a big sea turtle from the Eastern Sea passed by.
+青蛙得意地对海龟说："你看，我的家多舒服！你也下来坐坐吧！" // The frog said proudly to the turtle, "Look, how comfortable my home is! Come down and sit a while!"
+海龟想下去，可是他的腿太大，进不去。 // The turtle wanted to go down, but his legs were too big to fit.
+他对青蛙说："你见过大海吗？大海有几千里宽，几千尺深。" // He said to the frog, "Have you seen the sea? It is thousands of miles wide and thousands of feet deep."
+青蛙听了，一句话也不说。他这才知道，自己的小井和大海比起来太小了。 // The frog heard this and said nothing. Only then did he realise his little well was tiny compared with the sea.
+G: 这才 ~ 这才 means "only then". ~ 听了他的话，我这才明白。 ~ Only after hearing him did I understand. ~ 才
+G: 跳来跳去 ~ Verb + 来 + verb + 去 shows an action repeated in different directions. ~ 孩子们跑来跑去。 ~ The children run about. ~ 来
+Q: Where did the frog live? ~ In a shallow well ~ In a river ~ In a pond ~ In the sea
+Q: Why could the turtle not go down? ~ His legs were too big ~ The well was dry ~ He was afraid ~ He was sleepy
+Q: What did the frog realise? ~ His world was small ~ The turtle was rude ~ The sea was cold ~ He was the strongest
+
+@lesson id=h4-05 level=4 type=story topic=Idioms minutes=3 source=Retelling of a classical idiom story (Mencius, public domain)
+@title 揠苗助长
+@titleen Pulling Up the Seedlings
+@summary An impatient farmer ruins his crop trying to help it grow.
+宋国有一个农民，他种了一些禾苗，每天都去田里看。 // In the state of Song a farmer had planted some seedlings and went to look at them every day.
+他觉得禾苗长得太慢了，心里非常着急。 // He felt they grew too slowly and was very anxious.
+有一天，他想出了一个"好办法"：把每棵禾苗都往上拔高一点儿。 // One day he thought of a "good idea": pull each seedling up a little.
+他从早上忙到晚上，累得满头大汗。 // He worked from morning till night and became drenched in sweat.
+回到家，他高兴地对家人说："今天我累坏了，不过禾苗都长高了一大截！" // Back home he said happily to his family, "I'm exhausted today, but all the seedlings have grown much taller!"
+他的儿子觉得奇怪，马上跑到田里去看。 // His son found it strange and ran to the field at once to look.
+禾苗已经全都枯死了。 // The seedlings had all withered and died.
+这个故事告诉我们：做事要遵守规律，不能太着急。 // The story tells us: follow natural laws when doing things, and don't be too impatient.
+G: 从……忙到…… ~ 从 A V 到 B means doing something from one point to another. ~ 他从早上忙到晚上。 ~ He was busy from morning till night. ~ 到
+G: 累坏了 ~ Adjective + 坏了 means "extremely ...". ~ 我饿坏了。 ~ I'm starving. ~ 坏
+Q: Why was the farmer anxious? ~ The seedlings grew slowly ~ It would not rain ~ Birds ate them ~ Prices were low
+Q: What did the farmer do? ~ Pulled up each seedling ~ Watered them ~ Cut them ~ Replanted them
+Q: What did the son find? ~ All the seedlings had died ~ They had grown tall ~ They were fine ~ They were stolen
+
+@lesson id=h4-06 level=4 type=story topic=Idioms minutes=3 source=Retelling of a classical idiom story (Zhan Guo Ce, public domain)
+@title 狐假虎威
+@titleen The Fox Borrows the Tiger's Might
+@summary A clever fox saves himself by using a tiger's fearsome reputation.
+森林里有一只老虎，他饿了，抓住了一只狐狸。 // A tiger in the forest was hungry and caught a fox.
+狐狸很聪明，他对老虎说："你不敢吃我！我是天帝派来管理森林的。" // The fox was clever. He said to the tiger, "You wouldn't dare eat me! The Heavenly Emperor sent me to govern the forest."
+老虎不相信，狐狸说："不信的话，你跟我走一趟，看看动物们怕不怕我。" // The tiger did not believe it. The fox said, "If you don't believe me, walk with me and see whether the animals fear me."
+于是，狐狸在前面走，老虎在后面跟着。 // So the fox walked in front with the tiger following behind.
+森林里的动物看见他们，都吓得跑开了。 // The animals in the forest saw them and ran away in fright.
+老虎以为动物们真的怕狐狸，就放走了他。 // The tiger thought the animals really feared the fox, and let him go.
+其实，动物们怕的是狐狸身后的老虎。 // In fact, what the animals feared was the tiger behind the fox.
+后来，人们用"狐假虎威"来形容借别人的势力吓唬人。 // Later people used "the fox borrows the tiger's might" to describe borrowing someone's power to scare others.
+G: 不敢 ~ 不敢 means "dare not". ~ 我不敢一个人去。 ~ I dare not go alone. ~ 敢
+G: 吓得 ~ 吓得 + result means "so frightened that ...". ~ 他吓得说不出话来。 ~ He was so scared he couldn't speak. ~ 吓
+Q: What did the fox claim? ~ He was sent to rule the forest ~ He was a hunter ~ He was a tiger's friend ~ He was a doctor
+Q: What did the tiger see? ~ Animals running away ~ Animals bowing ~ Animals sleeping ~ Animals fighting
+Q: Who were the animals really afraid of? ~ The tiger ~ The fox ~ The hunter ~ The Heavenly Emperor
+
+@lesson id=h4-07 level=4 type=story topic=Idioms minutes=3 source=Retelling of a classical idiom story (Han Fei Zi, public domain)
+@title 刻舟求剑
+@titleen Marking the Boat to Find the Sword
+@summary A man who loses his sword in a river makes a foolish mark.
+有一个楚国人坐船过江。 // A man of Chu was crossing a river by boat.
+船开到江中间的时候，他一不小心，把剑掉进了水里。 // When the boat reached the middle of the river, he carelessly dropped his sword into the water.
+他马上在船边刻了一个记号，说："我的剑就是从这里掉下去的。" // He immediately carved a mark on the side of the boat and said, "My sword fell in right here."
+船继续往前走，很快到了岸边。 // The boat kept moving and soon reached the bank.
+那个人跳进水里，在刻记号的地方找他的剑。 // The man jumped into the water and searched for his sword at the place he had marked.
+他找了半天，什么也没找到。 // He looked for a long time but found nothing.
+别人问他为什么，他说："我的剑是在这里掉的，怎么会找不到？" // Others asked him why, and he said, "My sword fell here. How could I not find it?"
+他不明白，船在动，剑却留在原来的地方。 // He didn't understand that the boat had moved while the sword stayed where it had fallen.
+G: 一……就…… ~ 一 A 就 B means "as soon as A, then B". ~ 他一回家就看电视。 ~ As soon as he gets home he watches TV. ~ 一
+G: 怎么会 ~ 怎么会 + negative expresses disbelief: "how could it be that...?" ~ 他怎么会不知道？ ~ How could he not know? ~ 会
+Q: What did the man drop? ~ His sword ~ His hat ~ His bag ~ His shoe
+Q: Where did he make a mark? ~ On the boat ~ On a tree ~ On the water ~ On the bank
+Q: What did he not understand? ~ The boat had moved ~ The water was deep ~ The sword was heavy ~ The mark was small
+
+@lesson id=h4-08 level=4 type=story topic=Idioms minutes=3 source=Retelling of a classical idiom story (Lüshi Chunqiu, public domain)
+@title 掩耳盗铃
+@titleen Covering One's Ears to Steal the Bell
+@summary A thief thinks that if he cannot hear, nobody else can.
+从前，有一个小偷，他看见一户人家的门口挂着一个漂亮的大铃。 // Long ago a thief saw a beautiful big bell hanging at the door of a house.
+他很想把铃拿走，可是一碰，铃就"叮当叮当"地响起来。 // He badly wanted to take it, but when he touched it, the bell rang "ding-dong, ding-dong".
+他想：这样会被人听见，怎么办呢？ // He thought, "People will hear this. What should I do?"
+他想了一会儿，用两只手把自己的耳朵捂住了。 // After thinking for a while, he covered his ears with both hands.
+"我听不见了，"他想，"别人一定也听不见。" // "I can't hear it any more," he thought, "so others surely can't either."
+于是，他放心地去拿那个铃。 // So he went to take the bell without worry.
+铃声响了，主人听到后马上跑出来，把小偷抓住了。 // The bell rang. The owner heard it, ran out at once and caught the thief.
+这个故事讽刺那些自己骗自己的人。 // This story mocks people who deceive themselves.
+G: 一会儿 ~ 一会儿 means "a short while". ~ 请坐一会儿。 ~ Please sit for a while. ~ 一会儿
+G: 听不见 ~ Verb + 不 + result means "cannot". ~ 我听不见你说话。 ~ I can't hear you. ~ 不见
+Q: What did the thief want to steal? ~ A bell ~ A jar ~ A clock ~ A sword
+Q: What did he do to avoid being heard? ~ Covered his own ears ~ Wrapped the bell ~ Ran away ~ Whispered
+Q: What does the story make fun of? ~ People who fool themselves ~ Thieves ~ Rich people ~ Bells
+
+@lesson id=h4-09 level=4 type=story topic=Idioms minutes=3 source=Retelling of a classical idiom story (Huainanzi, public domain)
+@title 塞翁失马
+@titleen The Old Man Who Lost His Horse
+@summary Good and bad fortune keep changing places.
+边境上住着一位老人，大家都叫他"塞翁"。 // An old man lived on the frontier, and everyone called him "Old Man Sai".
+有一天，他的马跑到胡人的地方去了。邻居都来安慰他。 // One day his horse ran off into the territory of the northern tribes. Neighbours all came to comfort him.
+塞翁却说："这不一定是坏事。" // But Sai said, "This may not be a bad thing."
+几个月后，那匹马带着一匹好马回来了。 // A few months later the horse returned with a fine horse.
+邻居们都来祝贺，塞翁说："这也不一定是好事。" // The neighbours all came to congratulate him, and Sai said, "This may not be a good thing either."
+后来，塞翁的儿子骑这匹新马，不小心从马上摔下来，把腿摔断了。 // Later Sai's son rode the new horse, fell off carelessly and broke his leg.
+一年以后，战争开始了，年轻人都被叫去打仗，很多人死了。 // A year later war broke out and young men were called to fight, and many died.
+塞翁的儿子因为腿不好，没有被叫去，保住了性命。 // Sai's son, because of his bad leg, was not called up, and his life was saved.
+G: 不一定 ~ 不一定 means "not necessarily". ~ 贵的东西不一定好。 ~ Expensive things are not necessarily good. ~ 不一定
+G: 因为……没有…… ~ 因为 gives a reason for a result that did not happen. ~ 因为下雨，他没有来。 ~ He didn't come because of the rain. ~ 因为
+Q: What happened to the old man's horse first? ~ It ran away ~ It died ~ It was sold ~ It was stolen
+Q: How did the son break his leg? ~ He fell from the new horse ~ He fought in a war ~ He fell from a tree ~ He was kicked
+Q: Why was the son saved from war? ~ His leg was broken ~ He was too young ~ He was rich ~ He hid

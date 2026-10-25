@@ -1,0 +1,267 @@
+@lesson id=h2-01 level=2 type=dialogue topic=Health minutes=3 source=Original
+@title 我不舒服
+@titleen I Don't Feel Well
+@summary A student visits the doctor with a cold.
+@speakers 医生 小李
+医生: 你好，你哪里不舒服？ // Hello, where do you not feel well?
+小李: 我头疼，还有点儿发烧。 // I have a headache and a bit of a fever.
+医生: 你咳嗽吗？ // Do you cough?
+小李: 咳嗽。昨天晚上我没睡好。 // Yes. I didn't sleep well last night.
+医生: 让我看看。你的嗓子有点儿红。 // Let me take a look. Your throat is a bit red.
+小李: 是感冒了吗？ // Is it a cold?
+医生: 对，你感冒了。这是药，一天吃三次，每次两片。 // Yes, you have a cold. This is medicine. Take it three times a day, two tablets each time.
+小李: 我可以去上课吗？ // Can I go to class?
+医生: 最好在家休息两天，多喝水。 // It's best to rest at home for two days and drink more water.
+小李: 好的，谢谢医生。 // All right, thank you, doctor.
+G: 一天吃三次 ~ Time words and counts tell how often you do something: 一天 + verb + number + 次. ~ 我一天喝三杯水。 ~ I drink three glasses of water a day. ~ 次
+G: 最好 ~ 最好 means "had better" and is used to give a suggestion. ~ 你最好早点儿睡。 ~ You had better go to bed early. ~ 最好
+Q: What is wrong with Xiaoli? ~ A cold ~ A stomachache ~ A broken leg ~ A toothache
+Q: How often should he take the medicine? ~ Three times a day ~ Once a day ~ Twice a week ~ Every hour
+Q: What does the doctor advise? ~ Rest at home and drink water ~ Go to class ~ Run every day ~ Eat spicy food
+
+@lesson id=h2-02 level=2 type=dialogue topic=Phone minutes=2 source=Original
+@title 打电话
+@titleen Making a Phone Call
+@summary A friend phones to ask about the weekend.
+@speakers 小王 李华
+李华: 喂，小王吗？我是李华。 // Hello, is that Xiao Wang? This is Li Hua.
+小王: 你好，李华！有什么事吗？ // Hi, Li Hua! What's up?
+李华: 这个周末你有时间吗？我想去爬山。 // Do you have time this weekend? I'd like to go hiking.
+小王: 星期六我要上班，星期天可以。 // I have to work on Saturday. Sunday is fine.
+李华: 太好了！我们早上八点在地铁站见面。 // Great! Let's meet at the subway station at eight in the morning.
+小王: 要带什么东西吗？ // Do we need to bring anything?
+李华: 带一瓶水和一点儿吃的就行。 // A bottle of water and a little food is enough.
+小王: 好，明天见！ // OK, see you tomorrow!
+G: 就行 ~ 就行 means "that will do". ~ 一杯咖啡就行。 ~ One cup of coffee will do. ~ 行
+G: 想 + verb ~ 想 + verb says what you would like to do. ~ 我想去旅游。 ~ I'd like to go travelling. ~ 想
+Q: What does Li Hua want to do? ~ Go hiking ~ Watch a movie ~ Go shopping ~ Visit a museum
+Q: Why can't Xiao Wang go on Saturday? ~ He has to work ~ He is ill ~ He is on holiday ~ He has an exam
+Q: Where will they meet? ~ At the subway station ~ At the park ~ At school ~ At Xiao Wang's home
+
+@lesson id=h2-03 level=2 type=dialogue topic=Shopping minutes=3 source=Original
+@title 买衣服
+@titleen Buying Clothes
+@summary A shopper tries on a coat.
+@speakers 售货员 玛丽
+售货员: 欢迎光临，你想买什么？ // Welcome. What would you like to buy?
+玛丽: 我想看看那件黑色的外套。 // I'd like to look at that black coat.
+售货员: 好的。你穿多大的？ // Sure. What size do you wear?
+玛丽: 我穿中号。可以试试吗？ // I wear medium. Can I try it on?
+售货员: 当然可以，试衣间在那边。 // Of course. The fitting room is over there.
+玛丽: 有点儿大。有小一点儿的吗？ // It's a bit big. Do you have a smaller one?
+售货员: 有，请等一下。这件怎么样？ // Yes, please wait a moment. How about this one?
+玛丽: 这件很合适。多少钱？ // This one fits well. How much is it?
+售货员: 原来三百块，现在打八折，二百四十块。 // It was three hundred yuan, now there's twenty percent off: two hundred and forty.
+玛丽: 好，我买这件。可以用手机付钱吗？ // OK, I'll take this one. Can I pay by phone?
+G: 有点儿 vs 一点儿 ~ 有点儿 goes before an adjective, 一点儿 goes after it: 大一点儿 (a bit bigger). ~ 请说慢一点儿。 ~ Please speak a bit more slowly. ~ 一点儿
+G: 打八折 ~ In Chinese, 打八折 means 20% off: the number is the percentage you pay, tenths. ~ 这件衣服打九折。 ~ This piece of clothing is 10% off. ~ 打
+Q: What does Mary want to buy? ~ A black coat ~ A red dress ~ A pair of shoes ~ A hat
+Q: What is the problem with the first coat? ~ It is a bit big ~ It is too small ~ It is too expensive ~ It is the wrong colour
+Q: How much does Mary pay? ~ 240 yuan ~ 300 yuan ~ 80 yuan ~ 280 yuan
+
+@lesson id=h2-04 level=2 type=article topic=Seasons minutes=3 source=Original
+@title 北京的四季
+@titleen The Four Seasons in Beijing
+@summary A short description of the seasons in the Chinese capital.
+北京有四个季节：春天、夏天、秋天和冬天。 // Beijing has four seasons: spring, summer, autumn and winter.
+春天不太冷，也不太热，公园里的花都开了。 // Spring is neither too cold nor too hot, and the flowers in the parks are all in bloom.
+夏天很热，常常下大雨，可是晚上很舒服。 // Summer is very hot and often has heavy rain, but the evenings are comfortable.
+秋天是北京最好的季节，天很蓝，树叶是黄色的。 // Autumn is the best season in Beijing. The sky is very blue and the leaves are yellow.
+冬天很冷，有时候会下雪。 // Winter is very cold, and sometimes it snows.
+下雪的时候，很多人去长城玩儿。 // When it snows, many people go and play at the Great Wall.
+我最喜欢秋天，因为不冷也不热。 // I like autumn best, because it is neither cold nor hot.
+你喜欢哪个季节？ // Which season do you like?
+G: 不……也不…… ~ 不 A 也不 B means "neither A nor B". ~ 我不喝茶也不喝咖啡。 ~ I drink neither tea nor coffee. ~ 也
+G: 有时候 ~ 有时候 means "sometimes". ~ 我有时候坐地铁上班。 ~ Sometimes I take the subway to work. ~ 有时候
+Q: Which season does the writer like best? ~ Autumn ~ Spring ~ Summer ~ Winter
+Q: What colour are the leaves in autumn? ~ Yellow ~ Green ~ Red ~ White
+Q: What do many people do when it snows? ~ Go to the Great Wall ~ Stay at home ~ Go swimming ~ Go to school
+
+@lesson id=h2-05 level=2 type=story topic=Animals minutes=3 source=Retelling of an Aesop fable (public domain)
+@title 狼来了
+@titleen The Boy Who Cried Wolf
+@summary A shepherd boy tells a lie one time too many.
+从前，有一个小男孩儿，他每天在山上看羊。 // Long ago there was a little boy who looked after sheep on the hill every day.
+他觉得每天看羊很没意思。 // He thought looking after sheep every day was very boring.
+有一天，他想：我来开个玩笑吧。 // One day he thought: Let me play a joke.
+他大声喊："狼来了！狼来了！" // He shouted loudly, "The wolf is coming! The wolf is coming!"
+山下的人听到了，马上拿着东西跑上山。 // The people at the foot of the hill heard it and at once ran up the hill carrying tools.
+可是山上没有狼。小男孩儿笑了："哈哈，你们都被我骗了！" // But there was no wolf on the hill. The boy laughed, "Ha ha, I fooled you all!"
+几天以后，狼真的来了。 // A few days later, the wolf really came.
+小男孩儿大声喊："狼来了！快来帮帮我！" // The boy shouted, "The wolf is coming! Come and help me quickly!"
+这一次，没有人相信他。 // This time nobody believed him.
+结果，他的羊都被狼吃了。 // In the end, all his sheep were eaten by the wolf.
+G: 被 ~ 被 turns a sentence around: the thing that gets acted on comes first. ~ 我的书被朋友拿走了。 ~ My book was taken away by my friend. ~ 被
+G: 马上 ~ 马上 means "right away". ~ 我马上来。 ~ I'll come right away. ~ 马上
+Q: What did the boy do for fun? ~ He lied about a wolf ~ He sang songs ~ He ran away ~ He fed the sheep
+Q: Why did nobody help him the second time? ~ They did not believe him ~ They were sleeping ~ They were afraid ~ They were far away
+Q: What happened to the sheep in the end? ~ The wolf ate them ~ They ran away ~ They were sold ~ They were saved
+
+@lesson id=h2-06 level=2 type=dialogue topic=Transport minutes=3 source=Original
+@title 坐地铁
+@titleen Taking the Subway
+@summary A tourist asks a local how to get to the Summer Palace.
+@speakers 游客 小张
+游客: 请问，去颐和园怎么走？ // Excuse me, how do I get to the Summer Palace?
+小张: 你可以坐地铁。先坐四号线，到西苑站。 // You can take the subway. First take Line 4 to Xiyuan Station.
+游客: 要坐多长时间？ // How long does it take?
+小张: 大概四十分钟。 // About forty minutes.
+游客: 在哪儿买票？ // Where do I buy a ticket?
+小张: 你可以用手机，也可以在车站的机器上买。 // You can use your phone, or buy at the machine in the station.
+游客: 路上要换车吗？ // Do I need to change trains on the way?
+小张: 不用换，一直坐到西苑站就行。 // No, just stay on until Xiyuan Station.
+游客: 太谢谢你了！ // Thank you so much!
+小张: 不客气。祝你玩儿得开心！ // You're welcome. Have a good time!
+G: 怎么走 ~ 怎么 + verb asks how to do something. ~ 这个字怎么写？ ~ How do you write this character? ~ 怎么
+G: 一直 ~ 一直 means "straight on" or "all the time". ~ 一直往前走。 ~ Go straight ahead. ~ 一直
+Q: Where does the tourist want to go? ~ The Summer Palace ~ The Great Wall ~ The airport ~ The zoo
+Q: How long does the trip take? ~ About forty minutes ~ About ten minutes ~ About two hours ~ About one hour
+Q: Does the tourist need to change trains? ~ No ~ Yes, once ~ Yes, twice ~ It depends
+
+@lesson id=h2-07 level=2 type=article topic=Daily life minutes=3 source=Original
+@title 周末我做了什么
+@titleen What I Did on the Weekend
+@summary A diary entry about a quiet weekend.
+这个周末天气很好，我和家人一起去了公园。 // The weather was lovely this weekend, and I went to the park with my family.
+公园里有很多人，有的在跑步，有的在打太极拳。 // There were many people in the park; some were running and some were doing tai chi.
+我们在湖边坐了一会儿，爸爸给我拍了很多照片。 // We sat by the lake for a while, and my father took many photos of me.
+中午我们没有回家，在公园旁边的饭馆儿吃了饺子。 // At noon we did not go home, but ate dumplings at a restaurant next to the park.
+下午我去朋友家，我们一起做了作业。 // In the afternoon I went to a friend's home, and we did homework together.
+晚上我给奶奶打了电话，她说她很想我。 // In the evening I called my grandmother, and she said she missed me a lot.
+我觉得这个周末过得很快乐。 // I felt this weekend went by happily.
+G: 有的……有的…… ~ 有的 A，有的 B means "some do A, some do B". ~ 有的人喝茶，有的人喝咖啡。 ~ Some people drink tea, some drink coffee. ~ 有的
+G: 过得 ~ 过得 + adjective describes how time or life is spent. ~ 你过得怎么样？ ~ How are you getting on? ~ 过
+Q: Where did the family go? ~ To the park ~ To the zoo ~ To the beach ~ To the museum
+Q: What did they eat at noon? ~ Dumplings ~ Noodles ~ Rice ~ Hamburgers
+Q: Who did the writer phone in the evening? ~ Grandmother ~ A teacher ~ A friend ~ Father
+
+@lesson id=h2-08 level=2 type=dialogue topic=Restaurant minutes=3 source=Original
+@title 点菜
+@titleen Ordering Dishes
+@summary Friends decide what to order for dinner.
+@speakers 小红 小明 服务员
+小红: 这家饭馆儿的鱼很有名，我们点一个吧。 // This restaurant's fish is famous. Let's order one.
+小明: 我不太会吃辣的。有不辣的菜吗？ // I'm not good with spicy food. Are there any dishes that aren't spicy?
+服务员: 有，炒青菜和西红柿鸡蛋汤都不辣。 // Yes, stir-fried greens and tomato and egg soup are not spicy.
+小红: 那就来一个鱼、一个青菜和一碗汤。 // Then we'll have a fish, a vegetable dish and a bowl of soup.
+服务员: 主食要什么？米饭还是面条儿？ // What staple would you like? Rice or noodles?
+小明: 两碗米饭。 // Two bowls of rice.
+小红: 再要两瓶啤酒吧。 // And two bottles of beer too.
+小明: 你忘了，我们下午还要开车，不能喝酒。 // You forgot, we have to drive this afternoon, so we can't drink.
+小红: 对，那来两杯果汁吧。 // Right. Then two glasses of juice.
+G: 都 ~ 都 means "all" or "both" and goes before the verb or adjective. ~ 我们都是学生。 ~ We are all students. ~ 都
+G: 不太 ~ 不太 + adjective means "not very". ~ 今天不太冷。 ~ It is not very cold today. ~ 不太
+Q: What is famous in this restaurant? ~ The fish ~ The duck ~ The soup ~ The noodles
+Q: Why can't they drink beer? ~ They have to drive ~ They are ill ~ They don't like it ~ It's too expensive
+Q: What do they drink in the end? ~ Juice ~ Beer ~ Tea ~ Milk
+
+@lesson id=h2-09 level=2 type=article topic=Letters minutes=3 source=Original
+@title 给朋友的一封信
+@titleen A Letter to a Friend
+@summary A student writes home from China.
+亲爱的安娜：// Dear Anna:
+你好吗？我到北京已经一个月了。 // How are you? I have been in Beijing for a month already.
+我住在学校旁边的一个小房子里，房子不大，但是很安静。 // I live in a small flat next to the school. It is not big but it is very quiet.
+我每天早上去上汉语课，下午和中国同学聊天儿。 // Every morning I go to Chinese class, and in the afternoon I chat with Chinese classmates.
+他们对我很好，常常教我说汉语。 // They are very kind to me and often teach me to speak Chinese.
+这里的菜很好吃，我最喜欢吃饺子和面条儿。 // The food here is delicious. I like dumplings and noodles best.
+有时间的话，你也来北京玩儿吧！ // If you have time, come and visit Beijing too!
+我很想你。 // I miss you.
+你的朋友，玛丽 // Your friend, Mary
+G: 已经……了 ~ 已经 ... 了 shows something has already happened or reached a state. ~ 他已经走了。 ~ He has already left. ~ 已经
+G: 的话 ~ 的话 turns the part before it into "if". ~ 你有空的话，来我家吧。 ~ If you are free, come to my place. ~ 的话
+Q: How long has Mary been in Beijing? ~ One month ~ One week ~ One year ~ Three months
+Q: What is her home like? ~ Small and quiet ~ Big and noisy ~ Far from school ~ In a hotel
+Q: What does she invite Anna to do? ~ Visit Beijing ~ Write back soon ~ Learn Chinese ~ Send photos
+
+@lesson id=h2-10 level=2 type=dialogue topic=Hotel minutes=3 source=Original
+@title 住旅馆
+@titleen Checking In to a Hotel
+@summary A traveller checks in and asks about breakfast.
+@speakers 前台 汤姆
+前台: 您好，欢迎入住。请问您有预订吗？ // Hello, welcome. Do you have a reservation?
+汤姆: 有，我叫汤姆，订了两个晚上。 // Yes, my name is Tom. I booked two nights.
+前台: 好的，请给我看一下您的护照。 // Fine, please show me your passport.
+汤姆: 给您。房间里可以上网吗？ // Here you are. Can I get online in the room?
+前台: 可以，无线网的密码在这张卡上。 // Yes. The wifi password is on this card.
+汤姆: 早饭几点开始？ // What time does breakfast start?
+前台: 早上六点半到九点，在二楼。 // From half past six to nine in the morning, on the second floor.
+汤姆: 我明天要早点儿出门，可以帮我叫一辆出租车吗？ // I need to leave early tomorrow. Can you call a taxi for me?
+前台: 没问题，您的房间是五零八，电梯在右边。 // No problem. Your room is 508, and the lift is on the right.
+G: 帮我 + verb ~ 帮 + person + verb means "help someone do something". ~ 请帮我拿一下。 ~ Please help me carry this. ~ 帮
+G: 从……到…… ~ 从 A 到 B marks a start and an end, in time or space. ~ 我从九点到五点工作。 ~ I work from nine to five. ~ 到
+Q: How many nights did Tom book? ~ Two ~ One ~ Three ~ Five
+Q: Where is breakfast served? ~ On the second floor ~ On the first floor ~ In the room ~ Outside
+Q: What does Tom ask the clerk to do? ~ Call a taxi ~ Change the room ~ Bring breakfast ~ Carry his bags
+
+@lesson id=h2-11 level=2 type=article topic=Pets minutes=3 source=Original
+@title 我家的猫
+@titleen Our Cat
+@summary A funny description of a lazy cat.
+我家有一只猫，她叫"咪咪"，今年三岁了。 // We have a cat called "Mimi", who is three years old this year.
+咪咪是白色的，眼睛是蓝色的，非常漂亮。 // Mimi is white with blue eyes, and she is very pretty.
+她很喜欢睡觉，一天要睡十五个小时。 // She loves sleeping and sleeps fifteen hours a day.
+早上她在窗户旁边睡，下午她在沙发上睡，晚上她睡在我的床上。 // In the morning she sleeps by the window, in the afternoon on the sofa, and at night on my bed.
+可是，只要我拿出猫粮，她就马上醒来。 // But as soon as I take out the cat food, she wakes up at once.
+有时候她也很可爱，会在我回家的时候走到门口。 // Sometimes she is very cute too, and comes to the door when I get home.
+我们全家人都爱咪咪。 // All of us in the family love Mimi.
+G: 只要……就…… ~ 只要 A 就 B means "as long as A, then B". ~ 只要你努力，就能学好。 ~ As long as you try hard, you can learn well. ~ 就
+G: 一天要…… ~ A time word + number + measure words tells how much per day. ~ 我一天走一万步。 ~ I walk ten thousand steps a day. ~ 天
+Q: How old is the cat? ~ Three years old ~ One year old ~ Five years old ~ Ten years old
+Q: What colour are Mimi's eyes? ~ Blue ~ Green ~ Brown ~ Yellow
+Q: What makes her wake up at once? ~ Cat food ~ A loud noise ~ The morning sun ~ A toy
+
+@lesson id=h2-12 level=2 type=dialogue topic=Entertainment minutes=3 source=Original
+@title 一起看电影吧
+@titleen Let's Watch a Movie
+@summary Two friends choose a film and a time.
+@speakers 小美 大卫
+大卫: 小美，这个周末有一部新电影，你想去看吗？ // Xiaomei, there is a new film this weekend. Do you want to go?
+小美: 什么电影？是不是动作片？ // What film? Is it an action movie?
+大卫: 不是，是一部爱情电影。听说很不错。 // No, it's a romance. I hear it's quite good.
+小美: 好啊。几点开始？ // Sure. What time does it start?
+大卫: 有两场：下午三点和晚上七点半。 // There are two shows: three in the afternoon and half past seven in the evening.
+小美: 下午我要上钢琴课，我们看晚上的吧。 // I have a piano lesson in the afternoon, so let's see the evening one.
+大卫: 好。我现在就在网上买票。 // OK. I'll buy tickets online right now.
+小美: 太好了。电影以前，我们先去吃饭吧。 // Great. Before the movie, let's eat first.
+G: 是不是 ~ 是不是 asks the other person to confirm a guess. ~ 你是不是累了？ ~ Are you tired? ~ 是不是
+G: 以前 / 以后 ~ 以前 means "before" and 以后 means "after". ~ 吃饭以后，我去散步。 ~ After eating I go for a walk. ~ 以前
+Q: What kind of film is it? ~ A romance ~ An action movie ~ A comedy ~ A horror film
+Q: Why can't Xiaomei go in the afternoon? ~ She has a piano lesson ~ She has to work ~ She is ill ~ She has no money
+Q: How does David buy the tickets? ~ Online ~ At the cinema ~ By phone ~ From a friend
+
+@lesson id=h2-13 level=2 type=story topic=Fables minutes=3 source=Retelling of an Aesop fable (public domain)
+@title 龟兔赛跑
+@titleen The Tortoise and the Hare
+@summary A slow tortoise beats a fast but careless hare.
+有一只兔子，他跑得很快，常常说别的动物太慢了。 // There was a hare who ran very fast and often said other animals were too slow.
+乌龟说："我们来比一比吧！" // The tortoise said, "Let's have a race!"
+兔子笑了："你？你走得那么慢，怎么能赢我？" // The hare laughed, "You? You walk so slowly. How could you beat me?"
+比赛开始了，兔子很快就跑到了前面。 // The race began, and soon the hare was far ahead.
+他回头一看，乌龟还在很远的地方。 // He looked back and the tortoise was still far away.
+"我先睡一觉，等他来了我再跑。"兔子想。 // "I'll take a nap first, and run again when he comes," thought the hare.
+乌龟一直向前走，没有休息。 // The tortoise kept going forward without resting.
+兔子醒来的时候，乌龟已经快到终点了。 // When the hare woke up, the tortoise was almost at the finish line.
+兔子拼命地跑，可是太晚了，乌龟赢了。 // The hare ran with all his might, but it was too late. The tortoise had won.
+G: 比 ~ A 比 B + adjective compares two things. ~ 我比他高。 ~ I am taller than him. ~ 比
+G: 一直 ~ 一直 shows a continuing action without stopping. ~ 他一直在学习。 ~ He has been studying all the time. ~ 一直
+Q: Why did the hare lose? ~ He fell asleep ~ He got lost ~ He was hurt ~ He was tired
+Q: What did the tortoise do during the race? ~ He kept walking ~ He rested ~ He ran fast ~ He gave up
+Q: What is the lesson of the story? ~ Steady effort wins ~ Fast is always best ~ Never race ~ Sleeping is good
+
+@lesson id=h2-14 level=2 type=article topic=Festivals minutes=3 source=Original
+@title 春节快到了
+@titleen Spring Festival Is Coming
+@summary How a Chinese family prepares for the New Year.
+春节是中国最大的节日，家人都会回家一起过年。 // Spring Festival is China's biggest holiday, and family members all go home to celebrate together.
+过年以前，大家先打扫房子，然后买很多好吃的东西。 // Before the New Year, everyone first cleans the house and then buys lots of good food.
+门上要贴红色的春联，上面写着好听的话。 // Red couplets are pasted on the doors, with good wishes written on them.
+除夕晚上，一家人坐在一起包饺子、看电视。 // On New Year's Eve the family sits together making dumplings and watching TV.
+十二点的时候，外面有很多人放鞭炮。 // At twelve o'clock, many people outside set off firecrackers.
+小孩子们最开心，因为大人会给他们红包。 // The children are the happiest, because adults give them red envelopes.
+第二天，大家去亲戚朋友家拜年。 // The next day everyone visits relatives and friends to wish them a happy New Year.
+G: 先……然后…… ~ 先 A 然后 B puts two actions in order. ~ 我先洗手，然后吃饭。 ~ I wash my hands first and then eat. ~ 然后
+G: 因为……所以…… ~ 因为 gives the reason; 所以 gives the result. ~ 因为下雨，所以我没去。 ~ Because it rained, I didn't go. ~ 因为
+Q: What do families make on New Year's Eve? ~ Dumplings ~ Moon cakes ~ Rice balls ~ Noodles
+Q: What do children get from adults? ~ Red envelopes ~ Toys ~ Books ~ Candy only
+Q: What do people stick on the doors? ~ Red couplets ~ Flowers ~ Maps ~ Photos

@@ -1,0 +1,106 @@
+@lesson id=h1-15 level=1 type=article topic=Family minutes=2 source=Original
+@title 我的家
+@titleen My Family
+@summary A girl tells us who is in her family.
+我家有五个/人：爸爸、妈妈、哥哥、我和小狗。 // There are five in my family: Dad, Mum, my older brother, me and the little dog.
+爸爸是医生，他在医院工作。 // Dad is a doctor; he works at the hospital.
+妈妈是老师，她很忙。 // Mum is a teacher; she is very busy.
+哥哥今年十八岁，他是大学生。 // My brother is eighteen this year; he is a university student.
+我今年十岁，我在小学学习。 // I am ten this year and study at primary school.
+小狗很小，也很可爱。 // The little dog is small and also very cute.
+我爱我的家。 // I love my family.
+G: 有 ~ 有 means "to have" or "there is". ~ 我有一个哥哥。 ~ I have an older brother. ~ 有
+G: 很 ~ 很 + adjective means "very". ~ 她很忙。 ~ She is very busy. ~ 很
+Q: How many people are in the family? ~ Five ~ Four ~ Six ~ Three
+Q: What does Dad do? ~ Doctor ~ Teacher ~ Student ~ Driver
+Q: How old is the brother? ~ Eighteen ~ Ten ~ Twelve ~ Twenty
+
+@lesson id=h1-16 level=1 type=dialogue topic=Food minutes=2 source=Original
+@title 你想吃什么？
+@titleen What Do You Want to Eat?
+@summary Two friends decide what to have for lunch.
+@speakers 小王 小李
+小王: 你饿吗？ // Are you hungry?
+小李: 我很饿。你想吃什么？ // I'm very hungry. What do you want to eat?
+小王: 我想吃米饭和鸡蛋。 // I want rice and eggs.
+小李: 我不想吃米饭，我想吃面条。 // I don't want rice; I want noodles.
+小王: 好，我们去那个饭店吧。 // OK, let's go to that restaurant.
+小李: 你喝什么？ // What will you drink?
+小王: 我喝水，你呢？ // I'll have water. And you?
+小李: 我喝茶。 // I'll have tea.
+G: 想 ~ 想 + verb means "want to". ~ 我想去学校。 ~ I want to go to school. ~ 想
+G: 吧 ~ 吧 at the end of a sentence makes a suggestion. ~ 我们走吧。 ~ Let's go. ~ 吧
+Q: Who is hungry? ~ Both ~ Only Xiao Wang ~ Neither ~ Only Xiao Li
+Q: What does Xiao Li want to eat? ~ Noodles ~ Rice ~ Eggs ~ Bread
+Q: What does Xiao Wang drink? ~ Water ~ Tea ~ Milk ~ Juice
+
+@lesson id=h1-17 level=1 type=article topic=Weather minutes=2 source=Original
+@title 今天天气
+@titleen Today's Weather
+@summary A short note about the weather this week.
+今天天气很好，天上没有云。 // The weather is very nice today; there are no clouds in the sky.
+明天会下雨，有点儿冷。 // It will rain tomorrow and be a bit cold.
+后天不下雨了，我们去商店买东西。 // The day after tomorrow it won't rain, and we'll go to the shop to buy things.
+我今天不在家，我在学校。 // I'm not at home today; I'm at school.
+你看，那是我的朋友。 // Look, that is my friend.
+他叫小高，他很高。 // His name is Xiao Gao, and he is tall.
+G: 不 ~ 不 + verb or adjective makes a negative. ~ 我不喝茶。 ~ I don't drink tea. ~ 不
+G: 会 ~ 会 can mean "will". ~ 明天会下雨。 ~ It will rain tomorrow. ~ 会
+Q: How is the weather today? ~ Very good ~ Rainy ~ Cold ~ Windy
+Q: What will it do tomorrow? ~ Rain ~ Snow ~ Shine ~ Blow
+Q: Where is the writer today? ~ At school ~ At home ~ At the shop ~ At the hospital
+
+@lesson id=h1-18 level=1 type=dialogue topic=Time minutes=2 source=Original
+@title 今天星期几？
+@titleen What Day Is It Today?
+@summary A mother and son talk about the week.
+@speakers 妈妈 儿子
+儿子: 妈妈，今天星期几？ // Mum, what day is it today?
+妈妈: 今天星期六。 // Today is Saturday.
+儿子: 太好了！我不上学。 // Great! I don't have school.
+妈妈: 明天是星期天，你想做什么？ // Tomorrow is Sunday. What do you want to do?
+儿子: 我想和朋友去看电影。 // I want to go and see a film with my friends.
+妈妈: 几点去？ // What time are you going?
+儿子: 下午两点。我六点回家。 // Two in the afternoon. I'll be home at six.
+妈妈: 好的，早点回来。 // OK, come back early.
+G: 几 ~ 几 asks for a small number: "how many" or "which (day/time)". ~ 现在几点？ ~ What time is it? ~ 几
+G: 和……一起 ~ 和 means "and" or "with". ~ 我和朋友去看书。 ~ I go and read with a friend. ~ 和
+Q: What day is it today? ~ Saturday ~ Sunday ~ Friday ~ Monday
+Q: What does the son want to do? ~ See a film ~ Go to school ~ Sleep ~ Cook
+Q: When will he be home? ~ At six ~ At two ~ At nine ~ At noon
+
+@lesson id=h1-19 level=1 type=dialogue topic=Shopping minutes=2 source=Original
+@title 我要这个
+@titleen I'll Take This One
+@summary Buying a hat in a small shop.
+@speakers 老板 小美
+小美: 老板，这个多少钱？ // Boss, how much is this?
+老板: 这个五十块。 // This one is fifty yuan.
+小美: 太贵了。那个呢？ // Too expensive. What about that one?
+老板: 那个三十块，是新的。 // That one is thirty yuan, and it's new.
+小美: 我要那个。 // I'll take that one.
+老板: 好，谢谢你。 // OK, thank you.
+小美: 不客气。再见！ // You're welcome. Goodbye!
+老板: 再见！ // Goodbye!
+G: 多少钱 ~ 多少钱 asks "how much money?" ~ 这个苹果多少钱？ ~ How much is this apple? ~ 多少钱
+G: 要 ~ 要 can mean "to want; to take". ~ 我要一杯水。 ~ I want a glass of water. ~ 要
+Q: How much is the first hat? ~ 50 yuan ~ 30 yuan ~ 20 yuan ~ 100 yuan
+Q: Which hat does she buy? ~ The second ~ The first ~ Both ~ Neither
+Q: What does Xiaomei say to end? ~ Goodbye ~ Hello ~ Sorry ~ Thanks
+
+@lesson id=h1-20 level=1 type=article topic=Animals minutes=2 source=Original
+@title 我的小猫
+@titleen My Little Cat
+@summary A child describes the family cat.
+我有一只小猫，它是白色的。 // I have a little cat, and it is white.
+它的眼睛很大，也很漂亮。 // Its eyes are big and also pretty.
+它喜欢吃鱼，不喜欢喝水。 // It likes to eat fish and doesn't like to drink water.
+中午它在桌子下面睡觉。 // At noon it sleeps under the table.
+晚上它和我在一起。 // In the evening it is with me.
+我叫它小白。 // I call it Xiaobai.
+小白是我的好朋友。 // Xiaobai is my good friend.
+G: 的 ~ 的 links a describing word to a noun, or shows possession. ~ 白色的猫 ~ white cat ~ 的
+G: 喜欢 ~ 喜欢 + noun or verb means "to like". ~ 我喜欢看书。 ~ I like reading. ~ 喜欢
+Q: What colour is the cat? ~ White ~ Black ~ Yellow ~ Grey
+Q: What does it like to eat? ~ Fish ~ Rice ~ Bread ~ Eggs
+Q: Where does it sleep at noon? ~ Under the table ~ On the bed ~ Outside ~ In a box

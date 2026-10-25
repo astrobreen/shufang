@@ -1,0 +1,10 @@
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+.DS_Store
+# generated, reproducible from src/content with tools/make.py
+build/lessons_new.json
+build/amb_report.txt
+build/quiz_zh.json
+build/chengyu.json

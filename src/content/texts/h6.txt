@@ -1,0 +1,184 @@
+@lesson id=h6-01 level=6 type=article topic=Technology minutes=5 source=Original
+@title 人工智能走进生活
+@titleen Artificial Intelligence Enters Daily Life
+@summary How AI is quietly changing work, study and health care.
+十年前，人工智能对大多数人来说还只是科幻电影里的情节。 // Ten years ago, artificial intelligence was, for most people, merely a plot in science-fiction films.
+如今，它已经悄悄地渗透到我们生活的各个角落：手机能听懂我们说话，汽车可以自动驾驶，医院用它来辅助诊断疾病。 // Today it has quietly seeped into every corner of our lives: phones understand our speech, cars can drive themselves, and hospitals use it to assist in diagnosing disease.
+在教育领域，智能软件能够根据每个学生的水平，制订个性化的学习计划。 // In education, intelligent software can draw up personalised study plans according to each student's level.
+对于企业来说，人工智能可以大大提高效率，节省成本。 // For companies, artificial intelligence can greatly raise efficiency and save costs.
+然而，技术的进步也带来了新的担忧。 // However, technological progress has also brought new worries.
+有人担心许多工作会被机器取代，也有人担心个人隐私得不到保障。 // Some worry that many jobs will be replaced by machines, while others worry that personal privacy cannot be guaranteed.
+专家认为，关键在于如何合理地使用技术，而不是一味地拒绝它。 // Experts believe the key lies in how to use the technology sensibly rather than simply rejecting it.
+只有制定完善的法律和规则，人工智能才能真正造福人类。 // Only by establishing sound laws and rules can artificial intelligence truly benefit humankind.
+G: 对……来说 ~ 对 A 来说 means "as far as A is concerned". ~ 对我来说，这很重要。 ~ To me, this is important. ~ 来说
+G: 只有……才…… ~ 只有 A 才 B means "only if A, then B". ~ 只有努力，才能成功。 ~ Only through effort can one succeed. ~ 只有
+Q: What can AI do for hospitals? ~ Assist in diagnosing disease ~ Replace all doctors ~ Build hospitals ~ Cure every illness
+Q: What are two worries people have? ~ Job loss and privacy ~ Price and speed ~ Noise and heat ~ War and weather
+Q: What do experts say is the key? ~ Using technology sensibly ~ Banning it ~ Slowing it down ~ Selling it abroad
+
+@lesson id=h6-02 level=6 type=article topic=Language minutes=5 source=Original
+@title 汉字的演变
+@titleen The Evolution of Chinese Characters
+@summary From oracle bones to simplified characters.
+汉字是世界上历史最悠久的文字之一，已有三千多年的历史。 // Chinese characters are among the world's oldest scripts, with a history of over three thousand years.
+目前发现的最早成熟文字是商朝的甲骨文，因为它是刻在龟甲和兽骨上的。 // The earliest mature writing so far discovered is the Shang dynasty oracle-bone script, so called because it was carved on tortoise shells and animal bones.
+后来，文字依次演变为金文、大篆和小篆。 // Later the script developed in turn into bronze script, great seal and small seal.
+秦始皇统一中国以后，下令统一文字，使小篆成为标准字体。 // After Qin Shi Huang unified China, he ordered the script unified and made small seal the standard.
+到了汉代，隶书逐渐流行，书写变得更加方便，汉字的形状也由圆转方。 // By the Han dynasty clerical script gradually became popular, writing became more convenient, and the shape of characters changed from round to square.
+之后出现的楷书一直沿用至今，成为现代汉字的基础。 // The regular script that appeared afterwards has been used until today and became the basis of modern characters.
+二十世纪五十年代，中国大陆推行简化字，减少了笔画，方便了学习和使用。 // In the 1950s mainland China promoted simplified characters, reducing strokes and making them easier to learn and use.
+而台湾、香港等地至今仍然使用繁体字。 // Taiwan, Hong Kong and some other places still use traditional characters today.
+G: 是……的 ~ 是……的 stresses how, when or where something happened (as in 它是刻在龟甲和兽骨上的). ~ 他是昨天来的。 ~ He came yesterday. ~ 是
+G: 依次 ~ 依次 means "in sequence". ~ 请大家依次进入教室。 ~ Please enter the classroom in turn. ~ 依次
+Q: What is the earliest mature script mentioned? ~ Oracle-bone script ~ Regular script ~ Clerical script ~ Seal script
+Q: Who unified the script? ~ Qin Shi Huang ~ Confucius ~ Han Wudi ~ Mao Zedong
+Q: Which places still use traditional characters? ~ Taiwan and Hong Kong ~ Beijing ~ Shanghai ~ Singapore only
+
+@lesson id=h6-03 level=6 type=story topic=History minutes=5 source=Retelling of a story from Romance of the Three Kingdoms (public domain)
+@title 草船借箭
+@titleen Borrowing Arrows with Straw Boats
+@summary Zhuge Liang outwits his rival with fog and straw.
+三国时期，周瑜十分嫉妒诸葛亮的才能，一直想找机会除掉他。 // In the Three Kingdoms period, Zhou Yu was deeply jealous of Zhuge Liang's talent and kept looking for a chance to get rid of him.
+有一天，周瑜对诸葛亮说："十天之内，你能造出十万支箭吗？" // One day Zhou Yu said to Zhuge Liang, "Can you make a hundred thousand arrows within ten days?"
+诸葛亮平静地回答："只需要三天。如果完不成，甘愿受罚。" // Zhuge Liang replied calmly, "Three days is enough. If I fail, I will gladly accept punishment."
+周瑜暗自高兴，以为诸葛亮这次必败无疑。 // Zhou Yu was secretly delighted, thinking Zhuge Liang would certainly fail this time.
+诸葛亮却悄悄向鲁肃借了二十条船，每条船上放满稻草人。 // Zhuge Liang, however, quietly borrowed twenty boats from Lu Su and filled each with straw figures.
+第三天凌晨，江面上大雾弥漫。 // Before dawn on the third day, thick fog covered the river.
+诸葛亮下令把船驶向曹操的营地，擂鼓呐喊，装作进攻的样子。 // Zhuge Liang ordered the boats towards Cao Cao's camp, beating drums and shouting as if to attack.
+曹操担心有埋伏，不敢出战，只命令士兵向江面放箭。 // Cao Cao feared an ambush and dared not fight, only ordering his soldiers to shoot arrows at the river.
+太阳出来之前，船上的草人已经插满了箭，诸葛亮"借"到了十几万支箭。 // Before the sun rose, the straw figures were covered with arrows, and Zhuge Liang had "borrowed" over a hundred thousand.
+周瑜听说后长叹一声："我不如他啊！" // Hearing of it, Zhou Yu sighed deeply, "I am no match for him!"
+G: 以为 ~ 以为 means "to think (mistakenly)". ~ 我以为你不来了。 ~ I thought you weren't coming. ~ 以为
+G: 之内 ~ 之内 means "within". ~ 一周之内给我答复。 ~ Reply to me within a week. ~ 之内
+Q: What did Zhou Yu ask Zhuge Liang to do? ~ Make 100,000 arrows ~ Build a bridge ~ Win a battle ~ Write a letter
+Q: What did Zhuge Liang put on the boats? ~ Straw figures ~ Soldiers ~ Food ~ Drums only
+Q: Why did Cao Cao shoot arrows? ~ He feared an ambush in the fog ~ He wanted to test them ~ He was angry ~ It was a ceremony
+
+@lesson id=h6-04 level=6 type=dialogue topic=Careers minutes=5 source=Original
+@title 职场面试
+@titleen A Job Interview
+@summary An interviewer asks a candidate about her strengths and plans.
+@speakers 面试官 应聘者
+面试官: 请先做一个简单的自我介绍。 // Please begin with a short self-introduction.
+应聘者: 好的。我毕业于上海的一所大学，专业是市场营销，之前在一家广告公司工作了三年。 // Sure. I graduated from a university in Shanghai, majored in marketing, and worked three years at an advertising company.
+面试官: 你为什么想离开原来的公司？ // Why do you want to leave your previous company?
+应聘者: 主要是希望得到更大的发展空间。我在那里积累了不少经验，但是晋升的机会比较有限。 // Mainly I hope for more room to grow. I accumulated a lot of experience there, but promotion opportunities were limited.
+面试官: 你认为自己最大的优势是什么？ // What do you think is your greatest strength?
+应聘者: 我善于沟通，而且责任心强。去年我带领团队完成了一个重要项目，客户非常满意。 // I am good at communication and have a strong sense of responsibility. Last year I led a team to complete an important project and the client was very satisfied.
+面试官: 那么，你有什么不足之处吗？ // Then do you have any weaknesses?
+应聘者: 有时候我对自己要求过高，会给同事带来压力。不过我正在学着调整。 // Sometimes I demand too much of myself and put pressure on colleagues. But I am learning to adjust.
+面试官: 很好。我们会尽快通知你结果。 // Good. We will inform you of the result as soon as possible.
+G: 善于 ~ 善于 means "be good at". ~ 她善于表达自己的想法。 ~ She is good at expressing her ideas. ~ 善于
+G: 尽快 ~ 尽快 means "as soon as possible". ~ 请尽快回复。 ~ Please reply as soon as possible. ~ 尽快
+Q: What did the candidate study? ~ Marketing ~ Law ~ Medicine ~ Engineering
+Q: Why does she want to leave? ~ For more room to grow ~ Low salary ~ Conflict with boss ~ Moving abroad
+Q: What does she say is her weakness? ~ Demanding too much of herself ~ Being late ~ Poor communication ~ Lack of experience
+
+@lesson id=h6-05 level=6 type=article topic=Environment minutes=5 source=Original
+@title 低碳生活
+@titleen A Low-Carbon Life
+@summary Everyday habits that reduce our impact on the climate.
+全球气候变暖是当今人类面临的最严峻的挑战之一。 // Global warming is one of the most severe challenges facing humanity today.
+科学家指出，大量排放二氧化碳是造成气候变暖的主要原因。 // Scientists point out that massive carbon-dioxide emissions are the main cause of climate warming.
+因此，"低碳生活"逐渐成为一种时尚的生活方式。 // Therefore "low-carbon living" is gradually becoming a fashionable lifestyle.
+所谓低碳生活，就是在日常生活中尽量减少能源的消耗。 // So-called low-carbon living means reducing energy consumption as much as possible in daily life.
+比如，出门时多乘坐地铁和公交，短距离就骑自行车或者步行。 // For instance, take the subway and buses more when going out, and cycle or walk for short distances.
+在家里，随手关灯，不用的电器拔掉插头，夏天空调不要开得太低。 // At home, switch off lights as you leave, unplug appliances not in use, and don't set the air conditioner too low in summer.
+购物时自带环保袋，少用一次性塑料制品，也是很好的习惯。 // Bringing your own shopping bag and using fewer disposable plastics are also good habits.
+个人的力量也许有限，但如果每个人都从身边的小事做起，汇聚起来的效果将不容小觑。 // One person's strength may be limited, but if everyone starts with small things nearby, the combined effect should not be underestimated.
+G: 所谓 ~ 所谓 A，就是 B defines a term: "so-called A means B". ~ 所谓幸福，就是家人平安。 ~ So-called happiness is the safety of one's family. ~ 所谓
+G: 尽量 ~ 尽量 means "as much as possible". ~ 请尽量早点来。 ~ Please come as early as you can. ~ 尽量
+Q: What is a main cause of warming? ~ Carbon-dioxide emissions ~ Volcanoes ~ Sunspots ~ Ocean tides
+Q: What should you do with unused appliances? ~ Unplug them ~ Leave them on ~ Sell them ~ Cover them
+Q: What does the author say about individuals? ~ Small acts add up ~ They are powerless ~ They should wait ~ Only governments matter
+
+@lesson id=h6-06 level=6 type=story topic=Folk tale minutes=5 source=Retelling of a traditional Chinese folk tale
+@title 牛郎织女
+@titleen The Cowherd and the Weaver Girl
+@summary The love story behind the Qixi Festival.
+很久以前，有个孤苦伶仃的年轻人，靠放牛为生，人们都叫他牛郎。 // Long ago there was a lonely young man who lived by herding cattle; people called him the Cowherd.
+他家里只有一头老牛，老牛其实是天上的金牛星下凡。 // His only property was an old ox, which was in fact the Golden Ox Star come down from heaven.
+一天，老牛告诉他，天上的仙女们会到湖边洗澡，让他拿走一件衣服，就能得到一位妻子。 // One day the ox told him that the heavenly maidens would bathe at the lake and that if he took one of the garments he would gain a wife.
+牛郎照做了，带走的是织女的衣裳。 // The Cowherd did so, and the garment he took was the Weaver Girl's.
+织女成为他的妻子，两人过着幸福的日子，还生了一儿一女。 // The Weaver Girl became his wife, and they lived happily and had a son and a daughter.
+可是，王母娘娘知道后勃然大怒，派天兵把织女抓回了天宫。 // But the Queen Mother flew into a rage when she found out and sent heavenly soldiers to seize the Weaver Girl.
+牛郎挑着两个孩子，披上牛皮追赶，眼看就要追上了，王母却拔下金簪，在天空划出一条波涛汹涌的银河。 // The Cowherd carried his children in baskets and chased her wearing the ox hide; just as he was about to catch up, the Queen Mother drew a golden hairpin and carved the roaring Milky Way across the sky.
+成千上万只喜鹊被他们的爱情感动，在每年七月初七飞到银河上搭成一座桥，让他们相会。 // Thousands upon thousands of magpies, moved by their love, fly up on the seventh day of the seventh month each year to form a bridge over the Milky Way and let them meet.
+G: 眼看 ~ 眼看 means "just about to; before one's eyes". ~ 眼看天就要黑了。 ~ It's about to get dark. ~ 眼看
+G: 勃然大怒 ~ 勃然大怒 is a four-character idiom: "flare up in anger". ~ 听到消息，他勃然大怒。 ~ Hearing the news he flew into a rage. ~ 勃然大怒
+Q: What did the Cowherd do for a living? ~ Herded cattle ~ Farmed rice ~ Fished ~ Sold cloth
+Q: Who separated the couple? ~ The Queen Mother ~ The ox ~ The magpies ~ Their children
+Q: What helps them meet each year? ~ A bridge of magpies ~ A boat ~ A ladder ~ A rainbow
+
+@lesson id=h6-07 level=6 type=article topic=Economy minutes=5 source=Original
+@title 共享经济
+@titleen The Sharing Economy
+@summary Bikes, rides and rooms: how sharing became a business model.
+近年来，共享单车、共享汽车和共享充电宝迅速走进了人们的生活。 // In recent years shared bikes, shared cars and shared power banks have rapidly entered people's lives.
+所谓共享经济，是指人们通过网络平台，把闲置的物品或者服务暂时让给别人使用，从中获得收益。 // The sharing economy refers to people using internet platforms to temporarily let others use idle goods or services in order to earn income.
+对于用户来说，不必购买就能享受服务，既方便又便宜。 // For users, being able to enjoy a service without buying it is both convenient and cheap.
+对于提供者来说，闲置的资源变成了额外的收入。 // For providers, idle resources become extra income.
+不过，共享经济的发展也遇到了不少问题。 // However, the sharing economy has also met many problems.
+有些城市的街头堆满了随意停放的共享单车，既影响交通，又浪费资源。 // In some cities the streets are piled with carelessly parked shared bikes, which both hinder traffic and waste resources.
+一些企业因为管理不善、资金链断裂而倒闭，用户交的押金也很难退回。 // Some firms collapsed through poor management and broken funding chains, and users' deposits became hard to recover.
+可见，共享经济要想持续发展，必须建立有效的监管和信用体系。 // Clearly, for the sharing economy to keep developing, effective supervision and a credit system must be established.
+G: 既……又…… ~ 既 A 又 B means "both A and B". ~ 这家饭店既便宜又好吃。 ~ This restaurant is both cheap and tasty. ~ 既
+G: 可见 ~ 可见 means "it can be seen that". ~ 他没来，可见他不想参加。 ~ He didn't come; clearly he doesn't want to take part. ~ 可见
+Q: What does the sharing economy let people do? ~ Use things without buying them ~ Buy in bulk ~ Work from home ~ Travel free
+Q: What problem is mentioned about bikes? ~ They are parked everywhere ~ They are too expensive ~ They are slow ~ They are unsafe
+Q: What does the writer say is needed? ~ Effective supervision and a credit system ~ More bikes ~ Lower prices ~ Fewer users
+
+@lesson id=h6-08 level=6 type=dialogue topic=Culture minutes=5 source=Original
+@title 茶文化
+@titleen Tea Culture
+@summary A guest asks a tea master about how to taste tea properly.
+@speakers 客人 茶艺师
+客人: 我平时只会用开水泡茶，听说泡茶其实很有讲究？ // I usually just brew tea with boiling water. I've heard there's a lot of finesse to brewing tea?
+茶艺师: 没错。不同的茶，水温和时间都不一样。 // Right. Different teas need different water temperatures and times.
+客人: 比如呢？ // For example?
+茶艺师: 绿茶比较娇嫩，用八十度左右的水最合适，水太烫会把茶叶烫坏，喝起来发苦。 // Green tea is delicate; water around eighty degrees is best. Too hot scalds the leaves and makes it taste bitter.
+客人: 那红茶呢？ // And black tea?
+茶艺师: 红茶可以用接近沸腾的水，这样才能把香味充分释放出来。 // Black tea can use nearly boiling water so that the aroma is fully released.
+客人: 品茶的时候有什么要注意的？ // Is there anything to note when tasting tea?
+茶艺师: 先闻香，再观色，最后慢慢品味。好茶讲究回甘，就是喝下去以后嘴里留着淡淡的甜味。 // First smell the fragrance, then look at the colour, and finally taste slowly. Good tea values "returning sweetness": a faint sweetness lingers in the mouth after swallowing.
+客人: 原来喝茶也是一门学问，我今天长见识了。 // So drinking tea is a field of learning too. I've learned something today.
+G: 讲究 ~ 讲究 means "to be particular about; finesse". ~ 他吃饭很讲究。 ~ He is particular about food. ~ 讲究
+G: 左右 ~ 左右 after a number means "about". ~ 他三十岁左右。 ~ He's about thirty. ~ 左右
+Q: What temperature suits green tea? ~ About 80 degrees ~ Boiling ~ 50 degrees ~ Room temperature
+Q: Why should green tea water not be too hot? ~ It scalds the leaves ~ It is wasteful ~ It spoils the cup ~ It is dangerous
+Q: What is "回甘"? ~ A lingering sweetness ~ A bitter taste ~ A smell ~ A colour
+
+@lesson id=h6-09 level=6 type=article topic=Health minutes=5 source=Original
+@title 中医与西医
+@titleen Chinese and Western Medicine
+@summary Two traditions of healing, and how they can work together.
+中医已有几千年的历史，强调"天人合一"，认为人体是一个整体。 // Traditional Chinese medicine has a history of thousands of years, stresses the "unity of heaven and humanity" and sees the body as a whole.
+中医治病，讲究望、闻、问、切四种方法，通过观察气色、听声音、询问症状和把脉来判断病情。 // In treating illness it stresses four methods — looking, listening, asking and feeling the pulse — judging a condition from complexion, voice, symptoms and pulse.
+常用的治疗手段包括中药、针灸、推拿和拔罐。 // Common treatments include herbal medicine, acupuncture, massage and cupping.
+相比之下，西医更重视科学实验和数据，借助仪器检查，对症下药。 // By contrast Western medicine puts more weight on scientific experiments and data, uses instruments for tests, and treats specific symptoms.
+西医在治疗急症和外伤方面效果显著，但对一些慢性病却显得力不从心。 // Western medicine is remarkably effective for emergencies and injuries, but it seems inadequate for some chronic diseases.
+而中医在调理身体、预防疾病方面有独特的优势。 // Chinese medicine, on the other hand, has unique strengths in regulating the body and preventing disease.
+如今，越来越多的医院提倡中西医结合，取长补短。 // Today more and more hospitals advocate combining the two, drawing on each one's strengths to offset the other's weaknesses.
+无论采用哪种方法，最重要的是尊重科学，尊重生命。 // Whichever method is used, the most important thing is to respect science and life.
+G: 相比之下 ~ 相比之下 means "by comparison". ~ 相比之下，这里的房租便宜多了。 ~ By comparison, rent here is much cheaper. ~ 相比之下
+G: 无论……都…… ~ 无论 A，都 B means "no matter A, B". ~ 无论多忙，他都坚持运动。 ~ However busy, he keeps exercising. ~ 无论
+Q: What does TCM stress? ~ The body as a whole ~ Surgery ~ Machines ~ Speed
+Q: What is Western medicine strong at? ~ Emergencies and injuries ~ Prevention ~ Massage ~ Herbs
+Q: What do many hospitals advocate? ~ Combining both ~ Using only herbs ~ Closing clinics ~ Charging less
+
+@lesson id=h6-10 level=6 type=article topic=Education minutes=5 source=Original
+@title 终身学习
+@titleen Lifelong Learning
+@summary Why learning shouldn't stop at graduation.
+过去人们认为，上学是为了获得一张文凭，毕业以后学习就结束了。 // In the past people thought school was for earning a diploma, and that learning ended with graduation.
+然而在知识更新速度越来越快的今天，这种想法已经落伍了。 // But in today's world of faster knowledge turnover, that view is outdated.
+许多专业技能几年之内就会过时，如果不继续学习，就很容易被时代淘汰。 // Many professional skills become obsolete within a few years, and without continued study one is easily eliminated by the times.
+终身学习不仅是为了适应工作，更是为了丰富自己的精神世界。 // Lifelong learning is not only to adapt to work but even more to enrich one's inner world.
+现在有大量的在线课程，人们可以利用碎片时间，随时随地学习新知识。 // Now there are plenty of online courses, and people can use fragments of time to learn new things anywhere, anytime.
+重要的不是学得多快，而是能否保持好奇心，并养成持之以恒的习惯。 // What matters is not how fast you learn but whether you keep your curiosity and form the habit of perseverance.
+正如一句古话所说："活到老，学到老。" // As an old saying goes, "Live until old, learn until old."
+G: 不仅……更…… ~ 不仅 A 更 B means "not only A, but even more B". ~ 他不仅聪明，更勤奋。 ~ He is not only clever but even more diligent. ~ 不仅
+G: 随时随地 ~ 随时随地 is a set phrase: "anytime, anywhere". ~ 手机让我们随时随地都能联系。 ~ Phones let us keep in touch anytime, anywhere. ~ 随时随地
+Q: What is outdated according to the text? ~ Learning ends with graduation ~ Online courses ~ Reading ~ Diplomas
+Q: What can people use to study? ~ Fragments of time ~ Only school hours ~ Only weekends ~ Only holidays
+Q: What does the old saying mean? ~ Keep learning all your life ~ Retire early ~ Study when young ~ Teach others

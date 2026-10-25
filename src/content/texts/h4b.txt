@@ -1,0 +1,130 @@
+@lesson id=h4-10 level=4 type=article topic=Society minutes=4 source=Original
+@title 共享单车
+@titleen Shared Bicycles
+@summary How app-based bikes changed short trips in Chinese cities.
+几年前，中国的大城市里突然多了很多颜色鲜艳的自行车。 // A few years ago, many brightly coloured bicycles suddenly appeared in China's big cities.
+这些车不属于任何人，谁都可以用手机扫码，骑完以后停在路边就行。 // These bikes belong to no one; anyone can scan a code with a phone and just park by the roadside when finished.
+对上班族来说，共享单车解决了"最后一公里"的问题。 // For office workers, shared bikes solved the "last kilometre" problem.
+从地铁站到公司只有两公里，走路太远，打车又不值得。 // From the subway station to the company is only two kilometres: too far to walk, but not worth taking a taxi.
+可是，共享单车也带来了新的麻烦。 // But shared bikes have also brought new troubles.
+有的人乱停乱放，把人行道都堵住了；有的车坏了没有人修。 // Some people park carelessly and block the pavement; some broken bikes are never repaired.
+后来，政府和公司一起制定了规则：只能停在划好的区域里，不然就要罚款。 // Later the government and companies drew up rules together: park only in marked areas, or you will be fined.
+现在，街上的单车整齐多了。 // Now the bikes on the street are much tidier.
+G: 对……来说 ~ 对 A 来说 means "as far as A is concerned". ~ 对我来说，这很难。 ~ For me, this is hard. ~ 对
+G: 不然 ~ 不然 means "otherwise". ~ 快走，不然就迟到了。 ~ Hurry, otherwise we'll be late. ~ 不然
+Q: How do people unlock the bikes? ~ By scanning a code with a phone ~ With a key ~ With a card ~ With a coin
+Q: What problem did the bikes solve? ~ The last kilometre between the subway and work ~ Air pollution ~ High taxi fares ~ Bus delays
+Q: How are the new rules enforced? ~ Fines for parking outside marked areas ~ Free parking ~ Banning all bikes ~ Rewards for riders
+
+@lesson id=h4-11 level=4 type=dialogue topic=Education minutes=4 source=Original
+@title 选专业
+@titleen Choosing a Major
+@summary A father and daughter disagree about her university subject.
+@speakers 爸爸 小雨
+爸爸: 小雨，志愿填好了吗？ // Xiaoyu, have you filled in your university choices?
+小雨: 填好了。我第一志愿是艺术设计。 // I have. My first choice is art and design.
+爸爸: 艺术设计？这个专业毕业以后好找工作吗？ // Art and design? Is it easy to find a job after graduating in that?
+小雨: 爸，现在很多公司都需要设计师。而且我真的很喜欢画画。 // Dad, many companies need designers now. And I really love drawing.
+爸爸: 我不是不让你画画，只是希望你选一个更稳定的专业，比如会计或者法律。 // I'm not saying you can't draw. I just hope you pick a more stable major, like accounting or law.
+小雨: 可是我对数字一点儿兴趣也没有。 // But I have no interest in numbers at all.
+爸爸: 兴趣可以慢慢培养。 // Interest can be developed slowly.
+小雨: 如果每天做自己不喜欢的事，我怎么可能做好？ // If I did things I don't like every day, how could I possibly do them well?
+爸爸: 你说得有道理。让我再想想吧。 // You have a point. Let me think about it again.
+G: 对……有兴趣 ~ 对 A 有兴趣 means "be interested in A". ~ 我对音乐很有兴趣。 ~ I am very interested in music. ~ 对
+G: 一点儿也没有 ~ 一点儿也 + negative means "not at all". ~ 我一点儿也不累。 ~ I'm not tired at all. ~ 也
+Q: What does Xiaoyu want to study? ~ Art and design ~ Law ~ Accounting ~ Medicine
+Q: Why does her father worry? ~ He thinks it may be hard to find a job ~ It is too expensive ~ The school is far ~ He dislikes drawing
+Q: How does the conversation end? ~ The father says he will think again ~ They quarrel ~ Xiaoyu changes her mind ~ They ask her mother
+
+@lesson id=h4-12 level=4 type=article topic=Food minutes=4 source=Original
+@title 八大菜系
+@titleen The Eight Great Cuisines
+@summary An overview of regional cooking in China.
+中国地方大，各地的饮食习惯很不一样，所以有"八大菜系"的说法。 // China is big and eating habits differ greatly from region to region, hence the saying "the eight great cuisines".
+川菜是四川的菜，特点是又麻又辣，很多外国人都很喜欢。 // Sichuan cuisine is the food of Sichuan, known for being numbing and spicy, and many foreigners love it.
+粤菜是广东的菜，讲究新鲜，味道比较清淡。 // Cantonese cuisine comes from Guangdong. It emphasises freshness and its flavours are comparatively light.
+鲁菜来自山东，是北方菜的代表，常用的做法是炒和烧。 // Shandong cuisine, the representative of northern food, often uses stir-frying and braising.
+苏菜和浙菜都在江南，菜的样子很漂亮，口味偏甜。 // Jiangsu and Zhejiang cuisines are both from the south of the Yangtze; the dishes look beautiful and the taste leans sweet.
+此外，还有湘菜、闽菜和徽菜。 // In addition there are Hunan, Fujian and Anhui cuisines.
+一个人如果把八大菜系都吃一遍，大概需要几年的时间。 // If someone tried all eight cuisines, it would probably take several years.
+G: 讲究 ~ 讲究 means "be particular about". ~ 他很讲究穿衣服。 ~ He is particular about clothes. ~ 讲究
+G: 比较 ~ 比较 + adjective means "fairly" or "comparatively". ~ 今天比较冷。 ~ It is rather cold today. ~ 比较
+Q: Which cuisine is numbing and spicy? ~ Sichuan ~ Cantonese ~ Jiangsu ~ Shandong
+Q: What does Cantonese cuisine stress? ~ Freshness ~ Heavy sauces ~ Sweetness ~ Spiciness
+Q: Which region is the northern representative? ~ Shandong ~ Guangdong ~ Fujian ~ Hunan
+
+@lesson id=h4-13 level=4 type=dialogue topic=Daily life minutes=4 source=Original
+@title 搬家
+@titleen Moving House
+@summary Friends help a colleague move to a new flat.
+@speakers 小王 小李 老张
+小王: 老张，你的东西都收拾好了吗？ // Lao Zhang, have you packed everything?
+老张: 差不多了。书太多了，装了十几个箱子。 // Almost. I have so many books, I filled a dozen boxes.
+小李: 这个大箱子里是什么？这么重！ // What's in this big box? It's so heavy!
+老张: 是我的旧书，我舍不得扔。 // My old books. I can't bear to throw them away.
+小王: 搬家公司的车到了，我们先把大东西搬下去吧。 // The removal van has arrived. Let's carry the big things down first.
+小李: 沙发怎么办？门这么窄，可能出不去。 // What about the sofa? The door is so narrow it might not fit through.
+老张: 把腿拆下来试试。 // Take the legs off and try.
+小王: 好了，出去了！新家在几楼？ // Done, it's out! Which floor is the new place on?
+老张: 六楼，没有电梯，真不好意思，今天辛苦你们了。 // The sixth floor, no lift. I'm really sorry to trouble you today.
+小李: 别客气，晚上请我们吃饭就行。 // Don't mention it. Just treat us to dinner tonight.
+G: 舍不得 ~ 舍不得 means "reluctant to part with". ~ 我舍不得离开这里。 ~ I'm reluctant to leave here. ~ 舍不得
+G: 这么 ~ 这么 + adjective emphasises the degree. ~ 这个箱子这么重！ ~ This box is so heavy! ~ 这么
+Q: What does Lao Zhang have too many of? ~ Books ~ Clothes ~ Shoes ~ Plants
+Q: Why is the sofa a problem? ~ The door is narrow ~ It is broken ~ It is too old ~ It is dirty
+Q: What is Lao Zhang's new home like? ~ Sixth floor without a lift ~ A ground-floor flat ~ A house with a garden ~ A tall tower with lifts
+
+@lesson id=h4-14 level=4 type=article topic=Health minutes=4 source=Original
+@title 睡眠和健康
+@titleen Sleep and Health
+@summary Why a good night's sleep matters.
+很多人觉得睡觉是浪费时间，所以常常熬夜工作或者玩手机。 // Many people think sleeping is a waste of time, so they often stay up late working or playing on their phones.
+其实，睡眠对健康非常重要。 // In fact, sleep is very important for health.
+医生说，成年人每天最好睡七到八个小时。 // Doctors say adults should ideally sleep seven to eight hours a day.
+睡得太少，人会觉得没精神，也容易生病。 // If you sleep too little, you feel low on energy and fall ill easily.
+长期睡眠不足，还会影响记忆力，让人学习和工作的效率下降。 // Long-term lack of sleep also affects memory and lowers efficiency in study and work.
+想睡得好，晚上最好不要喝咖啡，睡前一小时也别看手机。 // To sleep well, avoid coffee in the evening and don't look at your phone for an hour before bed.
+另外，保持房间安静、黑暗，也有帮助。 // Also, keeping the room quiet and dark helps.
+G: 其实 ~ 其实 introduces the real situation. ~ 其实他很聪明。 ~ In fact he's very clever. ~ 其实
+G: 容易 ~ 容易 + verb means "easy to / likely to". ~ 冬天容易感冒。 ~ It's easy to catch cold in winter. ~ 容易
+Q: How many hours should adults sleep? ~ Seven to eight ~ Four to five ~ Ten to twelve ~ Nine to ten
+Q: What can lack of sleep affect? ~ Memory and work efficiency ~ Eyesight only ~ Height ~ Hearing
+Q: What should you avoid before bed? ~ Coffee and phones ~ Water ~ Reading ~ Music
+
+@lesson id=h4-15 level=4 type=story topic=Fables minutes=4 source=Retelling of a classical story (Liezi, public domain)
+@title 愚公移山
+@titleen The Foolish Old Man Moves the Mountains
+@summary An old man's determination to move two mountains.
+很久以前，有一位老人叫愚公，快九十岁了。 // Long ago there was an old man named Yugong, nearly ninety years old.
+他家门前有两座大山，出门很不方便，要绕很远的路。 // In front of his house stood two great mountains, making it hard to leave; he had to take a long detour.
+有一天，愚公对家人说："我们一起把这两座山挖平，好不好？" // One day Yugong said to his family, "Shall we dig these two mountains flat together?"
+大家都同意了，可是他的妻子担心："这么大的山，石头往哪儿放呢？" // Everyone agreed, but his wife worried, "Such big mountains, where will the rocks go?"
+愚公说："可以运到海边去。" // Yugong said, "We can carry them to the seashore."
+邻居智叟听说以后，笑着说："你这么老了，连一棵草都拔不动，还想移山？" // When the neighbour Zhisou heard, he laughed, "You're so old you can't even pull up a blade of grass. And you want to move mountains?"
+愚公回答："我死了，还有我的儿子；儿子死了，还有孙子。子子孙孙是挖不完的，可是山不会再长高。" // Yugong replied, "When I die there is my son; when he dies there is a grandson. Generations will never run out, but the mountain won't grow any higher."
+天神被他感动了，派人把两座大山搬走了。 // The gods were moved by him and sent people to carry the two mountains away.
+G: 连……都/也…… ~ 连 A 都 B means "even A". ~ 他连饭都没吃就走了。 ~ He left without even eating. ~ 连
+G: 往哪儿 ~ 往 + place word shows direction. ~ 请往右走。 ~ Please go to the right. ~ 往
+Q: How old was Yugong? ~ Nearly ninety ~ Forty ~ Sixty ~ A hundred and ten
+Q: Where did he plan to carry the rocks? ~ To the sea ~ To the river ~ To the city ~ Up the hill
+Q: What happened in the end? ~ The gods moved the mountains ~ He gave up ~ The mountains fell ~ Zhisou helped
+
+@lesson id=h4-16 level=4 type=dialogue topic=Travel minutes=4 source=Original
+@title 在机场
+@titleen At the Airport
+@summary A traveller's flight is delayed, and she asks at the counter.
+@speakers 乘客 地勤
+乘客: 你好，我想问一下去上海的航班，怎么还没有登机？ // Hello, I'd like to ask about the flight to Shanghai. Why hasn't boarding started?
+地勤: 很抱歉，由于天气原因，这个航班延误了。 // I'm very sorry. Because of the weather, this flight has been delayed.
+乘客: 要等多久？ // How long will we wait?
+地勤: 现在还不确定，请您注意听广播。 // That's not certain yet. Please listen for announcements.
+乘客: 我下午还有一个重要的会议，能改签吗？ // I have an important meeting this afternoon. Can I change my ticket?
+地勤: 可以，不过只能改到下一班，要看有没有空位。 // Yes, but only to the next flight, depending on whether there are free seats.
+乘客: 那请帮我查一下。 // Then please check for me.
+地勤: 有，两点半的航班还有座位，我帮您改好了。 // Yes, the 2:30 flight has seats. I've changed it for you.
+乘客: 太感谢了！ // Thank you so much!
+G: 由于 ~ 由于 means "because of" and is formal. ~ 由于下雨，比赛取消了。 ~ Because of rain the match was cancelled. ~ 由于
+G: 看……有没有 ~ 要看 + question tells that something depends on a condition. ~ 去不去要看天气好不好。 ~ Whether we go depends on the weather. ~ 看
+Q: Why is the flight delayed? ~ Because of the weather ~ A technical fault ~ A strike ~ Too few passengers
+Q: What does the passenger want? ~ To change her ticket ~ A refund ~ A hotel ~ Food
+Q: Which flight does she get? ~ The 2:30 one ~ The 6:00 one ~ The morning one ~ The next day's

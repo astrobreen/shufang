@@ -1,0 +1,88 @@
+# ===================== LEVEL 2 · ELEMENTARY (≈HSK 2) =====================
+
+@lesson id=e01 level=2 type=dialogue topic=Daily life minutes=3
+@title 周末:zhōu mò:weekend;做:zuò:to do;什么:shén me:what;？
+@titleen What Shall We Do This Weekend?
+@summary Two friends plan a weekend walk in the park.
+@speakers 小美:xiǎo měi:Xiaomei (name); 大卫:dà wèi:David (name)
+S[小美]: 这个:zhè ge:this;周末:zhōu mò:weekend;你:nǐ:you;有空:yǒu kòng:to be free;吗:ma:(yes/no question particle);？
+T: Are you free this weekend?
+S[大卫]: 有:yǒu:yes, I am;。;你:nǐ:you;想:xiǎng:to want to;做:zuò:to do;什么:shén me:what;？
+T: Yes. What do you want to do?
+S[小美]: 我:wǒ:I;想:xiǎng:to want to;去:qù:to go;公园:gōng yuán:park;走走:zǒu zou:to take a walk;，;天气:tiān qì:weather;应该:yīng gāi:should, probably;很:hěn:very;好:hǎo:good;。
+T: I'd like to go for a walk in the park. The weather should be nice.
+S[大卫]: 好啊:hǎo a:great, sounds good;！;我们:wǒ men:we;几点:jǐ diǎn:what time;见面:jiàn miàn:to meet;？
+T: Sounds good! What time shall we meet?
+S[小美]: 早上:zǎo shang:morning;九点:jiǔ diǎn:nine o'clock;，;在:zài:at;地铁站:dì tiě zhàn:subway station;门口:mén kǒu:entrance;。
+T: Nine in the morning, at the entrance to the subway station.
+S[大卫]: 九点:jiǔ diǎn:nine o'clock;太:tài:too;早:zǎo:early;了:le:(goes with 太);，;十点:shí diǎn:ten o'clock;可以:kě yǐ:okay, may;吗:ma:(yes/no question particle);？
+T: Nine is too early. Is ten okay?
+S[小美]: 可以:kě yǐ:okay, can;。;我:wǒ:I;带:dài:to bring;水果:shuǐ guǒ:fruit;，;你:nǐ:you;带:dài:to bring;什么:shén me:what;？
+T: Okay. I'll bring fruit. What will you bring?
+S[大卫]: 我:wǒ:I;带:dài:to bring;照相机:zhào xiàng jī:camera;，;我们:wǒ men:we;可以:kě yǐ:can;拍:pāi:to take (photos);很多:hěn duō:very many;照片:zhào piàn:photos;。
+T: I'll bring my camera. We can take lots of photos.
+S[小美]: 太:tài:so;好:hǎo:good;了:le:(goes with 太);！;周末:zhōu mò:weekend;见:jiàn:to see;！
+T: That's great! See you at the weekend!
+G: 太 + Adjective + 了 ~ 太…了 means "too…" (a problem) or "so…!" (delight). ~ 太好了！ ~ That's wonderful! ~ 太,了
+G: 几点 ~ 几 (jǐ) asks "how many?" so 几点 asks "what time?". Answer with number + 点. ~ 现在几点？ ~ What time is it now? ~ 几点
+G: 可以 ~ 可以 means "may / can / is it okay to". It covers permission and possibility. ~ 我可以坐这里吗？ ~ May I sit here? ~ 可以
+G: Doubling a verb ~ Repeating a verb (走走) makes the action short and relaxed: "just take a little walk". ~ 我们走走吧。 ~ Let's take a little walk. ~ 走走
+Q: Where will they meet? ~ At the subway station entrance ~ At the park gate ~ At a café
+Q: What time do they decide on? ~ Ten o'clock ~ Nine o'clock ~ Eight o'clock
+Q: What will David bring? ~ A camera ~ Fruit ~ Water
+
+@lesson id=e02 level=2 type=story topic=Fiction minutes=3
+@title 小猫:xiǎo māo:kitten;找:zhǎo:to look for;朋友:péng you:friend
+@titleen The Kitten Looks for a Friend
+@summary A lonely white cat tries to make friends with a little bird.
+S: 有:yǒu:there was;一只:yì zhī:one (measure word for animals);小白猫:xiǎo bái māo:little white cat;，;它:tā:it;住:zhù:to live;在:zài:in;一个:yí gè:one;大:dà:big;房子:fáng zi:house;里:lǐ:inside;。
+T: There was a little white cat that lived in a big house.
+S: 它:tā:it;每天:měi tiān:every day;都:dōu:always;一个人:yí gè rén:alone;玩:wán:to play;，;没有:méi yǒu:not have;朋友:péng you:friend;。
+T: Every day it played alone. It had no friends.
+S: 一天:yì tiān:one day;，;它:tā:it;看见:kàn jiàn:to see;窗外:chuāng wài:outside the window;有:yǒu:there is;一只:yì zhī:one (measure word for animals);小鸟:xiǎo niǎo:little bird;。
+T: One day, it saw a little bird outside the window.
+S: “;你好:nǐ hǎo:hello;！;你:nǐ:you;可以:kě yǐ:can;和:hé:with;我:wǒ:me;玩:wán:to play;吗:ma:(yes/no question particle);？;”;小猫:xiǎo māo:kitten;问:wèn:to ask;。
+T: "Hello! Can you play with me?" the kitten asked.
+S: 小鸟:xiǎo niǎo:little bird;说:shuō:to say;：;“;我:wǒ:I;有点:yǒu diǎn:a little;怕:pà:to be afraid of;你:nǐ:you;。;你:nǐ:you;会:huì:will;吃:chī:to eat;我:wǒ:me;吗:ma:(yes/no question particle);？;”
+T: The bird said, "I'm a little afraid of you. Will you eat me?"
+S: 小猫:xiǎo māo:kitten;笑:xiào:to smile, to laugh;了:le:(completed action);：;“;我:wǒ:I;不:bù:not;吃:chī:to eat;小鸟:xiǎo niǎo:little bird;，;我:wǒ:I;只:zhǐ:only;吃:chī:to eat;鱼:yú:fish;。;我:wǒ:I;想:xiǎng:to want to;和:hé:with;你:nǐ:you;做:zuò:to be, to make;朋友:péng you:friend;。;”
+T: The kitten smiled. "I don't eat birds. I only eat fish. I want to be your friend."
+S: 小鸟:xiǎo niǎo:little bird;想了想:xiǎng le xiǎng:to think for a moment;，;飞:fēi:to fly;到:dào:to (arrive at);了:le:(completed action);窗边:chuāng biān:window side;。
+T: The bird thought for a moment, then flew to the window.
+S: 从:cóng:from;那天:nà tiān:that day;起:qǐ:onward;，;它们:tā men:they;每天:měi tiān:every day;都:dōu:always;在一起:zài yì qǐ:together;玩:wán:to play;。
+T: From that day on, they played together every day.
+S: 小猫:xiǎo māo:kitten;不再:bú zài:no longer;一个人:yí gè rén:alone;了:le:(change of state);。
+T: The kitten was no longer alone.
+G: 了 after a verb ~ 了 shows that an action has been completed. ~ 小猫笑了。 ~ The kitten smiled. ~ 了
+G: 都 ~ 都 means "all" or "always" and goes before the verb. ~ 我们都是学生。 ~ We are all students. ~ 都
+G: 不再 ~ 不再 means "no longer / not any more". ~ 他不再喝咖啡了。 ~ He no longer drinks coffee. ~ 不再
+G: 从…起 ~ 从 + time + 起 means "starting from". ~ 从今天起，我每天读书。 ~ From today on, I will read every day. ~ 从,起
+Q: Where does the cat live? ~ In a big house ~ In a small room ~ In a garden
+Q: Why is the bird nervous at first? ~ It is afraid the cat will eat it ~ It cannot fly ~ It does not like fish
+Q: What does the cat say it eats? ~ Only fish ~ Birds ~ Bread
+
+@lesson id=e03 level=2 type=article topic=Daily life minutes=3
+@title 我的:wǒ de:my;一天:yì tiān:one day
+@titleen My Day
+@summary A busy worker describes a normal day from morning to bedtime.
+S: 我:wǒ:I;每天:měi tiān:every day;早上:zǎo shang:morning;六点半:liù diǎn bàn:half past six;起床:qǐ chuáng:to get up;。
+T: Every morning I get up at six thirty.
+S: 七点:qī diǎn:seven o'clock;吃:chī:to eat;早饭:zǎo fàn:breakfast;，;我:wǒ:I;常常:cháng cháng:often;吃:chī:to eat;鸡蛋:jī dàn:egg;，;喝:hē:to drink;牛奶:niú nǎi:milk;。
+T: At seven I have breakfast. I often eat eggs and drink milk.
+S: 八点:bā diǎn:eight o'clock;我:wǒ:I;坐:zuò:to take (a bus);公共汽车:gōng gòng qì chē:bus;去:qù:to go;上班:shàng bān:to go to work;。
+T: At eight I take the bus to work.
+S: 中午:zhōng wǔ:noon;我:wǒ:I;在:zài:at;公司:gōng sī:company;附近:fù jìn:nearby;的:de:(possessive particle);饭馆:fàn guǎn:restaurant;吃饭:chī fàn:to eat a meal;。
+T: At noon I eat at a restaurant near the company.
+S: 下午:xià wǔ:afternoon;五点:wǔ diǎn:five o'clock;下班:xià bān:to finish work;。
+T: I finish work at five in the afternoon.
+S: 回家:huí jiā:to go home;以后:yǐ hòu:after;，;我:wǒ:I;做饭:zuò fàn:to cook;，;看:kàn:to watch;电视:diàn shì:TV;，;十一点:shí yī diǎn:eleven o'clock;睡觉:shuì jiào:to sleep;。
+T: After I get home, I cook, watch TV, and go to bed at eleven.
+S: 我:wǒ:I;觉得:jué de:to feel;每天:měi tiān:every day;都:dōu:always;很:hěn:very;忙:máng:busy;，;但是:dàn shì:but;也:yě:also;很:hěn:very;高兴:gāo xìng:happy;。
+T: I feel that every day is busy, but I'm happy too.
+G: Time words go before the verb ~ In Chinese, time words such as 七点 or 中午 come before the verb, usually right after the subject. ~ 我七点吃早饭。 ~ I eat breakfast at seven. ~ 七点
+G: 在 + Place + Verb ~ 在 + place says where the action happens. ~ 我在公司工作。 ~ I work at the company. ~ 在
+G: 以后 ~ Put 以后 after a time or an action to say "after…". ~ 吃饭以后，我看电视。 ~ After eating, I watch TV. ~ 以后
+G: 但是 ~ 但是 means "but" and introduces the contrasting part. ~ 我很忙，但是很高兴。 ~ I'm busy, but happy. ~ 但是
+Q: What time does the writer get up? ~ 6:30 ~ 7:00 ~ 5:30
+Q: How does the writer get to work? ~ By bus ~ By subway ~ On foot
+Q: What does the writer often have for breakfast? ~ Eggs and milk ~ Bread and coffee ~ Rice and soup

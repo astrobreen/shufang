@@ -1,0 +1,95 @@
+# ===================== LEVEL 1 · NEWBIE (≈HSK 1) =====================
+
+@lesson id=n01 level=1 type=dialogue topic=Daily life minutes=2
+@title 你好:nǐ hǎo:hello;！
+@titleen Hello!
+@summary Xiaomei and David meet for the first time and introduce themselves.
+@speakers 小美:xiǎo měi:Xiaomei (name); 大卫:dà wèi:David (name)
+S[小美]: 你好:nǐ hǎo:hello;！;我:wǒ:I;叫:jiào:to be called;小美:xiǎo měi:Xiaomei (name);。
+T: Hello! My name is Xiaomei.
+S[大卫]: 你好:nǐ hǎo:hello;，;小美:xiǎo měi:Xiaomei (name);！;我:wǒ:I;叫:jiào:to be called;大卫:dà wèi:David (name);。
+T: Hello, Xiaomei! My name is David.
+S[小美]: 你:nǐ:you;是:shì:to be;哪国:nǎ guó:which country;人:rén:person;？
+T: Which country are you from?
+S[大卫]: 我:wǒ:I;是:shì:to be;美国人:měi guó rén:American (person);。;你:nǐ:you;呢:ne:and you? (follow-up question);？
+T: I'm American. And you?
+S[小美]: 我:wǒ:I;是:shì:to be;中国人:zhōng guó rén:Chinese (person);。
+T: I'm Chinese.
+S[大卫]: 你:nǐ:you;是:shì:to be;学生:xué sheng:student;吗:ma:(yes/no question particle);？
+T: Are you a student?
+S[小美]: 是:shì:yes;，;我:wǒ:I;是:shì:to be;学生:xué sheng:student;。;你:nǐ:you;也:yě:also;是:shì:to be;学生:xué sheng:student;吗:ma:(yes/no question particle);？
+T: Yes, I'm a student. Are you also a student?
+S[大卫]: 不是:bú shì:no, am not;，;我:wǒ:I;是:shì:to be;老师:lǎo shī:teacher;。
+T: No, I'm a teacher.
+S[小美]: 很:hěn:very;高兴:gāo xìng:happy, glad;认识:rèn shi:to meet, to get to know;你:nǐ:you;！
+T: Nice to meet you!
+S[大卫]: 我:wǒ:I;也:yě:also;很:hěn:very;高兴:gāo xìng:happy, glad;认识:rèn shi:to meet, to get to know;你:nǐ:you;！
+T: Nice to meet you too!
+G: Subject + 是 + Noun ~ 是 (shì) works like "to be" and links two nouns. Say 不是 for "am/is/are not". ~ 我是学生。 ~ I am a student. ~ 是
+G: Statement + 吗？ ~ Put 吗 at the end of a statement to turn it into a yes/no question. The word order stays the same. ~ 你是老师吗？ ~ Are you a teacher? ~ 吗
+G: 也 + Verb ~ 也 means "also" and goes right before the verb. ~ 我也是学生。 ~ I am also a student. ~ 也
+G: …，你呢？ ~ 呢 bounces a question back to the other person, like "And you?" ~ 我是学生，你呢？ ~ I'm a student. And you? ~ 呢
+Q: Where is David from? ~ America ~ China ~ Japan ~ France
+Q: What is Xiaomei's job? ~ She is a student ~ She is a teacher ~ She is a doctor
+Q: What does 吗 do at the end of a sentence? ~ It makes a yes/no question ~ It means "also" ~ It means "very"
+
+@lesson id=n02 level=1 type=article topic=Family minutes=2
+@title 我的:wǒ de:my;家:jiā:home, family
+@titleen My Family
+@summary A short description of a family of four and their cat.
+S: 我家:wǒ jiā:my family;有:yǒu:to have;四:sì:four;口:kǒu:(measure word for family members);人:rén:people;。
+T: There are four people in my family.
+S: 爸爸:bà ba:dad;、;妈妈:mā ma:mom;、;哥哥:gē ge:older brother;和:hé:and;我:wǒ:me;。
+T: Dad, mom, my older brother and me.
+S: 我:wǒ:my;爸爸:bà ba:dad;是:shì:to be;医生:yī shēng:doctor;。
+T: My dad is a doctor.
+S: 我:wǒ:my;妈妈:mā ma:mom;是:shì:to be;老师:lǎo shī:teacher;。
+T: My mom is a teacher.
+S: 我:wǒ:my;哥哥:gē ge:older brother;今年:jīn nián:this year;二十:èr shí:twenty;岁:suì:years old;，;他:tā:he;是:shì:to be;大学生:dà xué shēng:university student;。
+T: My older brother is twenty this year. He is a university student.
+S: 我们:wǒ men:we, our;家:jiā:home;还:hái:also, in addition;有:yǒu:to have;一只:yì zhī:one (measure word for animals);小猫:xiǎo māo:kitten;。
+T: We also have a little cat at home.
+S: 它:tā:it;很:hěn:(very);可爱:kě ài:cute;。
+T: It is very cute.
+S: 我:wǒ:I;爱:ài:to love;我的:wǒ de:my;家:jiā:family, home;。
+T: I love my family.
+G: Subject + 有 + Noun ~ 有 (yǒu) means "to have", and also "there is / there are". ~ 我有一只猫。 ~ I have a cat. ~ 有
+G: Number + Measure word + Noun ~ Chinese puts a measure word between a number and a noun. 口 is used for family members and 只 for small animals. ~ 一只小猫 ~ one kitten ~ 一只,口
+G: 我的 = my ~ Add 的 after a pronoun to show ownership. For close family, 的 is often left out: 我爸爸 "my dad". ~ 我的家 ~ my home ~ 我的
+G: 很 + Adjective ~ Adjectives in plain statements normally take 很 in front. It is often weak and does not always mean "very". ~ 它很可爱。 ~ It is cute. ~ 很
+Q: How many people are in the family? ~ Four ~ Three ~ Five
+Q: What does the older brother do? ~ He is a university student ~ He is a doctor ~ He is a teacher
+Q: What pet does the family have? ~ A cat ~ A dog ~ A bird
+
+@lesson id=n03 level=1 type=dialogue topic=Food minutes=2
+@title 在:zài:at;咖啡店:kā fēi diàn:café
+@titleen At the Café
+@summary Xiaomei orders a coffee and some bread.
+@speakers 店员:diàn yuán:shop clerk; 小美:xiǎo měi:Xiaomei (name)
+S[店员]: 你好:nǐ hǎo:hello;！;你:nǐ:you;想:xiǎng:to want to;喝:hē:to drink;什么:shén me:what;？
+T: Hello! What would you like to drink?
+S[小美]: 我:wǒ:I;想要:xiǎng yào:would like;一杯:yì bēi:a cup of;咖啡:kā fēi:coffee;。
+T: I'd like a cup of coffee.
+S[店员]: 要:yào:to want;大杯:dà bēi:large cup;还是:hái shi:or;小杯:xiǎo bēi:small cup;？
+T: Do you want a large or a small cup?
+S[小美]: 小杯:xiǎo bēi:small cup;，;谢谢:xiè xie:thank you;。
+T: A small one, thank you.
+S[店员]: 你:nǐ:you;要:yào:to want;吃:chī:to eat;东西:dōng xi:something, things;吗:ma:(yes/no question particle);？
+T: Would you like something to eat?
+S[小美]: 我:wǒ:I;要:yào:to want;一个:yí gè:one (general measure word);面包:miàn bāo:bread;。
+T: I'd like a piece of bread.
+S[店员]: 一共:yí gòng:altogether;二十五:èr shí wǔ:twenty-five;块:kuài:yuan (colloquial);。
+T: That's twenty-five yuan altogether.
+S[小美]: 给:gěi:to give;你:nǐ:you;钱:qián:money;。
+T: Here is the money for you.
+S[店员]: 谢谢:xiè xie:thank you;！;请:qǐng:please;坐:zuò:to sit;。
+T: Thank you! Please have a seat.
+S[小美]: 谢谢:xiè xie:thank you;！
+T: Thank you!
+G: 想 / 要 + Verb ~ 想 means "would like to" and is polite. 要 is more direct and is common when ordering: "I'll have…". ~ 我想喝咖啡。 ~ I'd like to drink coffee. ~ 想,要
+G: A 还是 B？ ~ 还是 means "or" when you offer a choice in a question. ~ 你喝茶还是咖啡？ ~ Do you want tea or coffee? ~ 还是
+G: 一共 + Amount ~ 一共 means "altogether" and is used when adding up a price. ~ 一共三十块。 ~ Thirty yuan altogether. ~ 一共
+G: Question words ~ A question word such as 什么 simply takes the place of the answer. The word order does not change. ~ 你喝什么？ ~ What would you like to drink? ~ 什么
+Q: What size coffee does Xiaomei order? ~ Small ~ Large ~ Medium
+Q: What food does she buy? ~ Bread ~ Cake ~ Noodles
+Q: How much is the total? ~ 25 yuan ~ 15 yuan ~ 52 yuan

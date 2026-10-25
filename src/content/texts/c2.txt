@@ -1,0 +1,204 @@
+@lesson id=c2-01 level=6 type=poem topic=Poetry minutes=1 source=Tang poem by Zhang Ji (public domain)
+@title 枫桥夜泊
+@titleen Night Mooring at Maple Bridge
+@summary Zhang Ji, sleepless on a boat, hears the temple bell across the water.
+月落乌{乌=crow}啼霜满天， // The moon sets, crows cry, frost fills the sky;
+江枫渔火对{对=to face}愁眠。 // river maples and fishing lights face my troubled sleep.
+姑苏城外寒山寺， // Outside Gusu city stands Hanshan Temple;
+夜半钟{钟=bell}声到客船。 // its midnight bell reaches the traveller's boat.
+Q: What fills the sky? ~ Frost ~ Clouds ~ Smoke ~ Stars
+Q: What does the traveller hear? ~ A temple bell ~ A flute ~ Rain ~ Drums
+Q: Where is he? ~ On a boat ~ At home ~ In a temple ~ On a mountain
+
+@lesson id=c2-02 level=6 type=poem topic=Poetry minutes=1 source=Tang poem by Li Bai (public domain)
+@title 黄鹤楼送孟浩然之广陵
+@titleen Seeing Meng Haoran Off at Yellow Crane Tower
+@summary Li Bai watches his friend's sail disappear down the great river.
+故人西辞{辞=to take leave of}黄鹤楼， // My old friend takes leave of Yellow Crane Tower to the west;
+烟花三月{三月=third month}下{下=to go down to}扬州。 // in the misty flowers of the third month he goes down to Yangzhou.
+孤帆远影碧空尽， // The lone sail's distant shadow vanishes into blue sky;
+唯见长江天际流。 // I see only the Yangtze flowing to the horizon.
+Q: Where is the friend going? ~ Yangzhou ~ Beijing ~ Chang'an ~ Sichuan
+Q: What vanishes into the sky? ~ The lone sail ~ A bird ~ A cloud ~ The moon
+Q: What does the poet see at the end? ~ The Yangtze flowing ~ His friend ~ A crane ~ Rain
+
+@lesson id=c2-03 level=6 type=poem topic=Poetry minutes=1 source=Tang poem by Meng Jiao (public domain)
+@title 游子吟
+@titleen Song of the Wandering Son
+@summary A mother sews a coat for her departing son.
+慈母手中线， // The thread in a loving mother's hand,
+游子身上衣。 // the coat on the wanderer's back.
+临{临=on the point of}行{行=departure}密密缝， // Before he leaves she sews it close and tight,
+意{意=intent}恐迟迟归。 // fearing he will be slow to return.
+谁言寸草心， // Who says the heart of a small blade of grass
+报{报=to repay}得{得=to be able}三春晖。 // can repay the spring sun's light?
+Q: What is the mother doing? ~ Sewing a coat ~ Cooking ~ Writing ~ Praying
+Q: Why does she sew so tightly? ~ She fears he will return late ~ The coat is thin ~ It is cold ~ He asked her to
+Q: What does the grass stand for? ~ A child's small heart ~ Spring ~ The mother ~ The road
+
+@lesson id=c2-04 level=6 type=poem topic=Poetry minutes=1 source=Tang poem by Du Mu (public domain)
+@title 山行
+@titleen Walking in the Mountains
+@summary Du Mu stops his carriage to admire autumn leaves.
+远上寒山石径斜， // Far up the cold mountain a stone path slants;
+白云生处[chu4]{处=place}有人家。 // where white clouds rise, there are homes.
+停车坐{坐=because}爱枫林晚{晚=dusk}， // I stop the carriage, loving the maple grove at dusk;
+霜叶红于{于=than}二月花。 // frost-touched leaves are redder than spring flowers.
+Q: Why does the poet stop? ~ He loves the maple grove ~ He is tired ~ It rains ~ He is lost
+Q: What are redder than spring flowers? ~ Frosted leaves ~ Sunsets ~ Lanterns ~ Cheeks
+Q: Where are the homes? ~ Where clouds rise ~ By the river ~ In the valley ~ In the grove
+
+@lesson id=c2-05 level=7 type=poem topic=Poetry minutes=2 source=Tang poem by Du Fu (public domain)
+@title 春望
+@titleen Spring View
+@summary Du Fu, in a ruined capital, sees spring return to a broken land.
+国破山河在， // The state is broken, yet mountains and rivers remain;
+城春草木深。 // spring in the city — grass and trees grow thick.
+感时花溅泪， // Moved by the times, flowers splash me with tears;
+恨别鸟惊心。 // hating parting, birds startle my heart.
+烽火连三月{三月=three months}， // Beacon fires have lasted three months;
+家书抵万金。 // a letter from home is worth ten thousand gold.
+白头搔更短， // I scratch my white hair and it grows shorter,
+浑{浑=almost}欲不胜簪。 // hardly able to hold a hairpin.
+Q: What remains although the state is broken? ~ Mountains and rivers ~ The palace ~ The army ~ The poets
+Q: What is a letter from home worth? ~ Ten thousand gold ~ Little ~ A horse ~ A house
+Q: What is happening to his hair? ~ It is thinning ~ It is dyed ~ It is growing ~ It is cut
+
+@lesson id=c2-06 level=7 type=poem topic=Poetry minutes=2 source=Han poem by Cao Cao (public domain)
+@title 观沧海
+@titleen Gazing at the Vast Sea
+@summary Cao Cao stands on a cliff and imagines the sea holding sun, moon and stars.
+东临碣石，以观沧海。 // Eastward I reach Jieshi to gaze at the vast sea.
+水何澹澹，山岛竦峙。 // How the waters ripple, the island peaks rise tall.
+树木丛生，百草丰茂。 // Trees grow in clusters, a hundred grasses flourish.
+秋风萧瑟，洪波涌起。 // Autumn wind sighs; great waves surge up.
+日月之行{行=course}，若出其中； // The sun and moon in their courses seem to rise from within it;
+星汉灿烂，若出其里{里=inside}。 // the bright Milky Way seems to come from inside it.
+幸甚至哉，歌以咏志。 // How fortunate indeed — I sing to express my aim.
+Q: What does the poet gaze at? ~ The sea ~ A mountain ~ A river ~ A desert
+Q: What season is it? ~ Autumn ~ Spring ~ Winter ~ Summer
+Q: What seems to come from the sea? ~ Sun, moon and stars ~ Ships ~ Fish ~ Mist
+
+@lesson id=c2-07 level=6 type=poem topic=Poetry minutes=1 source=Song poem by Su Shi (public domain)
+@title 题西林壁
+@titleen Written on the Wall at Xilin Temple
+@summary Su Shi on why we cannot see the mountain while standing in it.
+横看/成岭侧成峰， // Seen across it is a ridge, from the side a peak;
+远近高低各不同。 // far, near, high, low — each view differs.
+不识/庐山/真面目， // I cannot know Lushan's true face,
+只{只=only}缘{缘=because of}身{身=oneself}在此山中。 // only because I am within this mountain.
+Q: What does the poet say about views? ~ Each angle looks different ~ All are the same ~ Only one is true ~ They are hidden
+Q: Why can't he know the true face? ~ He is inside the mountain ~ It is foggy ~ He is blind ~ It is night
+Q: What lesson does the poem suggest? ~ Step back to see clearly ~ Climb higher ~ Walk faster ~ Ask a guide
+
+@lesson id=c2-08 level=6 type=poem topic=Poetry minutes=1 source=Song poem by Su Shi (public domain)
+@title 饮湖上初晴后雨
+@titleen Drinking by West Lake, Sunny Then Rainy
+@summary Su Shi compares West Lake to the beauty Xi Shi.
+水光潋滟晴方{方=only then}好， // Water glitters, best on a sunny day;
+山色空蒙雨亦奇。 // mountains hazy, rain is wondrous too.
+欲把{把=to take}西湖比西子， // If I compare West Lake to Xi Shi,
+淡妆浓抹总{总=always}相宜。 // light or heavy make-up always suits her.
+Q: What does he compare the lake to? ~ Xi Shi ~ A mirror ~ A painting ~ Jade
+Q: When is the lake beautiful? ~ Sunny and rainy ~ Only in sun ~ Only at night ~ Only in snow
+Q: What is "淡妆浓抹"? ~ Light or heavy make-up ~ Mist ~ Waves ~ Lanterns
+
+@lesson id=c2-09 level=7 type=poem topic=Poetry minutes=1 source=Song poem by Lu You (public domain)
+@title 示儿
+@titleen To My Sons
+@summary Lu You's dying wish for a reunited country.
+死去元{元=originally}知万事空， // When dead I know all things are void,
+但{但=only}悲不见九州同{同=united}。 // yet I grieve not to see the nine regions united.
+王师北定中原日， // On the day the royal army pacifies the Central Plains in the north,
+家祭无忘告乃翁。 // at the family rites, don't forget to tell your father.
+Q: What is the poet's sorrow? ~ Not seeing the country reunited ~ Poverty ~ Illness ~ Exile
+Q: Whom does he address? ~ His sons ~ The emperor ~ A friend ~ A soldier
+Q: What should they tell him? ~ That the army has won ~ The harvest ~ The weather ~ A poem
+
+@lesson id=c2-10 level=8 type=poem topic=Poetry minutes=1 source=Qing poem by Gong Zizhen (public domain)
+@title 己亥杂诗（其一二五）
+@titleen Miscellaneous Poems of 1839 (No. 125)
+@summary Gong Zizhen calls on Heaven to send talent of every kind.
+九州生气恃风雷， // The nine regions' vitality depends on wind and thunder;
+万马齐喑究可哀。 // ten thousand horses all silent — this is truly sad.
+我劝天公重[chong2]{重=again}抖擞， // I urge Heaven to rouse itself again,
+不拘一格降{降=to send down}人才。 // and send down talent without limiting its mould.
+Q: What does the poet find sad? ~ All voices silenced ~ War ~ Floods ~ Poverty
+Q: Whom does he address? ~ Heaven ~ The emperor ~ A friend ~ The people
+Q: What does he ask for? ~ Talent of every kind ~ More rain ~ Peace ~ Gold
+
+@lesson id=c2-11 level=7 type=classic topic=Philosophy minutes=2 source=Analects of Confucius (public domain)
+@title 论语·述而（节选）
+@titleen Analects: Shu Er (excerpt)
+@summary Confucius on learning from everyone you meet.
+子曰：三人行，必有我师焉{焉=in it}。 // The Master said: Among three people walking, there is surely a teacher for me.
+择其善者而从之， // Pick out their good qualities and follow them;
+其不善者而改之。 // their bad qualities — correct in yourself.
+Q: What can you learn from others? ~ Their good points ~ Only their words ~ Nothing ~ Their wealth
+Q: What do you do with their flaws? ~ Correct them in yourself ~ Point them out ~ Ignore them ~ Copy them
+Q: How many people does Confucius mention? ~ Three ~ Two ~ Ten ~ One
+
+@lesson id=c2-12 level=8 type=classic topic=Philosophy minutes=2 source=Daodejing (public domain)
+@title 道德经·千里之行
+@titleen Daodejing: A Journey of a Thousand Miles
+@summary Laozi on great things growing from small beginnings.
+合抱之木，生于毫末； // A tree too big to embrace grows from a tiny shoot;
+九层之台，起于累土； // a nine-storey tower rises from piled earth;
+千里之行{行=journey}，始于足下。 // a journey of a thousand miles begins beneath the feet.
+Q: Where does a big tree start? ~ A tiny shoot ~ A seed bag ~ A forest ~ A river
+Q: What is a tower built from? ~ Piled earth ~ Stone ~ Wood ~ Gold
+Q: Where does a long journey begin? ~ Beneath the feet ~ At a map ~ In the mind ~ At the gate
+
+@lesson id=c2-13 level=9 type=classic topic=Philosophy minutes=3 source=Zhuangzi (public domain)
+@title 庄子·庄周梦蝶
+@titleen Zhuangzi: Zhuang Zhou Dreams of a Butterfly
+@summary Was the dreamer a man dreaming a butterfly, or a butterfly dreaming a man?
+昔者庄周梦为[wei2]{为=to become}胡蝶， // Once Zhuang Zhou dreamed he was a butterfly,
+栩栩然胡蝶也， // a fluttering, lively butterfly indeed;
+自喻/适志/与[yu2]{与=(question particle)}！不知周也。 // content with itself, it did not know it was Zhou.
+俄然觉，则蘧蘧然周也。 // Suddenly he woke, and was solidly Zhou again.
+不知周之梦为[wei2]{为=to become}胡蝶与[yu2]{与=(question particle)}，胡蝶之梦为[wei2]{为=to become}周与[yu2]{与=(question particle)}？ // He knew not whether Zhou had dreamed the butterfly, or the butterfly dreamed Zhou.
+周与[yu3]{与=and}胡蝶，则必有分矣。 // Between Zhou and the butterfly there must be a distinction.
+此之谓{谓=to call}物化。 // This is called the transformation of things.
+Q: What did Zhuang Zhou dream he was? ~ A butterfly ~ A bird ~ A fish ~ A king
+Q: What was he unsure about? ~ Who was dreaming whom ~ The time ~ The place ~ His name
+Q: What does the story call this? ~ Transformation of things ~ Illusion ~ Fate ~ Sleep
+
+@lesson id=c2-14 level=9 type=classic topic=Education minutes=3 source=Han Yu, Shi Shuo (public domain)
+@title 师说（节选）
+@titleen On Teachers (excerpt)
+@summary Han Yu defines what a teacher is for.
+古之学者必有师。 // Scholars of old always had teachers.
+师者，所以传道受业解惑也。 // A teacher is one who transmits the Way, imparts learning and resolves doubts.
+人非生而知之者，孰能无惑？ // People are not born knowing — who can be without doubt?
+惑而不从师，其为[wei2]{为=to be}惑也，终不解矣。 // If one has doubts but does not follow a teacher, those doubts will never be resolved.
+Q: What does a teacher do? ~ Transmit the Way and resolve doubts ~ Grade exams ~ Collect fees ~ Give orders
+Q: Who is born knowing? ~ No one ~ Everyone ~ Emperors ~ Sages
+Q: What happens without a teacher? ~ Doubts remain unresolved ~ One becomes wise ~ Study is easier ~ Nothing changes
+
+@lesson id=c2-15 level=9 type=classic topic=Ethics minutes=3 source=Fan Zhongyan, Yueyang Lou Ji (public domain)
+@title 岳阳楼记（节选）
+@titleen Record of Yueyang Tower (excerpt)
+@summary Fan Zhongyan's famous statement of public duty.
+不以物喜，不以己悲。 // Not delighted by outward things, not saddened by one's own lot.
+居庙堂之高，则忧其民； // High in the court, one worries for the people;
+处[chu3]{处=to dwell}江湖之远，则忧其君{君=ruler}。 // far away on rivers and lakes, one worries for the ruler.
+是进亦忧，退亦忧。 // So advancing brings worry, and retreating brings worry too.
+然则何时而乐耶？ // Then when is one happy?
+其必曰：先{先=before}天下之忧而忧，后{后=after}天下之乐而乐欤！ // Surely one will say: be first to worry about the world's worries, and last to enjoy the world's joys!
+Q: Who does one worry for when at court? ~ The people ~ The ruler ~ Oneself ~ Family
+Q: What is the closing maxim about? ~ Worrying before the world and enjoying after ~ Seeking wealth ~ Retiring ~ Travelling
+Q: What should one not be moved by? ~ Outward things ~ Poetry ~ Friends ~ Parents
+
+@lesson id=c2-16 level=8 type=classic topic=Nature minutes=2 source=Zhou Dunyi, Ai Lian Shuo (public domain)
+@title 爱莲说（节选）
+@titleen On Loving the Lotus (excerpt)
+@summary Zhou Dunyi praises the lotus as a gentleman among flowers.
+予[yu2]{予=I}独爱莲之出淤泥而不染， // I alone love the lotus: rising from mud yet unstained,
+濯清涟而不妖， // washed in clear ripples yet not coquettish,
+中通外直，不蔓不枝， // hollow within and straight without, with no tendrils or branches,
+香远益{益=ever more}清，亭亭净植， // its fragrance far-reaching and ever purer, standing tall and clean,
+可远观而不可亵玩焉{焉=(final particle)}。 // to be viewed from afar but not handled playfully.
+Q: Where does the lotus grow from? ~ Mud ~ Sand ~ Rock ~ Snow
+Q: What is it compared to? ~ A gentleman ~ A beauty ~ A warrior ~ A child
+Q: How should it be viewed? ~ From afar ~ Up close ~ In pictures ~ With friends

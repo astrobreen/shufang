@@ -1,0 +1,81 @@
+# ===================== LEVEL 4 · UPPER INTERMEDIATE (≈HSK 4) =====================
+
+@lesson id=u01 level=4 type=story topic=Fiction minutes=5
+@title 一封:yì fēng:one (letter);旧信:jiù xìn:old letter
+@titleen An Old Letter
+@summary Tidying up, the narrator finds a letter from their grandmother and decides to call her.
+S: 整理:zhěng lǐ:to tidy up;房间:fáng jiān:room;时:shí:when;，;我:wǒ:I;在:zài:in;书桌:shū zhuō:desk;最:zuì:most;下面:xià mian:bottom;的:de:(modifier particle);抽屉:chōu ti:drawer;里:lǐ:inside;发现:fā xiàn:to discover;了:le:(completed action);一封:yì fēng:one (measure word for letters);旧信:jiù xìn:old letter;。
+T: While tidying my room, I found an old letter in the bottom drawer of my desk.
+S: 信封:xìn fēng:envelope;已经:yǐ jīng:already;发黄:fā huáng:to turn yellow;了:le:(change of state);，;上面:shàng mian:on it;的:de:(modifier particle);字迹:zì jì:handwriting;却:què:yet, however;很:hěn:very;清楚:qīng chu:clear;，;是:shì:it was;奶奶:nǎi nai:grandma;写:xiě:to write;给:gěi:to (someone);我:wǒ:me;的:de:(emphasis particle);。
+T: The envelope had already turned yellow, but the handwriting on it was still clear. It was written to me by my grandma.
+S: 十年前:shí nián qián:ten years ago;，;我:wǒ:I;第一次:dì yī cì:the first time;离开:lí kāi:to leave;家:jiā:home;去:qù:to go to;外地:wài dì:another city;上大学:shàng dà xué:to attend university;，;奶奶:nǎi nai:grandma;舍不得:shě bu de:to be reluctant to part with;我:wǒ:me;走:zǒu:to leave;，;却:què:yet;什么:shén me:anything;也:yě:even;没:méi:did not;说:shuō:to say;，;只是:zhǐ shì:just;默默地:mò mò de:silently;帮:bāng:to help;我:wǒ:me;收拾:shōu shi:to pack;行李:xíng li:luggage;。
+T: Ten years ago, when I first left home for university in another city, Grandma was reluctant to see me go, yet she said nothing and just silently helped me pack.
+S: 信:xìn:letter;里:lǐ:inside;写着:xiě zhe:is written;：;“;孩子:hái zi:child;，;别:bié:don't;担心:dān xīn:to worry about;家里:jiā lǐ:home;。;你:nǐ:you;只管:zhǐ guǎn:just go ahead and;好好:hǎo hǎo:properly;学习:xué xí:to study;，;遇到:yù dào:to run into;困难:kùn nan:difficulty;的时候:de shí hou:when;，;要:yào:should;相信:xiāng xìn:to believe in;自己:zì jǐ:yourself;。;”
+T: The letter said: "Child, don't worry about home. Just study hard, and when you run into difficulties, believe in yourself."
+S: 我:wǒ:I;读着读着:dú zhe dú zhe:while reading on and on;，;眼睛:yǎn jing:eyes;湿润:shī rùn:moist;了:le:(change of state);。;这么:zhè me:so;多:duō:many;年来:nián lái:over the years;，;我:wǒ:I;总是:zǒng shì:always;忙着:máng zhe:busy with;工作:gōng zuò:work;，;很少:hěn shǎo:rarely;回家:huí jiā:to go home;看:kàn:to visit;她:tā:her;。
+T: As I read on, my eyes grew moist. All these years I have always been busy with work and rarely went home to see her.
+S: 我:wǒ:I;马上:mǎ shàng:immediately;拿起:ná qǐ:to pick up;手机:shǒu jī:phone;，;给:gěi:to (someone);奶奶:nǎi nai:grandma;打:dǎ:to make (a call);了:le:(completed action);个:gè:(measure word);电话:diàn huà:phone call;。
+T: I immediately picked up my phone and called Grandma.
+S: 电话:diàn huà:phone;那头:nà tóu:the other end;，;她:tā:her;的:de:(possessive particle);声音:shēng yīn:voice;还是:hái shi:still;那么:nà me:so;温柔:wēn róu:gentle;：;“;怎么:zěn me:how come;突然:tū rán:suddenly;想起:xiǎng qǐ:to think of;我:wǒ:me;了:le:(change of state);？;”
+T: At the other end of the line, her voice was as gentle as ever: "How come you suddenly thought of me?"
+S: 我:wǒ:I;笑着:xiào zhe:smiling;说:shuō:to say;：;“;奶奶:nǎi nai:grandma;，;这个:zhè ge:this;周末:zhōu mò:weekend;我:wǒ:I;回去:huí qù:to go back;看:kàn:to visit;您:nín:you (polite);，;给:gěi:for;您:nín:you (polite);带:dài:to bring;您:nín:you (polite);最:zuì:most;爱:ài:to love;吃:chī:to eat;的:de:(modifier particle);点心:diǎn xin:pastries;。;”
+T: I said with a smile, "Grandma, this weekend I'm coming back to see you. I'll bring the pastries you love most."
+G: 是…的 ~ 是…的 puts the focus on who, when, where or how something happened. It is used for events that are already finished. ~ 这封信是奶奶写的。 ~ This letter was written by Grandma. ~ 是
+G: 却 ~ 却 means "yet / however" and marks a contrast with what you would expect. It goes after the subject. ~ 他很累，却不想休息。 ~ He's tired, yet doesn't want to rest. ~ 却
+G: Verb + 着 + Verb + 着 ~ Repeating a verb with 着 means "while doing it… (something else happens)". ~ 我看着看着，睡着了。 ~ I fell asleep while watching. ~ 读着读着
+G: 舍不得 ~ 舍不得 means "to be reluctant to part with" or "to hate to do something". ~ 我舍不得离开这里。 ~ I hate to leave here. ~ 舍不得
+Q: Who wrote the letter? ~ The narrator's grandmother ~ The narrator's mother ~ A school friend
+Q: How did the narrator feel while reading it? ~ Moved, with moist eyes ~ Angry ~ Bored
+Q: What does the narrator promise at the end? ~ To visit this weekend and bring pastries ~ To write a reply ~ To move back home
+Q: How long ago did the narrator leave for university? ~ Ten years ago ~ Two years ago ~ Twenty years ago
+
+@lesson id=u02 level=4 type=article topic=Culture minutes=4
+@title 茶:chá:tea;的:de:(possessive particle);意义:yì yì:meaning
+@titleen What Tea Means in China
+@summary Tea is more than a drink in China: it shows respect, varies by region, and calms the mind.
+S: 在:zài:in;中国:zhōng guó:China;，;茶:chá:tea;不只是:bù zhǐ shì:not just;一种:yì zhǒng:a kind of;饮料:yǐn liào:drink;，;更:gèng:even more;是:shì:to be;一种:yì zhǒng:a kind of;生活:shēng huó:life;方式:fāng shì:way;。
+T: In China, tea is not just a kind of drink, but even more a way of life.
+S: 客人:kè rén:guest;来:lái:to come;家里:jiā lǐ:home;时:shí:when;，;主人:zhǔ rén:host;总是:zǒng shì:always;先:xiān:first;倒:dào:to pour;一杯:yì bēi:a cup of;茶:chá:tea;，;这:zhè:this;是:shì:to be;表示:biǎo shì:to show;欢迎:huān yíng:welcome;和:hé:and;尊重:zūn zhòng:respect;。
+T: When a guest comes to someone's home, the host always pours a cup of tea first. This shows welcome and respect.
+S: 不同:bù tóng:different;的:de:(modifier particle);地方:dì fang:place;，;人们:rén men:people;喜欢:xǐ huan:to like;的:de:(modifier particle);茶:chá:tea;也:yě:also;不一样:bù yí yàng:not the same;：;南方人:nán fāng rén:southerners;爱:ài:to love;喝:hē:to drink;绿茶:lǜ chá:green tea;，;北方人:běi fāng rén:northerners;喜欢:xǐ huan:to like;花茶:huā chá:jasmine tea;，;而:ér:whereas;广东人:guǎng dōng rén:Cantonese people;则:zé:(contrast particle);习惯:xí guàn:to be used to;边:biān:while (one action);喝茶:hē chá:to drink tea;边:biān:while (another action);吃:chī:to eat;点心:diǎn xin:dim sum, snacks;。
+T: Different places like different teas. Southerners love green tea, northerners like jasmine tea, whereas Cantonese people are used to eating dim sum while drinking tea.
+S: 研究:yán jiū:research;表明:biǎo míng:to show, to indicate;，;适量:shì liàng:in moderation;喝茶:hē chá:to drink tea;对:duì:toward, for;健康:jiàn kāng:health;有:yǒu:to have;好处:hǎo chu:benefit;，;比如:bǐ rú:for example;可以:kě yǐ:can;帮助:bāng zhù:to help;人们:rén men:people;放松:fàng sōng:to relax;心情:xīn qíng:mood;。
+T: Research shows that drinking tea in moderation is good for your health, for example it can help people relax.
+S: 不过:bú guò:however;，;茶:chá:tea;最:zuì:most;大:dà:big;的:de:(modifier particle);魅力:mèi lì:charm;，;也许:yě xǔ:perhaps;还是:hái shi:still;它:tā:it;带来:dài lái:to bring;的:de:(modifier particle);那种:nà zhǒng:that kind of;安静:ān jìng:quiet, calm;。
+T: However, the greatest charm of tea may still be the kind of calm it brings.
+S: 所以:suǒ yǐ:so;，;一杯:yì bēi:a cup of;茶:chá:tea;，;往往:wǎng wǎng:often;不只是:bù zhǐ shì:not just;为了:wèi le:in order to;解渴:jiě kě:to quench thirst;。
+T: So a cup of tea is often not just for quenching thirst.
+G: 不只是…，更是… ~ "not just … but even more …". It lifts a topic to a bigger idea. ~ 这不只是工作，更是生活。 ~ This is not just work, but a way of life. ~ 不只是,更
+G: 边…边… ~ 边 + verb … 边 + verb means doing two actions at the same time. ~ 他边走路边听音乐。 ~ He listens to music while walking. ~ 边
+G: 比如 ~ 比如 introduces an example: "for example". ~ 我喜欢水果，比如苹果。 ~ I like fruit, for example apples. ~ 比如
+G: 而 ~ 而 contrasts two groups or ideas: "whereas". ~ 他喜欢茶，而我喜欢咖啡。 ~ He likes tea, whereas I like coffee. ~ 而
+Q: What does pouring tea for a guest show? ~ Welcome and respect ~ That the guest should leave ~ That the host is thirsty
+Q: Which tea do northerners like? ~ Jasmine tea ~ Green tea ~ Black tea
+Q: According to the article, what can tea in moderation help with? ~ Relaxing the mood ~ Learning languages ~ Losing weight
+
+@lesson id=u03 level=4 type=dialogue topic=Daily life minutes=4
+@title 租:zū:to rent;房子:fáng zi:flat, house
+@titleen Renting a Flat
+@summary Xiaomei talks to a rental agent and negotiates the monthly rent.
+@speakers 小美:xiǎo měi:Xiaomei (name); 中介:zhōng jiè:agent
+S[小美]: 您好:nín hǎo:hello (polite);，;我:wǒ:I;想:xiǎng:to want to;租:zū:to rent;一套:yí tào:one (set, flat);两居室:liǎng jū shì:two-bedroom flat;，;请问:qǐng wèn:may I ask;这:zhè:this;附近:fù jìn:nearby;有:yǒu:to have;吗:ma:(yes/no question particle);？
+T: Hello, I'd like to rent a two-bedroom flat. May I ask whether there is one nearby?
+S[中介]: 有的:yǒu de:yes, we do;。;这:zhè:this;套:tào:(measure word for flats);离:lí:away from;地铁站:dì tiě zhàn:subway station;很:hěn:very;近:jìn:close;，;走路:zǒu lù:to walk;只要:zhǐ yào:only need;五分钟:wǔ fēn zhōng:five minutes;，;每个月:měi ge yuè:every month;四千五:sì qiān wǔ:4,500;。
+T: Yes. This one is very close to the subway station, only five minutes on foot. It's 4,500 a month.
+S[小美]: 价格:jià gé:price;有点:yǒu diǎn:a little;贵:guì:expensive;，;能不能:néng bu néng:is it possible to;便宜:pián yi:cheap;一点:yì diǎn:a bit;？
+T: The price is a little high. Could it be a bit cheaper?
+S[中介]: 房东:fáng dōng:landlord;说:shuō:to say;，;如果:rú guǒ:if;你:nǐ:you;一次:yí cì:at one time;付:fù:to pay;半年:bàn nián:half a year;的:de:(modifier particle);房租:fáng zū:rent;，;每个月:měi ge yuè:every month;可以:kě yǐ:can;便宜:pián yi:cheap;两百块:liǎng bǎi kuài:two hundred yuan;。
+T: The landlord says that if you pay six months of rent at once, it can be two hundred yuan cheaper per month.
+S[小美]: 这样的话:zhè yàng de huà:in that case;，;每个月:měi ge yuè:every month;就:jiù:then;是:shì:to be;四千三:sì qiān sān:4,300;，;我:wǒ:I;可以:kě yǐ:can;考虑:kǎo lǜ:to consider;一下:yí xià:for a moment;。
+T: In that case it's 4,300 a month. I can think about it.
+S[中介]: 没问题:méi wèn tí:no problem;。;您:nín:you (polite);要不要:yào bu yào:would you like to;现在:xiàn zài:now;去:qù:to go;看看:kàn kan:to take a look;房子:fáng zi:flat;？
+T: No problem. Would you like to go and have a look at the flat now?
+S[小美]: 好的:hǎo de:okay;，;麻烦:má fan:to trouble;您:nín:you (polite);带路:dài lù:to lead the way;。
+T: Okay, sorry to trouble you to lead the way.
+G: A 离 B ~ 离 means "(distance) from". The pattern is A + 离 + B + distance word. ~ 学校离我家很近。 ~ The school is very close to my home. ~ 离
+G: 能不能 / 要不要 ~ Verb + 不 + Verb is another way to ask a yes/no question and offers both choices. ~ 你要不要喝茶？ ~ Would you like some tea? ~ 能不能,要不要
+G: 如果…就… ~ "if … then …". In speech 如果 is often dropped and 就 carries the meaning alone. ~ 如果下雨，我们就不去。 ~ If it rains, we won't go. ~ 如果,就
+G: 一下 ~ 一下 softens a verb: "do it for a moment / have a quick go". ~ 请等一下。 ~ Please wait a moment. ~ 一下
+Q: Why might Xiaomei like the flat? ~ It is close to the subway ~ It is very cheap ~ It has a big garden
+Q: How can she get a lower monthly rent? ~ By paying six months at once ~ By signing for ten years ~ By bringing a friend
+Q: What would her monthly rent be then? ~ 4,300 ~ 4,500 ~ 4,100
