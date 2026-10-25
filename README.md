@@ -6,10 +6,6 @@ A graded Chinese reader and study room. HSK 3.0 levels 1 to 9, tap-to-define rea
 * **Stack:** plain HTML, CSS and JavaScript. No framework and no server.
 * **Data:** stays on your device, with backup and restore.
 
-![Today](docs/screenshots/today-light.png)
-![Reader with a word sheet](docs/screenshots/reader-word.png)
-![Stroke-order writing](docs/screenshots/write.png)
-
 ## What is in it
 
 * **Read.** 156 lessons from HSK 1 to 9: dialogues, articles, stories, Tang and Song poems, and classical prose. Tap any word for pinyin, meaning, example and characters. Smart pinyin hides words at or below your level. Simplified or traditional, pinyin / numbered pinyin / zhuyin, tone colours, sentence translations, sentence-by-sentence audio, listening mode, grammar notes and a short quiz per lesson.
