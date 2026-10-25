@@ -67,6 +67,8 @@ def main():
         if not m:
             continue
         trad, simp, py, body = m.groups()
+        if '\ufffd' in simp or '\ufffd' in trad:      # one upstream entry has a placeholder instead of a character
+            continue
         defs, cl = [], []
         for d in body.split('/'):
             d = d.strip()

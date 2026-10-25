@@ -8,6 +8,7 @@ const srv = http.createServer((q, r) => { const f = path.join(root, decodeURICom
 // the data file itself
 const D = JSON.parse(fs.readFileSync(path.join(root, 'dict.json'), 'utf8'));
 assert(D.e.length > 100000, 'dictionary has ' + D.e.length + ' entries');
+assert(!JSON.stringify(D).includes('\ufffd'), 'no replacement characters');
 const get = (h) => D.e.filter((e) => e[0] === h);
 assert(get('你好').some((e) => e[2] === 'nǐ hǎo' && e[3].includes('Hello!')), '你好 entry');
 assert(get('图书馆').some((e) => e[1] === '圖書館' && e[3][0] === 'library' && /家 jiā/.test(e[4])), '图书馆 entry with traditional form and measure words');
