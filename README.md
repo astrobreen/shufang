@@ -2,7 +2,7 @@
 
 A graded Chinese reader and study room. HSK 3.0 levels 1 to 9, tap-to-define reading, audio, idioms, spaced-repetition flashcards, stroke-order writing, and tone and listening drills. No account and no tracking.
 
-* **Coverage:** 156 lessons, about 11,000 HSK words, about 3,000 characters with stroke order, 146 成语 (chéngyǔ, four-character Chinese idioms such as 画蛇添足)
+* **Coverage:** 156 lessons, about 11,000 HSK words, about 3,000 characters with stroke order, 146 idioms (成语)
 * **Stack:** plain HTML, CSS and JavaScript. No framework and no server.
 * **Data:** stays on your device, with backup and restore.
 
@@ -11,7 +11,7 @@ A graded Chinese reader and study room. HSK 3.0 levels 1 to 9, tap-to-define rea
 * **Read.** 156 lessons from HSK 1 to 9: dialogues, articles, stories, Tang and Song poems, and classical prose. Tap any word for pinyin, meaning, example and characters. Smart pinyin hides words at or below your level. Simplified or traditional, pinyin / numbered pinyin / zhuyin, tone colours, sentence translations, sentence-by-sentence audio, listening mode, grammar notes and a short quiz per lesson.
 * **Words.** The full HSK 3.0 list (about 11,000 words) with search by character, pinyin or English. Save words to your own list.
 * **Practice.** SM-2 style flashcards, stroke-order animation and handwriting check for about 3,000 characters, a tone drill, a listening drill, a grammar index (268 patterns) and a pinyin chart with audio.
-* **成语 (chéngyǔ).** Four-character idioms, each a short phrase with a fixed meaning that often comes from a story, for example 画蛇添足 ("draw a snake and add feet", meaning to ruin something by adding what it does not need). 146 idioms in nine topics, each with its literal meaning, story or usage, an example sentence in lesson vocabulary, and a daily idiom on Today. Filter by topic and by how common the idiom is.
+* **Idioms (成语, chéngyǔ).** Four-character sayings, many from old stories, such as 画蛇添足 ("draw a snake and add feet", to ruin something by overdoing it). 146 idioms in nine topics, each with an example sentence, a story or usage note, and a daily idiom on the Today screen. Filter by topic and by how common the idiom is.
 * **Placement test.** A real test, not a self-rating: it asks what words mean, moves up or down a level by bisection and finds your HSK level in about 18 to 24 questions. "I don't know" counts as wrong, so guessing does not help.
 * **Today and Me.** Daily goal, streak, 10-week activity map, placement test, backup and restore.
 * Light and dark themes, works at phone width, keyboard shortcuts for flashcards.
