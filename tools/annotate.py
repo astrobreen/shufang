@@ -100,6 +100,7 @@ def load_cedict():
             forms.append({'py': syl, 'g': H.short_gloss([dfn]), 'm': cm[:4], 't': e.get('traditional') if e.get('traditional') != w else None,
                           'proper': proper, 'flag': flag})
         if forms:
+            forms.sort(key=lambda f: f['proper'])   # common meanings before place and personal names (山上 = on the mountain, not a Taiwan township)
             CED[w] = forms
 
 

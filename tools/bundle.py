@@ -76,10 +76,15 @@ def trad_of(tok):
     t = ''.join(cmap.get(c, c) for c in tok['h'])
     return t if t != tok['h'] else ''
 
+# ---- reviewed gloss corrections (src/content/gloss_fix.tsv)
+GF = H.GlossFix()
+
 # ---- compact lessons
 W, WI = [], {}
+CUR = [None, None]   # lesson id, sentence index while tokens are being converted
 def widx(tok):
     py = ' '.join(tok['py'])
+    tok = dict(tok, g=GF.fix(tok['h'], py, tok['g'], CUR[0], CUR[1]))
     lv = vocab_lv.get(tok['h'])
     if lv is None: lv = 10   # beyond the HSK lists
     key = (tok['h'], py, tok['g'], trad_of(tok))
@@ -91,6 +96,13 @@ def widx(tok):
 def toks(ts):
     return [widx(t) if 'h' in t else t['p'] for t in ts]
 
+def toks_at(lid, si, ts):
+    CUR[0], CUR[1] = lid, si
+    try:
+        return toks(ts)
+    finally:
+        CUR[0] = CUR[1] = None
+
 TY = {'dialogue': 'd', 'story': 's', 'article': 'a', 'poem': 'p', 'classic': 'c'}
 out = []
 for L in lessons:
@@ -98,7 +110,7 @@ for L in lessons:
     c = {'i': L['id'], 'l': L['level'], 'y': TY[L['type']], 'c': L.get('topic') or '', 'm': L['minutes'],
          's': L.get('source') or 'Original', 't': toks(L['title']), 'te': L['titleEn'], 'su': L['summary'],
          'sp': toks(L['speakers']),
-         'ss': [[spk.index(s['spk']) if s['spk'] in spk else -1, toks(s['t']), s['en']] for s in L['sents']],
+         'ss': [[spk.index(s['spk']) if s['spk'] in spk else -1, toks_at(L['id'], si, s['t']), s['en']] for si, s in enumerate(L['sents'])],
          'g': [[g['pattern'], g['expl'], g['ex'], g['exEn'], g['keys']] for g in L['grammar']],
          'q': [[q['q'], q['a'], q['w']] for q in L['quiz']]}
     z = QZ['quiz'].get(L['id'])
@@ -132,13 +144,26 @@ print('by level', sorted(collections.Counter(c['l'] for c in out).items()))
 # ---- full vocab (lazy)
 V = {str(k): [] for k in range(1, 10)}
 for w, e in sorted(hsk.items(), key=lambda kv: kv[1]['freq']):
-    f = e['forms'][0]
+    f = GF.pin(w, e) or H.lead_form(w, e, A.PRI)
     ms = f['meanings'] or [re.sub(r'\s*\[[^\]]*\]', '', x) for x in f['raw'][:1]]
-    g = '; '.join(ms[:3])[:110]
+    g = ''
+    for m_ in ms[:3]:
+        nxt = m_ if not g else g + '; ' + m_
+        if len(nxt) > 110:
+            break
+        g = nxt
+    if not g and ms:
+        g = H.clip(ms[0], 110)
+    g = GF.vocab_get(w, g)
     V[str(e['level'])].append([w, ' '.join(f['py']), g, f['trad'] if f['trad'] != w else ''])
 vj = json.dumps(V, ensure_ascii=False, separators=(',', ':'))
 open(os.path.join(OUT, 'vocab.json'), 'w', encoding='utf-8').write(vj)
 print('vocab', {k: len(v) for k, v in V.items()}, len(vj.encode()) // 1024, 'KB')
+stale = GF.unused()
+if stale:
+    for k_, what, ln in stale:
+        print(f'gloss_fix.tsv:{ln}: {k_} {what} matches nothing')
+    raise SystemExit('gloss_fix.tsv has rules that no longer apply')
 
 # ---- strokes (lazy, sharded by HSK level of the character)
 clv = {}

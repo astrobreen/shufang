@@ -1,0 +1,410 @@
+# Reviewed corrections to the word meanings (applied by tools/bundle.py, after annotate.py).
+#   w <word> <pinyin> <old gloss> <new gloss>   every token whose gloss is exactly <old> (a trailing "…" in <old> means "starts with")
+#   o <lesson.sentence> <word> <new gloss>      one word in one sentence (sentence counted from 0, as in the app)
+#   v <word> <new gloss>                        the HSK list entry
+#   p <word> <pinyin>                           which reading the HSK list leads with
+# Why: the first dictionary sense is often not the one the lessons use (才 = "ability" instead of "not until").
+# A line that matches nothing is an error, so this file cannot go stale.
+w	在	zài	to exist; to be alive	to be at; at; in
+w	是	shì	to be (followed by substantives only)	to be
+w	想	xiǎng	to think (about)	to want; to think; to miss
+w	先	xiān	early; prior	first; before
+w	太	tài	highest; greatest	too; excessively
+w	好	hǎo	good; appropriate	good; well; OK
+w	请	qǐng	to ask; to invite	please; to invite
+w	把	bǎ	to hold; to grasp	(marks the object); to hold
+w	要	yào	to want; to need	to want; must; will
+w	等	děng	class; rank	to wait
+w	老	lǎo	prefix used before the surname of a person	old
+w	当然	dāng rán	only natural	of course
+w	点	diǎn	point; dot	o'clock; to order; a little
+w	让	ràng	to yield; to permit	to let; to make; to allow
+w	带	dài	band; belt	to bring; to take along
+w	座	zuò	seat; base	(counter for mountains, bridges, buildings)
+w	快	kuài	rapid; quick	fast; quick; soon
+w	楼	lóu	house with more than 1 story	building; floor (storey)
+w	热	rè	to warm up; to heat up	hot
+w	被	bèi	quilt; to cover (with)	(passive marker)
+w	说	shuō	to speak; to talk	to say; to speak
+w	起	qǐ	to rise; to raise	to rise; up; to start
+w	还	hái	still; still in progress	still; also; even
+w	部	bù	ministry; department	(counter for films, books)
+w	下	xià	down; downwards	down; below; next
+w	停	tíng	to stop; to halt	to stop; to park
+w	别	bié	to leave; to part (from)	don't; other
+w	刺	cì	thorn; sting	to pierce; thorn
+w	同学	tóng xué	to study at the same school	classmate
+w	后	hòu	empress; queen	after; behind; later
+w	咪咪	mī mī	oboe-like musical instrument used in folk music	Mimi (a cat's name)
+w	山水	shān shuǐ	water from a mountain	landscape; mountains and rivers
+w	感动	gǎn dòng	to move (sb)	to move (emotionally); touched
+w	放	fàng	to put; to place	to put; to set off; to let go
+w	既	jì	already; since	both … and (既…又…)
+w	明白	míng bai	clear; obvious	to understand; clear
+w	给	gěi	to; for	to give; to; for
+w	觉得	jué de	to think that ...	to feel; to think
+w	课	kè	subject; course	class; lesson
+w	踢	tī	to kick	to kick; to play (football)
+w	过	guò	to cross; to go over	too (over-); to pass
+w	运动	yùn dòng	to move; to exercise	sport; exercise
+w	退	tuì	to retreat; to withdraw	to return (goods); to retreat
+w	都	dōu	all; both	all; both; even
+w	不好意思	bù hǎo yì si	to feel embarrassed	embarrassed; sorry
+w	不妨	bù fáng	there is no harm in	might as well
+w	云	yún	(classical) to say	cloud
+w	件	jiàn	item; component	(counter for clothes, matters)
+w	共	gòng	common; general	together; to share
+w	前	qián	front; forward	ago; before; front
+w	只	zhī	grain that has begun to ripen	(counter for animals, birds)
+w	号	hào	ordinal number	number; day of the month
+w	影	yǐng	picture; image	shadow
+w	打	dǎ	to beat; to strike	to play; to make (a call); to hit
+w	拿	ná	to hold; to seize	to take; to hold
+w	整	zhěng	exactly; in good order	whole
+w	日	rì	sun; day	day; sun
+w	日	rì	sun	day; sun
+w	本	běn	root; stem	(counter for books)
+w	次	cì	next in sequence; second	time; next
+w	片	piàn	thin piece; flake	(counter for slices, areas)
+w	生	shēng	to be born; to give birth	to be born; to grow
+w	篇	piān	sheet; piece of writing	(counter for essays)
+w	网络	wǎng luò	network (computing, telecommunications)	network; the internet
+w	药	yào	leaf of the iris	medicine
+w	记忆	jì yì	to remember; to recall	memory; to remember
+w	连	lián	to link; to join	even (连…都); to link
+w	闲	xián	enclosure	idle; leisure
+w	上门	shàng mén	to drop in; to visit	to call at the door
+w	严	yán	tight (closely sealed)	strict; severe
+w	卡	kǎ	to stop; to block	card
+w	店	diàn	inn; old-style hotel	shop; store
+w	度	dù	to pass; to spend (time)	degree; to spend (time)
+w	码	mǎ	weight; number	code; number
+w	金	jīn	gold; chemical element Au	gold
+w	多	duō	many; much	many; much; how; more
+w	于	yú	to go; to take	in; at; from; to
+w	周	zhōu	to make a circuit; to circle	week
+w	准	zhǔn	to allow; to grant	accurate; precise
+w	修	xiū	to decorate; to embellish	to repair; to build
+w	才	cái	ability; talent	only then; not until
+w	回	huí	to circle; to go back	to return; to go back
+w	当	dāng	(onom.) dong	when; as; to act as
+w	青山	qīng shān	green hills; (the good) life	green hills
+w	钟	zhōng	handleless cup; goblet	(suffix for time spans)
+w	晚	wǎn	evening; night	late; evening
+w	全球	quán qiú	entire; total	global; worldwide
+w	包	bāo	to cover; to wrap	bag; to wrap
+w	关	guān	mountain pass; to close	to close; to turn off
+w	冲动	chōng dòng	to have an urge	impulse
+w	偶然	ǒu rán	incidentally; occasional	by chance; accidental
+w	品质	pǐn zhì	character	quality
+w	地区	dì qū	local; regional	region; area
+w	境界	jìng jiè	boundary; state	realm; level of attainment
+w	实习	shí xí	to practice; field work	internship; to intern
+w	密码	mì mǎ	cipher; secret code	password
+w	工作	gōng zuò	to work	work; job; to work
+w	应对	yìng duì	to answer; to reply	to respond to; to deal with
+w	张	zhāng	to open up; to spread	(counter for sheets, lists)
+w	总体	zǒng tǐ	completely; totally	overall
+w	恐怕	kǒng pà	fear; to dread	I'm afraid that…; probably
+w	意思	yì si	idea; opinion	meaning
+w	排放	pái fàng	to arrange in order; to emit	to discharge (emissions)
+w	提升	tí shēng	to promote (to a higher-ranking position)	to raise; to improve
+w	旅游	lǚ yóu	trip; journey	travel; tourism
+w	机构	jī gòu	mechanism; structure	institution
+w	楷	kǎi	model; pattern	regular script
+w	段	duàn	paragraph; section	(counter for sections)
+w	沟通	gōu tōng	to join; to connect	to communicate
+w	活动	huó dòng	to exercise; to move about	activity; to exercise
+w	渠道	qú dào	irrigation ditch	channel; means
+w	点击	diǎn jī	to hit; to press	to click
+w	留	liú	to leave (a message etc)	to leave; to keep
+w	移动	yí dòng	to move; movement	mobile; to move
+w	绕	rào	to wind; to coil (thread)	to go around; to detour
+w	节	jié	joint; node	(counter for classes)
+w	诚信	chéng xìn	genuine; honest	integrity; honesty
+w	还是	hái shi	still (as before)	still; had better
+w	进	jìn	to go forward; to advance	to enter; to advance
+w	颜色	yán sè	color; countenance	colour
+w	织女	zhī nǚ	Vega (star)	the Weaver Girl
+w	牛郎	niú láng	cowherd boy	the Cowherd (Niulang)
+w	王母	wáng mǔ	(literary) paternal grandmother	the Queen Mother (of the West)
+w	王母娘娘	wáng mǔ niáng niáng	another name for Xi Wangmu 西王母	the Queen Mother of the West
+w	火星	huǒ xīng	spark	Mars
+w	故宫	gù gōng	former imperial palace	the Forbidden City
+w	三字经	sān zì jīng	(slang) swearword	Three Character Classic
+w	斯	sī	(phonetic)	this
+w	山上	shān shàng	Shanshang township in Tainan county 台南縣|台南县	on the mountain
+w	大树	dà shù	Tashu township in Kaohsiung county 高雄縣|高雄县	big tree
+w	水里	shuǐ lǐ	Shuili township in Nantou county 南投縣|南投县	in the water
+w	新城	xīn chéng	Xincheng or Hsincheng township in Hualien	new city
+w	江海	jiāng hǎi	Jianghai district of Jiangmen city 江門市|江门市	rivers and seas
+w	大山	dà shān	Dashan, stage name of Canadian Mark Henry	big mountain
+w	山下	shān xià	Yamashita (Japanese surname)	at the foot of the mountain
+w	广陵	guǎng líng	Guangling district of Yangzhou city 揚州市|扬州市	Guangling (old name of Yangzhou)
+w	高台	gāo tái	Gaotai county in Zhangye 張掖|张掖, Gansu	high terrace
+w	江陵	jiāng líng	Jiangling county in Jingzhou 荊州|荆州, Hubei	Jiangling (in Hubei)
+w	杏花村	xìng huā cūn	village of blossoming apricot trees where one	Apricot Blossom Village
+w	金山	jīn shān	Jinshan suburban district of Shanghai	mountain of gold
+w	个	gè	(classifier used before a noun that has no)	(general counter)
+w	吧	ba	(modal particle indicating suggestion or)	(particle: suggestion, "let's")
+w	则	zé	(literary) (conjunction used to express)	then; but (literary)
+w	呢	ne	particle indicating that a previously asked	(particle: "and you?" / continuing)
+w	得	de	structural particle - used after a verb	(particle linking a verb and its result)
+w	着	zhe	aspect particle indicating action in progress	(continuous aspect marker)
+w	就	jiù	(after a suppositional clause) in that case	then; just; right away
+w	没	méi	(negative prefix for verbs) have not	not (have); no
+w	者	zhě	(after a verb or adjective) one who (is) ...	one who; -er
+w	你	nǐ	you (informal, as opposed to courteous 您)	you
+w	您	nín	you (courteous, as opposed to informal 你)	you (polite)
+w	啊	a	modal particle ending sentence	(particle: softening, exclaiming)
+w	嘛	ma	modal particle indicating that sth is obvious	(particle: "of course")
+w	起来	qi lai	(after a verb) indicating the beginning	(verb suffix) begin to; up
+w	扬州	yáng zhōu	Yangzhou prefecture level city in Jiangsu	Yangzhou (city)
+w	长安	cháng ān	Chang'an (ancient name of Xi'an 西安) capital	Chang'an (ancient capital, now Xi'an)
+w	西安	xī ān	Xi'an, sub-provincial city and capital	Xi'an (city)
+w	四川	sì chuān	Sichuan province (Szechuan) in southwest China	Sichuan (province)
+w	广东	guǎng dōng	Guangdong province (Kwangtung) in south China	Guangdong (province)
+w	山东	shān dōng	Shandong province	Shandong (province)
+w	陕西	shǎn xī	Shaanxi province (Shensi) in northwest China	Shaanxi (province)
+w	甘肃	gān sù	Gansu province, abbr. 甘, short name 隴|陇	Gansu (province)
+w	成都	chéng dū	Chengdu subprovincial city and capital	Chengdu (city)
+w	洛阳	luò yáng	Luoyang prefecture level city in Henan	Luoyang (city)
+w	南京	nán jīng	Nanjing subprovincial city on the Changjiang	Nanjing (city)
+w	太极拳	tài jí quán	shadowboxing or Taiji, T'aichi or T'aichichuan	tai chi
+w	外卖	wài mài	(of a restaurant) to provide a takeout or home	takeaway (food delivery)
+w	兵马俑	bīng mǎ yǒng	figurines of warriors and horses buried	Terracotta Army
+w	年糕	nián gāo	nian gao, New Year cake, typically a sweet	nian gao (New Year rice cake)
+w	春运	chūn yùn	(increased) passenger transportation around	Spring Festival travel rush
+w	之所以	zhī suǒ yǐ	(after a noun N and before a predicate P)	the reason why
+w	中秋节	zhōng qiū jié	the Mid-Autumn Festival on 15th of 8th lunar	the Mid-Autumn Festival
+w	弹琴	tán qín	to play or strum a lute or other stringed	to play the zither (qin)
+w	鲁肃	lǔ sù	Lu Su or Lu Zijing 魯子敬|鲁子敬 (172-217)	Lu Su (statesman)
+w	儒家	rú jiā	Confucian school, founded by Confucius 子	Confucianism (school)
+w	道家	dào jiā	Daoist School of the Warring States Period	Daoism (school)
+w	闽语	mǐn yǔ	Min dialects, spoken in Fujian Province	Min dialect
+w	湘语	xiāng yǔ	Xiang (Hunanese) dialect spoken in Hunan	Xiang dialect
+w	赣语	gàn yǔ	Gan dialect, spoken in Jiangxi Province	Gan dialect
+w	吴语	wú yǔ	Wu dialects	Wu dialect
+w	庄周	zhuāng zhōu	same as Zhuangzi 莊子|庄子 (369-286 BC)	Zhuang Zhou (Zhuangzi)
+w	追溯	zhuī sù	lit. to go upstream	to trace back
+w	元代	yuán dài	the Yuan or Mongol dynasty (1279-1368)	the Yuan dynasty
+w	可见	kě jiàn	it can clearly be seen (that this is the case)	it is clear that
+w	旧	jiù	old; opposite - new 新	old
+w	直接	zhí jiē	direct (opposite - indirect 间接)	direct
+w	荒芜	huāng wú	left to return to unchecked growth	overgrown; deserted
+w	年代	nián dài	a decade of a century (e.g. the Sixties)	decade; era
+w	乎	hū	(classical particle similar to 於|于) in	(classical question/exclamation particle)
+w	后羿	hòu yì	Houyi, mythological Chinese archer whose wife	Hou Yi (mythical archer)
+w	取长补短	qǔ cháng bǔ duǎn	lit. use others' strengths to make up for one's	to learn from others' strengths
+w	中西医结合	zhōng xī yī jié hé	to combine traditional Chinese and Western	integrated Chinese and Western medicine
+w	喜怒哀乐	xǐ nù āi lè	four types of human emotions, namely	joy, anger, sorrow, happiness
+w	养儿防老	yǎng ér fáng lǎo	(of parents) to bring up children	to raise children as security for old age
+w	颗	kē	classifier for small spheres, pearls	(counter for small round things)
+w	棵	kē	classifier for trees, cabbages, plants etc	(counter for trees, plants)
+w	趟	tàng	classifier for times, round trips or rows	(counter for trips)
+w	明清	míng qīng	the Ming (1368-1644) and Qing	the Ming and Qing dynasties
+w	小篆	xiǎo zhuàn	the small or lesser seal	small seal script
+w	外面	wài miàn	outside (also pr. for this sense)	outside
+w	手下	shǒu xià	under one's control or administration	subordinates
+w	天宫	tiān gōng	Temple in Heaven (e.g. of the Jade Emperor)	heavenly palace
+w	压岁钱	yā suì qián	money given to children as new year present	lucky money (red envelope)
+w	中医	zhōng yī	traditional Chinese medical science	traditional Chinese medicine
+w	流行	liú xíng	(of a contagious disease etc) to spread	to be popular; to spread
+o	c2-12.1	台	terrace; tower
+o	h1-14.2	台	(counter for machines)
+o	h2-03.3	中	medium
+o	h1-01.4	中	middle (school)
+o	h8-04.4	原	plain; wilderness
+o	h3-10.6	才	(emphatic) certainly
+o	h9-03.2	意	intent; idea
+o	h8-05.4	明	to make clear
+o	h6-09.1	望	to observe (look)
+o	h7-03.5	哪里	(rhetorical) where; how could it be
+o	c1-10.0	清明	Qingming (Tomb-Sweeping Day)
+o	h8-06.5	游	to roam; to move about
+o	h4-16.4	签	to rebook (a ticket)
+o	h5-01.0	代	dynasty; era
+o	h4-06.2	信	to believe
+o	h3-11.3	倒	to pour
+o	h4-02.0	几	several
+o	h5-01.2	间	(counter for rooms)
+o	h9-02.5	词	ci (lyric poetry)
+o	h3-07.0	记	to remember
+o	h9-01.5	家	expert (suffix)
+o	h6-08.8	门	(counter for fields of study)
+o	h9-03.3	白	blank
+o	h8-03.3	沉	to settle (the mind)
+o	c1-19.3	流	stream
+o	h9-03.1	笔	writing brush
+o	h9-03.2	笔	writing brush
+o	h5-09.0	总	always
+o	h8-06.2	道	to say
+o	c1-08.3	送	to see off
+o	c1-01.1	上	on; upon
+o	c1-09.3	上	on; upon
+o	h3-02.4	女	daughter
+o	h6-06.4	女	daughter
+o	h2-12.4	场	(counter for showings)
+o	h8-06.0	丁	Ding (surname)
+o	h7-02.3	分	point
+o	c2-13.5	分	distinction
+o	h6-07.1	让	to give way (to let others use)
+o	h3-09.2	会	meeting
+o	h3-14.6	好	ready; done
+o	h4-11.2	好	easy (to)
+o	h1-13.2	要	to take (time)
+o	h2-07.1	在	(ongoing action)
+o	h4-12.1	麻	numbing
+o	h4-16.5	空	vacant
+o	h4-10.5	修	to repair
+v	在	to be at; at; in
+v	是	to be
+v	想	to want; to think; to miss
+v	先	first; before
+v	太	too; excessively
+v	好	good; well; OK
+v	请	please; to invite
+v	把	(marks the object); to hold
+v	要	to want; must; will
+v	等	to wait
+v	老	old
+v	当然	of course
+v	点	o'clock; to order; a little
+v	让	to let; to make; to allow
+v	带	to bring; to take along
+v	座	(counter for mountains, bridges, buildings)
+v	快	fast; quick; soon
+v	楼	building; floor (storey)
+v	热	hot
+v	被	(passive marker)
+v	说	to say; to speak
+v	起	to rise; up; to start
+v	还	still; also; even
+v	部	(counter for films, books)
+v	下	down; below; next
+v	停	to stop; to park
+v	别	don't; other
+v	刺	to pierce; thorn
+v	同学	classmate
+v	感动	to move (emotionally); touched
+v	放	to put; to set off; to let go
+v	既	both … and (既…又…)
+v	明白	to understand; clear
+v	给	to give; to; for
+v	觉得	to feel; to think
+v	课	class; lesson
+v	踢	to kick; to play (football)
+v	过	too (over-); to pass
+v	运动	sport; exercise
+v	退	to return (goods); to retreat
+v	都	all; both; even
+v	不好意思	embarrassed; sorry
+v	不妨	might as well
+v	云	cloud
+v	件	(counter for clothes, matters)
+v	共	together; to share
+v	前	ago; before; front
+v	只	(counter for animals, birds)
+v	号	number; day of the month
+v	打	to play; to make (a call); to hit
+v	拿	to take; to hold
+v	整	whole
+v	日	day; sun
+v	本	(counter for books)
+v	次	time; next
+v	片	(counter for slices, areas)
+v	生	to be born; to grow
+v	篇	(counter for essays)
+v	网络	network; the internet
+v	记忆	memory; to remember
+v	连	even (连…都); to link
+v	闲	idle; leisure
+v	上门	to call at the door
+v	严	strict; severe
+v	卡	card
+v	店	shop; store
+v	度	degree; to spend (time)
+v	码	code; number
+v	金	gold
+v	多	many; much; how; more
+v	于	in; at; from; to
+v	周	week
+v	准	accurate; precise
+v	修	to repair; to build
+v	回	to return; to go back
+v	当	when; as; to act as
+v	钟	(suffix for time spans)
+v	晚	late; evening
+v	全球	global; worldwide
+v	包	bag; to wrap
+v	关	to close; to turn off
+v	冲动	impulse
+v	偶然	by chance; accidental
+v	品质	quality
+v	地区	region; area
+v	境界	realm; level of attainment
+v	实习	internship; to intern
+v	密码	password
+v	工作	work; job; to work
+v	应对	to respond to; to deal with
+v	张	(counter for sheets, lists)
+v	总体	overall
+v	恐怕	I'm afraid that…; probably
+v	意思	meaning
+v	排放	to discharge (emissions)
+v	提升	to raise; to improve
+v	旅游	travel; tourism
+v	机构	institution
+v	段	(counter for sections)
+v	沟通	to communicate
+v	活动	activity; to exercise
+v	渠道	channel; means
+v	留	to leave; to keep
+v	移动	mobile; to move
+v	绕	to go around; to detour
+v	节	(counter for classes)
+v	诚信	integrity; honesty
+v	还是	still; had better
+v	进	to enter; to advance
+v	颜色	colour
+v	个	(general counter)
+v	吧	(particle: suggestion, "let's")
+v	则	then; but (literary)
+v	呢	(particle: "and you?" / continuing)
+v	得	(particle linking a verb and its result)
+v	着	(continuous aspect marker)
+v	就	then; just; right away
+v	没	not (have); no
+v	者	one who; -er
+v	你	you
+v	您	you (polite)
+v	啊	(particle: softening, exclaiming)
+v	嘛	(particle: "of course")
+v	太极拳	tai chi
+v	外卖	takeaway (food delivery)
+v	之所以	the reason why
+v	中秋节	the Mid-Autumn Festival
+v	儒家	Confucianism (school)
+v	追溯	to trace back
+v	可见	it is clear that
+v	旧	old
+v	直接	direct
+v	年代	decade; era
+v	喜怒哀乐	joy, anger, sorrow, happiness
+v	颗	(counter for small round things)
+v	棵	(counter for trees, plants)
+v	趟	(counter for trips)
+v	外面	outside
+v	中医	traditional Chinese medicine
+v	流行	to be popular; to spread
+p	掺	chān
+p	游	yóu
+p	只	zhǐ
+p	缝	féng
+p	干	gān
+p	便宜	pián yi
+v	才	only then; not until; just; (n.) ability, talent
+w	时	shí	timing	time; when
+w	便	biàn	plain; informal	then; soon after
+w	里	lǐ	lining; interior	inside; in
+o	c2-09.1	但	yet

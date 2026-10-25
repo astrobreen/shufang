@@ -189,10 +189,139 @@ def short_gloss(ms):
     if len(segs) > 1 and len(g) + len(segs[1]) <= 26 and not g.startswith('('):
         g += '; ' + segs[1]
     g = g.replace(':', ' -').strip()
-    return g[:48]
+    return clip(g)
+
+
+def clip(g, n=48):
+    """shorten a gloss at a natural break (never mid-word, never inside a bracket, never ending on 'of the')"""
+    if len(g) <= n:
+        return g
+    cut = g[:n]
+    k = max(cut.rfind(sep) for sep in ('; ', ', ', ' - ', ' ('))
+    if k < 12:
+        k = cut.rfind(' ')
+    if k >= 12:
+        cut = cut[:k]
+    cut = cut.rstrip(' ,;-:(')
+    if cut.count('(') > cut.count(')'):
+        p = cut.rfind('(')
+        cut = cut[:p].rstrip(' ,;-:') if p >= 12 else cut + ')'
+    while True:
+        m = re.search(r'\s+(of|the|a|an|to|and|or|in|for|with|on|at|as|by|from|that|which|is|are|etc)$', cut)
+        if not m:
+            break
+        cut = cut[:m.start()].rstrip(' ,;-:')
+    return cut
+
+
+class GlossFix:
+    """Reviewed corrections to the glosses (src/content/gloss_fix.tsv).
+       w <word> <pinyin> <old gloss> <new gloss>   every token with that exact gloss ('...' at the end of <old> = starts with)
+       o <lesson.sentence> <word> <new gloss>       the word in one sentence (sentence numbered from 0, as in the app)
+       v <word> <new gloss>                         the HSK list entry
+       p <word> <pinyin>                            which reading the HSK list leads with
+       A rule that matches nothing is an error, so the file cannot go stale."""
+
+    def __init__(self, path=None):
+        self.w, self.o, self.vocab, self.pins, self.used, self.rules = {}, {}, {}, {}, set(), []
+        path = path or os.path.join(CONTENT, 'gloss_fix.tsv')
+        if not os.path.exists(path):
+            return
+        for ln, line in enumerate(open(path, encoding='utf-8'), 1):
+            line = line.rstrip('\n')
+            if not line.strip() or line.startswith('#'):
+                continue
+            f = line.split('\t')
+            k = f[0]
+            if k == 'w' and len(f) == 5:
+                self.w.setdefault((f[1], f[2]), []).append((f[3].strip(), f[4].strip(), ln))
+            elif k == 'o' and len(f) == 4:
+                lid, _, si = f[1].rpartition('.')
+                self.o[(lid, int(si), f[2])] = (f[3].strip(), ln)
+            elif k == 'p' and len(f) == 3:
+                self.pins[f[1]] = (f[2].strip(), ln)
+            elif k == 'v' and len(f) == 3:
+                self.vocab[f[1]] = f[2].strip()
+                self.rules.append(('v', f[1], ln))
+            else:
+                raise SystemExit(f'gloss_fix.tsv:{ln}: cannot read this line')
+            self.rules.append((k, f[1] if k != 'o' else f[1] + ' ' + f[2], ln))
+
+    def fix(self, h, py, g, lid=None, si=None):
+        r = self.o.get((lid, si, h)) if lid is not None else None
+        if r:
+            self.used.add(r[1])
+            return r[0]
+        for old, new, ln in self.w.get((h, py), ()):
+            ok = g.startswith(old[:-1]) if old.endswith('…') else g.strip() == old
+            if ok:
+                self.used.add(ln)
+                return new
+        return g
+
+    def pin(self, w, e):
+        r = self.pins.get(w)
+        if not r:
+            return None
+        for f in e['forms']:
+            if ' '.join(f['py']) == r[0]:
+                self.used.add(r[1])
+                return f
+        return None
+
+    def vocab_get(self, w, g, entry_py=None):
+        if w in self.vocab:
+            self.used.add(next(r[2] for r in self.rules if r[0] == 'v' and r[1] == w))
+            return self.vocab[w]
+        return g
+
+    def unused(self):
+        return [r for r in self.rules if r[2] not in self.used]
 
 
 _cache = {}
+
+
+_ODD = re.compile(r'^\(?(onom\.|archaic|old|dialect|Tw|coll\.)\b|\((old|archaic|onom\.|Tw|loanword)\)\s*$|euphemistic|erroneous|Taiwan pr|^\(literary\) variant', re.I)
+
+
+def _odd(f):
+    """a rare, variant or archaic entry that should not lead the HSK list"""
+    raw = f['raw'] or []
+    return not f['meanings'] or any(JUNK.match(m) or _ODD.search(m) for m in raw[:3])
+
+
+def lead_form(w, e, pri=None):
+    """The form the HSK list leads with. Usually the list's own first form; but when that one is a variant or rare reading
+    (比 'bī, euphemistic variant of ...') or a single character whose usual reading is another one (要 yào, not yāo),
+    the form with the usual reading. `pri` = hand-written default readings of the common polyphones."""
+    fs = e['forms']
+    if len(fs) == 1:
+        return fs[0]
+
+    def key(x):
+        b, t = strip_marks(x)
+        return b, (0 if t in (0, 5) else t)
+
+    def match(f, ref):
+        return bool(ref) and [key(x) for x in ref] == [key(x) for x in f['py']]
+    ref = None
+    if len(w) == 1:
+        r = (pri or {}).get(w) or load_chars().get(w)
+        ref = [norm_syl(r)] if r else None
+        if ref and not match(fs[0], ref):
+            for f in fs[1:]:
+                if match(f, ref) and not _odd(f):
+                    return f
+    if not _odd(fs[0]):
+        return fs[0]
+    if len(w) > 1:
+        r = load_phrases().get(w)
+        ref = [norm_syl(x) for x in r] if r and len(r) == len(w) else None
+
+    def score(f):
+        return (3 if match(f, ref) else 0) - (3 if _odd(f) else 0)
+    return max(fs, key=score)
 
 
 def load_hsk():

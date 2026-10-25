@@ -64,7 +64,7 @@ Q: How much does Mary pay? ~ 240 yuan ~ 300 yuan ~ 80 yuan ~ 280 yuan
 @titleen The Four Seasons in Beijing
 @summary A short description of the seasons in the Chinese capital.
 北京有四个季节：春天、夏天、秋天和冬天。 // Beijing has four seasons: spring, summer, autumn and winter.
-春天不太冷，也不太热，公园里的花都开了。 // Spring is neither too cold nor too hot, and the flowers in the parks are all in bloom.
+春天不太冷，也不太热，公园里的花/都开了。 // Spring is neither too cold nor too hot, and the flowers in the parks are all in bloom.
 夏天很热，常常下大雨，可是晚上很舒服。 // Summer is very hot and often has heavy rain, but the evenings are comfortable.
 秋天是北京最好的季节，天很蓝，树叶是黄色的。 // Autumn is the best season in Beijing. The sky is very blue and the leaves are yellow.
 冬天很冷，有时候会下雪。 // Winter is very cold, and sometimes it snows.
