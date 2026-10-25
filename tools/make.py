@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Full rebuild: annotate texts -> bundle data -> dictionary -> assemble site.   Needs ./vendor (tools/fetch_sources.sh).
+"""Full rebuild: annotate texts -> bundle data -> dictionary and handwriting index -> assemble site.   Needs ./vendor (tools/fetch_sources.sh).
 
   python3 tools/make.py             # everything
   python3 tools/make.py --no-data   # only re-assemble the site from build/dist (fast; for UI changes)
@@ -13,4 +13,5 @@ if '--no-data' not in sys.argv:
     run('annotate.py')
     run('bundle.py')
     run('build_dict.py')
+    run('build_hw.py')
 run('assemble.py')

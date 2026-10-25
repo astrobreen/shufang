@@ -182,14 +182,15 @@ function scheduleDictList() { clearTimeout(dTimer); dTimer = setTimeout(refreshD
 
 function inDict() { return view === 'words' && wui.tab === 'dict'; }
 function dictBody() {
-  var out = '<label class="search mt12">' + icon('search', 'sm') + '<input id="dq" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="汉字, pinyin or English" value="' + esc(dui.q) + '" aria-label="Search the dictionary"></label>' +
-    '<div id="dlist">' + dictList() + '</div>';
+  var out = '<label class="search mt12">' + icon('search', 'sm') + '<input id="dq" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="汉字, pinyin or English" value="' + esc(dui.q) + '" aria-label="Search the dictionary"><button class="iconbtn sm' + (dui.hw ? ' on' : '') + '" data-act="hwtoggle" aria-label="Write a character" aria-pressed="' + !!dui.hw + '">' + icon('practice', 'sm') + '</button></label>' +
+    (dui.hw ? hwBoxHTML() : '') + '<div id="dlist">' + dictList() + '</div>';
   var again = function () { if (inDict() && !rd && !ses && !sh) refreshDictList(); };
+  if (dui.hw && !HWI.ready && !HWI.failed) loadHw(function () { if (inDict() && dui.hw && !rd && !ses) { if (HWS.length) hwRecognize(); else hwRefreshBox(); } });
   if (!DI.ready && !DI.loading && !DI.failed) loadDict(again);
   if (!V.ready && !V.loading && !V.failed) loadVocab(again);
   setTimeout(function () {                                   // a computer keyboard: ready to type; on a phone, do not pop the keyboard up
     var el = $('#dq');
-    if (el && inDict() && !dui.q && !sh && window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)').matches) el.focus();
+    if (el && inDict() && !dui.q && !dui.hw && !sh && window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)').matches) el.focus();
   }, 0);
   return out;
 }

@@ -94,6 +94,12 @@ function act(a, el, ev) {
     case 'dictinfo': openDictEntry(d.h); break;
     case 'dtry': dui.q = d.v; dui.n = 40; render(); break;
     case 'dmore': dui.n += 40; { var dl = $('#dlist'); if (dl) dl.innerHTML = dictList(); } break;
+    case 'hwtoggle': dui.hw = !dui.hw; render(); break;
+    case 'hwundo': HWS.pop(); { var hg = $('#hwink'); if (hg && hg.lastChild) hg.removeChild(hg.lastChild); } hwRecognize(); break;
+    case 'hwclear': hwClearInk(); hwRefreshBox(); break;
+    case 'hwpick': hwSetQuery(dui.q + d.c); hwClearInk(); hwRefreshBox(); break;
+    case 'hwdel': hwSetQuery(Array.from(dui.q).slice(0, -1).join('')); hwRefreshBox(); break;
+    case 'hwretry': HWI.failed = false; loadHw(function () { if (inDict() && dui.hw) { if (HWS.length) hwRecognize(); else hwRefreshBox(); } }); hwRefreshBox(); break;
     case 'dclearhist': S.hist = []; save(); render(); break;
     case 'dretry': DI.failed = false; loadDict(function () { if (inDict() && !rd && !ses) refreshDictList(); }); render(); break;
     case 'char':

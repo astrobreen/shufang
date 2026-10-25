@@ -194,9 +194,112 @@
     return a;
   }
 
+
+  /* ---------- handwriting: match drawn strokes to the stroke centre-lines in hw.json ----------
+     The drawing is centred, scaled so its longest side is 1 and every stroke is resampled to HW_N points,
+     exactly as tools/build_hw.py prepares the reference.  Strokes are paired with the reference's strokes by the
+     cheapest assignment, so the order they were written in matters only a little; a missing or extra stroke costs HW_PEN. */
+  var HW_N = 8, HW_PEN = 0.35, HW_ORDER = 0.03, HW_REV = 0.1;
+  function hwResample(pts, n) {
+    var seg = [], total = 0, i;
+    for (i = 1; i < pts.length; i++) { var d = Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]); seg.push(d); total += d; }
+    var out = [], j = 0, acc = 0;
+    if (total === 0) { for (i = 0; i < n; i++) out.push([pts[0][0], pts[0][1]]); return out; }
+    for (var k = 0; k < n; k++) {
+      var tt = total * k / (n - 1);
+      while (j < seg.length - 1 && acc + seg[j] < tt) { acc += seg[j]; j++; }
+      var f = seg[j] === 0 ? 0 : Math.min(1, Math.max(0, (tt - acc) / seg[j]));
+      out.push([pts[j][0] + (pts[j + 1][0] - pts[j][0]) * f, pts[j][1] + (pts[j + 1][1] - pts[j][1]) * f]);
+    }
+    return out;
+  }
+  /* strokes: [[ [x, y], ... ], ...] in screen coordinates (y down); returns one Float32Array(2 * HW_N) per stroke, or null */
+  function hwPrep(strokes) {
+    var ss = (strokes || []).filter(function (s) { return s && s.length; });
+    if (!ss.length) return null;
+    var x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
+    ss.forEach(function (s) { s.forEach(function (p) { if (p[0] < x0) x0 = p[0]; if (p[0] > x1) x1 = p[0]; if (p[1] < y0) y0 = p[1]; if (p[1] > y1) y1 = p[1]; }); });
+    var side = Math.max(x1 - x0, y1 - y0) || 1, cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
+    return ss.map(function (s) {
+      var pts = s.length === 1 ? [s[0], s[0]] : s, r = hwResample(pts, HW_N), out = new Float32Array(2 * HW_N);
+      for (var i = 0; i < HW_N; i++) { out[2 * i] = (r[i][0] - cx) / side; out[2 * i + 1] = (r[i][1] - cy) / side; }
+      return out;
+    });
+  }
+  function hwIndex(j) {
+    var st = j.s.map(function (str) {
+      var per = 2 * j.n, k = str.length / per, strokes = [];
+      for (var a = 0; a < k; a++) {
+        var f = new Float32Array(per);
+        for (var b = 0; b < per; b++) f[b] = (str.charCodeAt(a * per + b) - j.b) / j.q - 0.5;
+        strokes.push(f);
+      }
+      return strokes;
+    });
+    return { c: Array.from(j.c), st: st };
+  }
+  function hwStrokeCost(u, r) {
+    var f = 0, b = 0, i, n = HW_N;
+    for (i = 0; i < n; i++) {
+      f += Math.hypot(u[2 * i] - r[2 * i], u[2 * i + 1] - r[2 * i + 1]);
+      b += Math.hypot(u[2 * i] - r[2 * (n - 1 - i)], u[2 * i + 1] - r[2 * (n - 1 - i) + 1]);
+    }
+    return Math.min(f, b + HW_REV * n) / n;
+  }
+  function hwAssign(a, n) {                          // Hungarian algorithm, a is n x n; returns the column chosen for each row
+    var INF = 1e9, u = new Float64Array(n + 1), v = new Float64Array(n + 1), p = new Int32Array(n + 1), way = new Int32Array(n + 1), i, j;
+    for (i = 1; i <= n; i++) {
+      p[0] = i; var j0 = 0, minv = new Float64Array(n + 1).fill(INF), used = new Uint8Array(n + 1);
+      do {
+        used[j0] = 1; var i0 = p[j0], delta = INF, j1 = 0;
+        for (j = 1; j <= n; j++) if (!used[j]) {
+          var cur = a[i0 - 1][j - 1] - u[i0] - v[j];
+          if (cur < minv[j]) { minv[j] = cur; way[j] = j0; }
+          if (minv[j] < delta) { delta = minv[j]; j1 = j; }
+        }
+        for (j = 0; j <= n; j++) { if (used[j]) { u[p[j]] += delta; v[j] -= delta; } else minv[j] -= delta; }
+        j0 = j1;
+      } while (p[j0] !== 0);
+      do { var jj = way[j0]; p[j0] = p[jj]; j0 = jj; } while (j0);
+    }
+    var asg = new Array(n);
+    for (j = 1; j <= n; j++) asg[p[j] - 1] = j - 1;
+    return asg;
+  }
+  /* lower is better; bound lets a hopeless candidate be dropped early */
+  function hwScore(u, r, bound) {
+    var n = u.length, m = r.length, size = Math.max(n, m), a = [], i, j, lb = 0;
+    for (i = 0; i < size; i++) {
+      var row = new Array(size), mn = Infinity;
+      for (j = 0; j < size; j++) { row[j] = i < n && j < m ? hwStrokeCost(u[i], r[j]) : HW_PEN; if (row[j] < mn) mn = row[j]; }
+      a.push(row); lb += mn;
+    }
+    if (bound !== undefined && lb / size >= bound) return Infinity;
+    var asg = hwAssign(a, size), tot = 0, moved = 0;
+    for (i = 0; i < size; i++) tot += a[i][asg[i]];
+    for (i = 0; i < Math.min(n, m); i++) if (asg[i] !== i) moved++;
+    return (tot + HW_ORDER * moved) / size;
+  }
+  function hwRank(strokes, idx, limit) {
+    var u = hwPrep(strokes);
+    if (!u || !idx) return [];
+    var n = u.length, win = n <= 2 ? 1 : 2, top = [], i, worst = Infinity;
+    for (i = 0; i < idx.st.length; i++) {
+      var r = idx.st[i];
+      if (Math.abs(n - r.length) > win) continue;
+      var s = hwScore(u, r, top.length >= limit ? worst : undefined);
+      if (s === Infinity) continue;
+      top.push({ c: idx.c[i], s: s });
+      if (top.length > limit * 3) { top.sort(function (x, y) { return x.s - y.s; }); top.length = limit; }
+      if (top.length >= limit) { var cp = top.slice().sort(function (x, y) { return x.s - y.s; }); worst = cp[limit - 1].s; }
+    }
+    top.sort(function (x, y) { return x.s - y.s; });
+    return top.slice(0, limit);
+  }
+
   var api = { parseSyl: parseSyl, zhuyin: zhuyin, numSyl: numSyl, phon: phon, toneOf: toneOf, norm: norm,
     CJK: CJK, srsApply: srsApply, srsPreview: srsPreview, fmtIv: fmtIv,
-    cardState: cardState, withTone: withTone, tonesOf: tonesOf, retone: retone, plainPy: plainPy, dayKey: dayKey, streak: streak, shuffle: shuffle, MIN: MIN, DAY: DAY };
+    cardState: cardState, withTone: withTone, tonesOf: tonesOf, retone: retone, plainPy: plainPy, dayKey: dayKey, streak: streak, shuffle: shuffle, hwPrep: hwPrep, hwIndex: hwIndex, hwRank: hwRank, MIN: MIN, DAY: DAY };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.Core = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

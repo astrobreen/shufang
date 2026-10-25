@@ -135,6 +135,21 @@ svg.i .f { fill: currentColor; stroke: none; }
 .xr { display: inline; padding: 0; margin: 0; border: 0; background: none; color: var(--accent); font: 500 1.05em var(--f-zh); text-decoration: underline dotted; text-underline-offset: 3px; cursor: pointer; }
 .dhint .chiprow + p { margin-top: 16px; }
 
+/* ---------- dictionary: writing pad ---------- */
+.search .iconbtn { margin-right: -8px; }
+.hwbox { margin-top: 12px; }
+.hwcands { display: flex; align-items: center; gap: 6px; min-height: 52px; overflow-x: auto; padding: 2px 0; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+.hwcands::-webkit-scrollbar { display: none; }
+.hwc { flex: none; min-width: 48px; height: 48px; padding: 0 8px; border-radius: 12px; background: var(--surf); border: 1px solid var(--line); font: 500 28px/1 var(--f-zh); color: var(--ink-hz); }
+.hwc:active { background: var(--accent-soft); }
+.hwwrap { max-width: 300px; margin: 8px auto 0; }
+.hwpad { display: block; width: 100%; aspect-ratio: 1; touch-action: none; user-select: none; -webkit-user-select: none; background: var(--surf); border: 1px solid var(--line); border-radius: 14px; cursor: crosshair; }
+.hwpad .gl { stroke: var(--grid); stroke-width: .5; stroke-dasharray: 2 2; fill: none; }
+.hwpad .hwink { fill: none; stroke: var(--ink-hz); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.hwpad .hwlive { fill: none; stroke: var(--accent); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; opacity: .85; }
+.hwbtns { display: flex; gap: 8px; max-width: 300px; margin: 8px auto 0; }
+.hwbtns .btn { flex: 1; }
+
 /* ---------- forms ---------- */
 .search { display: flex; align-items: center; gap: 8px; background: var(--surf2); border-radius: 12px; padding: 0 12px; min-height: 44px; color: var(--ink3); }
 .search input { flex: 1; min-width: 0; border: 0; background: transparent; outline: none; font-size: 16px; color: var(--ink); }

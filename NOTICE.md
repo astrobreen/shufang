@@ -7,7 +7,7 @@ The code is MIT (see `LICENSE`). The data the app ships is derived from the sour
 | HSK 3.0 word list, levels, frequencies | [drkameleon/complete-hsk-vocabulary](https://github.com/drkameleon/complete-hsk-vocabulary) | MIT | `site/vocab.json`, word levels |
 | Definitions | [CC-CEDICT](https://cc-cedict.org/) (via the list above and [krmanik/cedict-json](https://github.com/krmanik/cedict-json)) | **CC BY-SA 4.0** | glosses in `site/vocab.json` and the lesson bundle, and the full dictionary in `site/dict.json` |
 | Pinyin readings | [mozillazg/pinyin-data](https://github.com/mozillazg/pinyin-data), [mozillazg/phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data) | MIT | choosing readings for polyphonic characters |
-| Stroke outlines, stroke order, character structure | [skishore/makemeahanzi](https://github.com/skishore/makemeahanzi) | Arphic Public License (fonts: Arphic PL KaitiM GB, UKai) | `site/strokes/*.json`, `site/chars.json`, the 书 icon |
+| Stroke outlines, stroke order, character structure | [skishore/makemeahanzi](https://github.com/skishore/makemeahanzi) | Arphic Public License (fonts: Arphic PL KaitiM GB, UKai) | `site/strokes/*.json`, `site/chars.json`, `site/hw.json` (handwriting index derived from the stroke centre-lines), the 书 icon |
 | Poem cross-checking (optional, not shipped) | [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) | MIT | manual verification only |
 
 ## What this means for you

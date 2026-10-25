@@ -10,7 +10,7 @@ A graded Chinese reader and study room. HSK 3.0 levels 1 to 9, tap-to-define rea
 
 * **Read.** 156 lessons from HSK 1 to 9: dialogues, articles, stories, Tang and Song poems, and classical prose. Tap any word for pinyin, meaning, example and characters. Smart pinyin hides words at or below your level. Simplified or traditional, pinyin / numbered pinyin / zhuyin, tone colours, sentence translations, sentence-by-sentence audio, listening mode, grammar notes and a short quiz per lesson.
 * **Words.** Your saved words, the full HSK 3.0 list (about 11,000 words), the idioms, and the dictionary, all with search. Save words to your own list.
-* **Dictionary** (a view inside Words). About 115,000 entries from CC-CEDICT. Search in Chinese (simplified or traditional), pinyin (with or without tone numbers or marks) or English. Paste a sentence and it is split into its words. Each entry shows numbered meanings, measure words, tone-coloured pinyin with audio, the characters (tap for stroke order) and the words that contain it, and any word can be added to your review list. Recent lookups are kept on the device. Tapping a word anywhere in the app can open its full dictionary entry. The data downloads on first use (about 3.5 MB compressed).
+* **Dictionary** (a view inside Words). About 115,000 entries from CC-CEDICT. Search in Chinese (simplified or traditional), pinyin (with or without tone numbers or marks) or English. Paste a sentence and it is split into its words. Each entry shows numbered meanings, measure words, tone-coloured pinyin with audio, the characters (tap for stroke order) and the words that contain it, and any word can be added to your review list. You can also draw a character on a writing pad: stroke order is flexible, the best matches appear above the pad, and tapping one adds it to the search box. Recent lookups are kept on the device. Tapping a word anywhere in the app can open its full dictionary entry. The data downloads on first use (about 3.5 MB compressed).
 * **Practice.** SM-2 style flashcards, stroke-order animation and handwriting check for about 3,000 characters, a tone drill, a listening drill, a grammar index (268 patterns) and a pinyin chart with audio.
 * **Idioms (成语, chéngyǔ).** Four-character sayings, many from old stories, such as 画蛇添足 ("draw a snake and add feet", to ruin something by overdoing it). 146 idioms in nine topics, each with an example sentence, a story or usage note, and a daily idiom on the Today screen. Filter by topic and by how common the idiom is.
 * **Placement test.** A real test, not a self-rating: it asks what words mean, moves up or down a level by bisection and finds your HSK level in about 18 to 24 questions. "I don't know" counts as wrong, so guessing does not help.
@@ -37,7 +37,7 @@ Progress lives in the browser (`localStorage`). *Me, Your data* saves and restor
 ```
 src/app/            the app: core.js (pure logic), app.css, js/*.js (one file per area, concatenated in order)
 src/content/        lesson texts (texts/*.txt), the older hand-annotated lessons (legacy/), lexicon and compound lists
-tools/              Python build pipeline and helpers (build_dict.py makes site/dict.json)
+tools/              Python build pipeline and helpers (build_dict.py makes site/dict.json, build_hw.py makes site/hw.json)
 build/              committed intermediate data (legacy lessons, traditional-character map, inline bundle)
 site/               the built, deployable site (committed so Pages works without a build); dict.json is the dictionary
 tests/              unit, data and browser tests
@@ -78,6 +78,7 @@ This is a learning tool, so it is worth saying where it can be wrong.
 * **Classical prose** (Analects, Daodejing and similar) was written down from memory and is marked as unverified in the app. The poems were cross-checked against the open chinese-poetry corpus. Compare with a printed edition before quoting either.
 * **HSK 7 to 9** are one official band. The app splits it into three levels by word frequency, which is an estimate.
 * **A lesson's level** is the lowest HSK level that covers at least 90% of its words.
+* **Handwriting search** recognises the same 3,100 or so characters that have stroke order (simplified forms). It was checked on simulated handwriting and a few dozen real samples, not on a large set of real people, so the character you mean may sometimes be a few places down the list. Rare characters are not covered.
 * **Audio** uses the Chinese voices installed on your device (the Web Speech API), so quality and availability vary.
 
 ## Contributing

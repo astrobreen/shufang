@@ -65,3 +65,7 @@ One block per topic (`@Topic`), one idiom per line, seven fields separated by ` 
 ## The dictionary
 
 The Dictionary view (in the Words tab) reads `site/dict.json`, built by `tools/build_dict.py` from CC-CEDICT (`cedict_ts.u8`, fetched by `tools/fetch_sources.sh`). It runs as part of a full `python3 tools/make.py`, not with `--no-data`, and the result is committed. Pinyin is converted from tone numbers to tone marks, `[pin1 yin1]` cross-references inside meanings are converted the same way, and "CL:" measure words are split off into their own field. Entries are `[simplified, traditional, pinyin, [meanings], measure words]`. The file is fetched the first time the tab is opened and cached by the service worker. `tests/dict.test.js` checks the data and the interface.
+
+## Handwriting search
+
+The writing pad in the Dictionary view searches `site/hw.json`, made by `tools/build_hw.py` from the stroke centre-lines already in `site/strokes/*.json` (Make Me a Hanzi). Each stroke is resampled to 8 points and normalised exactly as `hwPrep` in `src/app/core.js` normalises what is drawn, so change both together. Matching pairs the drawn strokes with a character's strokes by the cheapest assignment (`hwRank`), so stroke order matters only slightly, and a missing or extra stroke is penalised. `tests/hw.test.js` checks it on simulated handwriting and drives the pad in a browser.
