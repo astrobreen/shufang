@@ -1456,7 +1456,7 @@ function icon(n, cls) { return '<svg class="i ' + (cls || '') + '" viewBox="0 0 
 
 var view = 'today';
 var hui = { lv: 0, type: 'all', unread: false, q: '' };
-var wui = { q: '', tab: 'mine', lv: 0, f: 'all', n: 60, cf: 'all' };
+var wui = { q: '', tab: 'mine', lv: 0, f: 'all', n: 60, cf: 'all', nl: false };
 var rd = null;     // open lesson
 var ses = null;    // open practice session
 var sh = null;     // open sheet
@@ -1950,10 +1950,12 @@ function hskList() {
     if (!r.length) return '<div class="empty"><h3>No matches<\/h3><p>Search by character, pinyin or English.<\/p><\/div>';
     return '<div class="group">' + r.map(function (o) { return wordRowHTML(o, savedSet.has(o.h) ? '<span class="tag good">Saved<\/span>' : ''); }).join('') + '<\/div>';
   }
-  var arr = V.byLv[wui.lv] || [], shown = arr.slice(0, wui.n);
+  var all = V.byLv[wui.lv] || [], arr = wui.nl ? all.filter(function (x) { return !dict.has(x.h); }) : all, shown = arr.slice(0, wui.n);
+  var unseen = wui.nl ? arr.length : all.filter(function (x) { return !dict.has(x.h); }).length;
   var inList = arr.filter(function (w) { return savedSet.has(w.h) || knownSet.has(w.h); }).length;
   return '<p class="note">' + esc(LEVELS[wui.lv].d) + ' ' + arr.length.toLocaleString() + ' words' + (inList ? ', ' + inList + ' in your list' : '') + '.' + (wui.lv >= 7 ? ' HSK 7 to 9 is one official band; we split it by word frequency.' : '') + '<\/p>' +
-    '<div class="group">' + shown.map(function (w) { return wordRowHTML(w, savedSet.has(w.h) ? '<span class="tag good">Saved<\/span>' : knownSet.has(w.h) ? '<span class="tag">Known<\/span>' : ''); }).join('') + '<\/div>' +
+    '<div class="rowhead"><span class="small muted">' + (all.length - unseen).toLocaleString() + ' of ' + all.length.toLocaleString() + ' appear in the lessons<\/span><button class="chip' + (wui.nl ? ' on' : '') + '" data-act="wnl" aria-pressed="' + !!wui.nl + '">Not in the lessons<\/button><\/div>' +
+    '<div class="group mt8">' + shown.map(function (w) { return wordRowHTML(w, savedSet.has(w.h) ? '<span class="tag good">Saved<\/span>' : knownSet.has(w.h) ? '<span class="tag">Known<\/span>' : ''); }).join('') + '<\/div>' +
     (arr.length > shown.length ? '<button class="btn block mt12" data-act="more">Show more (' + (arr.length - shown.length) + ')<\/button>' : '') +
     '<div class="actions"><button class="btn" data-act="learn" data-n="10">Add 10 new<\/button><button class="btn" data-act="learn" data-n="25">Add 25 new<\/button><\/div>';
 }
@@ -3224,6 +3226,7 @@ function act(a, el, ev) {
     case 'wtab': wui.tab = d.v; wui.q = ''; wui.n = 60; if (d.v === 'hsk' && !wui.lv) wui.lv = clamp(uLevel(), 1, 9); render(); break;
     case 'cyf': wui.cf = d.v; wui.q = ''; render(); break;
     case 'wfilter': wui.f = d.v; wui.n = 60; render(); break;
+    case 'wnl': wui.nl = !wui.nl; wui.n = 60; render(); break;
     case 'wlv': wui.lv = +d.v; wui.q = ''; wui.n = 60; render(); break;
     case 'more': wui.n += 60; { var wl = $('#wlist'); if (wl) wl.innerHTML = wui.tab === 'mine' ? myWordsList() : wui.tab === 'cy' ? cyList() : hskList(); } break;
     case 'retryvocab': V.failed = false; loadVocab(function () { render(); }); render(); break;

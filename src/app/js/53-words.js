@@ -54,10 +54,12 @@ function hskList() {
     if (!r.length) return '<div class="empty"><h3>No matches</h3><p>Search by character, pinyin or English.</p></div>';
     return '<div class="group">' + r.map(function (o) { return wordRowHTML(o, savedSet.has(o.h) ? '<span class="tag good">Saved</span>' : ''); }).join('') + '</div>';
   }
-  var arr = V.byLv[wui.lv] || [], shown = arr.slice(0, wui.n);
+  var all = V.byLv[wui.lv] || [], arr = wui.nl ? all.filter(function (x) { return !dict.has(x.h); }) : all, shown = arr.slice(0, wui.n);
+  var unseen = wui.nl ? arr.length : all.filter(function (x) { return !dict.has(x.h); }).length;
   var inList = arr.filter(function (w) { return savedSet.has(w.h) || knownSet.has(w.h); }).length;
   return '<p class="note">' + esc(LEVELS[wui.lv].d) + ' ' + arr.length.toLocaleString() + ' words' + (inList ? ', ' + inList + ' in your list' : '') + '.' + (wui.lv >= 7 ? ' HSK 7 to 9 is one official band; we split it by word frequency.' : '') + '</p>' +
-    '<div class="group">' + shown.map(function (w) { return wordRowHTML(w, savedSet.has(w.h) ? '<span class="tag good">Saved</span>' : knownSet.has(w.h) ? '<span class="tag">Known</span>' : ''); }).join('') + '</div>' +
+    '<div class="rowhead"><span class="small muted">' + (all.length - unseen).toLocaleString() + ' of ' + all.length.toLocaleString() + ' appear in the lessons</span><button class="chip' + (wui.nl ? ' on' : '') + '" data-act="wnl" aria-pressed="' + !!wui.nl + '">Not in the lessons</button></div>' +
+    '<div class="group mt8">' + shown.map(function (w) { return wordRowHTML(w, savedSet.has(w.h) ? '<span class="tag good">Saved</span>' : knownSet.has(w.h) ? '<span class="tag">Known</span>' : ''); }).join('') + '</div>' +
     (arr.length > shown.length ? '<button class="btn block mt12" data-act="more">Show more (' + (arr.length - shown.length) + ')</button>' : '') +
     '<div class="actions"><button class="btn" data-act="learn" data-n="10">Add 10 new</button><button class="btn" data-act="learn" data-n="25">Add 25 new</button></div>';
 }

@@ -21,6 +21,18 @@ const srv = http.createServer((q, r) => { const f = path.join(root, decodeURICom
   assert(back.includes(pick[2].split(';')[0].slice(0, 6)) && back.includes(pick[1].split(' ')[0].slice(0, 2)), 'the card shows reading and meaning: ' + back + ' | ' + pick.slice(0, 3));
   await p.click('[data-act="end"]'); await p.click('#tabs button[data-v="words"]'); await p.click('[data-act="wtab"][data-v="mine"]');
   assert((await p.textContent('#wlist')).includes(pick[2].split(';')[0].slice(0, 6)), 'My words shows the meaning too');
+  // HSK list: show only the words that no lesson uses
+  const data = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'build', 'dist', 'data.json'), 'utf8'));
+  const inStories = new Set(); data.L.forEach((l) => { const add = (x) => { if (typeof x === 'number') inStories.add(data.W[x][0]); }; l.t.forEach(add); l.sp.forEach(add); l.ss.forEach((s) => s[1].forEach(add)); });
+  await p.click('[data-act="wtab"][data-v="hsk"]'); await p.click('[data-act="wlv"][data-v="3"]'); await p.waitForSelector('.rowhead [data-act="wnl"]');
+  const level3 = vocab[3].map((a) => a[0]), unseen = level3.filter((h) => !inStories.has(h)).length;
+  assert((await p.textContent('.rowhead .small')).includes((level3.length - unseen) + ' of ' + level3.length + ' appear in the lessons'), 'coverage line: ' + await p.textContent('.rowhead .small') + ' expected ' + (level3.length - unseen));
+  await p.click('[data-act="wnl"]'); await p.waitForSelector('[data-act="wnl"].on');
+  assert((await p.textContent('.note')).includes(unseen + ' words'), 'filtered note: ' + await p.textContent('.note'));
+  const shown = await p.$$eval('#wlist .wrow .hz', (a) => a.map((x) => x.textContent));
+  assert(shown.length > 0 && shown.every((h) => !inStories.has(h) || true) && shown.length <= 60, 'rows shown');
+  assert(shown.every((h) => level3.includes(h) && !inStories.has(h)), 'only words that no lesson uses: ' + shown.filter((h) => inStories.has(h)));
+  await p.click('[data-act="wnl"]'); assert(!(await p.$('[data-act="wnl"].on')), 'toggles back');
   assert(errs.length === 0, errs.join('; '));
   console.log('cards ok (' + pick[0] + ')');
   await b.close(); srv.close();

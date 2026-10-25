@@ -122,6 +122,7 @@ function act(a, el, ev) {
     case 'wtab': wui.tab = d.v; wui.q = ''; wui.n = 60; if (d.v === 'hsk' && !wui.lv) wui.lv = clamp(uLevel(), 1, 9); render(); break;
     case 'cyf': wui.cf = d.v; wui.q = ''; render(); break;
     case 'wfilter': wui.f = d.v; wui.n = 60; render(); break;
+    case 'wnl': wui.nl = !wui.nl; wui.n = 60; render(); break;
     case 'wlv': wui.lv = +d.v; wui.q = ''; wui.n = 60; render(); break;
     case 'more': wui.n += 60; { var wl = $('#wlist'); if (wl) wl.innerHTML = wui.tab === 'mine' ? myWordsList() : wui.tab === 'cy' ? cyList() : hskList(); } break;
     case 'retryvocab': V.failed = false; loadVocab(function () { render(); }); render(); break;

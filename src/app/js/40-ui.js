@@ -25,7 +25,7 @@ function icon(n, cls) { return '<svg class="i ' + (cls || '') + '" viewBox="0 0 
 
 var view = 'today';
 var hui = { lv: 0, type: 'all', unread: false, q: '' };
-var wui = { q: '', tab: 'mine', lv: 0, f: 'all', n: 60, cf: 'all' };
+var wui = { q: '', tab: 'mine', lv: 0, f: 'all', n: 60, cf: 'all', nl: false };
 var rd = null;     // open lesson
 var ses = null;    // open practice session
 var sh = null;     // open sheet
