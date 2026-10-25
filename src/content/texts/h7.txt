@@ -25,7 +25,7 @@ Q: What stays constant? ~ The meaning of reunion ~ Customs ~ Travel ~ Food
 只要扫一下二维码，几秒钟就能完成交易，既省去了找零的麻烦，也避免了携带大量现金的风险。 // Just scan a QR code and a transaction is done in seconds, sparing the trouble of making change and avoiding the risk of carrying lots of cash.
 对商家而言，它降低了运营成本；对消费者而言，它还附带积分、优惠等福利。 // For merchants it lowers operating costs; for consumers it also brings points and discounts.
 与此同时，移动支付积累的海量数据，也为金融机构评估个人信用提供了依据。 // At the same time, the huge amount of data accumulated gives financial institutions a basis for assessing personal credit.
-然而，便利背后也隐藏着隐患，比如个人信息泄露、网络诈骗等问题时有发生。 // Yet behind the convenience lie hidden dangers, such as leaks of personal information and online fraud, which occur from time to time.
+然而，便利背后也隐藏着隐患，比如个人信息泄露[xie4 lou4]、网络诈骗等问题时有发生。 // Yet behind the convenience lie hidden dangers, such as leaks of personal information and online fraud, which occur from time to time.
 一些老年人因为不会使用智能手机，在日常消费中反而遇到了不便。 // Some elderly people, unable to use smartphones, have instead met inconvenience in daily spending.
 为此，政府要求商家必须保留现金支付的选择，确保每个人都不被时代抛下。 // For this reason the government requires merchants to keep cash as an option, ensuring nobody is left behind.
 G: 之所以……是因为…… ~ 之所以 states the result first: "the reason that ... is because". ~ 他之所以成功，是因为他很努力。 ~ The reason he succeeded is that he worked hard. ~ 之所以
@@ -93,7 +93,7 @@ Q: What do scientists say drives progress? ~ Curiosity about the unknown ~ War ~
 @titleen What Is Happiness?
 @summary Ancient thinkers and modern research on what makes a good life.
 幸福是一个古老而又常新的话题。 // Happiness is an ancient yet ever-new topic.
-儒家认为，幸福来自修身养性、尽到自己对家庭和社会的责任；道家则主张顺应自然，无欲无求才能获得内心的宁静。 // Confucians hold that happiness comes from cultivating oneself and fulfilling one's duties to family and society; Daoists advocate following nature, saying that only by desiring nothing can one gain inner peace.
+儒家认为，幸福来自修身养性、尽[jin4]到自己对家庭和社会的责任；道家则主张顺应自然，无欲无求才能获得内心的宁静。 // Confucians hold that happiness comes from cultivating oneself and fulfilling one's duties to family and society; Daoists advocate following nature, saying that only by desiring nothing can one gain inner peace.
 现代心理学研究发现，金钱与幸福之间并非简单的正比关系。 // Modern psychological research finds the relationship between money and happiness is not a simple proportion.
 当收入满足基本生活需要之后，再多的财富对幸福感的提升就十分有限了。 // Once income meets basic needs, additional wealth does very little to raise happiness.
 相反，良好的人际关系、有意义的工作以及对生活的掌控感，对幸福的影响更为深远。 // On the contrary, good relationships, meaningful work and a sense of control over life have a deeper influence on happiness.
@@ -116,7 +116,7 @@ Q: What is the closing idea? ~ Cherish those near you ~ Earn more ~ Seek fame ~ 
 从此以后，他再也无心种地，整天守在树桩旁边，等着另一只兔子自己撞上来。 // From then on he had no heart to farm, sitting by the stump all day waiting for another hare to hit it.
 日复一日，年复一年，再也没有兔子来了，农夫的田地也渐渐荒芜了。 // Day after day, year after year, no more hares came, and the farmer's fields gradually turned to weeds.
 邻居们都笑他愚蠢，他却依然固执地守着那根树桩。 // The neighbours all laughed at his foolishness, but he stubbornly kept guarding the stump.
-这个故事告诉我们，不能把偶然的成功当作必然，更不能放弃努力，坐等好运降临。 // This story tells us not to treat chance success as inevitable, still less to give up effort and wait for luck to arrive.
+这个故事告诉[gao4 su5]我们，不能把偶然的成功当作必然，更不能放弃努力，坐等好运降临。 // This story tells us not to treat chance success as inevitable, still less to give up effort and wait for luck to arrive.
 G: 不费吹灰之力 ~ 不费吹灰之力 is a chengyu: "without the slightest effort". ~ 这对他来说不费吹灰之力。 ~ This costs him no effort. ~ 不费吹灰之力
 G: 日复一日 ~ 日复一日 means "day after day". ~ 他日复一日地练习。 ~ He practises day after day. ~ 日复一日
 Q: What happened to the hare? ~ It hit a stump and died ~ It escaped ~ It was caught in a trap ~ It was hunted

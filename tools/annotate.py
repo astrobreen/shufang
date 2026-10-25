@@ -316,6 +316,21 @@ def rule_reading(w, text, st):
     return None
 
 
+def _pins():
+    """readings pinned in gloss_fix.tsv (p lines) for HSK words whose first dictionary entry is the rare one (故事 gù shi, not gù shì)"""
+    out = {}
+    fn = os.path.join(CONTENT, 'gloss_fix.tsv')
+    if os.path.exists(fn):
+        for line in open(fn, encoding='utf-8'):
+            f = line.rstrip('\n').split('\t')
+            if len(f) == 3 and f[0] == 'p':
+                out[f[1]] = f[2].strip()
+    return out
+
+
+PINS = _pins()
+
+
 def choose_form(w, forms, ctx, idx, forced=None, text='', st=0):
     if forced is not None:
         for f in forms:
@@ -344,6 +359,8 @@ def choose_form(w, forms, ctx, idx, forced=None, text='', st=0):
                 continue
             wt = 0.4 if c[1] <= 2 else 0.9
             sc += wt if tone_key(c[0]) == tone_key(syl) else -wt
+        if PINS.get(w) and ' '.join(f['py']) == PINS[w]:
+            sc += 2.5       # the usual reading of the word, unless the sentence says otherwise
         if len(w) == 1:
             pri = PRI.get(w) or (CH1.get(w) and H.norm_syl(CH1[w]))
             if pri and tone_key(pri) == tone_key(f['py'][0]):
@@ -516,6 +533,9 @@ def numeral_value(s):
                 return None
         elif c == '万':
             return None
+    # 四千五 = 4,500, 三百五 = 350: a last digit right after 百/千 stands for the next unit down
+    if cur and len(s) >= 2 and s[-2] in '百千':
+        cur = cur * units[s[-2]] // 10
     val += cur
     return val
 
@@ -534,8 +554,9 @@ def merge_numerals(toks, meta):
             v = numeral_value(s_) if len(s_) >= 2 else None
             if v is not None and j - i >= 1 and len(s_) >= 2 and not (s_ == '一一'):
                 py = [x for k in range(i, j) for x in toks[k]['py']]
-                out.append({'h': s_, 'py': py, 'g': str(v)})
-                meta[s_] = {'lv': 1 if v < 100 else 2, 'm': [str(v)], 'src': 'num'}
+                shown = str(v) if all(c in DIG for c in s_) else f'{v:,}'   # years/phone digits plain, 4,500 with a comma
+                out.append({'h': s_, 'py': py, 'g': shown})
+                meta[s_] = {'lv': 1 if v < 100 else 2, 'm': [shown], 'src': 'num'}
                 i = j
                 continue
         out.append(t)
@@ -581,6 +602,8 @@ def sandhi(toks):
                 continue
             if ch + nch == '一楼':   # ground floor: an ordinal, read yī
                 continue
+            if j == len(t['h']) - 1 and len(t['h']) > 1 and t['h'][j - 1] not in '同每这那另某哪':
+                continue   # 统一, 唯一, 之一 ...: the 一 ends the word and stays yī (同一个, 每一天 still change)
             if nt == 4:
                 t['py'][j] = 'yí'
             elif nt in (1, 2, 3):

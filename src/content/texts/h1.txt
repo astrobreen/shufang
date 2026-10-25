@@ -235,7 +235,7 @@ Q: What does Mary say about Chinese characters? ~ A bit difficult but interestin
 司机: 到了，一共二十五块。 // We're here. It's twenty-five yuan in total.
 汤姆: 给你。谢谢，再见！ // Here you are. Thank you, goodbye!
 G: 去 + place ~ 去 + place means "go to a place". ~ 我去学校。 ~ I go to school. ~ 去
-G: 来过 ~ Verb + 过 means "have done it before". ~ 我去过中国。 ~ I have been to China. ~ 过
+G: Verb + 过 ~ Verb + 过 means "have done it before". ~ 我去过中国。 ~ I have been to China. ~ 过
 Q: Where does Tom want to go? ~ The train station ~ The airport ~ The hotel ~ The school
 Q: How long will the trip take? ~ Twenty minutes ~ Five minutes ~ One hour ~ Two hours
 Q: How much is the fare? ~ 25 yuan ~ 20 yuan ~ 52 yuan ~ 15 yuan
@@ -251,7 +251,7 @@ Q: How much is the fare? ~ 25 yuan ~ 20 yuan ~ 52 yuan ~ 15 yuan
 窗户旁边有一盆花，花是红色的。 // Next to the window there is a pot of flowers, and the flowers are red.
 墙上有一张地图。 // On the wall there is a map.
 我很喜欢我的房间，因为我可以在这里看书、听音乐。 // I like my room very much because I can read and listen to music here.
-G: 在……左边 ~ Place words like 左边, 前面 and 旁边 follow the thing they relate to. ~ 书在桌子上面。 ~ The book is on the desk. ~ 左边
+G: 在……左边 ~ Place words like 左边, 前面 and 旁边 follow the thing they relate to. ~ 书在桌子左边。 ~ The book is to the left of the desk. ~ 左边
 G: 有 for existence ~ "Place + 有 + thing" says what is in a place. ~ 桌子上有一本书。 ~ There is a book on the desk. ~ 有
 Q: What is on the desk? ~ A computer and books ~ A flower ~ A map ~ A lamp
 Q: What colour are the flowers? ~ Red ~ White ~ Yellow ~ Blue

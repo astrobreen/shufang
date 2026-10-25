@@ -9,7 +9,7 @@
 他每天坐在树桩旁边，等着兔子自己撞过来。 // Every day he sat beside the stump, waiting for hares to run into it.
 可是，他等了很多天，一只兔子也没有等到。 // But he waited many days and not one hare came.
 田里的草长得比庄稼还高，别人都笑他太傻了。 // The weeds in his field grew taller than the crops, and everyone laughed at how foolish he was.
-这个故事告诉我们：不能把偶然的好运当作每天都会发生的事。 // The story tells us: don't treat a stroke of luck as something that will happen every day.
+这个故事告诉[gao4 su5]我们：不能把偶然的好运当作每天都/会发生的事。 // The story tells us: don't treat a stroke of luck as something that will happen every day.
 G: 从那以后 ~ 从……以后 marks the starting point of a change. ~ 从那以后，他每天跑步。 ~ From then on he ran every day. ~ 以后
 G: 比……还…… ~ A 比 B 还 + adjective means "even more ... than B". ~ 他比我还高。 ~ He is even taller than me. ~ 还
 Q: What happened to the hare? ~ It hit a stump and died ~ It was caught in a net ~ It ran away ~ It fell into a well
@@ -63,7 +63,7 @@ Q: What does 自相矛盾 describe? ~ Saying things that contradict each other ~
 他对青蛙说："你见过大海吗？大海有几千里宽，几千尺深。" // He said to the frog, "Have you seen the sea? It is thousands of miles wide and thousands of feet deep."
 青蛙听了，一句话也不说。他这才知道，自己的小井和大海比起来太小了。 // The frog heard this and said nothing. Only then did he realise his little well was tiny compared with the sea.
 G: 这才 ~ 这才 means "only then". ~ 听了他的话，我这才明白。 ~ Only after hearing him did I understand. ~ 才
-G: 跳来跳去 ~ Verb + 来 + verb + 去 shows an action repeated in different directions. ~ 孩子们跑来跑去。 ~ The children run about. ~ 来
+G: Verb + 来 + Verb + 去 ~ Verb + 来 + verb + 去 shows an action repeated in different directions. ~ 孩子们跑来跑去。 ~ The children run about. ~ 来
 Q: Where did the frog live? ~ In a shallow well ~ In a river ~ In a pond ~ In the sea
 Q: Why could the turtle not go down? ~ His legs were too big ~ The well was dry ~ He was afraid ~ He was sleepy
 Q: What did the frog realise? ~ His world was small ~ The turtle was rude ~ The sea was cold ~ He was the strongest
@@ -72,14 +72,14 @@ Q: What did the frog realise? ~ His world was small ~ The turtle was rude ~ The 
 @title 揠苗助长
 @titleen Pulling Up the Seedlings
 @summary An impatient farmer ruins his crop trying to help it grow.
-宋国有一个农民，他种了一些禾苗，每天都去田里看。 // In the state of Song a farmer had planted some seedlings and went to look at them every day.
+宋国有一个农民，他种[zhong4]了一些禾苗，每天都去田里看。 // In the state of Song a farmer had planted some seedlings and went to look at them every day.
 他觉得禾苗长得太慢了，心里非常着急。 // He felt they grew too slowly and was very anxious.
 有一天，他想出了一个"好办法"：把每棵禾苗都往上拔高一点儿。 // One day he thought of a "good idea": pull each seedling up a little.
 他从早上忙到晚上，累得满头大汗。 // He worked from morning till night and became drenched in sweat.
-回到家，他高兴地对家人说："今天我累坏了，不过禾苗都长高了一大截！" // Back home he said happily to his family, "I'm exhausted today, but all the seedlings have grown much taller!"
+回到家，他高兴地对家人说："今天我累坏了，不过禾苗都长[zhang3]高了一大截！" // Back home he said happily to his family, "I'm exhausted today, but all the seedlings have grown much taller!"
 他的儿子觉得奇怪，马上跑到田里去看。 // His son found it strange and ran to the field at once to look.
 禾苗已经全都枯死了。 // The seedlings had all withered and died.
-这个故事告诉我们：做事要遵守规律，不能太着急。 // The story tells us: follow natural laws when doing things, and don't be too impatient.
+这个故事告诉[gao4 su5]我们：做事要遵守规律，不能太着急。 // The story tells us: follow natural laws when doing things, and don't be too impatient.
 G: 从……忙到…… ~ 从 A V 到 B means doing something from one point to another. ~ 他从早上忙到晚上。 ~ He was busy from morning till night. ~ 到
 G: 累坏了 ~ Adjective + 坏了 means "extremely ...". ~ 我饿坏了。 ~ I'm starving. ~ 坏
 Q: Why was the farmer anxious? ~ The seedlings grew slowly ~ It would not rain ~ Birds ate them ~ Prices were low
@@ -132,7 +132,7 @@ Q: What did he not understand? ~ The boat had moved ~ The water was deep ~ The s
 他想了一会儿，用两只手把自己的耳朵捂住了。 // After thinking for a while, he covered his ears with both hands.
 "我听不见了，"他想，"别人一定也听不见。" // "I can't hear it any more," he thought, "so others surely can't either."
 于是，他放心地去拿那个铃。 // So he went to take the bell without worry.
-铃声响了，主人听到后马上跑出来，把小偷抓住了。 // The bell rang. The owner heard it, ran out at once and caught the thief.
+铃声/响了，主人听到后马上跑出来，把小偷抓住了。 // The bell rang. The owner heard it, ran out at once and caught the thief.
 这个故事讽刺那些自己骗自己的人。 // This story mocks people who deceive themselves.
 G: 一会儿 ~ 一会儿 means "a short while". ~ 请坐一会儿。 ~ Please sit for a while. ~ 一会儿
 G: 听不见 ~ Verb + 不 + result means "cannot". ~ 我听不见你说话。 ~ I can't hear you. ~ 不见

@@ -33,7 +33,7 @@ Q: Why does she want the job? ~ She loves writing ~ She needs money ~ A friend w
 * `lexicon_cl.tsv`: classical readings and glosses, applied only inside poems and classics.
 * `compounds.txt`: words that must stay one token instead of being split into smaller HSK words.
 
-* `gloss_fix.tsv`: reviewed corrections to word meanings. The dictionary's first sense is often not the one a lesson uses (才 is "only then", not "ability"), so a line here replaces a meaning everywhere (`w`), in one sentence (`o`), in the HSK list (`v`), or picks the reading the list leads with (`p`). The header of the file shows the columns. A line that matches nothing stops the build, so the file cannot go stale. `tests/gloss.test.js` checks the key cases.
+* `gloss_fix.tsv`: reviewed corrections to word meanings. The dictionary's first sense is often not the one a lesson uses (才 is "only then", not "ability"), so a line here replaces a meaning everywhere (`w`), in one sentence (`o`), in the HSK list (`v`), or picks the reading the list leads with (`p`, which the lessons prefer too). Slang and vulgar senses are dropped from the word lists automatically (`SLANG` in `tools/hsklib.py`). The header of the file shows the columns. A line that matches nothing stops the build, so the file cannot go stale. `tests/gloss.test.js` checks the key cases.
 
 Running `python3 tools/make.py` writes `build/amb_report.txt`, a list of words where more than one reading was possible and how each was chosen. Skim it after adding texts.
 

@@ -30,7 +30,7 @@ Q: How old is the brother? ~ Eighteen ~ Ten ~ Twelve ~ Twenty
 小李: 我喝茶。 // I'll have tea.
 G: 想 ~ 想 + verb means "want to". ~ 我想去学校。 ~ I want to go to school. ~ 想
 G: 吧 ~ 吧 at the end of a sentence makes a suggestion. ~ 我们走吧。 ~ Let's go. ~ 吧
-Q: Who is hungry? ~ Both ~ Only Xiao Wang ~ Neither ~ Only Xiao Li
+Q: Who says he is hungry? ~ Xiao Li ~ Xiao Wang ~ Both ~ Neither
 Q: What does Xiao Li want to eat? ~ Noodles ~ Rice ~ Eggs ~ Bread
 Q: What does Xiao Wang drink? ~ Water ~ Tea ~ Milk ~ Juice
 
@@ -64,7 +64,7 @@ Q: Where is the writer today? ~ At school ~ At home ~ At the shop ~ At the hospi
 儿子: 下午两点。我六点回家。 // Two in the afternoon. I'll be home at six.
 妈妈: 好的，早点回来。 // OK, come back early.
 G: 几 ~ 几 asks for a small number: "how many" or "which (day/time)". ~ 现在几点？ ~ What time is it? ~ 几
-G: 和……一起 ~ 和 means "and" or "with". ~ 我和朋友去看书。 ~ I go and read with a friend. ~ 和
+G: 和……一起 ~ 和 A 一起 means "together with A". ~ 我和朋友一起去看书。 ~ I go to read with a friend. ~ 和
 Q: What day is it today? ~ Saturday ~ Sunday ~ Friday ~ Monday
 Q: What does the son want to do? ~ See a film ~ Go to school ~ Sleep ~ Cook
 Q: When will he be home? ~ At six ~ At two ~ At nine ~ At noon

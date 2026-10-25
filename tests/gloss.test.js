@@ -41,5 +41,19 @@ for (const [w, [py, re]] of Object.entries(list)) {
   ok(lv[w] && lv[w][1] === py, `${w} should lead with ${py} in the HSK list`);
   ok(lv[w] && re.test(lv[w][2]), `${w} list gloss: ${lv[w] && lv[w][2]}`);
 }
+
+// readings that must not slip back to a rare variant
+const tokens = [];
+for (const L of D.L) for (const sn of L.ss) for (const t of sn[1]) if (typeof t === 'number') tokens.push(W[t]);
+const only = { 告诉: 'gào su', 故事: 'gù shi', 妻子: 'qī zi', 统一: 'tǒng yī' };
+for (const [w, py] of Object.entries(only)) for (const t of tokens) if (t[0] === w) ok(t[1] === py, `${w} should read ${py}, got ${t[1]}`);
+ok(tokens.some(t => t[0] === '妻子' && t[2] === 'wife'), '妻子 should mean wife');
+ok(tokens.some(t => t[2] === '4,500'), 'a number such as 四千五 should read 4,500');
+for (const [w, py] of [['告诉', 'gào su'], ['故事', 'gù shi'], ['东西', 'dōng xi'], ['地方', 'dì fang'], ['多少', 'duō shao'], ['生意', 'shēng yi']]) ok(lv[w] && lv[w][1] === py, `HSK list should lead ${w} with ${py}, got ${lv[w] && lv[w][1]}`);
+
+// the word lists keep slang and vulgar senses out
+const SLANG = /prostitut|penis|boobies|\banus\b|pornograph|menstruat|marijuana|kiddie|erotic/i;
+for (const e of W) ok(!SLANG.test(e[2]), `lesson gloss ${e[0]}: "${e[2]}"`);
+for (const k of Object.keys(V)) for (const r of V[k]) ok(!SLANG.test(r[2]), `HSK list gloss ${r[0]}: "${r[2]}"`);
 if (fails) { console.error(fails + ' gloss test(s) failed'); process.exit(1); }
 console.log('gloss tests OK');

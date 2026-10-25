@@ -165,12 +165,17 @@ JUNK = re.compile(r'^(surname |variant of|old variant|unofficial variant|erhua v
                   r'abbr\. |used in |CL:|archaic|(literary) variant)', re.I)
 
 
+# senses a learner's word list should not carry: internet/street slang, vulgar or sexual senses, political jokes
+SLANG = re.compile(r'slang|kiddie|pornograph|\(derog|\(vulgar|\(euphemism\)|euphemism for|prostitut|erotic|homosexual|'
+                   r'menstruat|\banus\b|marijuana|Falun|Islamization|boobies|\(coll\.\) boob', re.I)
+
+
 def clean_meanings(ms):
     out = []
     for m in ms:
         for seg in re.split(r';\s*', m):
             seg = seg.strip()
-            if not seg or JUNK.match(seg):
+            if not seg or JUNK.match(seg) or SLANG.search(seg):
                 continue
             seg = re.sub(r'\s*\[[^\]]*\]', '', seg)          # drop [pinyin] references
             seg = re.sub(r'\s*\(\s*\)', '', seg).strip()

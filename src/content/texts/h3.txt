@@ -47,7 +47,7 @@ Q: Who builds the bridge every year? ~ The magpies ~ The cranes ~ The clouds ~ T
 中介: 对，在三楼，离地铁站只有五分钟。 // Yes, on the third floor, only five minutes from the subway station.
 小李: 一个月多少钱？ // How much is it per month?
 中介: 四千五，水电费要自己付。 // Four thousand five hundred. You pay for water and electricity yourself.
-小李: 有点儿贵。可以便宜一点儿吗？ // That's a bit expensive. Can it be a little cheaper?
+小李: 有点儿贵。可以便宜[pian2 yi5]一点儿吗？ // That's a bit expensive. Can it be a little cheaper?
 中介: 如果你租一年，我可以少五百块。 // If you rent for a year, I can take off five hundred yuan.
 小李: 房间里有家具吗？ // Is there furniture in the flat?
 中介: 有，床、桌子和洗衣机都有。 // Yes. There's a bed, a desk and a washing machine.
@@ -163,7 +163,7 @@ Q: What does the writer keep in the bag? ~ A cloth bag ~ A book ~ An umbrella ~ 
 乘客: 那我还是坐地铁吧，请在这儿停车。 // Then I'd better take the subway. Please stop here.
 司机: 行，你下车往右走五十米就是地铁站。 // Fine. Get out and walk fifty metres to the right, and you'll find the station.
 乘客: 谢谢，多少钱？ // Thanks. How much?
-G: 又……又赶上 ~ 又 + verb adds another bad (or good) factor on top of the first. ~ 今天又冷又下雨。 ~ It's cold and raining today. ~ 又
+G: 又 + Adj + 又 + Adj ~ Two adjectives joined by 又 describe a state: 又渴又累 "both thirsty and tired". ~ 他又饿又累。 ~ He is both hungry and tired. ~ 又
 G: 还是 ~ 还是 suggests the better choice after thinking. ~ 太贵了，我还是不买了。 ~ It's too expensive; I'd better not buy it. ~ 还是
 Q: Why is there so much traffic? ~ Rush hour, rain and an accident ~ A parade ~ Road works ~ A football match
 Q: What time is the passenger's meeting? ~ Eight o'clock ~ Seven o'clock ~ Nine o'clock ~ Half past seven
@@ -257,7 +257,7 @@ Q: What did she find after two weeks? ~ The morning is very quiet ~ She felt alw
 玛丽: 我能帮你做点儿什么吗？ // Can I help you with anything?
 小王: 不用，你是客人，坐着聊天儿就行。 // No, you are a guest. Just sit and chat.
 G: 哪里哪里 ~ 哪里哪里 is a modest reply to a compliment. ~ A: 你汉语说得真好！ B: 哪里哪里。 ~ A: You speak Chinese really well! B: Not at all. ~ 哪里哪里
-G: 来就来嘛 ~ A verb repeated with 嘛 means "it's enough to do it, no need for more". ~ 来就来，别带东西。 ~ Just come; don't bring anything. ~ 来
+G: 来就来嘛 ~ Verb + 就 + Verb (+ 嘛) means "just do it, that is enough"; a remark that nothing more is needed often follows. ~ 来就来，别带东西。 ~ Just come; don't bring anything. ~ 来
 Q: What did Mary bring? ~ Some fruit ~ Flowers ~ Wine ~ Cakes
 Q: Is Mary required to take off her shoes? ~ No ~ Yes ~ Only in winter ~ Only if asked
 Q: What does Xiao Wang say when Mary praises his home? ~ Not at all, it's very small ~ Thank you, it is lovely ~ It's not mine ~ I agree

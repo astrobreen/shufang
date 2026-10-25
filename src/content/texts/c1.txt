@@ -17,7 +17,7 @@ Q: What does he feel at the end? ~ He misses his hometown ~ He is angry ~ He is 
 春眠不觉晓， // Sleeping in spring, I don't notice the dawn;
 处[chu4]{处=place}处[chu4]{处=place}闻啼鸟。 // everywhere I hear birds singing.
 夜来风雨声， // Last night came the sound of wind and rain;
-花落知多少？ // how many flowers fell, who knows?
+花落知多少[duo1 shao5]？ // how many flowers fell, who knows?
 Q: What does the poet not notice? ~ The dawn ~ The wind ~ The time of day ~ The cold
 Q: What does he hear everywhere? ~ Birds singing ~ Children playing ~ Temple bells ~ A river
 Q: What does he wonder at the end? ~ How many flowers fell ~ When spring will end ~ Where the birds went ~ Who is at the door
@@ -123,7 +123,7 @@ Q: What does the cowherd point to? ~ Apricot Blossom Village ~ A bridge ~ A temp
 @titleen Quatrain
 @summary Du Fu describes the view from his window in spring.
 两个黄鹂鸣翠柳， // Two orioles sing in the green willows;
-一行白鹭上青天。 // a line of white egrets rises into the blue sky.
+一行[yi4 hang2]白鹭上青天。 // a line of white egrets rises into the blue sky.
 窗含西岭千秋雪， // The window frames the western peaks' snow of a thousand autumns;
 门泊东吴万里船。 // the door moors boats that have come ten thousand miles from Wu.
 Q: What sing in the willows? ~ Orioles ~ Sparrows ~ Cranes ~ Swallows
@@ -228,7 +228,7 @@ Q: What did Mencius's mother cut? ~ The cloth on her loom ~ Her hair ~ His books
 @titleen An Exhortation to Learning (excerpt)
 @summary Xunzi on how steady effort accomplishes great things.
 青{青=blue-green dye}，取之于蓝，而青{青=bluer}于蓝； // Blue is taken from the indigo plant, yet is bluer than indigo;
-冰，水为之，而寒于水。 // ice is made of water, yet is colder than water.
+冰，水为[wei2]之，而寒于水。 // ice is made of water, yet is colder than water.
 不积跬步，无以至千里； // Without accumulating small steps, you cannot reach a thousand miles;
 不积小流，无以成江海。 // without gathering small streams, you cannot form rivers and seas.
 锲而舍之，朽木不折； // If you give up carving, even rotten wood cannot be snapped;

@@ -59,7 +59,7 @@ Q: Which region is the northern representative? ~ Shandong ~ Guangdong ~ Fujian 
 @summary Friends help a colleague move to a new flat.
 @speakers 小王 小李 老张
 小王: 老张，你的东西都收拾好了吗？ // Lao Zhang, have you packed everything?
-老张: 差不多了。书太多了，装了十几个箱子。 // Almost. I have so many books, I filled a dozen boxes.
+老张: 差不多了。书太多了，装了十几个箱子。 // Almost. I have so many books, I filled more than ten boxes.
 小李: 这个大箱子里是什么？这么重！ // What's in this big box? It's so heavy!
 老张: 是我的旧书，我舍不得扔。 // My old books. I can't bear to throw them away.
 小王: 搬家公司的车到了，我们先把大东西搬下去吧。 // The removal van has arrived. Let's carry the big things down first.
@@ -98,10 +98,10 @@ Q: What should you avoid before bed? ~ Coffee and phones ~ Water ~ Reading ~ Mus
 很久以前，有一位老人叫愚公，快九十岁了。 // Long ago there was an old man named Yugong, nearly ninety years old.
 他家门前有两座大山，出门很不方便，要绕很远的路。 // In front of his house stood two great mountains, making it hard to leave; he had to take a long detour.
 有一天，愚公对家人说："我们一起把这两座山挖平，好不好？" // One day Yugong said to his family, "Shall we dig these two mountains flat together?"
-大家都同意了，可是他的妻子担心："这么大的山，石头往哪儿放呢？" // Everyone agreed, but his wife worried, "Such big mountains, where will the rocks go?"
+大家都同意了，可是他的妻子[qi1 zi5]担心："这么大的山，石头往哪儿放呢？" // Everyone agreed, but his wife worried, "Such big mountains, where will the rocks go?"
 愚公说："可以运到海边去。" // Yugong said, "We can carry them to the seashore."
 邻居智叟听说以后，笑着说："你这么老了，连一棵草都拔不动，还想移山？" // When the neighbour Zhisou heard, he laughed, "You're so old you can't even pull up a blade of grass. And you want to move mountains?"
-愚公回答："我死了，还有我的儿子；儿子死了，还有孙子。子子孙孙是挖不完的，可是山不会再长高。" // Yugong replied, "When I die there is my son; when he dies there is a grandson. Generations will never run out, but the mountain won't grow any higher."
+愚公回答："我死了，还有我的儿子；儿子死了，还有孙子。子子孙孙是挖不完的，可是山不会再长[zhang3]高。" // Yugong replied, "When I die there is my son; when he dies there is a grandson. Generations will never run out, but the mountain won't grow any higher."
 天神被他感动了，派人把两座大山搬走了。 // The gods were moved by him and sent people to carry the two mountains away.
 G: 连……都/也…… ~ 连 A 都 B means "even A". ~ 他连饭都没吃就走了。 ~ He left without even eating. ~ 连
 G: 往哪儿 ~ 往 + place word shows direction. ~ 请往右走。 ~ Please go to the right. ~ 往
@@ -124,7 +124,7 @@ Q: What happened in the end? ~ The gods moved the mountains ~ He gave up ~ The m
 地勤: 有，两点半的航班还有座位，我帮您改好了。 // Yes, the 2:30 flight has seats. I've changed it for you.
 乘客: 太感谢了！ // Thank you so much!
 G: 由于 ~ 由于 means "because of" and is formal. ~ 由于下雨，比赛取消了。 ~ Because of rain the match was cancelled. ~ 由于
-G: 看……有没有 ~ 要看 + question tells that something depends on a condition. ~ 去不去要看天气好不好。 ~ Whether we go depends on the weather. ~ 看
+G: 要看…… ~ 要看 + a clause tells that the result depends on a condition, often a 有没有 or A不A question. ~ 去不去要看天气好不好。 ~ Whether we go depends on the weather. ~ 看
 Q: Why is the flight delayed? ~ Because of the weather ~ A technical fault ~ A strike ~ Too few passengers
 Q: What does the passenger want? ~ To change her ticket ~ A refund ~ A hotel ~ Food
 Q: Which flight does she get? ~ The 2:30 one ~ The 6:00 one ~ The morning one ~ The next day's

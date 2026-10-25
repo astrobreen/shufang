@@ -24,11 +24,11 @@ Q: Why is the number of visitors limited? ~ To protect cultural relics ~ Because
 有一位叫后羿的英雄，力气很大，箭射得特别准。 // A hero named Hou Yi was very strong and extremely accurate with his arrows.
 他爬上高山，一口气射下了九个太阳，只[zhǐ]留下一个给大地带来温暖。 // He climbed a high mountain and shot down nine suns in one breath, leaving only one to warm the earth.
 后来，西王母送给后羿一颗仙药，吃了以后可以长生不老。 // Later the Queen Mother of the West gave Hou Yi a magic pill; whoever swallowed it would live forever.
-后羿舍不得离开妻子嫦娥，就把药交给她保管。 // Hou Yi could not bear to leave his wife Chang'e, so he gave her the medicine to keep.
+后羿舍不得离开妻子[qi1 zi5]嫦娥，就把药交给她保管。 // Hou Yi could not bear to leave his wife Chang'e, so he gave her the medicine to keep.
 有一天，坏人逄蒙趁后羿不在家，闯进来逼嫦娥交出仙药。 // One day the wicked Feng Meng took advantage of Hou Yi's absence, broke in and forced Chang'e to hand over the pill.
 情急之下，嫦娥把药吞了下去，身体立刻轻了起来，慢慢飘向天空，最后落在月亮上。 // In desperation Chang'e swallowed it; her body at once grew light and slowly floated into the sky, finally landing on the moon.
-后羿回来后非常思念妻子。 // When Hou Yi returned he missed his wife terribly.
-每年八月十五，他都会摆上嫦娥爱吃的水果和月饼，对着月亮祭拜。 // Every year on the fifteenth of the eighth month he would set out the fruit and mooncakes she loved and make offerings to the moon.
+后羿回来后非常思念妻子[qi1 zi5]。 // When Hou Yi returned he missed his wife terribly.
+每年八月十五，他都/会摆上嫦娥爱吃的水果和月饼，对着月亮祭拜。 // Every year on the fifteenth of the eighth month he would set out the fruit and mooncakes she loved and make offerings to the moon.
 这就是中秋节赏月、吃月饼习俗的由来。 // This is the origin of the Mid-Autumn custom of admiring the moon and eating mooncakes.
 G: 趁 ~ 趁 means "take advantage of (a moment)". ~ 趁热吃吧。 ~ Eat it while it's hot. ~ 趁
 G: 舍不得 ~ 舍不得 means "can't bear to part with or do". ~ 他舍不得扔掉旧书。 ~ He can't bear to throw out the old books. ~ 舍不得
@@ -42,7 +42,7 @@ Q: How does the story explain Mid-Autumn customs? ~ Hou Yi offered fruit and moo
 @summary A customer complains to customer service about a wrong order.
 @speakers 客服 顾客
 顾客: 你好，我上周在你们店里买了一件蓝色的毛衣，可是收到的是灰色的。 // Hello, last week I bought a blue sweater in your shop, but the one I received is grey.
-客服: 非常抱歉给您带来不便。请问您的订单号是多少？ // I'm very sorry for the inconvenience. May I ask your order number?
+客服: 非常抱歉给您带来不便。请问您的订单号是多少[duo1 shao5]？ // I'm very sorry for the inconvenience. May I ask your order number?
 顾客: 在这儿：一二三四五六。我已经联系过你们两次了，一直没有人回复。 // Here: 123456. I've contacted you twice already and nobody has replied.
 客服: 实在对不起，最近订单太多，我们的处理速度有点儿慢。 // I'm truly sorry. We've had too many orders lately and are a little slow.
 顾客: 我不想要灰色的，我可以退货吗？ // I don't want the grey one. Can I return it?
@@ -158,7 +158,7 @@ Q: How did he react to hardship? ~ He kept playing music and singing ~ He gave u
 小林: 那不太重要的事情怎么办？ // What about the less important things?
 经理: 可以集中在下午处理，或者交给别人去做。 // You can handle them together in the afternoon, or pass them to someone else.
 小林: 可是同事们常常来找我帮忙，我不好意思拒绝。 // But colleagues often ask me for help and I feel awkward refusing.
-经理: 帮助别人是好事，但要学会适当地说"不"。你可以告诉他们，等你忙完手头的事再帮忙。 // Helping others is good, but learn to say "no" appropriately. You can tell them you'll help after finishing what's at hand.
+经理: 帮助别人是好事，但要学会适当地说"不"。你可以告诉[gao4 su5]他们，等你忙完手头的事再帮忙。 // Helping others is good, but learn to say "no" appropriately. You can tell them you'll help after finishing what's at hand.
 小林: 明白了，我这就试试。 // Understood. I'll try it right away.
 G: 按……排序 ~ 按 + criterion means "according to". ~ 请按年龄排队。 ~ Please line up by age. ~ 按
 G: 手头 ~ 手头的事 means "the matter at hand". ~ 我手头有很多工作。 ~ I have lots of work in hand. ~ 手头
@@ -173,7 +173,7 @@ Q: What should she do when colleagues ask for help? ~ Say no politely and help l
 二十年前，我的老家是一个安静而闭塞的小村庄，村里只有一条泥路，下雨天几乎没法出门。 // Twenty years ago my hometown was a quiet, isolated village with just one dirt road, almost impassable on rainy days.
 年轻人大多去城里打工，留在村里的只有老人和孩子。 // Most young people went to work in the cities, leaving only the old and the children.
 近年来，随着政府对农村的投入不断增加，村里的面貌发生了很大变化。 // In recent years, with the government's growing investment in rural areas, the village has changed greatly.
-路修好了，网络也通了，农民可以在网上销售自己种的水果和蔬菜。 // The road was repaired, the internet arrived, and farmers can sell their fruit and vegetables online.
+路修好了，网络也通了，农民可以在网上销售自己种[zhong4]的水果和蔬菜。 // The road was repaired, the internet arrived, and farmers can sell their fruit and vegetables online.
 一些年轻人看到了机会，选择回到家乡创业，开起了民宿和农家乐。 // Some young people saw opportunities and chose to come back and start businesses, opening guesthouses and farm restaurants.
 村里的小学也重新开办了，孩子们不用再走几十里路去上学。 // The village primary school has reopened, and children no longer need to walk many miles to school.
 当然，变化也带来了新的问题，比如环境保护和传统文化的传承。 // Of course, change has also brought new problems such as environmental protection and the passing on of traditional culture.

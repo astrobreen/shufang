@@ -5,8 +5,8 @@
 如今，人们获取信息的渠道越来越多，可是视野却未必随之开阔。 // Today people have more and more channels for information, yet their horizons have not necessarily widened.
 各类应用程序根据用户的浏览记录，不断推送他们感兴趣的内容，久而久之，人们接触到的信息便越来越单一。 // Apps push content users are interested in based on their browsing history, and over time the information people encounter becomes ever more uniform.
 学者把这种现象称为"信息茧房"：就像蚕被自己吐出的丝层层包裹，人们也被自己的偏好所束缚。 // Scholars call this the "information cocoon": just as silkworms are wrapped layer upon layer in their own thread, people are confined by their own preferences.
-身处茧房之中，人们容易对不同的观点产生排斥心理，甚至陷入偏执。 // Inside the cocoon, people easily develop an aversion to differing views and even fall into obsession.
-更令人担忧的是，算法为了吸引眼球，往往会放大情绪化的言论，导致社会共识日益撕裂。 // More worrying still, algorithms, to attract attention, often amplify emotional speech and lead to the widening tear of social consensus.
+身处茧房之中，人们容易对不同的观点产生排斥心理，甚至陷入偏执。 // Inside the cocoon, people easily develop an aversion to differing views and even fall into rigid bias.
+更令人担忧的是，算法为了吸引眼球，往往会放大情绪化的言论，导致社会共识日益撕裂。 // More worrying still, algorithms, to attract attention, often amplify emotional speech and pull social consensus further and further apart.
 要想打破茧房，个人首先应该有意识地接触不同来源的信息，多读书，多与持不同观点的人交流。 // To break the cocoon, individuals should first consciously encounter information from different sources, read more, and talk with people of differing views.
 平台方也应承担起社会责任，提高算法的透明度，让用户拥有选择的权利。 // Platforms should also shoulder social responsibility, make algorithms more transparent and give users the right to choose.
 唯有保持开放的心态，我们才不至于在信息的海洋里迷失方向。 // Only by keeping an open mind can we avoid losing our way in the ocean of information.
@@ -57,9 +57,9 @@ Q: What does the writer say about enjoyment? ~ Talking with great souls is incom
 @summary "Clear waters and green mountains are mountains of gold and silver."
 "绿水青山就是金山银山"，这句话如今已成为中国生态文明建设的理念。 // "Clear waters and green mountains are mountains of gold and silver" has become the concept of China's ecological civilisation.
 它的含义是：保护生态环境就是保护生产力，改善生态环境就是发展生产力。 // Its meaning: protecting the ecology protects productivity, and improving it develops productivity.
-过去，一些地方为了追求经济增长，不惜以牺牲环境为代价，结果土地荒漠化、河流污染、空气质量恶化，反过来制约了经济发展。 // In the past some places, in pursuit of growth, did not hesitate to sacrifice the environment, with the result that land desertified, rivers were polluted and air quality worsened, in turn restraining development.
+过去，一些地方为了追求经济增长，不惜以牺牲环境为[wei2]代价，结果土地荒漠化、河流污染、空气质量恶化，反过来制约了经济发展。 // In the past some places, in pursuit of growth, did not hesitate to sacrifice the environment, with the result that land desertified, rivers were polluted and air quality worsened, in turn restraining development.
 痛定思痛之后，各地开始调整产业结构，关停高污染企业，大力发展清洁能源和生态旅游。 // After a painful reflection, localities began adjusting industrial structure, closing heavily polluting firms and vigorously developing clean energy and eco-tourism.
-塞罕坝林场的建设者们，几十年如一日地植树造林，把一片荒原变成了百万亩林海。 // The builders of the Saihanba forest farm planted trees for decades as one day, turning a wasteland into a million-mu sea of forest.
+塞罕坝林场的建设者们，几十年如一日地植树造林，把一片荒原变成了百万亩林海。 // The builders of the Saihanba forest farm planted trees day after day for decades, turning a wasteland into a million-mu sea of forest.
 如今，这里不仅成为首都的绿色屏障，还吸引了大批游客前来体验。 // Today it is not only a green barrier for the capital but attracts many visitors.
 实践证明，经济发展与环境保护并不矛盾，关键在于找到可持续的发展道路。 // Practice proves economic development and environmental protection are not in conflict; the key is finding a sustainable path.
 G: 不惜 ~ 不惜 means "not hesitate to (at cost)". ~ 他不惜一切代价救人。 ~ He would pay any price to save people. ~ 不惜

@@ -54,7 +54,7 @@ Q: Where will they meet? ~ At the subway station ~ At the park ~ At school ~ At 
 售货员: 原来三百块，现在打八折，二百四十块。 // It was three hundred yuan, now there's twenty percent off: two hundred and forty.
 玛丽: 好，我买这件。可以用手机付钱吗？ // OK, I'll take this one. Can I pay by phone?
 G: 有点儿 vs 一点儿 ~ 有点儿 goes before an adjective, 一点儿 goes after it: 大一点儿 (a bit bigger). ~ 请说慢一点儿。 ~ Please speak a bit more slowly. ~ 一点儿
-G: 打八折 ~ In Chinese, 打八折 means 20% off: the number is the percentage you pay, tenths. ~ 这件衣服打九折。 ~ This piece of clothing is 10% off. ~ 打
+G: 打八折 ~ 打八折 means 20% off: the number says how many tenths of the price you still pay (八 = 80%). ~ 这件衣服打九折。 ~ This piece of clothing is 10% off. ~ 打
 Q: What does Mary want to buy? ~ A black coat ~ A red dress ~ A pair of shoes ~ A hat
 Q: What is the problem with the first coat? ~ It is a bit big ~ It is too small ~ It is too expensive ~ It is the wrong colour
 Q: How much does Mary pay? ~ 240 yuan ~ 300 yuan ~ 80 yuan ~ 280 yuan
@@ -85,7 +85,7 @@ Q: What do many people do when it snows? ~ Go to the Great Wall ~ Stay at home ~
 他觉得每天看羊很没意思。 // He thought looking after sheep every day was very boring.
 有一天，他想：我来开个玩笑吧。 // One day he thought: Let me play a joke.
 他大声喊："狼来了！狼来了！" // He shouted loudly, "The wolf is coming! The wolf is coming!"
-山下的人听到了，马上拿着东西跑上山。 // The people at the foot of the hill heard it and at once ran up the hill carrying tools.
+山下的人听到了，马上拿着东西跑上山。 // The people at the foot of the hill heard it and at once ran up the hill carrying whatever they had.
 可是山上没有狼。小男孩儿笑了："哈哈，你们都被我骗了！" // But there was no wolf on the hill. The boy laughed, "Ha ha, I fooled you all!"
 几天以后，狼真的来了。 // A few days later, the wolf really came.
 小男孩儿大声喊："狼来了！快来帮帮我！" // The boy shouted, "The wolf is coming! Come and help me quickly!"
@@ -161,7 +161,7 @@ Q: What do they drink in the end? ~ Juice ~ Beer ~ Tea ~ Milk
 @summary A student writes home from China.
 亲爱的安娜：// Dear Anna:
 你好吗？我到北京已经一个月了。 // How are you? I have been in Beijing for a month already.
-我住在学校旁边的一个小房子里，房子不大，但是很安静。 // I live in a small flat next to the school. It is not big but it is very quiet.
+我住在学校旁边的一个小房子里，房子不大，但是很安静。 // I live in a small house next to the school. It is not big but it is very quiet.
 我每天早上去上汉语课，下午和中国同学聊天儿。 // Every morning I go to Chinese class, and in the afternoon I chat with Chinese classmates.
 他们对我很好，常常教我说汉语。 // They are very kind to me and often teach me to speak Chinese.
 这里的菜很好吃，我最喜欢吃饺子和面条儿。 // The food here is delicious. I like dumplings and noodles best.
@@ -206,7 +206,7 @@ Q: What does Tom ask the clerk to do? ~ Call a taxi ~ Change the room ~ Bring br
 有时候她也很可爱，会在我回家的时候走到门口。 // Sometimes she is very cute too, and comes to the door when I get home.
 我们全家人都爱咪咪。 // All of us in the family love Mimi.
 G: 只要……就…… ~ 只要 A 就 B means "as long as A, then B". ~ 只要你努力，就能学好。 ~ As long as you try hard, you can learn well. ~ 就
-G: 一天要…… ~ A time word + number + measure words tells how much per day. ~ 我一天走一万步。 ~ I walk ten thousand steps a day. ~ 天
+G: 一天要…… ~ 一天 + 要 + amount tells how much someone does or needs per day. ~ 我一天要走一万步。 ~ I walk ten thousand steps a day. ~ 天
 Q: How old is the cat? ~ Three years old ~ One year old ~ Five years old ~ Ten years old
 Q: What colour are Mimi's eyes? ~ Blue ~ Green ~ Brown ~ Yellow
 Q: What makes her wake up at once? ~ Cat food ~ A loud noise ~ The morning sun ~ A toy
@@ -223,7 +223,7 @@ Q: What makes her wake up at once? ~ Cat food ~ A loud noise ~ The morning sun ~
 大卫: 有两场：下午三点和晚上七点半。 // There are two shows: three in the afternoon and half past seven in the evening.
 小美: 下午我要上钢琴课，我们看晚上的吧。 // I have a piano lesson in the afternoon, so let's see the evening one.
 大卫: 好。我现在就在网上买票。 // OK. I'll buy tickets online right now.
-小美: 太好了。电影以前，我们先去吃饭吧。 // Great. Before the movie, let's eat first.
+小美: 太好了。看电影以前，我们先去吃饭吧。 // Great. Before we watch the movie, let's eat first.
 G: 是不是 ~ 是不是 asks the other person to confirm a guess. ~ 你是不是累了？ ~ Are you tired? ~ 是不是
 G: 以前 / 以后 ~ 以前 means "before" and 以后 means "after". ~ 吃饭以后，我去散步。 ~ After eating I go for a walk. ~ 以前
 Q: What kind of film is it? ~ A romance ~ An action movie ~ A comedy ~ A horror film
@@ -239,7 +239,7 @@ Q: How does David buy the tickets? ~ Online ~ At the cinema ~ By phone ~ From a 
 兔子笑了："你？你走得那么慢，怎么能赢我？" // The hare laughed, "You? You walk so slowly. How could you beat me?"
 比赛开始了，兔子很快就跑到了前面。 // The race began, and soon the hare was far ahead.
 他回头一看，乌龟还在很远的地方。 // He looked back and the tortoise was still far away.
-"我先睡一觉，等他来了我再跑。"兔子想。 // "I'll take a nap first, and run again when he comes," thought the hare.
+"我先睡一觉[jiao4]，等他来了我再跑。"兔子想。 // "I'll take a nap first, and run again when he comes," thought the hare.
 乌龟一直向前走，没有休息。 // The tortoise kept going forward without resting.
 兔子醒来的时候，乌龟已经快到终点了。 // When the hare woke up, the tortoise was almost at the finish line.
 兔子拼命地跑，可是太晚了，乌龟赢了。 // The hare ran with all his might, but it was too late. The tortoise had won.
@@ -253,7 +253,7 @@ Q: What is the lesson of the story? ~ Steady effort wins ~ Fast is always best ~
 @title 春节快到了
 @titleen Spring Festival Is Coming
 @summary How a Chinese family prepares for the New Year.
-春节是中国最大的节日，家人都会回家一起过年。 // Spring Festival is China's biggest holiday, and family members all go home to celebrate together.
+春节是中国最大的节日，家人都/会回家一起过年。 // Spring Festival is China's biggest holiday, and family members all go home to celebrate together.
 过年以前，大家先打扫房子，然后买很多好吃的东西。 // Before the New Year, everyone first cleans the house and then buys lots of good food.
 门上要贴红色的春联，上面写着好听的话。 // Red couplets are pasted on the doors, with good wishes written on them.
 除夕晚上，一家人坐在一起包饺子、看电视。 // On New Year's Eve the family sits together making dumplings and watching TV.

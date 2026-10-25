@@ -22,7 +22,7 @@ Q: What do experts say is the key? ~ Using technology sensibly ~ Banning it ~ Sl
 @summary From oracle bones to simplified characters.
 汉字是世界上历史最悠久的文字之一，已有三千多年的历史。 // Chinese characters are among the world's oldest scripts, with a history of over three thousand years.
 目前发现的最早成熟文字是商朝的甲骨文，因为它是刻在龟甲和兽骨上的。 // The earliest mature writing so far discovered is the Shang dynasty oracle-bone script, so called because it was carved on tortoise shells and animal bones.
-后来，文字依次演变为金文、大篆和小篆。 // Later the script developed in turn into bronze script, great seal and small seal.
+后来，文字依次演变为[wei2]金文、大篆和小篆。 // Later the script developed in turn into bronze script, great seal and small seal.
 秦始皇统一中国以后，下令统一文字，使小篆成为标准字体。 // After Qin Shi Huang unified China, he ordered the script unified and made small seal the standard.
 到了汉代，隶书逐渐流行，书写变得更加方便，汉字的形状也由圆转方。 // By the Han dynasty clerical script gradually became popular, writing became more convenient, and the shape of characters changed from round to square.
 之后出现的楷书一直沿用至今，成为现代汉字的基础。 // The regular script that appeared afterwards has been used until today and became the basis of modern characters.
@@ -98,9 +98,9 @@ Q: What does the author say about individuals? ~ Small acts add up ~ They are po
 @summary The love story behind the Qixi Festival.
 很久以前，有个孤苦伶仃的年轻人，靠放牛为生，人们都叫他牛郎。 // Long ago there was a lonely young man who lived by herding cattle; people called him the Cowherd.
 他家里只有一头老牛，老牛其实是天上的金牛星下凡。 // His only property was an old ox, which was in fact the Golden Ox Star come down from heaven.
-一天，老牛告诉他，天上的仙女们会到湖边洗澡，让他拿走一件衣服，就能得到一位妻子。 // One day the ox told him that the heavenly maidens would bathe at the lake and that if he took one of the garments he would gain a wife.
+一天，老牛告诉[gao4 su5]他，天上的仙女们会到湖边洗澡，让他拿走一件衣服，就能得到一位妻子[qi1 zi5]。 // One day the ox told him that the heavenly maidens would bathe at the lake and that if he took one of the garments he would gain a wife.
 牛郎照做了，带走的是织女的衣裳。 // The Cowherd did so, and the garment he took was the Weaver Girl's.
-织女成为他的妻子，两人过着幸福的日子，还生了一儿一女。 // The Weaver Girl became his wife, and they lived happily and had a son and a daughter.
+织女成为他的妻子[qi1 zi5]，两人过着幸福的日子，还生了一儿一女。 // The Weaver Girl became his wife, and they lived happily and had a son and a daughter.
 可是，王母娘娘知道后勃然大怒，派天兵把织女抓回了天宫。 // But the Queen Mother flew into a rage when she found out and sent heavenly soldiers to seize the Weaver Girl.
 牛郎挑着两个孩子，披上牛皮追赶，眼看就要追上了，王母却拔下金簪，在天空划出一条波涛汹涌的银河。 // The Cowherd carried his children in baskets and chased her wearing the ox hide; just as he was about to catch up, the Queen Mother drew a golden hairpin and carved the roaring Milky Way across the sky.
 成千上万只喜鹊被他们的爱情感动，在每年七月初七飞到银河上搭成一座桥，让他们相会。 // Thousands upon thousands of magpies, moved by their love, fly up on the seventh day of the seventh month each year to form a bridge over the Milky Way and let them meet.
@@ -134,7 +134,7 @@ Q: What does the writer say is needed? ~ Effective supervision and a credit syst
 @summary A guest asks a tea master about how to taste tea properly.
 @speakers 客人 茶艺师
 客人: 我平时只会用开水泡茶，听说泡茶其实很有讲究？ // I usually just brew tea with boiling water. I've heard there's a lot of finesse to brewing tea?
-茶艺师: 没错。不同的茶，水温和时间都不一样。 // Right. Different teas need different water temperatures and times.
+茶艺师: 没错。不同的茶，水温/和时间都不一样。 // Right. Different teas need different water temperatures and times.
 客人: 比如呢？ // For example?
 茶艺师: 绿茶比较娇嫩，用八十度左右的水最合适，水太烫会把茶叶烫坏，喝起来发苦。 // Green tea is delicate; water around eighty degrees is best. Too hot scalds the leaves and makes it taste bitter.
 客人: 那红茶呢？ // And black tea?
@@ -176,7 +176,7 @@ Q: What do many hospitals advocate? ~ Combining both ~ Using only herbs ~ Closin
 终身学习不仅是为了适应工作，更是为了丰富自己的精神世界。 // Lifelong learning is not only to adapt to work but even more to enrich one's inner world.
 现在有大量的在线课程，人们可以利用碎片时间，随时随地学习新知识。 // Now there are plenty of online courses, and people can use fragments of time to learn new things anywhere, anytime.
 重要的不是学得多快，而是能否保持好奇心，并养成持之以恒的习惯。 // What matters is not how fast you learn but whether you keep your curiosity and form the habit of perseverance.
-正如一句古话所说："活到老，学到老。" // As an old saying goes, "Live until old, learn until old."
+正如/一句古话所说："活到老，学到老。" // As an old saying goes, "Live until old, learn until old."
 G: 不仅……更…… ~ 不仅 A 更 B means "not only A, but even more B". ~ 他不仅聪明，更勤奋。 ~ He is not only clever but even more diligent. ~ 不仅
 G: 随时随地 ~ 随时随地 is a set phrase: "anytime, anywhere". ~ 手机让我们随时随地都能联系。 ~ Phones let us keep in touch anytime, anywhere. ~ 随时随地
 Q: What is outdated according to the text? ~ Learning ends with graduation ~ Online courses ~ Reading ~ Diplomas

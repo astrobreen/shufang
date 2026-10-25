@@ -21,9 +21,9 @@ Q: What example is given? ~ Calligraphy ~ Cooking ~ Music ~ Architecture
 @titleen Dialects and Mandarin
 @summary Why standard speech and local tongues need each other.
 中国地域辽阔，方言众多，粗略地划分，就有官话、吴语、粤语、闽语、客家话、湘语和赣语七大方言区。 // China is vast and has many dialects; roughly divided, there are seven major dialect regions: Mandarin, Wu, Yue, Min, Hakka, Xiang and Gan.
-各方言之间的差异之大，往往使得不同地区的人无法直接交谈，甚至同一座城市的两个区县，口音也不尽相同。 // The differences are so large that people from different regions often cannot converse directly; even two districts of one city may have different accents.
+各方言之间的差异之大，往往使得不同地区的人无法直接交谈，甚至同一座城市的两个区县，口音也不尽[jin4]相同。 // The differences are so large that people from different regions often cannot converse directly; even two districts of one city may have different accents.
 推广普通话，为人们的跨地域交流扫除了障碍，也有力地促进了教育的普及和经济的发展。 // Promoting Mandarin has removed barriers to cross-regional communication and powerfully advanced education and economic development.
-然而，随着普通话的普及，一些方言正在悄然消失，尤其是年轻一代，能说地道方言的人越来越少。 // However, as Mandarin spreads, some dialects are quietly vanishing, especially among the young, fewer of whom speak authentic dialect.
+然而，随着普通话的普及，一些方言正在悄然消失，尤其是年轻一代，能说地道[di4 dao5]方言的人越来越少。 // However, as Mandarin spreads, some dialects are quietly vanishing, especially among the young, fewer of whom speak authentic dialect.
 方言不仅是一种交流工具，更承载着一方水土的历史记忆和风土人情。 // A dialect is not only a tool for communication but also carries a region's historical memory and local customs.
 许多古诗词用粤语或闽南语朗读，反而更加押韵，因为这些方言保留了不少古汉语的发音特点。 // Many classical poems rhyme better when read in Cantonese or Hokkien, because those dialects preserve many features of ancient pronunciation.
 因此，保护方言并不意味着否定普通话，两者完全可以相辅相成、和谐共存。 // Protecting dialects therefore does not mean denying Mandarin; the two can complement each other and coexist harmoniously.
@@ -42,7 +42,7 @@ Q: What is the writer's conclusion? ~ Dialects and Mandarin can coexist ~ Dialec
 这就是所谓的"意在笔先"。 // This is the so-called "intent before the brush".
 在构图上，山水画讲究留白，一片空白既可以是云雾，也可以是江水，更可以是观者想象的天地。 // In composition, landscape painting values blank space: an empty area can be mist, a river, or the world imagined by the viewer.
 正因为有了这种"虚"与"实"的巧妙对比，画面才显得空灵悠远，耐人寻味。 // Because of this clever contrast of emptiness and substance, the picture seems ethereal, far-reaching and thought-provoking.
-元代画家黄公望的《富春山居图》，以淡雅的笔墨描绘了富春江两岸的秀美风光，被誉为中国十大传世名画之一。 // Yuan painter Huang Gongwang's "Dwelling in the Fuchun Mountains" depicts the lovely scenery of the Fuchun River in subtle ink, and is hailed as one of China's ten great surviving paintings.
+元代画家黄公望的《富春山居图》，以淡雅的笔墨描绘了富春江两岸的秀美风光，被誉为[wei2]中国十大传世名画之一。 // Yuan painter Huang Gongwang's "Dwelling in the Fuchun Mountains" depicts the lovely scenery of the Fuchun River in subtle ink, and is hailed as one of China's ten great surviving paintings.
 欣赏这样的画作，仿佛置身于山水之间，心灵得到了洗涤。 // Viewing such a work feels like standing among mountains and waters, with the soul cleansed.
 G: 耐人寻味 ~ 耐人寻味 means "thought-provoking". ~ 这部电影的结尾耐人寻味。 ~ The film's ending is thought-provoking. ~ 耐人寻味
 G: 拘泥于 ~ 拘泥于 means "to stick rigidly to". ~ 不要拘泥于形式。 ~ Don't be bound by form. ~ 拘泥
@@ -56,7 +56,7 @@ Q: Which painting is mentioned? ~ Dwelling in the Fuchun Mountains ~ Mona Lisa ~
 @summary Where convenience ends and surveillance begins.
 我们每天在网络上留下的足迹，正以前所未有的规模被收集、分析和利用。 // The footprints we leave online each day are being collected, analysed and used on an unprecedented scale.
 商家借助大数据精准投放广告，固然提高了营销效率，但也让消费者感到自己的一举一动都处于监视之下。 // Merchants use big data to target ads, which raises marketing efficiency but also makes consumers feel their every move is watched.
-更严重的是，个人信息一旦泄露，便可能被不法分子用于诈骗，造成难以挽回的损失。 // More seriously, once personal information leaks it may be used by criminals for fraud, causing irreparable loss.
+更严重的是，个人信息一旦泄露[xie4 lou4]，便可能被不法分子用于诈骗，造成难以挽回的损失。 // More seriously, once personal information leaks it may be used by criminals for fraud, causing irreparable loss.
 为了应对这一挑战，各国纷纷出台法律，加强对个人信息的保护，明确规定企业收集数据必须取得用户的明确同意。 // To meet this challenge, countries have enacted laws strengthening the protection of personal information, explicitly requiring firms to obtain users' clear consent before collecting data.
 然而，法律的完善往往滞后于技术的发展，许多用户在点击"同意"之前，根本没有认真阅读冗长晦涩的隐私条款。 // But the improvement of law often lags behind technology; many users click "agree" without really reading long, obscure privacy terms.
 可见，保护隐私不能仅靠立法，还需要企业恪守诚信、用户提高自我保护意识，形成多方共治的格局。 // Clearly protecting privacy cannot depend on legislation alone; firms must keep faith and users raise self-protection awareness, forming a pattern of shared governance.
