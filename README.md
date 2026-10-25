@@ -2,7 +2,7 @@
 
 A graded Chinese reader and study room. HSK 3.0 levels 1 to 9, tap-to-define reading, audio, idioms, spaced-repetition flashcards, stroke-order writing, and tone and listening drills. No account and no tracking.
 
-* **Coverage:** 156 lessons, about 11,000 HSK words, about 3,000 characters with stroke order, 146 idioms (成语)
+* **Coverage:** 156 lessons, about 11,000 HSK words, about 3,000 characters with stroke order, 146 idioms
 * **Stack:** plain HTML, CSS and JavaScript. No framework and no server.
 * **Data:** stays on your device, with backup and restore.
 
