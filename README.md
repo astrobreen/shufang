@@ -1,8 +1,8 @@
 # Shufang 书房
 
-A graded Chinese reader and study room. HSK 3.0 levels 1 to 9, tap-to-define reading, audio, idioms, spaced-repetition flashcards, stroke-order writing, and tone and listening drills. No account and no tracking.
+A graded Chinese reader and study room. HSK 3.0 levels 1 to 9, tap-to-define reading, a built-in dictionary, audio, idioms, spaced-repetition flashcards, stroke-order writing, and tone and listening drills. No account and no tracking.
 
-* **Coverage:** 156 lessons, about 11,000 HSK words, about 3,000 characters with stroke order, 146 idioms
+* **Coverage:** 156 lessons, about 11,000 HSK words, about 3,000 characters with stroke order, 146 idioms, a dictionary of about 115,000 entries
 * **Stack:** plain HTML, CSS and JavaScript. No framework and no server.
 * **Data:** stays on your device, with backup and restore.
 
@@ -10,6 +10,7 @@ A graded Chinese reader and study room. HSK 3.0 levels 1 to 9, tap-to-define rea
 
 * **Read.** 156 lessons from HSK 1 to 9: dialogues, articles, stories, Tang and Song poems, and classical prose. Tap any word for pinyin, meaning, example and characters. Smart pinyin hides words at or below your level. Simplified or traditional, pinyin / numbered pinyin / zhuyin, tone colours, sentence translations, sentence-by-sentence audio, listening mode, grammar notes and a short quiz per lesson.
 * **Words.** The full HSK 3.0 list (about 11,000 words) with search by character, pinyin or English. Save words to your own list.
+* **Dictionary.** About 115,000 entries from CC-CEDICT. Search in Chinese (simplified or traditional), pinyin (with or without tone numbers or marks) or English. Paste a sentence and it is split into its words. Each entry shows numbered meanings, measure words, tone-coloured pinyin with audio, the characters (tap for stroke order) and the words that contain it, and any word can be added to your review list. Recent lookups are kept on the device. Tapping a word anywhere in the app can open its full dictionary entry. The data downloads on first use (about 3.5 MB compressed).
 * **Practice.** SM-2 style flashcards, stroke-order animation and handwriting check for about 3,000 characters, a tone drill, a listening drill, a grammar index (268 patterns) and a pinyin chart with audio.
 * **Idioms (成语, chéngyǔ).** Four-character sayings, many from old stories, such as 画蛇添足 ("draw a snake and add feet", to ruin something by overdoing it). 146 idioms in nine topics, each with an example sentence, a story or usage note, and a daily idiom on the Today screen. Filter by topic and by how common the idiom is.
 * **Placement test.** A real test, not a self-rating: it asks what words mean, moves up or down a level by bisection and finds your HSK level in about 18 to 24 questions. "I don't know" counts as wrong, so guessing does not help.
@@ -36,9 +37,9 @@ Progress lives in the browser (`localStorage`). *Me, Your data* saves and restor
 ```
 src/app/            the app: core.js (pure logic), app.css, js/*.js (one file per area, concatenated in order)
 src/content/        lesson texts (texts/*.txt), the older hand-annotated lessons (legacy/), lexicon and compound lists
-tools/              Python build pipeline and helpers
+tools/              Python build pipeline and helpers (build_dict.py makes site/dict.json)
 build/              committed intermediate data (legacy lessons, traditional-character map, inline bundle)
-site/               the built, deployable site (committed so Pages works without a build)
+site/               the built, deployable site (committed so Pages works without a build); dict.json is the dictionary
 tests/              unit, data and browser tests
 docs/               screenshots and the content guide
 ```

@@ -172,6 +172,7 @@ function wordSheet() {
   }
   out += '<div class="actions"><button class="btn ' + (saved ? '' : 'pri') + '" data-act="save" data-h="' + esc(h) + '">' + (saved ? 'Remove from review' : 'Add to review') + '</button>' +
     '<button class="btn" data-act="known" data-h="' + esc(h) + '">' + (known ? 'Not known yet' : 'I know this') + '</button></div>';
+  out += '<button class="btn ghost block mt8" data-act="dictinfo" data-h="' + esc(h) + '">' + icon('dict', 'sm') + ' Full dictionary entry</button>';
   if (ctx.lid != null && ctx.lid !== '' && ctx.si >= 0) out += '<button class="btn ghost block mt8" data-act="flag" data-lid="' + esc(ctx.lid) + '" data-si="' + ctx.si + '" data-h="' + esc(h) + '">' + icon('flag', 'sm') + ' Report a mistake in this sentence</button>';
   return out;
 }
@@ -298,6 +299,7 @@ function renderSheet() {
     case 'summary': body = rd ? summarySheet() : ''; break;
     case 'display': body = sheetHead('Reading display') + displayControls(); break;
     case 'gram': body = gramSheet(); break;
+    case 'dict': body = dictSheet(); break;
     case 'finder': body = finderSheet(); break;
     default: body = sheetHead('') ;
   }

@@ -9,7 +9,7 @@
     "build": "python3 tools/make.py",
     "build:site": "python3 tools/make.py --no-data",
     "test": "node tests/core.test.js && node tests/data.test.js",
-    "test:smoke": "node tests/chengyu.test.js && node tests/smoke.js && node tests/placement.test.js && node tests/audio.test.js && node tests/hover.test.js && node tests/android.test.js",
+    "test:smoke": "node tests/chengyu.test.js && node tests/dict.test.js && node tests/smoke.js && node tests/placement.test.js && node tests/audio.test.js && node tests/hover.test.js && node tests/android.test.js",
     "icons": "node tools/make_icons.js"
   },
   "devDependencies": {

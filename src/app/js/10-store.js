@@ -12,7 +12,7 @@ var DEF = { script: 'simp', phon: 'pinyin', vis: 'smart', trans: false, tone: tr
 var ENUM = { script: ['simp', 'trad'], phon: ['pinyin', 'num', 'zhuyin'], vis: ['all', 'smart', 'off'], font: ['sans', 'serif'], dir: ['zh-en', 'en-zh', 'listen'] };
 var CJKRE = /^[㐀-䶿一-鿿豈-﫿]{1,12}$/;
 
-function fresh() { return { v: 2, updatedAt: 0, set: Object.assign({}, DEF), words: [], known: [], done: [], log: [], marks: [], last: null, wr: {}, flags: [] }; }
+function fresh() { return { v: 2, updatedAt: 0, set: Object.assign({}, DEF), words: [], known: [], done: [], log: [], marks: [], last: null, wr: {}, flags: [], hist: [] }; }
 
 function sanitize(o) {
   var f = fresh();
@@ -33,12 +33,17 @@ function sanitize(o) {
   (Array.isArray(o.words) ? o.words : []).slice(0, 3500).forEach(function (w) {
     if (!w || typeof w.h !== 'string' || !CJKRE.test(w.h) || seen[w.h]) return;
     seen[w.h] = 1;
-    f.words.push({
+    var card = {
       h: w.h, lid: byId.has(w.lid) ? w.lid : '', si: num(w.si, -1),
       add: num(w.add, 0), due: num(w.due, 0), ease: clamp(num(w.ease, 2.3), 1.3, 4), int: Math.max(0, num(w.int, 0)),
       reps: Math.max(0, num(w.reps, 0)), lapses: Math.max(0, num(w.lapses, 0)), last: num(w.last, 0)
-    });
+    };
+    // words saved from the dictionary that are in no lesson keep their own reading and meaning
+    if (typeof w.py === 'string' && w.py) card.py = w.py.slice(0, 80);
+    if (typeof w.g === 'string' && w.g) card.g = w.g.slice(0, 160);
+    f.words.push(card);
   });
+  f.hist = (Array.isArray(o.hist) ? o.hist : []).filter(function (h, i, a) { return typeof h === 'string' && h.length > 0 && h.length <= 20 && a.indexOf(h) === i; }).slice(0, 40);
   f.known = (Array.isArray(o.known) ? o.known : []).slice(0, 6000).filter(function (h, i, a) { return typeof h === 'string' && CJKRE.test(h) && a.indexOf(h) === i; });
   var ds = {};
   (Array.isArray(o.done) ? o.done : []).forEach(function (d) {
@@ -92,6 +97,7 @@ function unionState(a, b) {
   out.log = Array.from(lm.values()).sort(function (x, y) { return x.d < y.d ? -1 : 1; }).slice(-120);
   out.marks = Array.from(new Set(a.marks.concat(b.marks)));
   out.last = newer.last || a.last || b.last;
+  out.hist = newer.hist.concat(newer === a ? b.hist : a.hist).filter(function (h, i, arr) { return arr.indexOf(h) === i; }).slice(0, 40);
   out.wr = Object.assign({}, a.wr);
   Object.keys(b.wr).forEach(function (c) { out.wr[c] = Math.max(out.wr[c] || 0, b.wr[c]); });
   var fk = {};
@@ -151,11 +157,13 @@ function lessonOrder(a, b) { return a.level - b.level || LESSONS.indexOf(a) - LE
 function dueCards() { var t = now(); return S.words.filter(function (w) { return w.due <= t; }).sort(function (a, b) { return a.due - b.due; }); }
 /* reading / gloss for a saved card: prefer the sentence it was saved from */
 function cardInfo(w) {
-  var base = info(w.h) || { h: w.h, py: [], g: '', t: '', lv: 0, all: '' };
+  var base = info(w.h) || { h: w.h, py: w.py ? w.py.split(' ') : [], g: w.g || '', t: '', lv: 0, all: '' };
   var tok = w.lid && !CYMAP.has(w.h) ? tokenAt(w.lid, w.si, w.h) : null;     // idioms always show their own reading and meaning
   return { h: w.h, py: tok ? tok.py : base.py, g: tok ? tok.g : base.g, t: base.t, lv: base.lv, all: base.all };
 }
 function newCard(h, ctx) {
   var e = dict.get(h), ex = ctx && ctx.lid != null ? { lid: ctx.lid, si: ctx.si } : (e && e.ex);
-  return { h: h, lid: ex ? ex.lid : '', si: ex ? ex.si : -1, add: now(), due: now(), ease: 2.3, int: 0, reps: 0, lapses: 0, last: 0 };
+  var c = { h: h, lid: ex ? ex.lid : '', si: ex ? ex.si : -1, add: now(), due: now(), ease: 2.3, int: 0, reps: 0, lapses: 0, last: 0 };
+  if (ctx && ctx.dg && !dict.has(h) && !V.map.has(h) && !CYMAP.has(h)) { c.py = ctx.dpy; c.g = ctx.dg; }     // a dictionary word that is in no lesson: remember its reading and meaning
+  return c;
 }

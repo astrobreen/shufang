@@ -61,3 +61,7 @@ One block per topic (`@Topic`), one idiom per line, seven fields separated by ` 
 - The example sentence must contain the idiom, and every word in it must be known to the annotator (it fails the build otherwise).
 - Only state a story as history when it is the standard account (Han Feizi, Zhuangzi, Records of the Grand Historian, and so on). Say "was said to" for legends, or describe usage instead.
 - The idioms are inlined in `data.json` (`CY`, `CT`); their characters are added to the stroke shards. Saved idioms use the same flashcard schedule as words, with the idiom's own meaning and example on the card.
+
+## The dictionary
+
+The Dictionary tab reads `site/dict.json`, built by `tools/build_dict.py` from CC-CEDICT (`cedict_ts.u8`, fetched by `tools/fetch_sources.sh`). It runs as part of a full `python3 tools/make.py`, not with `--no-data`, and the result is committed. Pinyin is converted from tone numbers to tone marks, `[pin1 yin1]` cross-references inside meanings are converted the same way, and "CL:" measure words are split off into their own field. Entries are `[simplified, traditional, pinyin, [meanings], measure words]`. The file is fetched the first time the tab is opened and cached by the service worker. `tests/dict.test.js` checks the data and the interface.

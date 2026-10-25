@@ -133,11 +133,30 @@ svg.i .f { fill: currentColor; stroke: none; }
 /* ---------- bottom tabs ---------- */
 #tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: color-mix(in srgb, var(--bg) 82%, transparent); -webkit-backdrop-filter: saturate(1.6) blur(18px); backdrop-filter: saturate(1.6) blur(18px);
   border-top: 1px solid var(--line); padding: 0 max(6px, env(safe-area-inset-left, 0px)) env(safe-area-inset-bottom, 0px) max(6px, env(safe-area-inset-right, 0px)); }
-#tabs .in { max-width: 560px; margin: 0 auto; display: grid; grid-template-columns: repeat(5, 1fr); }
-#tabs button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 7px 0 6px; font-size: 10.5px; font-weight: 650; color: var(--ink3); min-height: 56px; letter-spacing: .01em; }
+#tabs .in { max-width: 600px; margin: 0 auto; display: grid; grid-template-columns: repeat(6, 1fr); }
+#tabs button { min-width: 0; white-space: nowrap; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 7px 0 6px; font-size: 10.5px; font-weight: 650; color: var(--ink3); min-height: 56px; letter-spacing: .01em; }
 #tabs button.on { color: var(--accent); }
 #tabs .ic { position: relative; display: block; line-height: 0; }
 #tabs .badge { position: absolute; top: -4px; left: 14px; min-width: 17px; height: 17px; padding: 0 4px; border-radius: 9px; background: var(--seal); color: #fff; font-size: 10.5px; line-height: 17px; text-align: center; font-weight: 700; }
+
+@media (max-width: 379px) { #tabs { padding-left: 2px; padding-right: 2px; } #tabs button { font-size: 9.5px; letter-spacing: 0; } }
+
+/* ---------- dictionary ---------- */
+.dhint { padding-top: 24px; }
+.dhint p { max-width: 36ch; margin-inline: auto; }
+.rowhead { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 16px; }
+.chiprow { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.dhint .chiprow { justify-content: center; }
+.dents { display: grid; gap: 0; margin-top: 4px; }
+.dent { padding: 14px 0 12px; border-top: 1px solid var(--line); }
+.dent:first-child { border-top: 0; padding-top: 4px; }
+.dph { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 4px 6px; font: 650 21px/1.3 var(--f-ui); }
+.dent .alt { text-align: center; margin-top: 2px; }
+.dfl { margin: 10px 0 0; padding-left: 1.5em; display: grid; gap: 5px; font-size: 16px; line-height: 1.4; overflow-wrap: anywhere; }
+.dfl li::marker { color: var(--ink3); font-weight: 600; font-size: 14px; }
+.dcl { margin-top: 8px; font-size: 14px; color: var(--ink2); overflow-wrap: anywhere; }
+.xr { display: inline; padding: 0; margin: 0; border: 0; background: none; color: var(--accent); font: 500 1.05em var(--f-zh); text-decoration: underline dotted; text-underline-offset: 3px; cursor: pointer; }
+.dhint .chiprow + p { margin-top: 16px; }
 
 /* ---------- forms ---------- */
 .search { display: flex; align-items: center; gap: 8px; background: var(--surf2); border-radius: 12px; padding: 0 12px; min-height: 44px; color: var(--ink3); }
@@ -796,7 +815,10 @@ function loadVocab(cb) {
 function info(h) {
   var e = dict.get(h), v = V.map.get(h), cy = CYMAP.get(h);
   if (!e && !v && cy) return { h: h, py: cy.py, g: cy.g, t: cy.t, lv: 11, all: '', inLessons: false, e: null, cy: true };
-  if (!e && !v) return null;
+  if (!e && !v) {
+    var de = DI && DI.ready ? dictBest(h) : null;                 // any other word in the dictionary
+    return de ? { h: h, py: de.pys.map(function (s) { return s.toLowerCase(); }), g: dictGloss(de), t: de.t, lv: 0, all: de.d.join('; '), inLessons: false, e: null, dict: true } : null;
+  }
   var r = info0(h, e, v);
   if (cy) { r.py = cy.py; r.g = cy.g; r.cy = true; }
   return r;
@@ -836,7 +858,7 @@ var DEF = { script: 'simp', phon: 'pinyin', vis: 'smart', trans: false, tone: tr
 var ENUM = { script: ['simp', 'trad'], phon: ['pinyin', 'num', 'zhuyin'], vis: ['all', 'smart', 'off'], font: ['sans', 'serif'], dir: ['zh-en', 'en-zh', 'listen'] };
 var CJKRE = /^[㐀-䶿一-鿿豈-﫿]{1,12}$/;
 
-function fresh() { return { v: 2, updatedAt: 0, set: Object.assign({}, DEF), words: [], known: [], done: [], log: [], marks: [], last: null, wr: {}, flags: [] }; }
+function fresh() { return { v: 2, updatedAt: 0, set: Object.assign({}, DEF), words: [], known: [], done: [], log: [], marks: [], last: null, wr: {}, flags: [], hist: [] }; }
 
 function sanitize(o) {
   var f = fresh();
@@ -857,12 +879,17 @@ function sanitize(o) {
   (Array.isArray(o.words) ? o.words : []).slice(0, 3500).forEach(function (w) {
     if (!w || typeof w.h !== 'string' || !CJKRE.test(w.h) || seen[w.h]) return;
     seen[w.h] = 1;
-    f.words.push({
+    var card = {
       h: w.h, lid: byId.has(w.lid) ? w.lid : '', si: num(w.si, -1),
       add: num(w.add, 0), due: num(w.due, 0), ease: clamp(num(w.ease, 2.3), 1.3, 4), int: Math.max(0, num(w.int, 0)),
       reps: Math.max(0, num(w.reps, 0)), lapses: Math.max(0, num(w.lapses, 0)), last: num(w.last, 0)
-    });
+    };
+    // words saved from the dictionary that are in no lesson keep their own reading and meaning
+    if (typeof w.py === 'string' && w.py) card.py = w.py.slice(0, 80);
+    if (typeof w.g === 'string' && w.g) card.g = w.g.slice(0, 160);
+    f.words.push(card);
   });
+  f.hist = (Array.isArray(o.hist) ? o.hist : []).filter(function (h, i, a) { return typeof h === 'string' && h.length > 0 && h.length <= 20 && a.indexOf(h) === i; }).slice(0, 40);
   f.known = (Array.isArray(o.known) ? o.known : []).slice(0, 6000).filter(function (h, i, a) { return typeof h === 'string' && CJKRE.test(h) && a.indexOf(h) === i; });
   var ds = {};
   (Array.isArray(o.done) ? o.done : []).forEach(function (d) {
@@ -916,6 +943,7 @@ function unionState(a, b) {
   out.log = Array.from(lm.values()).sort(function (x, y) { return x.d < y.d ? -1 : 1; }).slice(-120);
   out.marks = Array.from(new Set(a.marks.concat(b.marks)));
   out.last = newer.last || a.last || b.last;
+  out.hist = newer.hist.concat(newer === a ? b.hist : a.hist).filter(function (h, i, arr) { return arr.indexOf(h) === i; }).slice(0, 40);
   out.wr = Object.assign({}, a.wr);
   Object.keys(b.wr).forEach(function (c) { out.wr[c] = Math.max(out.wr[c] || 0, b.wr[c]); });
   var fk = {};
@@ -975,13 +1003,15 @@ function lessonOrder(a, b) { return a.level - b.level || LESSONS.indexOf(a) - LE
 function dueCards() { var t = now(); return S.words.filter(function (w) { return w.due <= t; }).sort(function (a, b) { return a.due - b.due; }); }
 /* reading / gloss for a saved card: prefer the sentence it was saved from */
 function cardInfo(w) {
-  var base = info(w.h) || { h: w.h, py: [], g: '', t: '', lv: 0, all: '' };
+  var base = info(w.h) || { h: w.h, py: w.py ? w.py.split(' ') : [], g: w.g || '', t: '', lv: 0, all: '' };
   var tok = w.lid && !CYMAP.has(w.h) ? tokenAt(w.lid, w.si, w.h) : null;     // idioms always show their own reading and meaning
   return { h: w.h, py: tok ? tok.py : base.py, g: tok ? tok.g : base.g, t: base.t, lv: base.lv, all: base.all };
 }
 function newCard(h, ctx) {
   var e = dict.get(h), ex = ctx && ctx.lid != null ? { lid: ctx.lid, si: ctx.si } : (e && e.ex);
-  return { h: h, lid: ex ? ex.lid : '', si: ex ? ex.si : -1, add: now(), due: now(), ease: 2.3, int: 0, reps: 0, lapses: 0, last: 0 };
+  var c = { h: h, lid: ex ? ex.lid : '', si: ex ? ex.si : -1, add: now(), due: now(), ease: 2.3, int: 0, reps: 0, lapses: 0, last: 0 };
+  if (ctx && ctx.dg && !dict.has(h) && !V.map.has(h) && !CYMAP.has(h)) { c.py = ctx.dpy; c.g = ctx.dg; }     // a dictionary word that is in no lesson: remember its reading and meaning
+  return c;
 }
 
 /* ===== speech ===== */
@@ -1242,6 +1272,7 @@ var IC = {
   today: '<circle cx="12" cy="12" r="4"/><path d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.6 5.6l1.6 1.6M16.8 16.8l1.6 1.6M18.4 5.6l-1.6 1.6M7.2 16.8l-1.6 1.6"/>',
   read: '<path d="M12 6.5C10 5 7 4.5 4 5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V5c-3-.5-6 0-8 1.5z"/><path d="M12 6.5v13"/>',
   words: '<rect x="3.5" y="4.5" width="17" height="15" rx="3"/><path d="M8 9.5h8M8 13h5"/>',
+  dict: '<path d="M6 3.5h10.5a2 2 0 012 2V20H8a2 2 0 01-2-2z"/><path d="M6 18a2 2 0 012-2h10.5M10 8h5M10 11.5h3"/>',
   practice: '<path d="M4.5 19.5l1-4.2L16.3 4.5a2 2 0 012.8 0l.4.4a2 2 0 010 2.8L8.7 18.5z"/><path d="M14.5 6.3l3.2 3.2"/>',
   me: '<circle cx="12" cy="8.5" r="3.6"/><path d="M5 20c.6-3.6 3.4-5.6 7-5.6s6.4 2 7 5.6"/>',
   play: '<path class="f" d="M8 5v14l11-7z"/>', pause: '<path class="f" d="M7 5h4v14H7zM13 5h4v14h-4z"/>',
@@ -1875,6 +1906,7 @@ function wordSheet() {
   }
   out += '<div class="actions"><button class="btn ' + (saved ? '' : 'pri') + '" data-act="save" data-h="' + esc(h) + '">' + (saved ? 'Remove from review' : 'Add to review') + '<\/button>' +
     '<button class="btn" data-act="known" data-h="' + esc(h) + '">' + (known ? 'Not known yet' : 'I know this') + '<\/button><\/div>';
+  out += '<button class="btn ghost block mt8" data-act="dictinfo" data-h="' + esc(h) + '">' + icon('dict', 'sm') + ' Full dictionary entry<\/button>';
   if (ctx.lid != null && ctx.lid !== '' && ctx.si >= 0) out += '<button class="btn ghost block mt8" data-act="flag" data-lid="' + esc(ctx.lid) + '" data-si="' + ctx.si + '" data-h="' + esc(h) + '">' + icon('flag', 'sm') + ' Report a mistake in this sentence<\/button>';
   return out;
 }
@@ -2001,6 +2033,7 @@ function renderSheet() {
     case 'summary': body = rd ? summarySheet() : ''; break;
     case 'display': body = sheetHead('Reading display') + displayControls(); break;
     case 'gram': body = gramSheet(); break;
+    case 'dict': body = dictSheet(); break;
     case 'finder': body = finderSheet(); break;
     default: body = sheetHead('') ;
   }
@@ -2415,8 +2448,267 @@ function importData(file) {
   fr.readAsText(file);
 }
 
+/* ===== Dictionary tab ===== */
+/* CC-CEDICT (about 115,000 entries) in site/dict.json, fetched the first time the tab or an entry is opened and then cached.
+   Search takes Chinese (simplified or traditional), pinyin (with or without tone numbers) or English in one box. */
+var DI = { ready: false, loading: false, failed: false, list: [], by: new Map(), pk: null, nk: null, en: null, waiters: [] };
+var dui = { q: '', n: 40 }, dTimer = null, dCache = null;
+var CJKQ = /[㐀-䶿一-鿿豈-﫿]/;
+var VARIANT = /^(variant of|old variant|archaic variant|unofficial variant|erhua variant|Japanese variant|also written|see |same as|abbr\. for|surname |used in |\(Tw\)|Taiwan pr\.)/i;
+
+function loadDict(cb) {
+  if (DI.ready) { if (cb) cb(true); return; }
+  if (cb) DI.waiters.push(cb);
+  if (DI.loading) return;
+  DI.loading = true; DI.failed = false;
+  fetch('dict.json').then(function (r) { if (!r.ok) throw new Error('http'); return r.json(); }).then(function (j) {
+    DI.list = j.e.map(function (a) {
+      return { h: a[0], t: a[1], py: a[2], pys: a[2].split(' '), d: a[3], cl: a[4], pn: /^[A-Z]/.test(a[2]) };
+    });
+    DI.list.forEach(function (e) {
+      var a = DI.by.get(e.h); if (a) a.push(e); else DI.by.set(e.h, [e]);
+      if (e.t) { var b = DI.by.get(e.t); if (b) b.push(e); else DI.by.set(e.t, [e]); }
+    });
+    DI.ready = true; DI.loading = false;
+    DI.waiters.splice(0).forEach(function (f) { f(true); });
+  }).catch(function () {
+    DI.loading = false; DI.failed = true;
+    DI.waiters.splice(0).forEach(function (f) { f(false); });
+  });
+}
+
+/* search keys, built the first time a Latin-letter search is made */
+function dictKeys() {
+  if (DI.pk) return;
+  DI.pk = []; DI.nk = []; DI.en = [];
+  DI.list.forEach(function (e) {
+    var lows = e.pys.map(function (s) { return s.toLowerCase(); });
+    DI.pk.push(C.norm(lows.join('')));
+    DI.nk.push(lows.map(function (s) { return C.norm(s) + C.toneOf(s); }).join(''));
+    DI.en.push(e.d.join(' | ').toLowerCase());
+  });
+}
+
+function variantish(e) { return VARIANT.test(e.d[0] || ''); }
+function readingRank(e) { return (variantish(e) ? 2 : 0) + (e.pn ? 1 : 0); }
+function dictEnts(h) {
+  var a = (DI.by.get(h) || []).filter(function (e) { return e.h === h; });
+  if (!a.length) a = DI.by.get(h) || [];
+  return a.map(function (e, i) { return { e: e, i: i }; }).sort(function (x, y) { return readingRank(x.e) - readingRank(y.e) || x.i - y.i; }).map(function (x) { return x.e; });
+}
+function dictBest(h) { var a = dictEnts(h); return a.length ? a[0] : null; }
+function dictGloss(e) {
+  var good = e.d.filter(function (d) { return !VARIANT.test(d); });
+  return (good.length ? good : e.d).slice(0, 3).join('; ');
+}
+function dictHz(e) { return S.set.script === 'trad' && e.t ? e.t : e.h; }
+function dictSyl(s) { return S.set.phon === 'pinyin' ? s : C.phon(s.toLowerCase(), S.set.phon); }
+function dictPh(pys) { return pys.map(dictSyl).join(' '); }
+function dictPhHTML(pys) {
+  return pys.map(function (s) {
+    var t = esc(dictSyl(s));
+    return S.set.tone ? '<span class="t' + C.toneOf(s.toLowerCase()) + 'c">' + t + '<\/span>' : t;
+  }).join(' ');
+}
+function dictBonus(h) {
+  var v = V.map.get(h);
+  if (v) return 14 - v.lv;                    // HSK 1 words first
+  return dict.has(h) ? 4 : 0;                 // then words from the lessons
+}
+
+function dictSearch(q) {
+  if (dCache && dCache.q === q) return dCache.r;
+  var res = new Map(), note = '', list = DI.list, i, e, s;
+  function bump(e, s) { var c = res.get(e.h); if (!c || s > c.s) res.set(e.h, { h: e.h, s: s }); }
+  if (CJKQ.test(q)) {
+    var qs = q.replace(/\s+/g, ''), exact = false;
+    for (i = 0; i < list.length; i++) {
+      e = list[i]; s = 0;
+      if (e.h === qs || e.t === qs) { s = 100; exact = true; }
+      else if (e.h.indexOf(qs) === 0 || (e.t && e.t.indexOf(qs) === 0)) s = 70 - (e.h.length - qs.length) * 2;
+      else if (e.h.indexOf(qs) > 0 || (e.t && e.t.indexOf(qs) > 0)) s = 40 - (e.h.length - qs.length);
+      if (s) bump(e, s);
+    }
+    if (!exact && qs.length >= 2) {      // no entry for the whole text: list the words inside it, in order
+      var k = 0, pos = 0, found = 0;
+      while (pos < qs.length) {
+        var hit = '';
+        for (var len = Math.min(8, qs.length - pos); len >= 1; len--) {
+          var sub = qs.substr(pos, len);
+          if (DI.by.has(sub) && CJKQ.test(sub)) { hit = sub; break; }
+        }
+        if (hit) {
+          DI.by.get(hit).forEach(function (en) { bump(en, 200 - k); });
+          found++; k++; pos += hit.length;
+        } else pos++;
+      }
+      if (found) note = 'No entry for the whole text. These are the words inside it, in order.';
+    }
+  } else {
+    var ql = q.toLowerCase().trim();
+    dictKeys();
+    if (/^[a-zA-Z\u00fc\u00dc\u0100-\u01dc:\d\s'’·-]+$/.test(q)) {   // pinyin, with tone numbers or tone marks
+      var qn = C.norm(ql.replace(/u:/g, 'v')), marked = false, qnum = ql.replace(/u:|ü/g, 'v').replace(/[^a-z0-9\s']/g, function (ch) { return /[\u0100-\u01dc]/.test(ch) ? ch : ''; });
+      var toks = qnum.split(/[\s'’·-]+/).filter(Boolean);
+      qnum = toks.map(function (tk) {
+        if (!/[\u0100-\u01dc]/.test(tk)) return tk.replace(/[^a-z0-9]/g, '');
+        var n = C.norm(tk), tn = C.toneOf(tk);
+        if (tn >= 1 && tn <= 5 && /^[a-z]+$/.test(n) && n.length <= 6) { marked = true; return n + tn; }
+        return n;
+      }).join('');
+      var hasDig = marked || /[1-5]/.test(q);
+      if (qn.length) {
+        for (i = 0; i < list.length; i++) {
+          s = 0;
+          if (hasDig) { var nk = DI.nk[i]; if (nk === qnum) s = 90; else if (nk.indexOf(qnum) === 0) s = 60 - (nk.length - qnum.length) * 0.3; }
+          else { var pk = DI.pk[i]; if (pk === qn) s = 80; else if (qn.length >= 2 && pk.indexOf(qn) === 0) s = 50 - (pk.length - qn.length) * 0.8; }
+          if (s) bump(list[i], s);
+        }
+      }
+    }
+    if (ql.length >= 2) {                                   // English
+      var re = new RegExp('(^|[^a-z])' + ql.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '($|[^a-z])');
+      for (i = 0; i < list.length; i++) {
+        if (DI.en[i].indexOf(ql) < 0) continue;
+        e = list[i]; var best = 0;
+        for (var j = 0; j < e.d.length; j++) {
+          var dl = e.d[j].toLowerCase(), st = dl.replace(/^to /, '').replace(/\s*\([^)]*\)\s*/g, ' ').trim(), sc2 = 0;
+          if (dl === ql || st === ql || dl === 'to ' + ql) sc2 = 85;
+          else if (st.indexOf(ql + ' ') === 0 || st.indexOf(ql + ',') === 0) sc2 = 62;
+          else if (re.test(dl)) sc2 = 45;
+          else if (ql.length >= 3) sc2 = 22;
+          if (sc2 && j === 0) sc2 += 8;
+          if (sc2 > best) best = sc2;
+        }
+        if (!best) continue;
+        if (variantish(e)) best -= 25;
+        bump(e, best - e.h.length * 0.6 - (e.h.length === 1 && !V.map.has(e.h) ? 4 : 0));   // a bound character (鹦, 鹉) ranks below the word (鹦鹉)
+      }
+    }
+  }
+  var groups = Array.from(res.values()).map(function (g) {
+    var ents = dictEnts(g.h), main = ents[0];
+    g.s += dictBonus(g.h) - (main && main.pn ? 10 : 0);
+    g.ents = ents;
+    return g;
+  }).sort(function (a, b) { return b.s - a.s || a.h.length - b.h.length; });
+  var r = { groups: groups.slice(0, 400), note: note };
+  dCache = { q: q, r: r };
+  return r;
+}
+
+function dictRow(g) {
+  var m = g.ents[0], v = V.map.get(g.h), lv = v ? v.lv : (dict.has(g.h) ? dict.get(g.h).lv : 0);
+  return '<button class="wrow" data-act="dictinfo" data-h="' + esc(g.h) + '"><span class="hz" lang="' + lang() + '">' + esc(dictHz(m)) + '<\/span>' +
+    '<span class="wm"><span class="wp">' + esc(dictPh(m.pys)) + '<\/span><span class="wg">' + esc(dictGloss(m)) + '<\/span><\/span>' +
+    '<span class="ws">' + (lv ? lvBadge(lv) : '') + (g.ents.length > 1 ? '<span class="tag">' + g.ents.length + ' readings<\/span>' : '') + '<\/span><\/button>';
+}
+function dictHome() {
+  var out = '';
+  if (S.hist.length) {
+    var rows = S.hist.map(function (h) { var a = dictEnts(h); return a.length ? dictRow({ h: h, ents: a }) : ''; }).join('');
+    if (rows) out += '<div class="rowhead"><h2 class="h2">Recent<\/h2><button class="btn ghost sm" data-act="dclearhist">Clear<\/button><\/div><div class="group">' + rows + '<\/div>';
+  }
+  out += '<div class="empty dhint"><h3>Search the dictionary<\/h3><p>Type Chinese, pinyin or English. Pinyin works with or without tone numbers.<\/p>' +
+    '<div class="chiprow">' + [['你好', ''], ['shu', ''], ['library', ''], ['ni3hao3', '']].map(function (x) { return '<button class="chip" data-act="dtry" data-v="' + esc(x[0]) + '">' + esc(x[0]) + '<\/button>'; }).join('') + '<\/div>' +
+    '<p class="small muted mt12">' + DI.list.length.toLocaleString() + ' entries from CC-CEDICT. Tap any word for every meaning, its characters and stroke order.<\/p><\/div>';
+  return out;
+}
+function dictList() {
+  if (!DI.ready) {
+    if (DI.failed) return '<div class="empty"><h3>Could not load the dictionary<\/h3><p>It needs a connection the first time. After that it works offline.<\/p><button class="btn mt8" data-act="dretry">Retry<\/button><\/div>';
+    return '<div class="empty"><h3>Loading the dictionary…<\/h3><\/div>';
+  }
+  var q = dui.q.trim();
+  if (!q) return dictHome();
+  var r = dictSearch(q);
+  if (!r.groups.length) return '<div class="empty"><h3>No matches<\/h3><p>Try fewer letters, another spelling, or the characters themselves.<\/p><\/div>';
+  var shown = r.groups.slice(0, dui.n);
+  return (r.note ? '<p class="note">' + esc(r.note) + '<\/p>' : '') + '<div class="group">' + shown.map(dictRow).join('') + '<\/div>' +
+    (r.groups.length > shown.length ? '<button class="btn block mt12" data-act="dmore">Show more (' + (r.groups.length - shown.length) + ')<\/button>' : '');
+}
+function refreshDictList() { var el = $('#dlist'); if (el) el.innerHTML = dictList(); }
+function scheduleDictList() { clearTimeout(dTimer); dTimer = setTimeout(refreshDictList, 90); }
+
+function viewDict() {
+  var out = '<div class="title"><div class="sp"><h1>Dictionary<\/h1><p>Chinese, pinyin or English<\/p><\/div><\/div>' +
+    '<label class="search mt12">' + icon('search', 'sm') + '<input id="dq" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="汉字, pinyin or English" value="' + esc(dui.q) + '" aria-label="Search the dictionary"><\/label>' +
+    '<div id="dlist">' + dictList() + '<\/div>';
+  var again = function () { if (view === 'dict' && !rd && !ses && !sh) refreshDictList(); };
+  if (!DI.ready && !DI.loading && !DI.failed) loadDict(again);
+  if (!V.ready && !V.loading && !V.failed) loadVocab(again);
+  setTimeout(function () {                                   // a computer keyboard: ready to type; on a phone, do not pop the keyboard up
+    var el = $('#dq');
+    if (el && view === 'dict' && !dui.q && !sh && window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)').matches) el.focus();
+  }, 0);
+  return out;
+}
+
+/* ---------- entry sheet ---------- */
+function openDictEntry(h) {
+  openSheet({ kind: 'dict', h: h, ctx: {} });
+  S.hist = [h].concat(S.hist.filter(function (x) { return x !== h; })).slice(0, 40); save();
+  var again = function () { if (sh && sh.kind === 'dict' && sh.h === h) renderSheet(); };
+  if (!DI.ready) loadDict(again);
+  if (!V.ready) loadVocab(again);
+}
+function defHTML(d) {                                        // Chinese inside a meaning is tappable
+  return esc(d).replace(/[㐀-䶿一-鿿豈-﫿]+/g, function (m) { return '<button class="xr" data-act="dictinfo" data-h="' + m + '" lang="' + lang() + '">' + m + '<\/button>'; });
+}
+function dictCompounds(h) {
+  var out = [];
+  DI.list.forEach(function (e) { if (e.h !== h && !e.pn && e.h.indexOf(h) >= 0 && e.h.length <= h.length + 3) out.push(e); });
+  var seen = {};
+  return out.map(function (e) { return { e: e, s: dictBonus(e.h) - e.h.length * 0.8 }; }).sort(function (a, b) { return b.s - a.s; })
+    .filter(function (x) { if (seen[x.e.h]) return false; seen[x.e.h] = 1; return true; }).slice(0, 14).map(function (x) { return x.e; });
+}
+function dictSheet() {
+  var h = sh.h;
+  if (!DI.ready) {
+    if (DI.failed) return sheetHead('') + '<div class="empty"><h3>Could not load the dictionary<\/h3><p>It needs a connection the first time.<\/p><button class="btn mt8" data-act="dretry">Retry<\/button><\/div>';
+    return sheetHead('') + '<div class="empty"><h3>Loading…<\/h3><\/div>';
+  }
+  var ents = dictEnts(h);
+  if (!ents.length) {
+    var cs = h.split('').filter(function (c, i, a) { return CJKQ.test(c) && a.indexOf(c) === i; });
+    return sheetHead('') + '<div class="empty"><h3>Not in the dictionary<\/h3><p>' + esc(h) + '<\/p>' + (cs.length > 1 ? '<p class="mt8">Look up its characters:<\/p><div class="chiprow">' +
+      cs.map(function (c) { return '<button class="chip" data-act="dictinfo" data-h="' + esc(c) + '" lang="' + lang() + '">' + esc(c) + '<\/button>'; }).join('') + '<\/div>' : '') + '<\/div>';
+  }
+  var m = ents[0], v = V.map.get(h), lv = v ? v.lv : (dict.get(h) ? dict.get(h).lv : 0);
+  var saved = savedSet.has(h), known = knownSet.has(h), canSave = CJKRE.test(h);
+  var tags = (CYMAP.has(h) ? lvTag(11) : lv ? lvTag(lv) : '') + (m.pn ? '<span class="tag">Name<\/span>' : '');
+  var out = sheetHead('<span class="row gap4">' + tags + '<\/span>');
+  out += '<div class="wd"><div class="big kai" lang="' + lang() + '">' + esc(dictHz(m)) + '<\/div><\/div>';
+  out += '<div class="dents">' + ents.slice(0, 8).map(function (e, k) {
+    return '<div class="dent"><div class="dph">' + dictPhHTML(e.pys) +
+      (k === 0 ? '<button class="iconbtn sm" data-act="say" data-h="' + esc(h) + '" aria-label="Listen">' + icon('say', 'sm') + '<\/button>' : '') + '<\/div>' +
+      (S.set.script === 'simp' && e.t && e.t !== e.h ? '<div class="alt">Traditional: <span class="zh">' + esc(e.t) + '<\/span><\/div>' : '') +
+      '<ol class="dfl">' + e.d.map(function (d) { return '<li>' + defHTML(d) + '<\/li>'; }).join('') + '<\/ol>' +
+      (e.cl ? '<div class="dcl"><span class="muted">Measure word:<\/span> <span class="zh" lang="' + lang() + '">' + esc(e.cl) + '<\/span><\/div>' : '') + '<\/div>';
+  }).join('') + (ents.length > 8 ? '<p class="small muted">' + (ents.length - 8) + ' more entries not shown.<\/p>' : '') + '<\/div>';
+  var ex = dict.get(h) ? exampleFor(h, {}) : null;
+  if (ex) out += '<div class="ctxbox"><div class="zh" lang="' + lang() + '">' + hilite(ex.zh, h) + '<\/div><div class="en">' + esc(ex.en) + '<\/div><\/div>';
+  var chars = h.split('').filter(function (c) { return CJKQ.test(c); });
+  if (chars.length) {
+    out += '<div class="chars">' + chars.map(function (c, k) {
+      var p = m.pys.length === chars.length && h.length === chars.length ? dictPh([m.pys[k]]) : '';
+      return '<button class="chr" data-act="char" data-c="' + esc(c) + '"><span class="cz" lang="' + lang() + '">' + esc(sc(c)) + '<\/span><span class="sp"><span class="cp">' + esc(p) + '<\/span><\/span><span class="cm">Strokes<\/span>' + icon('chev', 'sm') + '<\/button>';
+    }).join('') + '<\/div>';
+  }
+  var comp = dictCompounds(h);
+  if (comp.length) out += '<h3 class="h2" style="font-size:16px">Words with ' + esc(sc(h)) + '<\/h3><div class="chiprow">' + comp.map(function (e) {
+    return '<button class="chip" data-act="dictinfo" data-h="' + esc(e.h) + '" lang="' + lang() + '">' + esc(dictHz(e)) + '<\/button>';
+  }).join('') + '<\/div>';
+  if (canSave) {
+    sh.ctx = { lid: '', si: -1, dpy: m.pys.map(function (s) { return s.toLowerCase(); }).join(' '), dg: dictGloss(m).slice(0, 160) };
+    out += '<div class="actions"><button class="btn ' + (saved ? '' : 'pri') + '" data-act="save" data-h="' + esc(h) + '">' + (saved ? 'Remove from review' : 'Add to review') + '<\/button>' +
+      '<button class="btn" data-act="known" data-h="' + esc(h) + '">' + (known ? 'Not known yet' : 'I know this') + '<\/button><\/div>';
+  }
+  return out;
+}
+
 /* ===== app shell: render, events, boot ===== */
-var TABS = [['today', 'Today', 'today'], ['read', 'Read', 'read'], ['words', 'Words', 'words'], ['practice', 'Practice', 'practice'], ['me', 'Me', 'me']];
+var TABS = [['today', 'Today', 'today'], ['read', 'Read', 'read'], ['words', 'Words', 'words'], ['dict', 'Dictionary', 'dict'], ['practice', 'Practice', 'practice'], ['me', 'Me', 'me']];
 function renderTabs() {
   var due = dueCards().length;
   $('#tabs').innerHTML = '<div class="in">' + TABS.map(function (t) {
@@ -2424,7 +2716,7 @@ function renderTabs() {
       (t[0] === 'practice' && due ? '<span class="badge num">' + (due > 99 ? '99+' : due) + '<\/span>' : '') + '<\/span>' + t[1] + '<\/button>';
   }).join('') + '<\/div>';
 }
-var VIEWS = { today: viewToday, read: viewRead, words: viewWords, practice: viewPractice, me: viewMe };
+var VIEWS = { today: viewToday, read: viewRead, words: viewWords, dict: viewDict, practice: viewPractice, me: viewMe };
 function render() {
   document.body.classList.toggle('tc', !!S.set.tone);
   document.body.classList.toggle('listen', !!S.set.listen && !!rd);
@@ -2508,6 +2800,11 @@ function act(a, el, ev) {
       openSheet({ kind: 'word', h: d.h, ctx: {} });
       if (!V.ready) loadVocab(function () { if (sh && sh.kind === 'word' && sh.h === d.h) renderSheet(); });
       break;
+    case 'dictinfo': openDictEntry(d.h); break;
+    case 'dtry': dui.q = d.v; dui.n = 40; render(); break;
+    case 'dmore': dui.n += 40; { var dl = $('#dlist'); if (dl) dl.innerHTML = dictList(); } break;
+    case 'dclearhist': S.hist = []; save(); render(); break;
+    case 'dretry': DI.failed = false; loadDict(function () { if (view === 'dict' && !rd && !ses) refreshDictList(); }); render(); break;
     case 'char':
       openSheet({ kind: 'char', c: d.c });
       if (!V.ready) loadVocab(function () { if (sh && sh.kind === 'char') { var ph = $('#sheet .ph'); if (ph) ph.firstChild.textContent = readingsOf(sh.c).map(function (r) { return C.phon(r, S.set.phon); }).join(' · '); } });
@@ -2602,6 +2899,7 @@ document.addEventListener('input', function (e) {
   var t = e.target;
   if (t.id === 'lq') { hui.q = t.value; var l = $('#llist'); if (l) l.innerHTML = lessonList(); }
   else if (t.id === 'wq') { wui.q = t.value; wui.n = 60; var wl = $('#wlist'); if (wl) wl.innerHTML = wui.tab === 'mine' ? myWordsList() : wui.tab === 'cy' ? cyList() : hskList(); var cc = $('#cychips'); if (cc) cc.innerHTML = cyChips(); }
+  else if (t.id === 'dq') { dui.q = t.value; dui.n = 40; scheduleDictList(); }
   else if (t.id === 'gq') { gui.q = t.value; var gl = $('#glist'); if (gl) gl.innerHTML = grammarList(); }
   else if (t.dataset && t.dataset.range) {
     S.set[t.dataset.range] = +t.value;

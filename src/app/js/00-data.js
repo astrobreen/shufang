@@ -105,7 +105,10 @@ function loadVocab(cb) {
 function info(h) {
   var e = dict.get(h), v = V.map.get(h), cy = CYMAP.get(h);
   if (!e && !v && cy) return { h: h, py: cy.py, g: cy.g, t: cy.t, lv: 11, all: '', inLessons: false, e: null, cy: true };
-  if (!e && !v) return null;
+  if (!e && !v) {
+    var de = DI && DI.ready ? dictBest(h) : null;                 // any other word in the dictionary
+    return de ? { h: h, py: de.pys.map(function (s) { return s.toLowerCase(); }), g: dictGloss(de), t: de.t, lv: 0, all: de.d.join('; '), inLessons: false, e: null, dict: true } : null;
+  }
   var r = info0(h, e, v);
   if (cy) { r.py = cy.py; r.g = cy.g; r.cy = true; }
   return r;

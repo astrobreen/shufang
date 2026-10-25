@@ -112,11 +112,30 @@ svg.i .f { fill: currentColor; stroke: none; }
 /* ---------- bottom tabs ---------- */
 #tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: color-mix(in srgb, var(--bg) 82%, transparent); -webkit-backdrop-filter: saturate(1.6) blur(18px); backdrop-filter: saturate(1.6) blur(18px);
   border-top: 1px solid var(--line); padding: 0 max(6px, env(safe-area-inset-left, 0px)) env(safe-area-inset-bottom, 0px) max(6px, env(safe-area-inset-right, 0px)); }
-#tabs .in { max-width: 560px; margin: 0 auto; display: grid; grid-template-columns: repeat(5, 1fr); }
-#tabs button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 7px 0 6px; font-size: 10.5px; font-weight: 650; color: var(--ink3); min-height: 56px; letter-spacing: .01em; }
+#tabs .in { max-width: 600px; margin: 0 auto; display: grid; grid-template-columns: repeat(6, 1fr); }
+#tabs button { min-width: 0; white-space: nowrap; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 7px 0 6px; font-size: 10.5px; font-weight: 650; color: var(--ink3); min-height: 56px; letter-spacing: .01em; }
 #tabs button.on { color: var(--accent); }
 #tabs .ic { position: relative; display: block; line-height: 0; }
 #tabs .badge { position: absolute; top: -4px; left: 14px; min-width: 17px; height: 17px; padding: 0 4px; border-radius: 9px; background: var(--seal); color: #fff; font-size: 10.5px; line-height: 17px; text-align: center; font-weight: 700; }
+
+@media (max-width: 379px) { #tabs { padding-left: 2px; padding-right: 2px; } #tabs button { font-size: 9.5px; letter-spacing: 0; } }
+
+/* ---------- dictionary ---------- */
+.dhint { padding-top: 24px; }
+.dhint p { max-width: 36ch; margin-inline: auto; }
+.rowhead { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 16px; }
+.chiprow { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.dhint .chiprow { justify-content: center; }
+.dents { display: grid; gap: 0; margin-top: 4px; }
+.dent { padding: 14px 0 12px; border-top: 1px solid var(--line); }
+.dent:first-child { border-top: 0; padding-top: 4px; }
+.dph { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 4px 6px; font: 650 21px/1.3 var(--f-ui); }
+.dent .alt { text-align: center; margin-top: 2px; }
+.dfl { margin: 10px 0 0; padding-left: 1.5em; display: grid; gap: 5px; font-size: 16px; line-height: 1.4; overflow-wrap: anywhere; }
+.dfl li::marker { color: var(--ink3); font-weight: 600; font-size: 14px; }
+.dcl { margin-top: 8px; font-size: 14px; color: var(--ink2); overflow-wrap: anywhere; }
+.xr { display: inline; padding: 0; margin: 0; border: 0; background: none; color: var(--accent); font: 500 1.05em var(--f-zh); text-decoration: underline dotted; text-underline-offset: 3px; cursor: pointer; }
+.dhint .chiprow + p { margin-top: 16px; }
 
 /* ---------- forms ---------- */
 .search { display: flex; align-items: center; gap: 8px; background: var(--surf2); border-radius: 12px; padding: 0 12px; min-height: 44px; color: var(--ink3); }

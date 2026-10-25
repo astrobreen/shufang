@@ -3,6 +3,7 @@ var IC = {
   today: '<circle cx="12" cy="12" r="4"/><path d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.6 5.6l1.6 1.6M16.8 16.8l1.6 1.6M18.4 5.6l-1.6 1.6M7.2 16.8l-1.6 1.6"/>',
   read: '<path d="M12 6.5C10 5 7 4.5 4 5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V5c-3-.5-6 0-8 1.5z"/><path d="M12 6.5v13"/>',
   words: '<rect x="3.5" y="4.5" width="17" height="15" rx="3"/><path d="M8 9.5h8M8 13h5"/>',
+  dict: '<path d="M6 3.5h10.5a2 2 0 012 2V20H8a2 2 0 01-2-2z"/><path d="M6 18a2 2 0 012-2h10.5M10 8h5M10 11.5h3"/>',
   practice: '<path d="M4.5 19.5l1-4.2L16.3 4.5a2 2 0 012.8 0l.4.4a2 2 0 010 2.8L8.7 18.5z"/><path d="M14.5 6.3l3.2 3.2"/>',
   me: '<circle cx="12" cy="8.5" r="3.6"/><path d="M5 20c.6-3.6 3.4-5.6 7-5.6s6.4 2 7 5.6"/>',
   play: '<path class="f" d="M8 5v14l11-7z"/>', pause: '<path class="f" d="M7 5h4v14H7zM13 5h4v14h-4z"/>',
