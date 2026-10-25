@@ -18,9 +18,16 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - uses: android-actions/setup-android@v3
       - name: Install the Android SDK pieces the app needs
-        run: sdkmanager --install "platforms;android-34" "build-tools;34.0.0"
+        # the runner image already ships the Android SDK; accept its licences and add what this app needs, retrying on network errors
+        run: |
+          export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
+          yes | sdkmanager --licenses > /dev/null || true
+          for i in 1 2 3; do
+            sdkmanager --install "platforms;android-34" "build-tools;34.0.0" && break
+            sleep 15
+          done
+          test -d "$ANDROID_HOME/platforms/android-34" && test -d "$ANDROID_HOME/build-tools/34.0.0"
       - name: Build the signed release APK
         working-directory: android
         run: chmod +x gradlew && ./gradlew --no-daemon assembleRelease
