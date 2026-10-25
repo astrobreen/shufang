@@ -65,6 +65,12 @@ const MOCK = () => {                       // a recogniser that answers with wha
   await p.evaluate(() => { window.__sr.hang = true; });
   await p.click('.micbtn'); await p.waitForSelector('.micbtn.on'); await p.click('.micbtn.on'); await p.waitForFunction(() => !document.querySelector('.micbtn.on'), null, { timeout: 4000 });
   assert(/did not hear anything/.test(await p.textContent('#main')), 'Stop works even when the recogniser never ends'); await p.evaluate(() => { window.__sr.hang = false; });
+  // shown inside another page that blocks the microphone: say so, then stop offering the drill
+  const host = await t.ctx.newPage(); await host.setContent('<iframe id="f" allow="microphone" src="' + url + '" style="width:400px;height:800px"></iframe>');
+  const fr = host.frames().find((f) => f !== host.mainFrame()); await fr.waitForSelector('#tabs button'); await fr.click('#tabs button[data-v="practice"]'); await fr.click('[data-act="speak-start"]');
+  await fr.evaluate(() => { window.__sr.err = 'not-allowed'; window.__sr.heard = null; }); await fr.waitForSelector('.micbtn'); await fr.click('.micbtn'); await fr.waitForFunction(() => !document.querySelector('.micbtn.on'));
+  assert(/shown inside another app/.test(await fr.textContent('#main')), 'embedded message'); await fr.click('[data-act="end"]');
+  assert(!(await fr.$('[data-act="speak-start"]')), 'the tile goes away once the host has refused the microphone'); await host.close();
   // an answer arrives but the recogniser never reports that it ended: the turn still finishes by itself
   tg = await target(); await p.evaluate((h) => { window.__sr.noend = true; window.__sr.heard = [h]; window.__sr.err = null; }, tg);
   await p.click('.micbtn'); await p.waitForFunction(() => !document.querySelector('.micbtn.on'), null, { timeout: 6000 }); assert(/Well said|Good/.test(await p.textContent('#main')), 'answer used without an end event');

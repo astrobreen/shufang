@@ -3,8 +3,9 @@
    marks which characters were heard.  It checks that the right words came out, not tones or sounds, and only appears in
    browsers that have speech recognition. */
 var SPREC = window.SpeechRecognition || window.webkitSpeechRecognition || null, spRec = null;
+var spEmbedded = false, spDenied = false;           // inside another page (such as a chat window) the host decides about the microphone
 function speakOk() {
-  if (!SPREC || window.ShufangAndroid) return false;
+  if (!SPREC || window.ShufangAndroid || (spEmbedded && spDenied)) return false;
   var pp = document.permissionsPolicy || document.featurePolicy;           // a page embedded without microphone access cannot use it
   try { if (pp && pp.allowsFeature && !pp.allowsFeature('microphone')) return false; } catch (e) { /* ignore */ }
   return true;
@@ -89,7 +90,10 @@ function speakMic() {
       if (r.ok) { if (ses.tries === 1) ses.score++; todayRow().ex++; save(); }
     } else {
       ses.st = 'idle';
-      ses.msg = err === 'not-allowed' || err === 'service-not-allowed' ? 'The microphone is blocked. Allow it for this site in your browser’s settings, then tap again.' :
+      try { spEmbedded = window.top !== window.self; } catch (e) { spEmbedded = true; }
+      if (err === 'not-allowed' || err === 'service-not-allowed') spDenied = true;
+      ses.msg = (err === 'not-allowed' || err === 'service-not-allowed') && spEmbedded ? 'The microphone is blocked here, because this page is shown inside another app. Open Shufang in its own browser tab to speak.' :
+        err === 'not-allowed' || err === 'service-not-allowed' ? 'The microphone is blocked. Allow it for this site in your browser’s settings, then tap again.' :
         err === 'audio-capture' ? 'No microphone was found.' :
         err === 'network' ? 'Speech recognition needs an internet connection.' :
         err === 'language-not-supported' ? 'This browser has no Chinese speech recognition.' :
