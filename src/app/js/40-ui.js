@@ -14,7 +14,7 @@ var IC = {
   search: '<circle cx="10.5" cy="10.5" r="5.5"/><path d="M15 15l5 5"/>', play2: '<path d="M7 5l12 7-12 7z"/>',
   cards: '<rect x="4" y="7" width="16" height="12" rx="2.5"/><path d="M7 4h10"/>',
   brush: '<path d="M4.5 19.5l1-4.2L16.3 4.5a2 2 0 012.8 0l.4.4a2 2 0 010 2.8L8.7 18.5z"/><path d="M14.5 6.3l3.2 3.2"/>',
-  tone: '<path d="M5 6h14l-7 12z"/>', ear: '<path d="M7 9a5 5 0 0110 0c0 3-3 3.5-3 6.5a2.5 2.5 0 01-5 0"/><path d="M10 9a2 2 0 014 0"/>',
+  tone: '<path d="M4.5 9l7.5 6 7.5-6"/>', ear: '<path d="M7 9a5 5 0 0110 0c0 3-3 3.5-3 6.5a2.5 2.5 0 01-5 0"/><path d="M10 9a2 2 0 014 0"/>',
   gram: '<path d="M5 5h14v10H11l-4 4v-4H5z"/><path d="M9 9h6"/>', chart: '<path d="M5 20v-8M12 20V5M19 20v-5"/>',
   flag: '<path d="M6 21V4M6 5h11l-2 4 2 4H6"/>', replay: '<path d="M4 12a8 8 0 108-8H8"/><path d="M11 1l-3 3 3 3"/>', check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
   hint: '<path d="M9 18h6M10 21h4M12 3a6 6 0 00-3.5 10.9c.6.5 1 1.2 1 2v.1h5v-.1c0-.8.4-1.5 1-2A6 6 0 0012 3z"/>', undo: '<path d="M9 14L4 9l5-5"/><path d="M4 9h10a6 6 0 010 12h-3"/>',
