@@ -1,27 +1,14 @@
-<p align="center">
-  <img src="site/icons/icon-192.png" width="96" alt="Shufang 书 icon">
-</p>
+# Shufang 书房
 
-<h1 align="center">Shufang 书房</h1>
+A graded Chinese reader and study room. HSK 3.0 levels 1 to 9, tap-to-define reading, audio, idioms, spaced-repetition flashcards, stroke-order writing, and tone and listening drills. No account and no tracking.
 
-<p align="center">
-<b>A graded Chinese reader and study room, offline and free of tracking.</b><br>
-HSK 3.0 levels 1 to 9, tap-to-define reading, audio, 146 idioms, spaced-repetition flashcards,
-stroke-order writing, tone and listening drills.<br>
-Runs in any browser. No account, no tracking.
-</p>
+* **Coverage:** 156 lessons, about 11,000 HSK words, about 3,000 characters with stroke order, 146 成语
+* **Stack:** plain HTML, CSS and JavaScript. No framework and no server.
+* **Data:** stays on your device, with backup and restore.
 
-**Coverage:** 156 lessons, about 11,000 HSK words, about 3,000 characters with stroke order, 146 成语 &nbsp;·&nbsp;
-**Stack:** plain HTML, CSS and JavaScript, no framework and no server &nbsp;·&nbsp;
-**Data:** stays on your device, with backup and restore &nbsp;·&nbsp;
-**Platforms:** any modern browser
-
-<p align="center">
-  <img src="docs/screenshots/today-light.png" width="190" alt="Today">
-  <img src="docs/screenshots/reader-word.png" width="190" alt="Reader with a word sheet">
-  <img src="docs/screenshots/write.png" width="190" alt="Stroke-order writing">
-  <img src="docs/screenshots/reader-dark.png" width="190" alt="Reader, dark mode">
-</p>
+![Today](docs/screenshots/today-light.png)
+![Reader with a word sheet](docs/screenshots/reader-word.png)
+![Stroke-order writing](docs/screenshots/write.png)
 
 ## What is in it
 
