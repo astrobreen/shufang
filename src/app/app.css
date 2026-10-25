@@ -135,6 +135,17 @@ svg.i .f { fill: currentColor; stroke: none; }
 .xr { display: inline; padding: 0; margin: 0; border: 0; background: none; color: var(--accent); font: 500 1.05em var(--f-zh); text-decoration: underline dotted; text-underline-offset: 3px; cursor: pointer; }
 .dhint .chiprow + p { margin-top: 16px; }
 
+/* ---------- speaking ---------- */
+.tiles .tilebtn:last-child:nth-child(odd) { grid-column: 1 / -1; min-height: 0; }
+.spk-line { font-size: 26px; line-height: 2; }
+.sp-ok { color: var(--good); }
+.sp-no { color: var(--bad); text-decoration: underline wavy; text-underline-offset: 6px; }
+.micbtn { width: 76px; height: 76px; border-radius: 50%; background: var(--accent); color: #fff; display: inline-grid; place-items: center; box-shadow: 0 6px 18px rgba(0,0,0,.18); }
+.micbtn svg { width: 32px; height: 32px; }
+.micbtn.on { animation: micpulse 1.2s ease-in-out infinite; }
+@keyframes micpulse { 0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 45%, transparent); } 50% { box-shadow: 0 0 0 16px transparent; } }
+@media (prefers-reduced-motion: reduce) { .micbtn.on { animation: none; } }
+
 /* ---------- dictionary: writing pad ---------- */
 .search .iconbtn { margin-right: -8px; }
 .hwbox { margin-top: 12px; }

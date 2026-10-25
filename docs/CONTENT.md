@@ -69,3 +69,7 @@ The Dictionary view (in the Words tab) reads `site/dict.json`, built by `tools/b
 ## Handwriting search
 
 The writing pad in the Dictionary view searches `site/hw.json`, made by `tools/build_hw.py` from the stroke centre-lines already in `site/strokes/*.json` (Make Me a Hanzi). Each stroke is resampled to 8 points and normalised exactly as `hwPrep` in `src/app/core.js` normalises what is drawn, so change both together. Matching pairs the drawn strokes with a character's strokes by the cheapest assignment (`hwRank`), so stroke order matters only slightly, and a missing or extra stroke is penalised. `tests/hw.test.js` checks it on simulated handwriting and drives the pad in a browser.
+
+## Speaking
+
+The Speaking drill (Practice) picks short sentences from the lessons at or just above the learner's level, skipping poems and classical prose. `speakCompare` in `src/app/core.js` takes the recogniser's alternatives, turns digits into Chinese numerals, and marks which target characters appear in the best alternative (longest common subsequence). Sentences of four characters or fewer must be exact; longer ones pass at 80%. `tests/speak.test.js` drives the drill with a stand-in recogniser, since real speech cannot be tested without a microphone.

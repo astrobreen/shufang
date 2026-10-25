@@ -85,6 +85,11 @@ function act(a, el, ev) {
     case 'flash-start': flashStart(); break;
     case 'tone-start': toneStart(); break;
     case 'listen-start': listenStart(); break;
+    case 'speak-start': speakStart(); break;
+    case 'sok': spAccept(); ses.st = 'idle'; render(); break;
+    case 'smic': speakMic(); break;
+    case 'snext': speakNext(); break;
+    case 'spsay': speak(ses.qs[ses.i].zh); break;
     case 'write-start': writeStart(); break;
     case 'write-char': writeStart([d.c]); break;
     case 'wordinfo':

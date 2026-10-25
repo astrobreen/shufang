@@ -17,7 +17,8 @@ function viewPractice() {
     '<button class="tilebtn" data-act="flash-start"><span class="ti">' + icon('cards') + '</span><b>Flashcards</b><span>' + (S.words.length ? (due ? due + ' due now' : 'Nothing due') : 'Save words to begin') + '</span>' + (due ? '<span class="cnt">' + due + '</span>' : '') + '</button>' +
     '<button class="tilebtn" data-act="write-start"><span class="ti">' + icon('brush') + '</span><b>Write</b><span>' + (wr ? plural(wr, 'character') + ' practised' : 'Stroke order, with feedback') + '</span></button>' +
     '<button class="tilebtn" data-act="tone-start"><span class="ti">' + icon('tone') + '</span><b>Tones</b><span>Pick the tone for each syllable</span></button>' +
-    '<button class="tilebtn" data-act="listen-start"><span class="ti">' + icon('ear') + '</span><b>Listening</b><span>Hear a word, pick what you heard</span></button></div>';
+    '<button class="tilebtn" data-act="listen-start"><span class="ti">' + icon('ear') + '</span><b>Listening</b><span>Hear a word, pick what you heard</span></button>' +
+    (speakOk() ? '<button class="tilebtn" data-act="speak-start"><span class="ti">' + icon('mic') + '</span><b>Speaking</b><span>Read a sentence aloud</span></button>' : '') + '</div>';
   out += '<h2 class="h2">Reference</h2><div class="group">' +
     '<button class="wrow" data-act="ppage" data-v="gram"><span class="ti" style="width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent)">' + icon('gram') + '</span><span class="wm"><span style="font-weight:650;display:block">Grammar index</span><span class="wg">Every pattern from the lessons, by level</span></span>' + icon('chev', 'sm') + '</button>' +
     '<button class="wrow" data-act="ppage" data-v="pinyin"><span class="ti" style="width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent)">' + icon('grid') + '</span><span class="wm"><span style="font-weight:650;display:block">Pinyin chart</span><span class="wg">Tones, initials and finals, with audio</span></span>' + icon('chev', 'sm') + '</button></div>';
@@ -32,7 +33,7 @@ function startSession(s) { stopSpeech(); ses = s; render(); window.scrollTo(0, 0
 function endSession() {
   if (ses && ses.writer) ses.writer.destroy();
   if (ses && ses.anim) ses.anim.stop();
-  stopSpeech(); ses = null; render();
+  stopSpeech(); spStop(); ses = null; render();
 }
 function viewSession() {
   switch (ses.kind) {
@@ -40,6 +41,7 @@ function viewSession() {
     case 'write': return writeView();
     case 'tone': return quizView();
     case 'listen': return quizView();
+    case 'speak': return speakView();
   }
   return '';
 }

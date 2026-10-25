@@ -297,9 +297,41 @@
     return top.slice(0, limit);
   }
 
+
+  /* ---------- speaking: compare what a speech recogniser heard with the sentence that was meant ---------- */
+  var DIG = '零一二三四五六七八九';
+  function numZh(n) {
+    if (n < 10) return DIG[n];
+    if (n < 20) return '十' + (n % 10 ? DIG[n % 10] : '');
+    if (n < 100) return DIG[Math.floor(n / 10)] + '十' + (n % 10 ? DIG[n % 10] : '');
+    return String(n).split('').map(function (d) { return DIG[+d]; }).join('');
+  }
+  function speakNorm(s) {                              // keep Chinese characters only; recognisers often write numbers as digits
+    return Array.from(String(s || '').replace(/\d+/g, function (m) { return numZh(+m); })).filter(function (ch) { return CJK.test(ch); });
+  }
+  /* heards: the recogniser's alternatives, best first.  marks[i] is true when target character i was heard (longest common subsequence). */
+  function speakCompare(target, heards) {
+    var T = speakNorm(target), best = null;
+    (heards || []).forEach(function (h) {
+      var H = speakNorm(h), n = T.length, m = H.length, dp = [], i, j;
+      for (i = 0; i <= n; i++) { dp.push(new Array(m + 1).fill(0)); }
+      for (i = 1; i <= n; i++) for (j = 1; j <= m; j++) dp[i][j] = T[i - 1] === H[j - 1] ? dp[i - 1][j - 1] + 1 : Math.max(dp[i - 1][j], dp[i][j - 1]);
+      var marks = new Array(n).fill(false); i = n; j = m;
+      while (i > 0 && j > 0) {
+        if (T[i - 1] === H[j - 1]) { marks[i - 1] = true; i--; j--; }
+        else if (dp[i - 1][j] >= dp[i][j - 1]) i--; else j--;
+      }
+      var score = n ? dp[n][m] / Math.max(n, m) : 0;
+      if (!best || score > best.score) best = { score: score, marks: marks, heard: H.join(''), chars: T };
+    });
+    if (!best) best = { score: 0, marks: new Array(T.length).fill(false), heard: '', chars: T };
+    best.ok = best.chars.length > 0 && best.score >= (best.chars.length <= 4 ? 0.99 : 0.8);
+    return best;
+  }
+
   var api = { parseSyl: parseSyl, zhuyin: zhuyin, numSyl: numSyl, phon: phon, toneOf: toneOf, norm: norm,
     CJK: CJK, srsApply: srsApply, srsPreview: srsPreview, fmtIv: fmtIv,
-    cardState: cardState, withTone: withTone, tonesOf: tonesOf, retone: retone, plainPy: plainPy, dayKey: dayKey, streak: streak, shuffle: shuffle, hwPrep: hwPrep, hwIndex: hwIndex, hwRank: hwRank, MIN: MIN, DAY: DAY };
+    cardState: cardState, withTone: withTone, tonesOf: tonesOf, retone: retone, plainPy: plainPy, dayKey: dayKey, streak: streak, shuffle: shuffle, hwPrep: hwPrep, hwIndex: hwIndex, hwRank: hwRank, speakCompare: speakCompare, speakNorm: speakNorm, MIN: MIN, DAY: DAY };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.Core = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

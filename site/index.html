@@ -156,6 +156,17 @@ svg.i .f { fill: currentColor; stroke: none; }
 .xr { display: inline; padding: 0; margin: 0; border: 0; background: none; color: var(--accent); font: 500 1.05em var(--f-zh); text-decoration: underline dotted; text-underline-offset: 3px; cursor: pointer; }
 .dhint .chiprow + p { margin-top: 16px; }
 
+/* ---------- speaking ---------- */
+.tiles .tilebtn:last-child:nth-child(odd) { grid-column: 1 / -1; min-height: 0; }
+.spk-line { font-size: 26px; line-height: 2; }
+.sp-ok { color: var(--good); }
+.sp-no { color: var(--bad); text-decoration: underline wavy; text-underline-offset: 6px; }
+.micbtn { width: 76px; height: 76px; border-radius: 50%; background: var(--accent); color: #fff; display: inline-grid; place-items: center; box-shadow: 0 6px 18px rgba(0,0,0,.18); }
+.micbtn svg { width: 32px; height: 32px; }
+.micbtn.on { animation: micpulse 1.2s ease-in-out infinite; }
+@keyframes micpulse { 0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 45%, transparent); } 50% { box-shadow: 0 0 0 16px transparent; } }
+@media (prefers-reduced-motion: reduce) { .micbtn.on { animation: none; } }
+
 /* ---------- dictionary: writing pad ---------- */
 .search .iconbtn { margin-right: -8px; }
 .hwbox { margin-top: 12px; }
@@ -811,9 +822,41 @@ body.listen .sent:not(.peek) .line { filter: blur(7px); cursor: pointer; }
     return top.slice(0, limit);
   }
 
+
+  /* ---------- speaking: compare what a speech recogniser heard with the sentence that was meant ---------- */
+  var DIG = '零一二三四五六七八九';
+  function numZh(n) {
+    if (n < 10) return DIG[n];
+    if (n < 20) return '十' + (n % 10 ? DIG[n % 10] : '');
+    if (n < 100) return DIG[Math.floor(n / 10)] + '十' + (n % 10 ? DIG[n % 10] : '');
+    return String(n).split('').map(function (d) { return DIG[+d]; }).join('');
+  }
+  function speakNorm(s) {                              // keep Chinese characters only; recognisers often write numbers as digits
+    return Array.from(String(s || '').replace(/\d+/g, function (m) { return numZh(+m); })).filter(function (ch) { return CJK.test(ch); });
+  }
+  /* heards: the recogniser's alternatives, best first.  marks[i] is true when target character i was heard (longest common subsequence). */
+  function speakCompare(target, heards) {
+    var T = speakNorm(target), best = null;
+    (heards || []).forEach(function (h) {
+      var H = speakNorm(h), n = T.length, m = H.length, dp = [], i, j;
+      for (i = 0; i <= n; i++) { dp.push(new Array(m + 1).fill(0)); }
+      for (i = 1; i <= n; i++) for (j = 1; j <= m; j++) dp[i][j] = T[i - 1] === H[j - 1] ? dp[i - 1][j - 1] + 1 : Math.max(dp[i - 1][j], dp[i][j - 1]);
+      var marks = new Array(n).fill(false); i = n; j = m;
+      while (i > 0 && j > 0) {
+        if (T[i - 1] === H[j - 1]) { marks[i - 1] = true; i--; j--; }
+        else if (dp[i - 1][j] >= dp[i][j - 1]) i--; else j--;
+      }
+      var score = n ? dp[n][m] / Math.max(n, m) : 0;
+      if (!best || score > best.score) best = { score: score, marks: marks, heard: H.join(''), chars: T };
+    });
+    if (!best) best = { score: 0, marks: new Array(T.length).fill(false), heard: '', chars: T };
+    best.ok = best.chars.length > 0 && best.score >= (best.chars.length <= 4 ? 0.99 : 0.8);
+    return best;
+  }
+
   var api = { parseSyl: parseSyl, zhuyin: zhuyin, numSyl: numSyl, phon: phon, toneOf: toneOf, norm: norm,
     CJK: CJK, srsApply: srsApply, srsPreview: srsPreview, fmtIv: fmtIv,
-    cardState: cardState, withTone: withTone, tonesOf: tonesOf, retone: retone, plainPy: plainPy, dayKey: dayKey, streak: streak, shuffle: shuffle, hwPrep: hwPrep, hwIndex: hwIndex, hwRank: hwRank, MIN: MIN, DAY: DAY };
+    cardState: cardState, withTone: withTone, tonesOf: tonesOf, retone: retone, plainPy: plainPy, dayKey: dayKey, streak: streak, shuffle: shuffle, hwPrep: hwPrep, hwIndex: hwIndex, hwRank: hwRank, speakCompare: speakCompare, speakNorm: speakNorm, MIN: MIN, DAY: DAY };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.Core = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);
@@ -1401,7 +1444,7 @@ var IC = {
   search: '<circle cx="10.5" cy="10.5" r="5.5"/><path d="M15 15l5 5"/>', play2: '<path d="M7 5l12 7-12 7z"/>',
   cards: '<rect x="4" y="7" width="16" height="12" rx="2.5"/><path d="M7 4h10"/>',
   brush: '<path d="M4.5 19.5l1-4.2L16.3 4.5a2 2 0 012.8 0l.4.4a2 2 0 010 2.8L8.7 18.5z"/><path d="M14.5 6.3l3.2 3.2"/>',
-  tone: '<path d="M4.5 9l7.5 6 7.5-6"/>', ear: '<path d="M7 9a5 5 0 0110 0c0 3-3 3.5-3 6.5a2.5 2.5 0 01-5 0"/><path d="M10 9a2 2 0 014 0"/>',
+  tone: '<path d="M4.5 9l7.5 6 7.5-6"/>', mic: '<path d="M12 3a3 3 0 00-3 3v6a3 3 0 006 0V6a3 3 0 00-3-3z"/><path d="M18.5 11v1a6.5 6.5 0 01-13 0v-1"/><path d="M12 18.5V22"/>', ear: '<path d="M7 9a5 5 0 0110 0c0 3-3 3.5-3 6.5a2.5 2.5 0 01-5 0"/><path d="M10 9a2 2 0 014 0"/>',
   gram: '<path d="M5 5h14v10H11l-4 4v-4H5z"/><path d="M9 9h6"/>', chart: '<path d="M5 20v-8M12 20V5M19 20v-5"/>',
   flag: '<path d="M6 21V4M6 5h11l-2 4 2 4H6"/>', replay: '<path d="M4 12a8 8 0 108-8H8"/><path d="M11 1l-3 3 3 3"/>', check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
   hint: '<path d="M9 18h6M10 21h4M12 3a6 6 0 00-3.5 10.9c.6.5 1 1.2 1 2v.1h5v-.1c0-.8.4-1.5 1-2A6 6 0 0012 3z"/>', undo: '<path d="M9 14L4 9l5-5"/><path d="M4 9h10a6 6 0 010 12h-3"/>',
@@ -2178,7 +2221,8 @@ function viewPractice() {
     '<button class="tilebtn" data-act="flash-start"><span class="ti">' + icon('cards') + '<\/span><b>Flashcards<\/b><span>' + (S.words.length ? (due ? due + ' due now' : 'Nothing due') : 'Save words to begin') + '<\/span>' + (due ? '<span class="cnt">' + due + '<\/span>' : '') + '<\/button>' +
     '<button class="tilebtn" data-act="write-start"><span class="ti">' + icon('brush') + '<\/span><b>Write<\/b><span>' + (wr ? plural(wr, 'character') + ' practised' : 'Stroke order, with feedback') + '<\/span><\/button>' +
     '<button class="tilebtn" data-act="tone-start"><span class="ti">' + icon('tone') + '<\/span><b>Tones<\/b><span>Pick the tone for each syllable<\/span><\/button>' +
-    '<button class="tilebtn" data-act="listen-start"><span class="ti">' + icon('ear') + '<\/span><b>Listening<\/b><span>Hear a word, pick what you heard<\/span><\/button><\/div>';
+    '<button class="tilebtn" data-act="listen-start"><span class="ti">' + icon('ear') + '<\/span><b>Listening<\/b><span>Hear a word, pick what you heard<\/span><\/button>' +
+    (speakOk() ? '<button class="tilebtn" data-act="speak-start"><span class="ti">' + icon('mic') + '<\/span><b>Speaking<\/b><span>Read a sentence aloud<\/span><\/button>' : '') + '<\/div>';
   out += '<h2 class="h2">Reference<\/h2><div class="group">' +
     '<button class="wrow" data-act="ppage" data-v="gram"><span class="ti" style="width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent)">' + icon('gram') + '<\/span><span class="wm"><span style="font-weight:650;display:block">Grammar index<\/span><span class="wg">Every pattern from the lessons, by level<\/span><\/span>' + icon('chev', 'sm') + '<\/button>' +
     '<button class="wrow" data-act="ppage" data-v="pinyin"><span class="ti" style="width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent)">' + icon('grid') + '<\/span><span class="wm"><span style="font-weight:650;display:block">Pinyin chart<\/span><span class="wg">Tones, initials and finals, with audio<\/span><\/span>' + icon('chev', 'sm') + '<\/button><\/div>';
@@ -2193,7 +2237,7 @@ function startSession(s) { stopSpeech(); ses = s; render(); window.scrollTo(0, 0
 function endSession() {
   if (ses && ses.writer) ses.writer.destroy();
   if (ses && ses.anim) ses.anim.stop();
-  stopSpeech(); ses = null; render();
+  stopSpeech(); spStop(); ses = null; render();
 }
 function viewSession() {
   switch (ses.kind) {
@@ -2201,6 +2245,7 @@ function viewSession() {
     case 'write': return writeView();
     case 'tone': return quizView();
     case 'listen': return quizView();
+    case 'speak': return speakView();
   }
   return '';
 }
@@ -2926,6 +2971,114 @@ document.addEventListener('pointerup', function (ev) { hwEnd(ev, false); });
 document.addEventListener('pointercancel', function (ev) { hwEnd(ev, true); });
 document.addEventListener('contextmenu', function (ev) { if (ev.target && ev.target.closest && ev.target.closest('#hwpad')) ev.preventDefault(); });
 
+/* ===== Practice: speaking =====
+   Read a sentence from the lessons aloud.  The browser's speech recognition turns the voice into text and Core.speakCompare
+   marks which characters were heard.  It checks that the right words came out, not tones or sounds, and only appears in
+   browsers that have speech recognition. */
+var SPREC = window.SpeechRecognition || window.webkitSpeechRecognition || null, spRec = null;
+function speakOk() {
+  if (!SPREC || window.ShufangAndroid) return false;
+  var pp = document.permissionsPolicy || document.featurePolicy;           // a page embedded without microphone access cannot use it
+  try { if (pp && pp.allowsFeature && !pp.allowsFeature('microphone')) return false; } catch (e) { /* ignore */ }
+  return true;
+}
+function spAccepted() { try { return localStorage.getItem('shufang.speakok') === '1'; } catch (e) { return false; } }
+function spAccept() { try { localStorage.setItem('shufang.speakok', '1'); } catch (e) { /* ignore */ } }
+function spStop() { if (spRec) { var r = spRec; spRec = null; r.onresult = r.onerror = r.onend = null; try { r.abort(); } catch (e) { /* ignore */ } } }
+
+function speakStart() {
+  var lv = Math.max(uLevel(), 1) + 1, pool = [];
+  LESSONS.forEach(function (L) {
+    if (L.level > lv || L.type === 'poem' || L.type === 'classic') return;
+    L.sents.forEach(function (s) {
+      var txt = sentText(s), n = Array.from(txt).filter(function (ch) { return C.CJK.test(ch); }).length;
+      if (n < 4 || n > 14 || !s.en) return;
+      for (var i = 0; i < s.t.length; i++) { var t = s.t[i]; if (t.h && t.lv > lv) return; }
+      pool.push({ t: s.t, zh: txt, en: s.en, py: null });
+    });
+  });
+  if (pool.length < 8) { toast('Not enough sentences at your level yet'); return; }
+  var qs = C.shuffle(pool, 'spk' + now()).slice(0, 8);
+  startSession({ kind: 'speak', qs: qs, i: 0, st: spAccepted() ? 'idle' : 'notice', res: null, tries: 0, score: 0, msg: '' });
+}
+function speakView() {
+  var s = ses;
+  if (s.i >= s.qs.length) return resultView('Speaking', s.score + '/' + s.qs.length, s.score >= 7 ? 'Clear and confident.' : s.score >= 4 ? 'Good. Say them slowly and clearly if one is missed.' : 'Keep going. Speak a little slower and closer to the microphone.', 'speak-start');
+  if (s.st === 'notice') {
+    return sessHead(0, '') + '<div class="qcard"><div class="ti" style="width:54px;height:54px;border-radius:16px;display:grid;place-items:center;margin:0 auto 10px;background:var(--accent-soft);color:var(--accent)">' + icon('mic') + '<\/div>' +
+      '<h2 style="font:750 20px var(--f-ui);letter-spacing:-.02em">Before you speak<\/h2>' +
+      '<p class="muted mt8">This uses your browser’s speech recognition to turn your voice into text. Depending on the browser, the recording may be sent to the browser’s maker to do that (Chrome sends it to Google). Shufang itself records and keeps nothing.<\/p>' +
+      '<p class="muted mt8">It checks that the right words were heard. It does not grade your tones.<\/p><\/div>' +
+      '<div class="actions"><button class="btn pri" data-act="sok">Continue<\/button><button class="btn" data-act="end">Not now<\/button><\/div>';
+  }
+  var q = s.qs[s.i], out = sessHead(s.i / s.qs.length, (s.i + 1) + '/' + s.qs.length), r = s.res, line;
+  if (r && s.st === 'result') {
+    var k = 0;
+    line = '<span class="zq" lang="' + lang() + '">' + q.t.map(function (t) {
+      var txt = t.h ? tokSc(t) : t.p;
+      return Array.from(txt).map(function (ch) {
+        if (!C.CJK.test(ch)) return esc(ch);
+        var ok = r.marks[k++];
+        return '<span class="' + (ok ? 'sp-ok' : 'sp-no') + '">' + esc(ch) + '<\/span>';
+      }).join('');
+    }).join('') + '<\/span>';
+  } else line = zhRuby(q.t);
+  out += '<div class="qcard"><div class="spk-line">' + line + '<\/div><p class="muted mt8">' + esc(q.en) + '<\/p>' +
+    (hasVoice() ? '<button class="btn sm mt8" data-act="spsay">' + icon('say', 'sm') + ' Listen<\/button>' : '') + '<\/div>';
+  if (s.st === 'result') {
+    var pass = r.ok;
+    out += '<p class="center mt12" style="font-weight:650;color:var(--' + (pass ? 'good' : 'bad') + ')">' + (pass ? (r.score >= 0.99 ? 'Well said' : 'Good') : (r.heard ? 'Not quite. Red characters were not heard.' : 'Nothing recognised.')) + '<\/p>' +
+      (r.heard && !pass ? '<p class="small muted center mt8">Heard: <span class="zh" lang="' + lang() + '">' + esc(r.heard) + '<\/span><\/p>' : '') +
+      '<div class="actions">' + (pass ? '' : '<button class="btn' + (s.tries >= 2 ? '' : ' pri') + '" data-act="smic">Try again<\/button>') + '<button class="btn' + (pass || s.tries >= 2 ? ' pri' : '') + '" data-act="snext">' + (s.i + 1 >= s.qs.length ? 'See result' : 'Next') + '<\/button><\/div>';
+  } else {
+    out += '<div class="center mt16"><button class="micbtn' + (s.st === 'listen' ? ' on' : '') + '" data-act="smic" aria-label="' + (s.st === 'listen' ? 'Stop listening' : 'Speak') + '">' + icon('mic') + '<\/button>' +
+      '<p class="hint mt8">' + (s.st === 'listen' ? 'Listening… tap to stop' : (s.msg ? esc(s.msg) : 'Tap, then read the sentence aloud')) + '<\/p><\/div>' +
+      '<p class="center mt12"><button class="btn ghost sm" data-act="snext">Skip<\/button><\/p>';
+  }
+  return out;
+}
+function speakMic() {
+  var s = ses;
+  if (!s || s.kind !== 'speak') return;
+  if (s.st === 'listen') { if (spRec) { try { spRec.stop(); } catch (e) { /* ignore */ } } return; }
+  stopSpeech(); spStop();
+  var qi = s.i, got = null, err = '', rec;
+  try { rec = new SPREC(); } catch (e) { s.st = 'idle'; s.msg = 'Speech recognition could not start in this browser.'; render(); return; }
+  rec.lang = 'zh-CN'; rec.interimResults = false; rec.continuous = false; rec.maxAlternatives = 5;
+  rec.onresult = function (ev) {
+    var alts = [], res = ev.results && ev.results[0];
+    if (res) for (var i = 0; i < res.length; i++) alts.push(res[i].transcript);
+    if (alts.length) got = alts;
+  };
+  rec.onerror = function (ev) { err = ev && ev.error || 'error'; };
+  rec.onend = function () {
+    if (spRec !== rec) return;
+    spRec = null;
+    if (!ses || ses.kind !== 'speak' || ses.i !== qi) return;
+    if (got) {
+      var r = C.speakCompare(ses.qs[qi].zh, got);
+      ses.res = r; ses.st = 'result'; ses.tries++; ses.msg = '';
+      if (r.ok) { if (ses.tries === 1) ses.score++; todayRow().ex++; save(); }
+    } else {
+      ses.st = 'idle';
+      ses.msg = err === 'not-allowed' || err === 'service-not-allowed' ? 'The microphone is blocked. Allow it for this site in your browser’s settings, then tap again.' :
+        err === 'audio-capture' ? 'No microphone was found.' :
+        err === 'network' ? 'Speech recognition needs an internet connection.' :
+        err === 'language-not-supported' ? 'This browser has no Chinese speech recognition.' :
+        'I did not hear anything. Tap and try again.';
+    }
+    render();
+  };
+  spRec = rec; s.st = 'listen'; s.msg = '';
+  try { rec.start(); } catch (e) { spRec = null; s.st = 'idle'; s.msg = 'Speech recognition could not start. Tap again.'; }
+  render();
+}
+function speakNext() {
+  var s = ses; spStop();
+  s.i++; s.st = 'idle'; s.res = null; s.tries = 0; s.msg = '';
+  render(); window.scrollTo(0, 0);
+}
+
 /* ===== app shell: render, events, boot ===== */
 var TABS = [['today', 'Today', 'today'], ['read', 'Read', 'read'], ['words', 'Words', 'words'], ['practice', 'Practice', 'practice'], ['me', 'Me', 'me']];
 function renderTabs() {
@@ -3013,6 +3166,11 @@ function act(a, el, ev) {
     case 'flash-start': flashStart(); break;
     case 'tone-start': toneStart(); break;
     case 'listen-start': listenStart(); break;
+    case 'speak-start': speakStart(); break;
+    case 'sok': spAccept(); ses.st = 'idle'; render(); break;
+    case 'smic': speakMic(); break;
+    case 'snext': speakNext(); break;
+    case 'spsay': speak(ses.qs[ses.i].zh); break;
     case 'write-start': writeStart(); break;
     case 'write-char': writeStart([d.c]); break;
     case 'wordinfo':
