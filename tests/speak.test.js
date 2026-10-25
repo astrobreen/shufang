@@ -23,7 +23,7 @@ const srv = http.createServer((q, rs) => { const f = path.join(root, decodeURICo
 const MOCK = () => {                       // a recogniser that answers with whatever the test sets
   window.__sr = { heard: null, err: null, starts: 0 };
   window.SpeechRecognition = window.webkitSpeechRecognition = class {
-    start() { window.__sr.starts++; const me = this; setTimeout(() => { const s = window.__sr; if (s.err) me.onerror && me.onerror({ error: s.err }); else if (s.heard) { const res = s.heard.map((t) => ({ transcript: t })); me.onresult && me.onresult({ results: [res] }); } me.onend && me.onend(); }, 40); }
+    start() { window.__sr.starts++; if (window.__sr.hang) return; const me = this; setTimeout(() => { const s = window.__sr; if (s.err) me.onerror && me.onerror({ error: s.err }); else if (s.heard) { const res = s.heard.map((t) => ({ transcript: t })); me.onresult && me.onresult({ results: [res] }); } if (!s.noend) me.onend && me.onend(); }, 40); }
     stop() {} abort() {}
   };
 };
@@ -61,9 +61,17 @@ const MOCK = () => {                       // a recogniser that answers with wha
   if (process.env.SPEAK_SHOTS) await p.screenshot({ path: process.env.SPEAK_SHOTS + '/speak-wrong.png' });
   await p.evaluate((h) => { window.__sr.heard = [h]; window.__sr.err = null; }, tg); await p.click('[data-act="smic"]');          // Try again starts listening at once
   await p.waitForFunction(() => !document.querySelector('.micbtn.on')); await p.waitForTimeout(100); assert(/Well said|Good/.test(await p.textContent('#main')), 'second try'); await p.click('[data-act="snext"]');
+  // a recogniser that starts but never answers or ends: Stop still ends the turn
+  await p.evaluate(() => { window.__sr.hang = true; });
+  await p.click('.micbtn'); await p.waitForSelector('.micbtn.on'); await p.click('.micbtn.on'); await p.waitForFunction(() => !document.querySelector('.micbtn.on'), null, { timeout: 4000 });
+  assert(/did not hear anything/.test(await p.textContent('#main')), 'Stop works even when the recogniser never ends'); await p.evaluate(() => { window.__sr.hang = false; });
+  // an answer arrives but the recogniser never reports that it ended: the turn still finishes by itself
+  tg = await target(); await p.evaluate((h) => { window.__sr.noend = true; window.__sr.heard = [h]; window.__sr.err = null; }, tg);
+  await p.click('.micbtn'); await p.waitForFunction(() => !document.querySelector('.micbtn.on'), null, { timeout: 6000 }); assert(/Well said|Good/.test(await p.textContent('#main')), 'answer used without an end event');
+  await p.evaluate(() => { window.__sr.noend = false; }); await p.click('[data-act="snext"]');
   // 3: skip, then finish the rest
   await p.click('[data-act="snext"]');
-  for (let i = 3; i < 8; i++) { tg = await target(); await say([tg]); await p.click('[data-act="snext"]'); }
+  for (let i = 4; i < 8; i++) { tg = await target(); await say([tg]); await p.click('[data-act="snext"]'); }
   await p.waitForSelector('.bignum'); assert.strictEqual((await p.textContent('.bignum')).trim(), '6/8', 'first-try passes are scored (skipped and retried ones are not)');
   await p.click('[data-act="end"]');
   // the notice is only shown once

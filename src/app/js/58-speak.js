@@ -11,7 +11,7 @@ function speakOk() {
 }
 function spAccepted() { try { return localStorage.getItem('shufang.speakok') === '1'; } catch (e) { return false; } }
 function spAccept() { try { localStorage.setItem('shufang.speakok', '1'); } catch (e) { /* ignore */ } }
-function spStop() { if (spRec) { var r = spRec; spRec = null; r.onresult = r.onerror = r.onend = null; try { r.abort(); } catch (e) { /* ignore */ } } }
+function spStop() { if (spRec) { var r = spRec; spRec = null; r.onresult = r.onerror = r.onend = r.onstart = r.onaudiostart = r.onspeechend = null; try { r.abort(); } catch (e) { /* ignore */ } } spFinish = null; }
 
 function speakStart() {
   var lv = Math.max(uLevel(), 1) + 1, pool = [];
@@ -64,23 +64,24 @@ function speakView() {
   }
   return out;
 }
+var spFinish = null;
 function speakMic() {
   var s = ses;
   if (!s || s.kind !== 'speak') return;
-  if (s.st === 'listen') { if (spRec) { try { spRec.stop(); } catch (e) { /* ignore */ } } return; }
+  if (s.st === 'listen') {                           // Stop: ask the recogniser to finish, and end the turn anyway if it does not
+    if (spRec) { try { spRec.stop(); } catch (e) { /* ignore */ } }
+    setTimeout(function () { if (spFinish) spFinish(); }, 1200);
+    return;
+  }
   stopSpeech(); spStop();
-  var qi = s.i, got = null, err = '', rec;
+  var qi = s.i, got = null, err = '', rec, finished = false, started = false, tMax, tStart, tEnd;
   try { rec = new SPREC(); } catch (e) { s.st = 'idle'; s.msg = 'Speech recognition could not start in this browser.'; render(); return; }
   rec.lang = 'zh-CN'; rec.interimResults = false; rec.continuous = false; rec.maxAlternatives = 5;
-  rec.onresult = function (ev) {
-    var alts = [], res = ev.results && ev.results[0];
-    if (res) for (var i = 0; i < res.length; i++) alts.push(res[i].transcript);
-    if (alts.length) got = alts;
-  };
-  rec.onerror = function (ev) { err = ev && ev.error || 'error'; };
-  rec.onend = function () {
-    if (spRec !== rec) return;
-    spRec = null;
+  function finish() {                                // runs once, whether the recogniser ended, failed or never answered
+    if (finished) return;
+    finished = true; clearTimeout(tMax); clearTimeout(tStart); clearTimeout(tEnd);
+    if (spFinish === finish) spFinish = null;
+    if (spRec === rec) { spRec = null; rec.onresult = rec.onerror = rec.onend = rec.onstart = rec.onaudiostart = rec.onspeechend = null; try { rec.abort(); } catch (e) { /* ignore */ } }
     if (!ses || ses.kind !== 'speak' || ses.i !== qi) return;
     if (got) {
       var r = C.speakCompare(ses.qs[qi].zh, got);
@@ -92,12 +93,26 @@ function speakMic() {
         err === 'audio-capture' ? 'No microphone was found.' :
         err === 'network' ? 'Speech recognition needs an internet connection.' :
         err === 'language-not-supported' ? 'This browser has no Chinese speech recognition.' :
+        err === 'start-timeout' ? 'The microphone did not start. Check that this site may use it, then tap again.' :
         'I did not hear anything. Tap and try again.';
     }
     render();
+  }
+  function wind() { try { rec.stop(); } catch (e) { /* ignore */ } clearTimeout(tEnd); tEnd = setTimeout(finish, 2500); }
+  rec.onresult = function (ev) {
+    var alts = [], res = ev.results && ev.results[ev.results.length - 1];
+    if (res) for (var i = 0; i < res.length; i++) alts.push(res[i].transcript);
+    if (alts.length) got = alts;
+    wind();                                          // one answer is enough
   };
-  spRec = rec; s.st = 'listen'; s.msg = '';
-  try { rec.start(); } catch (e) { spRec = null; s.st = 'idle'; s.msg = 'Speech recognition could not start. Tap again.'; }
+  rec.onerror = function (ev) { err = ev && ev.error || 'error'; if (err !== 'no-speech' && err !== 'aborted') finish(); };
+  rec.onstart = rec.onaudiostart = function () { started = true; clearTimeout(tStart); };
+  rec.onspeechend = wind;
+  rec.onend = finish;
+  spRec = rec; spFinish = finish; s.st = 'listen'; s.msg = '';
+  tMax = setTimeout(wind, 12000);                    // never listen for ever
+  tStart = setTimeout(function () { if (!started && !got) { err = err || 'start-timeout'; finish(); } }, 15000);
+  try { rec.start(); } catch (e) { spRec = null; spFinish = null; clearTimeout(tMax); clearTimeout(tStart); s.st = 'idle'; s.msg = 'Speech recognition could not start. Tap again.'; }
   render();
 }
 function speakNext() {
