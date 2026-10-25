@@ -8,13 +8,13 @@
 <b>A graded Chinese reader and study room, offline and free of tracking.</b><br>
 HSK 3.0 levels 1 to 9, tap-to-define reading, audio, 146 idioms, spaced-repetition flashcards,
 stroke-order writing, tone and listening drills.<br>
-Runs in any browser and installs as an offline app on a phone or computer.
+Runs in any browser. No account, no tracking.
 </p>
 
 **Coverage:** 156 lessons, about 11,000 HSK words, about 3,000 characters with stroke order, 146 成语 &nbsp;·&nbsp;
 **Stack:** plain HTML, CSS and JavaScript, no framework and no server &nbsp;·&nbsp;
 **Data:** stays on your device, with backup and restore &nbsp;·&nbsp;
-**Platforms:** any modern browser, installable as an offline app
+**Platforms:** any modern browser
 
 <p align="center">
   <img src="docs/screenshots/today-light.png" width="190" alt="Today">
@@ -46,16 +46,11 @@ npm run serve          # python3 -m http.server 8080 --directory site
 
 **GitHub Pages.** Push to a repository, then *Settings, Pages, Source: GitHub Actions*. The included workflow (`.github/workflows/pages.yml`) publishes `site/` on every push to `main`. Any static host (Netlify, Cloudflare Pages, S3) also works: serve the `site/` folder.
 
-**Install on a phone or computer.** Open the published address in Safari (iPhone, iPad, Mac) and use *Share, Add to Home Screen* or *File, Add to Dock*; in Chrome or Edge use *Install*. A service worker caches the app and data, so it works offline after the first visit.
-
-**Android app.** The `android/` folder is a small WebView shell around the same site, bundled inside the APK so it works offline. It reads aloud with the phone's own text-to-speech engine. Push to GitHub and the *Android APK* workflow builds a signed APK; tag a release (`git tag v1.0 && git push origin v1.0`) to get a download link. Details in [`android/README.md`](android/README.md).
-
 Progress lives in the browser (`localStorage`). *Me, Your data* saves and restores a backup file, and you can merge backups from several devices.
 
 ## Project layout
 
 ```
-android/            the Android app (WebView shell, native speech bridge, Gradle project)
 src/app/            the app: core.js (pure logic), app.css, js/*.js (one file per area, concatenated in order)
 src/content/        lesson texts (texts/*.txt), the older hand-annotated lessons (legacy/), lexicon and compound lists
 tools/              Python build pipeline and helpers
@@ -99,8 +94,7 @@ This is a learning tool, so it is worth saying where it can be wrong.
 * **Classical prose** (Analects, Daodejing and similar) was written down from memory and is marked as unverified in the app. The poems were cross-checked against the open chinese-poetry corpus. Compare with a printed edition before quoting either.
 * **HSK 7 to 9** are one official band. The app splits it into three levels by word frequency, which is an estimate.
 * **A lesson's level** is the lowest HSK level that covers at least 90% of its words.
-* **Audio** uses the Chinese voices installed on your device (the Web Speech API in browsers, Android's text-to-speech in the app), so quality and availability vary.
-* **The Android APK is built by GitHub Actions and has had no on-device testing by the author.** The web version is the tested one; report anything odd in the app as an issue.
+* **Audio** uses the Chinese voices installed on your device (the Web Speech API), so quality and availability vary.
 
 ## Contributing
 
