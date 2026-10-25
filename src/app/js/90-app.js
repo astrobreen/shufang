@@ -1,5 +1,5 @@
 /* ===== app shell: render, events, boot ===== */
-var TABS = [['today', 'Today', 'today'], ['read', 'Read', 'read'], ['words', 'Words', 'words'], ['dict', 'Dictionary', 'dict'], ['practice', 'Practice', 'practice'], ['me', 'Me', 'me']];
+var TABS = [['today', 'Today', 'today'], ['read', 'Read', 'read'], ['words', 'Words', 'words'], ['practice', 'Practice', 'practice'], ['me', 'Me', 'me']];
 function renderTabs() {
   var due = dueCards().length;
   $('#tabs').innerHTML = '<div class="in">' + TABS.map(function (t) {
@@ -7,7 +7,7 @@ function renderTabs() {
       (t[0] === 'practice' && due ? '<span class="badge num">' + (due > 99 ? '99+' : due) + '</span>' : '') + '</span>' + t[1] + '</button>';
   }).join('') + '</div>';
 }
-var VIEWS = { today: viewToday, read: viewRead, words: viewWords, dict: viewDict, practice: viewPractice, me: viewMe };
+var VIEWS = { today: viewToday, read: viewRead, words: viewWords, practice: viewPractice, me: viewMe };
 function render() {
   document.body.classList.toggle('tc', !!S.set.tone);
   document.body.classList.toggle('listen', !!S.set.listen && !!rd);
@@ -95,7 +95,7 @@ function act(a, el, ev) {
     case 'dtry': dui.q = d.v; dui.n = 40; render(); break;
     case 'dmore': dui.n += 40; { var dl = $('#dlist'); if (dl) dl.innerHTML = dictList(); } break;
     case 'dclearhist': S.hist = []; save(); render(); break;
-    case 'dretry': DI.failed = false; loadDict(function () { if (view === 'dict' && !rd && !ses) refreshDictList(); }); render(); break;
+    case 'dretry': DI.failed = false; loadDict(function () { if (inDict() && !rd && !ses) refreshDictList(); }); render(); break;
     case 'char':
       openSheet({ kind: 'char', c: d.c });
       if (!V.ready) loadVocab(function () { if (sh && sh.kind === 'char') { var ph = $('#sheet .ph'); if (ph) ph.firstChild.textContent = readingsOf(sh.c).map(function (r) { return C.phon(r, S.set.phon); }).join(' · '); } });

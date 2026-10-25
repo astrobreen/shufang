@@ -180,16 +180,16 @@ function dictList() {
 function refreshDictList() { var el = $('#dlist'); if (el) el.innerHTML = dictList(); }
 function scheduleDictList() { clearTimeout(dTimer); dTimer = setTimeout(refreshDictList, 90); }
 
-function viewDict() {
-  var out = '<div class="title"><div class="sp"><h1>Dictionary</h1><p>Chinese, pinyin or English</p></div></div>' +
-    '<label class="search mt12">' + icon('search', 'sm') + '<input id="dq" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="汉字, pinyin or English" value="' + esc(dui.q) + '" aria-label="Search the dictionary"></label>' +
+function inDict() { return view === 'words' && wui.tab === 'dict'; }
+function dictBody() {
+  var out = '<label class="search mt12">' + icon('search', 'sm') + '<input id="dq" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="汉字, pinyin or English" value="' + esc(dui.q) + '" aria-label="Search the dictionary"></label>' +
     '<div id="dlist">' + dictList() + '</div>';
-  var again = function () { if (view === 'dict' && !rd && !ses && !sh) refreshDictList(); };
+  var again = function () { if (inDict() && !rd && !ses && !sh) refreshDictList(); };
   if (!DI.ready && !DI.loading && !DI.failed) loadDict(again);
   if (!V.ready && !V.loading && !V.failed) loadVocab(again);
   setTimeout(function () {                                   // a computer keyboard: ready to type; on a phone, do not pop the keyboard up
     var el = $('#dq');
-    if (el && view === 'dict' && !dui.q && !sh && window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)').matches) el.focus();
+    if (el && inDict() && !dui.q && !sh && window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)').matches) el.focus();
   }, 0);
   return out;
 }

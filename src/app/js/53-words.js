@@ -88,7 +88,8 @@ function cyList() {
 function viewWords() {
   var due = dueCards().length;
   var out = '<div class="title"><div class="sp"><h1>Words</h1><p>' + plural(S.words.length, 'saved word') + (due ? ' · ' + due + ' due' : '') + '</p></div></div>';
-  out += '<div class="seg"><button data-act="wtab" data-v="mine" class="' + (wui.tab === 'mine' ? 'on' : '') + '">My words</button><button data-act="wtab" data-v="hsk" class="' + (wui.tab === 'hsk' ? 'on' : '') + '">HSK list</button><button data-act="wtab" data-v="cy" class="' + (wui.tab === 'cy' ? 'on' : '') + '"><span lang="zh-Hans">成语</span> Idioms</button></div>';
+  out += '<div class="seg"><button data-act="wtab" data-v="mine" class="' + (wui.tab === 'mine' ? 'on' : '') + '">My words</button><button data-act="wtab" data-v="hsk" class="' + (wui.tab === 'hsk' ? 'on' : '') + '">HSK list</button><button data-act="wtab" data-v="cy" class="' + (wui.tab === 'cy' ? 'on' : '') + '"><span lang="zh-Hans">成语</span> Idioms</button><button data-act="wtab" data-v="dict" class="' + (wui.tab === 'dict' ? 'on' : '') + '">Dictionary</button></div>';
+  if (wui.tab === 'dict') return out + dictBody();
   out += '<label class="search mt12">' + icon('search', 'sm') + '<input id="wq" type="search" inputmode="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="' + (wui.tab === 'mine' ? 'Search your words' : wui.tab === 'cy' ? 'Search idioms: 汉字, pinyin or English' : 'Search all words: 汉字, pinyin or English') + '" value="' + esc(wui.q) + '"></label>';
   if (wui.tab === 'mine') {
     var cnt = { new: 0, learning: 0, mature: 0 };

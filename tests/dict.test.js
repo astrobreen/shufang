@@ -24,8 +24,9 @@ assert(!D.e.some((e) => e[3].some((d) => /\[[a-z]+[1-5]\]/.test(d))), 'numbers i
   p.setDefaultTimeout(8000);
   const errs = []; p.on('pageerror', (e) => errs.push(e.message));
   await p.goto(url); await p.waitForSelector('#tabs button');
-  assert.strictEqual((await p.$$('#tabs button')).length, 6, 'six tabs');
-  await p.click('#tabs button[data-v="dict"]'); await p.waitForSelector('#dq'); await p.waitForSelector('.dhint');
+  assert.strictEqual((await p.$$('#tabs button')).length, 5, 'five tabs: the dictionary lives inside Words');
+  const openDict = async () => { await p.click('#tabs button[data-v="words"]'); await p.click('[data-act="wtab"][data-v="dict"]'); await p.waitForSelector('#dq'); };
+  await openDict(); await p.waitForSelector('.dhint');
   const rows = async () => p.$$eval('#dlist .wrow', (a) => a.map((x) => ({ hz: x.querySelector('.hz').textContent, py: x.querySelector('.wp').textContent, g: x.querySelector('.wg').textContent })));
   const search = async (q) => { await p.fill('#dq', q); await p.waitForTimeout(250); return rows(); };
 
@@ -52,9 +53,9 @@ assert(!D.e.some((e) => e[3].some((d) => /\[[a-z]+[1-5]\]/.test(d))), 'numbers i
   await search('parrot'); await p.click('#dlist .wrow >> nth=0'); await p.waitForSelector('#sheet .dent');
   const word = await p.textContent('#sheet .big'); assert(/鹦鹉|鸚鵡/.test(word), 'parrot is ' + word);
   await p.click('#sheet [data-act="save"]'); await p.click('#sheet [data-act="close"]');
-  await p.reload(); await p.waitForSelector('#tabs button'); await p.click('#tabs button[data-v="words"]');
+  await p.reload(); await p.waitForSelector('#tabs button'); await p.click('#tabs button[data-v="words"]'); await p.click('[data-act="wtab"][data-v="mine"]');
   const mine = await p.textContent('#wlist'); assert(/yīng wǔ/.test(mine) && /parrot/.test(mine), 'saved word keeps its reading and meaning: ' + mine.slice(0, 80));
-  await p.click('#tabs button[data-v="dict"]'); await p.waitForSelector('#dlist .wrow');
+  await openDict(); await p.waitForSelector('#dlist .wrow');
   assert((await rows())[0].hz === '鹦鹉', 'recent lookups are listed');
   await p.click('[data-act="dclearhist"]'); assert(!(await p.$('#dlist .wrow')), 'history cleared');
 
@@ -67,10 +68,10 @@ assert(!D.e.some((e) => e[3].some((d) => /\[[a-z]+[1-5]\]/.test(d))), 'numbers i
   // layout: six tabs fit, nothing scrolls sideways, at phone and computer sizes
   for (const [w, h] of [[320, 640], [360, 740], [400, 820], [768, 1024], [1280, 800]]) {
     await p.setViewportSize({ width: w, height: h });
-    await p.click('#tabs button[data-v="dict"]'); await p.fill('#dq', 'shu'); await p.waitForTimeout(250);
+    await openDict(); await p.fill('#dq', 'shu'); await p.waitForTimeout(250);
     const m = await p.evaluate(() => {
       const bad = [];
-      document.querySelectorAll('#tabs button').forEach((x) => { if (x.scrollWidth > x.clientWidth + 1) bad.push('tab ' + x.textContent.trim()); });
+      document.querySelectorAll('#tabs button, .seg button').forEach((x) => { if (x.scrollWidth > x.clientWidth + 1) bad.push(x.textContent.trim()); });
       const tb = document.querySelector('#tabs').getBoundingClientRect();
       return { bad, sideways: document.documentElement.scrollWidth > innerWidth + 1, tabsInside: tb.left >= -1 && tb.right <= innerWidth + 1 };
     });

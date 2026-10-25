@@ -133,13 +133,11 @@ svg.i .f { fill: currentColor; stroke: none; }
 /* ---------- bottom tabs ---------- */
 #tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: color-mix(in srgb, var(--bg) 82%, transparent); -webkit-backdrop-filter: saturate(1.6) blur(18px); backdrop-filter: saturate(1.6) blur(18px);
   border-top: 1px solid var(--line); padding: 0 max(6px, env(safe-area-inset-left, 0px)) env(safe-area-inset-bottom, 0px) max(6px, env(safe-area-inset-right, 0px)); }
-#tabs .in { max-width: 600px; margin: 0 auto; display: grid; grid-template-columns: repeat(6, 1fr); }
-#tabs button { min-width: 0; white-space: nowrap; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 7px 0 6px; font-size: 10.5px; font-weight: 650; color: var(--ink3); min-height: 56px; letter-spacing: .01em; }
+#tabs .in { max-width: 560px; margin: 0 auto; display: grid; grid-template-columns: repeat(5, 1fr); }
+#tabs button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; padding: 7px 0 6px; font-size: 10.5px; font-weight: 650; color: var(--ink3); min-height: 56px; letter-spacing: .01em; }
 #tabs button.on { color: var(--accent); }
 #tabs .ic { position: relative; display: block; line-height: 0; }
 #tabs .badge { position: absolute; top: -4px; left: 14px; min-width: 17px; height: 17px; padding: 0 4px; border-radius: 9px; background: var(--seal); color: #fff; font-size: 10.5px; line-height: 17px; text-align: center; font-weight: 700; }
-
-@media (max-width: 379px) { #tabs { padding-left: 2px; padding-right: 2px; } #tabs button { font-size: 9.5px; letter-spacing: 0; } }
 
 /* ---------- dictionary ---------- */
 .dhint { padding-top: 24px; }
@@ -163,6 +161,7 @@ svg.i .f { fill: currentColor; stroke: none; }
 .search input { flex: 1; min-width: 0; border: 0; background: transparent; outline: none; font-size: 16px; color: var(--ink); }
 .seg { display: flex; background: var(--surf2); border-radius: 11px; padding: 3px; gap: 2px; width: 100%; }
 .seg button { flex: 1; min-height: 34px; padding: 4px 8px; border-radius: 9px; font-size: 13.5px; color: var(--ink2); font-weight: 650; text-align: center; white-space: nowrap; }
+@media (max-width: 399px) { .seg button { font-size: 12.5px; padding: 4px 2px; } }
 .seg button.on { background: var(--surf); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.14); }
 .sw { position: relative; width: 50px; height: 30px; border-radius: 15px; background: var(--line); flex: none; transition: background .15s; }
 .sw::after { content: ""; position: absolute; left: 3px; top: 3px; width: 24px; height: 24px; border-radius: 50%; background: #fff; transition: transform .15s; box-shadow: 0 1px 3px rgba(0,0,0,.3); }
@@ -1822,7 +1821,8 @@ function cyList() {
 function viewWords() {
   var due = dueCards().length;
   var out = '<div class="title"><div class="sp"><h1>Words<\/h1><p>' + plural(S.words.length, 'saved word') + (due ? ' · ' + due + ' due' : '') + '<\/p><\/div><\/div>';
-  out += '<div class="seg"><button data-act="wtab" data-v="mine" class="' + (wui.tab === 'mine' ? 'on' : '') + '">My words<\/button><button data-act="wtab" data-v="hsk" class="' + (wui.tab === 'hsk' ? 'on' : '') + '">HSK list<\/button><button data-act="wtab" data-v="cy" class="' + (wui.tab === 'cy' ? 'on' : '') + '"><span lang="zh-Hans">成语<\/span> Idioms<\/button><\/div>';
+  out += '<div class="seg"><button data-act="wtab" data-v="mine" class="' + (wui.tab === 'mine' ? 'on' : '') + '">My words<\/button><button data-act="wtab" data-v="hsk" class="' + (wui.tab === 'hsk' ? 'on' : '') + '">HSK list<\/button><button data-act="wtab" data-v="cy" class="' + (wui.tab === 'cy' ? 'on' : '') + '"><span lang="zh-Hans">成语<\/span> Idioms<\/button><button data-act="wtab" data-v="dict" class="' + (wui.tab === 'dict' ? 'on' : '') + '">Dictionary<\/button><\/div>';
+  if (wui.tab === 'dict') return out + dictBody();
   out += '<label class="search mt12">' + icon('search', 'sm') + '<input id="wq" type="search" inputmode="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="' + (wui.tab === 'mine' ? 'Search your words' : wui.tab === 'cy' ? 'Search idioms: 汉字, pinyin or English' : 'Search all words: 汉字, pinyin or English') + '" value="' + esc(wui.q) + '"><\/label>';
   if (wui.tab === 'mine') {
     var cnt = { new: 0, learning: 0, mature: 0 };
@@ -2630,16 +2630,16 @@ function dictList() {
 function refreshDictList() { var el = $('#dlist'); if (el) el.innerHTML = dictList(); }
 function scheduleDictList() { clearTimeout(dTimer); dTimer = setTimeout(refreshDictList, 90); }
 
-function viewDict() {
-  var out = '<div class="title"><div class="sp"><h1>Dictionary<\/h1><p>Chinese, pinyin or English<\/p><\/div><\/div>' +
-    '<label class="search mt12">' + icon('search', 'sm') + '<input id="dq" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="汉字, pinyin or English" value="' + esc(dui.q) + '" aria-label="Search the dictionary"><\/label>' +
+function inDict() { return view === 'words' && wui.tab === 'dict'; }
+function dictBody() {
+  var out = '<label class="search mt12">' + icon('search', 'sm') + '<input id="dq" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="汉字, pinyin or English" value="' + esc(dui.q) + '" aria-label="Search the dictionary"><\/label>' +
     '<div id="dlist">' + dictList() + '<\/div>';
-  var again = function () { if (view === 'dict' && !rd && !ses && !sh) refreshDictList(); };
+  var again = function () { if (inDict() && !rd && !ses && !sh) refreshDictList(); };
   if (!DI.ready && !DI.loading && !DI.failed) loadDict(again);
   if (!V.ready && !V.loading && !V.failed) loadVocab(again);
   setTimeout(function () {                                   // a computer keyboard: ready to type; on a phone, do not pop the keyboard up
     var el = $('#dq');
-    if (el && view === 'dict' && !dui.q && !sh && window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)').matches) el.focus();
+    if (el && inDict() && !dui.q && !sh && window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)').matches) el.focus();
   }, 0);
   return out;
 }
@@ -2708,7 +2708,7 @@ function dictSheet() {
 }
 
 /* ===== app shell: render, events, boot ===== */
-var TABS = [['today', 'Today', 'today'], ['read', 'Read', 'read'], ['words', 'Words', 'words'], ['dict', 'Dictionary', 'dict'], ['practice', 'Practice', 'practice'], ['me', 'Me', 'me']];
+var TABS = [['today', 'Today', 'today'], ['read', 'Read', 'read'], ['words', 'Words', 'words'], ['practice', 'Practice', 'practice'], ['me', 'Me', 'me']];
 function renderTabs() {
   var due = dueCards().length;
   $('#tabs').innerHTML = '<div class="in">' + TABS.map(function (t) {
@@ -2716,7 +2716,7 @@ function renderTabs() {
       (t[0] === 'practice' && due ? '<span class="badge num">' + (due > 99 ? '99+' : due) + '<\/span>' : '') + '<\/span>' + t[1] + '<\/button>';
   }).join('') + '<\/div>';
 }
-var VIEWS = { today: viewToday, read: viewRead, words: viewWords, dict: viewDict, practice: viewPractice, me: viewMe };
+var VIEWS = { today: viewToday, read: viewRead, words: viewWords, practice: viewPractice, me: viewMe };
 function render() {
   document.body.classList.toggle('tc', !!S.set.tone);
   document.body.classList.toggle('listen', !!S.set.listen && !!rd);
@@ -2804,7 +2804,7 @@ function act(a, el, ev) {
     case 'dtry': dui.q = d.v; dui.n = 40; render(); break;
     case 'dmore': dui.n += 40; { var dl = $('#dlist'); if (dl) dl.innerHTML = dictList(); } break;
     case 'dclearhist': S.hist = []; save(); render(); break;
-    case 'dretry': DI.failed = false; loadDict(function () { if (view === 'dict' && !rd && !ses) refreshDictList(); }); render(); break;
+    case 'dretry': DI.failed = false; loadDict(function () { if (inDict() && !rd && !ses) refreshDictList(); }); render(); break;
     case 'char':
       openSheet({ kind: 'char', c: d.c });
       if (!V.ready) loadVocab(function () { if (sh && sh.kind === 'char') { var ph = $('#sheet .ph'); if (ph) ph.firstChild.textContent = readingsOf(sh.c).map(function (r) { return C.phon(r, S.set.phon); }).join(' · '); } });
