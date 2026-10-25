@@ -1163,7 +1163,9 @@ function lessonOrder(a, b) { return a.level - b.level || LESSONS.indexOf(a) - LE
 function dueCards() { var t = now(); return S.words.filter(function (w) { return w.due <= t; }).sort(function (a, b) { return a.due - b.due; }); }
 /* reading / gloss for a saved card: prefer the sentence it was saved from */
 function cardInfo(w) {
-  var base = info(w.h) || { h: w.h, py: w.py ? w.py.split(' ') : [], g: w.g || '', t: '', lv: 0, all: '' };
+  var found = info(w.h);
+  if (!found && !V.ready && !V.failed && !w.g) loadVocab(function () { if (!rd) render(); });      // a saved word from the HSK list: its reading and meaning arrive with the list
+  var base = found || { h: w.h, py: w.py ? w.py.split(' ') : [], g: w.g || '', t: '', lv: 0, all: '' };
   var tok = w.lid && !CYMAP.has(w.h) ? tokenAt(w.lid, w.si, w.h) : null;     // idioms always show their own reading and meaning
   return { h: w.h, py: tok ? tok.py : base.py, g: tok ? tok.g : base.g, t: base.t, lv: base.lv, all: base.all };
 }
