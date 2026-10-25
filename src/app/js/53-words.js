@@ -82,7 +82,7 @@ function cyList() {
   var q = wui.q.trim(), topic = wui.cf;
   var arr = CY.filter(function (c) { return (topic === 'all' || q || c.topic === topic) && (!q || cyMatch(c, q)); });
   if (!arr.length) return '<div class="empty"><h3>No matches</h3><p>Search by characters, pinyin or English.</p></div>';
-  return '<p class="note">' + (q ? plural(arr.length, 'idiom') : topic === 'all' ? 'Four-character sayings, many with a story behind them. ' + arr.length + ' idioms.' : arr.length + ' idioms about ' + esc(topic.toLowerCase()) + '.') + '</p>' +
+  return '<p class="note">' + (q ? plural(arr.length, 'idiom') : topic === 'all' ? '<span lang="zh-Hans">成语</span> (chéngyǔ) are four-character idioms, many with a story behind them. ' + arr.length + ' idioms.' : arr.length + ' idioms about ' + esc(topic.toLowerCase()) + '.') + '</p>' +
     '<div class="group">' + arr.map(cyRow).join('') + '</div>';
 }
 function viewWords() {

@@ -1,5 +1,5 @@
 /* Offline cache. The version below changes whenever the app or its data changes. */
-const VERSION = 'shufang-4c791bea1d';
+const VERSION = 'shufang-e5474c36a3';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'vocab.json', 'chars.json', 'icons/icon.svg', 'icons/icon-192.png', 'icons/apple-touch-icon.png'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));

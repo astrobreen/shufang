@@ -50,8 +50,8 @@ function toggle(key, label, sub) {
   return '<div class="field"><div class="fr"><div class="lab">' + label + (sub ? '<small>' + sub + '</small>' : '') + '</div><button class="sw" role="switch" aria-checked="' + !!S.set[key] + '" aria-label="' + esc(label) + '" data-act="tog" data-k="' + key + '"></button></div></div>';
 }
 /* word levels: 1-9 official HSK 3.0, 0 = name, 10 = outside the HSK lists */
-function lvBadge(lv) { return lv > 0 && lv < 10 ? '<span class="lvb l' + lv + '">' + lv + '</span>' : lv === 11 ? '<span class="lvb cy" lang="zh-Hans">成语</span>' : ''; }
-function lvTag(lv) { return lv === 11 ? '<span class="lvb cy" lang="zh-Hans">成语</span>' : lv > 0 && lv < 10 ? '<span class="lvb l' + lv + '" title="HSK ' + lv + '">HSK ' + lv + '</span>' : lv === 10 ? '<span class="tag">Beyond HSK</span>' : ''; }
+function lvBadge(lv) { return lv > 0 && lv < 10 ? '<span class="lvb l' + lv + '">' + lv + '</span>' : lv === 11 ? '<span class="lvb cy" lang="zh-Hans" title="chéngyǔ: a four-character idiom">成语</span>' : ''; }
+function lvTag(lv) { return lv === 11 ? '<span class="lvb cy" lang="zh-Hans" title="chéngyǔ: a four-character idiom">成语</span>' : lv > 0 && lv < 10 ? '<span class="lvb l' + lv + '" title="HSK ' + lv + '">HSK ' + lv + '</span>' : lv === 10 ? '<span class="tag">Beyond HSK</span>' : ''; }
 
 function displayControls() {
   return '<div class="group">' +
