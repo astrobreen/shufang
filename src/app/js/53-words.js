@@ -129,8 +129,9 @@ function toggleKnown(h) {
 /* ---------- sheets ---------- */
 function exampleFor(h, ctx) {
   var lid = ctx && ctx.lid, si = ctx && ctx.si, cy = CYMAP.get(h);
+  if ((lid == null || lid === '' || si == null || si < 0) && XM[h]) return { zh: sc(XM[h][0]), en: XM[h][1], lid: '', title: '' };      // a short sentence written for this word's level
   if (cy && (lid == null || lid === '' || si == null || si < 0) && !dict.get(h)) return cyExample(cy);
-  if (lid == null || lid === '' || si == null || si < 0) { var e = dict.get(h); if (e && e.ex) { lid = e.ex.lid; si = e.ex.si; } else return null; }
+  if (lid == null || lid === '' || si == null || si < 0) { var e = dict.get(h); if (e && e.ex) { var b = ctx && ctx.py && ctx.py.length ? pickExample(e, ctx.py.join(' ')) : null; b = b || e.ex; lid = b.lid; si = b.si; } else return null; }
   var L = byId.get(lid);
   if (!L || !L.sents[si]) return null;
   return { zh: sc(sentText(L.sents[si])), en: L.sents[si].en, lid: lid, title: L.titleEn };

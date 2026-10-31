@@ -836,6 +836,45 @@ def load_chengyu():
         out.append({'h': h, 'py': py, 'lit': lit, 'g': g, 'bg': bg, 'ex': et, 'en': en, 'topic': topic, 'tier': int(tier)})
     return out
 
+def load_examples():
+    """src/content/examples.txt -> {word: [sentence, English]}.  Short graded sentences for flashcards, written for words whose lesson
+    sentences are all harder than the word.  Each sentence must contain the word and use only HSK words up to the word's own level."""
+    fn = os.path.join(CONTENT, 'examples.txt')
+    out = {}
+    if not os.path.exists(fn):
+        return out
+    for n, line in enumerate(open(fn, encoding='utf-8'), 1):
+        line = line.strip()
+        if not line or line.startswith('#'):
+            continue
+        where = f'examples.txt:{n}'
+        f = [x.strip() for x in line.split(' | ')]
+        if len(f) != 3 or not all(f):
+            errors.append(f'{where}: expected word | sentence | English')
+            continue
+        w, zh, en = f
+        if w in out:
+            errors.append(f'{where}: duplicate example for {w}')
+            continue
+        toks, meta = annotate_text(zh, where)
+        hs = [t['h'] for t in toks if t.get('h')]
+        if w not in hs and not (len(w) == 1 and any(w in h for h in hs)):
+            errors.append(f'{where}: the sentence does not contain {w} as a word (words: {" ".join(hs)})')
+            continue
+        def lvl(h):
+            m = meta.get(h, {}).get('lv')
+            return m or (HSK[h]['level'] if h in HSK and isinstance(HSK[h]['level'], int) else None)
+        lv = lvl(w)
+        if not lv or lv > 4:
+            errors.append(f'{where}: {w} is not an HSK 1-4 word')
+            continue
+        for h in hs:
+            hl = lvl(h)
+            if h != w and (not hl or hl > lv):
+                errors.append(f'{where}: {h} is {"not in the HSK list" if not hl else "HSK %d" % hl}, above {w} (HSK {lv})')
+        out[w] = [re.sub(r'\[[^\]]*\]|/', '', zh), en]
+    return out
+
 def main():
     load_lexicon(); load_legacy(); load_cedict(); load_compounds(); build_known()
     lessons = []
@@ -844,6 +883,7 @@ def main():
     finish(lessons)
     quiz_zh, quiz_meta = load_quiz_zh()
     chengyu = load_chengyu()
+    examples = load_examples()
     for L in lessons:
         L['_names'] = {t['h'] for t in L['speakers']}
         if L['id'] in quiz_zh and len(quiz_zh[L['id']]) != len(L['quiz']):
@@ -890,7 +930,8 @@ def main():
     json.dump({'quiz': quiz_zh, 'meta': {h: {'lv': m['lv']} for h, m in quiz_meta.items()}},
               open(os.path.join(BUILD, 'quiz_zh.json'), 'w', encoding='utf-8'), ensure_ascii=False)
     json.dump(chengyu, open(os.path.join(BUILD, 'chengyu.json'), 'w', encoding='utf-8'), ensure_ascii=False)
-    print(f'{len(chengyu)} chengyu')
+    json.dump(examples, open(os.path.join(BUILD, 'examples.json'), 'w', encoding='utf-8'), ensure_ascii=False)
+    print(f'{len(chengyu)} chengyu, {len(examples)} flashcard examples')
     if '--splits' in sys.argv:
         split_report(lessons)
     if '--above' in sys.argv:

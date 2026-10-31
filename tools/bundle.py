@@ -16,6 +16,7 @@ old = json.load(open(os.path.join(BUILD, 'lessons_legacy.json'), encoding='utf-8
 hsk = H.load_hsk()
 QZ = json.load(open(os.path.join(BUILD, 'quiz_zh.json'), encoding='utf-8'))
 CY = json.load(open(os.path.join(BUILD, 'chengyu.json'), encoding='utf-8'))
+XS = json.load(open(os.path.join(BUILD, 'examples.json'), encoding='utf-8')) if os.path.exists(os.path.join(BUILD, 'examples.json')) else {}
 
 # word level map (official where available; lexicon-defined words keep their lesson-level)
 vocab_lv = {}
@@ -135,7 +136,7 @@ cy = [[c['h'], ' '.join(c['py']), c['lit'], c['g'], c['bg'], toks(c['ex']), c['e
 
 lessonchars_ = set(ch for w in W for ch in w[0])
 T = {a: b for a, b in cmap.items() if a != b and a in lessonchars_ | set(cmap)}
-data = {'W': W, 'L': out, 'T': T, 'CY': cy, 'CT': CT}
+data = {'W': W, 'L': out, 'T': T, 'CY': cy, 'CT': CT, 'X': XS}
 js = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
 open(os.path.join(INLINE, 'data.json'), 'w', encoding='utf-8').write(js)
 print('lessons', len(out), 'words', len(W), 'data.json', len(js.encode()) // 1024, 'KB')

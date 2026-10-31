@@ -74,7 +74,7 @@ function flashView() {
     return r + '<div class="actions">' + (more ? '<button class="btn pri" data-act="flash-start">Review ' + more + ' more</button>' : '<button class="btn pri" data-act="learn" data-n="10">Add 10 new words</button>') + '<button class="btn" data-act="end">Done</button></div>';
   }
   var h = s.q[0], w = savedMap.get(h), i = cardInfo(w), dir = S.set.dir;
-  var ex = CYMAP.has(h) ? cyExample(CYMAP.get(h)) : exampleFor(h, { lid: w.lid, si: w.si });
+  var ex = CYMAP.has(h) ? cyExample(CYMAP.get(h)) : exampleFor(h, { py: i.py });
   var front, back;
   var sayBtn = '<button class="iconbtn" data-act="say" data-h="' + esc(h) + '" aria-label="Listen">' + icon('say') + '</button>';
   var hz = '<div class="fz" lang="' + lang() + '">' + esc(sc(h)) + '</div>', py = '<div class="fp">' + esc(phonJoin(i.py)) + '</div>', gl = '<div class="fg">' + esc(i.g) + '</div>';

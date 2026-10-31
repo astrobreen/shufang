@@ -33,6 +33,7 @@ var LESSONS = D.L.map(function (c) {
 });
 var byId = new Map(LESSONS.map(function (l) { return [l.id, l]; }));
 var TRADCH = D.T || {};
+var XM = D.X || {};          /* word -> [sentence, English]: short graded examples for flashcards */
 
 /* 成语 (four-character idioms): inlined, with their own example sentences */
 var CT = D.CT || [];
@@ -48,10 +49,11 @@ var dict = new Map();
 function addTok(t, L, si) {
   if (!t.h) return;
   var e = dict.get(t.h), py = t.py.join(' ');
-  if (!e) { e = { h: t.h, lv: t.lv, pys: {}, gl: [], n: 0, ex: null, exLv: 99, t: t.t }; dict.set(t.h, e); }
+  if (!e) { e = { h: t.h, lv: t.lv, pys: {}, gl: [], n: 0, ex: null, exLv: 99, occ: [], t: t.t }; dict.set(t.h, e); }
   e.n++; e.pys[py] = (e.pys[py] || 0) + 1;
   if (t.g && e.gl.indexOf(t.g) < 0) e.gl.push(t.g);
   if (!e.t && t.t) e.t = t.t;
+  if (si >= 0 && L.type !== 'poem' && L.type !== 'classic') e.occ.push([L, si, py]);
   if (si >= 0 && L.level < e.exLv && L.type !== 'poem' && L.type !== 'classic') { e.ex = { lid: L.id, si: si }; e.exLv = L.level; }
   else if (si >= 0 && !e.ex) e.ex = { lid: L.id, si: si };
 }
@@ -60,12 +62,27 @@ LESSONS.forEach(function (L) {
   L.speakers.forEach(function (t) { addTok(t, L, -1); });
   L.sents.forEach(function (s, si) { s.t.forEach(function (t) { addTok(t, L, si); }); });
 });
+/* the example sentence for a word: from a lesson near the word's own HSK level, using few harder words, and not too long */
+function pickExample(e, pyKey) {
+  var n = e.lv || 0, best = null, bc = 1e9;
+  var pool = pyKey ? e.occ.filter(function (o) { return o[2] === pyKey; }) : [];
+  if (!pool.length) pool = e.occ;
+  pool.forEach(function (o) {
+    var L = o[0], s = L.sents[o[1]], over = 0, mx = 0, len = 0;
+    s.t.forEach(function (t) { if (t.h) { len += t.h.length; if (t.h !== e.h && t.lv > Math.max(n, 1)) { over++; mx = Math.max(mx, t.lv - Math.max(n, 1)); } } });
+    var gap = L.level - (n || 1);
+    var cost = over * 3 + mx * 2 + (gap > 0 ? gap : -gap * 0.3) + Math.max(0, len - 20) * 0.15 + (len < 4 ? 2 : 0);
+    if (cost < bc) { bc = cost; best = { lid: L.id, si: o[1] }; }
+  });
+  return best;
+}
 dict.forEach(function (e) {
   var best = 0;
   Object.keys(e.pys).forEach(function (k) { if (e.pys[k] > best) { best = e.pys[k]; e.py = k.split(' '); } });
   e.gl.sort(function (a, b) { return (a[0] === '(' ? 1 : 0) - (b[0] === '(' ? 1 : 0); });
   e.gl = e.gl.slice(0, 5);
   e.pyNorm = C.norm(e.py.join(''));
+  var b = pickExample(e, e.py.join(' ')); if (b) e.ex = b;
 });
 /* character -> words that contain it */
 var cidx = new Map();
