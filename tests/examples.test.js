@@ -1,15 +1,22 @@
-// Flashcard example sentences match the word's HSK level.  Run: node tests/examples.test.js
+// Every HSK word has a flashcard sentence, and each one is checked against the word's level at build time.  Run: node tests/examples.test.js
 const http = require('http'), fs = require('fs'), path = require('path'), assert = require('assert');
 const { chromium } = require('playwright');
 const root = path.join(__dirname, '..', 'site');
 const D = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'build', 'dist', 'data.json'), 'utf8'));
-const X = D.X; assert(Object.keys(X).length > 500, 'graded examples present');
+const X = D.X; assert(Object.keys(X).length > 9000, 'graded examples present');
 const lv = {}; D.W.forEach((w) => { lv[w[0]] = w[4]; });
 for (const [h, [zh, en]] of Object.entries(X)) {
   assert(zh.includes(h) && en.length > 3, 'example for ' + h);
-  assert(lv[h] <= 4, h + ' is an HSK 1-4 word');
-  assert(/[。？！]$/.test(zh) && /[.?!]$/.test(en), 'punctuation: ' + zh + ' / ' + en);
+  assert(/[。？！]”?$/.test(zh) && /[.?!]["”]?$/.test(en), 'punctuation: ' + zh + ' / ' + en);
 }
+// every HSK word has a flashcard sentence: one written for its level, or a lesson sentence that contains it.
+// Single characters that only occur inside other words, or whose list meaning differs from their usual one, are left out on purpose.
+const V = JSON.parse(fs.readFileSync(path.join(root, 'vocab.json'), 'utf8')), inLesson = new Set();
+D.L.forEach((l) => l.ss.forEach((s) => s[1].forEach((i) => { if (typeof i === 'number') inLesson.add(D.W[i][0]); })));
+const bare = []; let total = 0;
+for (const k of Object.keys(V)) V[k].forEach((r) => { total++; if (!X[r[0]] && !inLesson.has(r[0])) bare.push(r[0]); });
+assert(total > 10900, 'full HSK list present');
+assert(bare.length <= 60, bare.length + ' HSK words have no example sentence: ' + bare.join(' '));
 const types = { '.html': 'text/html', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png' };
 const srv = http.createServer((q, r) => { const f = path.join(root, decodeURIComponent(q.url.split('?')[0]).replace(/\/$/, '/index.html')); if (!fs.existsSync(f)) { r.writeHead(404); return r.end(); } r.writeHead(200, { 'content-type': types[path.extname(f)] || 'application/octet-stream' }); fs.createReadStream(f).pipe(r); });
 (async () => {

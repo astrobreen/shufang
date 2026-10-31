@@ -122,19 +122,57 @@ def check_syllable(s):
     return None
 
 
+_REAL = {}
+
+
+def real_syllables():
+    """the toneless syllables that exist in Mandarin (read from the pinyin data), so 'uo' or 'bun' are never taken for syllables"""
+    if not _REAL:
+        for line in open(os.path.join(SRC, 'pinyin-data', 'pinyin.txt'), encoding='utf-8'):
+            if line.startswith('#') or ':' not in line:
+                continue
+            for x in re.split(r'[,\s]+', line.split(':', 1)[1].split('#')[0].strip()):
+                if x:
+                    _REAL[strip_marks(x)[0]] = 1
+        for x in ('er', 'm', 'n', 'ng', 'hm', 'hng', 'ê', 'lo', 'yo', 'o'):
+            _REAL[x] = 1
+    return _REAL
+
+
 def _valid(cand):
     try:
         n = norm_syl(cand)
     except Exception:
         return None
-    return n if check_syllable(n) is None else None
+    b = strip_marks(n)[0]
+    if check_syllable(n) is not None or b not in real_syllables() or b[0] in 'iuü':     # a syllable never starts with i, u or ü (they are written y, w, yu)
+        return None
+    return n
 
 
-def split_pinyin(p):
+def _segs(chunk, i=0):
+    """every way to cut chunk[i:] into valid syllables, longest syllable first"""
+    if i >= len(chunk):
+        yield []
+        return
+    for L in range(min(7, len(chunk) - i), 0, -1):
+        cand = chunk[i:i + L]
+        j = i + L
+        if j < len(chunk) and chunk[j] in '12345':
+            cand += chunk[j]
+            j += 1
+        v = _valid(cand)
+        if v:
+            for rest in _segs(chunk, j):
+                yield [v] + rest
+
+
+def split_pinyin(p, n=None):
     """'bùrú shuō' / 'ài hào' / 'wánr5' / 'lü4' -> list of tone-marked syllables; erhua r -> 'er'.
     Unparseable chunks are returned as-is so validation fails loudly."""
     p = p.strip().lower().replace("'", ' ').replace('’', ' ').replace('˙', '')
     out = []
+    failed = False
     for chunk in p.split():
         i = 0
         while i < len(chunk):
@@ -154,9 +192,25 @@ def split_pinyin(p):
                     break
             if not got:
                 out.append(chunk[i:])
+                failed = True
                 break
             out.append(got[0])
             i = got[1]
+    if n and (len(out) != n or failed) and ' ' not in p.strip() and 'r' not in p[-2:]:
+        for seg in _segs(p.strip().lower()):
+            if len(seg) == n:
+                return seg
+    elif n and (len(out) != n or failed):
+        chunks = p.split()
+        if all(len(list(_segs(c))) > 0 for c in chunks):
+            segs = [[sg for sg in _segs(c)] for c in chunks]
+            tot = sum(len(sg[0]) for sg in segs)
+            if tot != n:
+                # try to find per-chunk cuts whose total is n
+                import itertools
+                for combo in itertools.product(*[sg[:6] for sg in segs]):
+                    if sum(len(x) for x in combo) == n:
+                        return [y for x in combo for y in x]
     return out
 
 
@@ -351,7 +405,7 @@ def load_hsk():
             ms = f['meanings']
             if ms and JUNK.match(ms[0]) and len(e['forms']) > 1 and not clean_meanings(ms):
                 continue
-            syl = [norm_syl(x) for x in split_pinyin(py)]
+            syl = [norm_syl(x) for x in split_pinyin(py, len(re.sub(r'[^\u4e00-\u9fff]', '', e['simplified'])))]
             forms.append({'py': syl, 'meanings': clean_meanings(ms), 'raw': ms, 'trad': f['traditional']})
         if not forms:
             continue

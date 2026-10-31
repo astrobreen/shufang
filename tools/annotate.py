@@ -838,7 +838,7 @@ def load_chengyu():
 
 def load_examples():
     """src/content/examples.txt -> {word: [sentence, English]}.  Short graded sentences for flashcards, written for words whose lesson
-    sentences are all harder than the word.  Each sentence must contain the word and use only HSK words up to the word's own level."""
+    sentences are all harder than the word.  Each sentence must contain the word, read it the way the HSK list does, and use only HSK words up to the word's own level."""
     fn = os.path.join(CONTENT, 'examples.txt')
     out = {}
     if not os.path.exists(fn):
@@ -858,21 +858,33 @@ def load_examples():
             continue
         toks, meta = annotate_text(zh, where)
         hs = [t['h'] for t in toks if t.get('h')]
-        if w not in hs and not (len(w) == 1 and any(w in h for h in hs)):
-            errors.append(f'{where}: the sentence does not contain {w} as a word (words: {" ".join(hs)})')
+        plain = ''.join(t.get('h') or t.get('p') or '' for t in toks)
+        if w not in plain:
+            errors.append(f'{where}: the sentence does not contain {w} (words: {" ".join(hs)})')
             continue
         def lvl(h):
             m = meta.get(h, {}).get('lv')
             return m or (HSK[h]['level'] if h in HSK and isinstance(HSK[h]['level'], int) else None)
         lv = lvl(w)
-        if not lv or lv > 4:
-            errors.append(f'{where}: {w} is not an HSK 1-4 word')
+        if not lv or lv > 9:
+            errors.append(f'{where}: {w} is not an HSK word')
             continue
         for h in hs:
             hl = lvl(h)
             if h != w and (not hl or hl > lv):
                 errors.append(f'{where}: {h} is {"not in the HSK list" if not hl else "HSK %d" % hl}, above {w} (HSK {lv})')
-        out[w] = [re.sub(r'\[[^\]]*\]|/', '', zh), en]
+        # the reading the sentence gives the word, syllable by syllable
+        pos, sylls = 0, []
+        for t in toks:
+            if t.get('h'):
+                sylls += [(pos + i, t['py'][i] if len(t['py']) == len(t['h']) else None) for i in range(len(t['h']))]
+                pos += len(t['h'])
+            else:
+                pos += len(t.get('p') or '')
+        at = plain.index(w)
+        got = [y for i, y in sylls if at <= i < at + len(w)]
+        py = ' '.join(got) if len(got) == len(w) and all(got) else ''
+        out[w] = [re.sub(r'\[[^\]]*\]|/', '', zh), en, py]
     return out
 
 def main():

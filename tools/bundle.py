@@ -136,7 +136,7 @@ cy = [[c['h'], ' '.join(c['py']), c['lit'], c['g'], c['bg'], toks(c['ex']), c['e
 
 lessonchars_ = set(ch for w in W for ch in w[0])
 T = {a: b for a, b in cmap.items() if a != b and a in lessonchars_ | set(cmap)}
-data = {'W': W, 'L': out, 'T': T, 'CY': cy, 'CT': CT, 'X': XS}
+data = {'W': W, 'L': out, 'T': T, 'CY': cy, 'CT': CT, 'X': {w: x[:2] for w, x in XS.items()}}
 js = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
 open(os.path.join(INLINE, 'data.json'), 'w', encoding='utf-8').write(js)
 print('lessons', len(out), 'words', len(W), 'data.json', len(js.encode()) // 1024, 'KB')
@@ -157,6 +157,23 @@ for w, e in sorted(hsk.items(), key=lambda kv: kv[1]['freq']):
         g = H.clip(ms[0], 110)
     g = GF.vocab_get(w, g)
     V[str(e['level'])].append([w, ' '.join(f['py']), g, f['trad'] if f['trad'] != w else ''])
+# a flashcard sentence must read the word the way the HSK list does
+def _k(py):
+    out = []
+    for x in py.split():
+        b_, t_ = H.strip_marks(x)
+        out.append([b_, 0 if t_ in (0, 5) or b_ in ('yi', 'bu') else t_])        # 一 and 不 change tone in speech
+    for i in range(len(out) - 1):
+        if out[i][1] == 2 and out[i + 1][1] == 3:                              # third-tone sandhi
+            out[i][1] = 3
+    return out
+lead = {r[0]: r[1] for k_ in V for r in V[k_]}
+bad = [(w, x[2], lead[w]) for w, x in XS.items() if w in lead and x[2] and _k(x[2]) != _k(lead[w])]
+if bad:
+    print('examples that read the word differently from the HSK list:')
+    for b_ in bad[:60]:
+        print('  %s: sentence %s, list %s' % b_)
+    sys.exit(1)
 vj = json.dumps(V, ensure_ascii=False, separators=(',', ':'))
 open(os.path.join(OUT, 'vocab.json'), 'w', encoding='utf-8').write(vj)
 print('vocab', {k: len(v) for k, v in V.items()}, len(vj.encode()) // 1024, 'KB')

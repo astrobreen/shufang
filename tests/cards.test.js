@@ -2,9 +2,11 @@
 const http = require('http'), fs = require('fs'), path = require('path'), assert = require('assert');
 const { chromium } = require('playwright');
 const root = path.join(__dirname, '..', 'site');
-const vocab = JSON.parse(fs.readFileSync(path.join(root, 'vocab.json'), 'utf8')), all = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+const vocab = JSON.parse(fs.readFileSync(path.join(root, 'vocab.json'), 'utf8'));
+const data = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'build', 'dist', 'data.json'), 'utf8'));
+const inStories = new Set(); data.L.forEach((l) => { const add = (x) => { if (typeof x === 'number') inStories.add(data.W[x][0]); }; l.t.forEach(add); l.sp.forEach(add); l.ss.forEach((s) => s[1].forEach(add)); });
 let pick = null;
-for (const lv of [9, 8, 7, 6]) for (const a of vocab[lv]) { if (a[0].length === 2 && !all.includes(a[0])) { pick = a; break; } if (pick) break; }
+for (const lv of [9, 8, 7, 6]) for (const a of vocab[lv]) { if (a[0].length === 2 && !inStories.has(a[0])) { pick = a; break; } if (pick) break; }
 assert(pick, 'found an HSK word that is in no lesson');
 const types = { '.html': 'text/html', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png' };
 const srv = http.createServer((q, r) => { const f = path.join(root, decodeURIComponent(q.url.split('?')[0]).replace(/\/$/, '/index.html')); if (!fs.existsSync(f)) { r.writeHead(404); return r.end(); } r.writeHead(200, { 'content-type': types[path.extname(f)] || 'application/octet-stream' }); fs.createReadStream(f).pipe(r); });
@@ -22,8 +24,6 @@ const srv = http.createServer((q, r) => { const f = path.join(root, decodeURICom
   await p.click('[data-act="end"]'); await p.click('#tabs button[data-v="words"]'); await p.click('[data-act="wtab"][data-v="mine"]');
   assert((await p.textContent('#wlist')).includes(pick[2].split(';')[0].slice(0, 6)), 'My words shows the meaning too');
   // HSK list: show only the words that no lesson uses
-  const data = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'build', 'dist', 'data.json'), 'utf8'));
-  const inStories = new Set(); data.L.forEach((l) => { const add = (x) => { if (typeof x === 'number') inStories.add(data.W[x][0]); }; l.t.forEach(add); l.sp.forEach(add); l.ss.forEach((s) => s[1].forEach(add)); });
   await p.click('[data-act="wtab"][data-v="hsk"]'); await p.click('[data-act="wlv"][data-v="3"]'); await p.waitForSelector('.rowhead [data-act="wnl"]');
   const level3 = vocab[3].map((a) => a[0]), unseen = level3.filter((h) => !inStories.has(h)).length;
   assert((await p.textContent('.rowhead .small')).includes((level3.length - unseen) + ' of ' + level3.length + ' appear in the lessons'), 'coverage line: ' + await p.textContent('.rowhead .small') + ' expected ' + (level3.length - unseen));
