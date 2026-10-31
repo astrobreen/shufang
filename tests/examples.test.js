@@ -3,7 +3,7 @@ const http = require('http'), fs = require('fs'), path = require('path'), assert
 const { chromium } = require('playwright');
 const root = path.join(__dirname, '..', 'site');
 const D = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'build', 'dist', 'data.json'), 'utf8'));
-const X = D.X; assert(Object.keys(X).length > 9000, 'graded examples present');
+const X = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'site', 'examples.json'), 'utf8')); assert(!D.X, 'sentences are not inlined'); assert(Object.keys(X).length > 9000, 'graded examples present');
 const lv = {}; D.W.forEach((w) => { lv[w[0]] = w[4]; });
 for (const [h, [zh, en]] of Object.entries(X)) {
   assert(zh.includes(h) && en.length > 3, 'example for ' + h);
@@ -29,6 +29,8 @@ const srv = http.createServer((q, r) => { const f = path.join(root, decodeURICom
   await p.goto('http://localhost:' + srv.address().port + '/'); await p.waitForSelector('#tabs button');
   await p.click('#tabs button[data-v="practice"]'); await p.click('[data-act="flash-start"]'); await p.waitForSelector('.flash');
   await p.click('.flash'); await p.waitForSelector('.fx');
+  // the sentences load in the background after the first paint; an open card updates when they arrive
+  await p.waitForFunction((t) => (document.querySelector('.fx') || {}).textContent.includes(t), X['买'][0]);
   const fx = await p.textContent('.fx');
   assert(fx.includes(X['买'][0]) && fx.includes(X['买'][1]), 'card shows the graded sentence: ' + fx);
   assert(errs.length === 0, errs.join('; '));

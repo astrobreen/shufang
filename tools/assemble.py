@@ -4,7 +4,7 @@
   python3 tools/assemble.py              -> site/ (index.html, manifest, service worker, data files)
 
 The app is one HTML file: CSS + core.js + the compact lesson bundle (inline) + src/app/js/*.js in one IIFE.
-Big, lazily fetched data (vocab.json, chars.json, strokes/*.json) sits next to it.
+Big, lazily fetched data (vocab.json, chars.json, examples.json, strokes/*.json) sits next to it.
 """
 import glob, hashlib, json, os, shutil, sys
 
@@ -42,7 +42,7 @@ window.__D__ = {safe(data)};
 
 SITE = os.path.join(ROOT, 'site')
 os.makedirs(SITE, exist_ok=True)
-for name in ('vocab.json', 'chars.json'):  # written by bundle.py
+for name in ('vocab.json', 'chars.json', 'examples.json'):  # written by bundle.py
     assert os.path.exists(os.path.join(SITE, name)), 'run tools/bundle.py first (needs ./vendor)'
 
 version = hashlib.sha1((css + core + data + code).encode()).hexdigest()[:10]
@@ -95,7 +95,7 @@ open(os.path.join(SITE, 'manifest.webmanifest'), 'w', encoding='utf-8').write(js
 
 open(os.path.join(SITE, 'sw.js'), 'w', encoding='utf-8').write(f"""/* Offline cache. The version below changes whenever the app or its data changes. */
 const VERSION = 'shufang-{version}';
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'vocab.json', 'chars.json', 'icons/icon.svg', 'icons/icon-192.png', 'icons/apple-touch-icon.png'];
+const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'vocab.json', 'chars.json', 'examples.json', 'icons/icon.svg', 'icons/icon-192.png', 'icons/apple-touch-icon.png'];
 self.addEventListener('install', (e) => {{
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
 }});

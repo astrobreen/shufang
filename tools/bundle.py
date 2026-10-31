@@ -136,11 +136,16 @@ cy = [[c['h'], ' '.join(c['py']), c['lit'], c['g'], c['bg'], toks(c['ex']), c['e
 
 lessonchars_ = set(ch for w in W for ch in w[0])
 T = {a: b for a, b in cmap.items() if a != b and a in lessonchars_ | set(cmap)}
-data = {'W': W, 'L': out, 'T': T, 'CY': cy, 'CT': CT, 'X': {w: x[:2] for w, x in XS.items()}}
+data = {'W': W, 'L': out, 'T': T, 'CY': cy, 'CT': CT}
 js = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
 open(os.path.join(INLINE, 'data.json'), 'w', encoding='utf-8').write(js)
 print('lessons', len(out), 'words', len(W), 'data.json', len(js.encode()) // 1024, 'KB')
 print('by level', sorted(collections.Counter(c['l'] for c in out).items()))
+
+# ---- flashcard sentences (lazy: only flashcards and word sheets need them)
+ej = json.dumps({w: x[:2] for w, x in sorted(XS.items())}, ensure_ascii=False, separators=(',', ':'))
+open(os.path.join(OUT, 'examples.json'), 'w', encoding='utf-8').write(ej)
+print('examples', len(XS), len(ej.encode()) // 1024, 'KB')
 
 # ---- full vocab (lazy)
 V = {str(k): [] for k in range(1, 10)}

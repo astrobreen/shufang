@@ -30,13 +30,17 @@ function loadDict(cb) {
 /* search keys, built the first time a Latin-letter search is made */
 function dictKeys() {
   if (DI.pk) return;
-  DI.pk = []; DI.nk = []; DI.en = [];
-  DI.list.forEach(function (e) {
-    var lows = e.pys.map(function (s) { return s.toLowerCase(); });
-    DI.pk.push(C.norm(lows.join('')));
-    DI.nk.push(lows.map(function (s) { return C.norm(s) + C.toneOf(s); }).join(''));
-    DI.en.push(e.d.join(' | ').toLowerCase());
-  });
+  var list = DI.list, n = list.length, memo = new Map(), pk = new Array(n), nk = new Array(n), en = new Array(n);
+  for (var i = 0; i < n; i++) {                                // the same ~1,300 syllables recur, so work them out once
+    var e = list[i], a = '', b = '';
+    for (var j = 0; j < e.pys.length; j++) {
+      var low = e.pys[j].toLowerCase(), m = memo.get(low);
+      if (!m) { var nm = C.norm(low); m = [nm, nm + C.toneOf(low)]; memo.set(low, m); }
+      a += m[0]; b += m[1];
+    }
+    pk[i] = a; nk[i] = b; en[i] = e.d.join(' | ').toLowerCase();
+  }
+  DI.pk = pk; DI.nk = nk; DI.en = en;
 }
 
 function variantish(e) { return VARIANT.test(e.d[0] || ''); }

@@ -220,3 +220,4 @@ function stopSpeechSoft() { if (rd && rd.playing) pausePlay(); }
 
 caches();
 render();
+setTimeout(loadExamples, 400);       // after the first paint

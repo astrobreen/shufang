@@ -33,7 +33,16 @@ var LESSONS = D.L.map(function (c) {
 });
 var byId = new Map(LESSONS.map(function (l) { return [l.id, l]; }));
 var TRADCH = D.T || {};
-var XM = D.X || {};          /* word -> [sentence, English]: short graded examples for flashcards */
+var XM = {};                 /* word -> [sentence, English]: short graded examples for flashcards; fetched after start (examples.json) */
+var XL = { loading: false };
+function loadExamples() {
+  if (XL.loading || XL.done) return;
+  XL.loading = true;
+  fetch('examples.json').then(function (r) { if (!r.ok) throw new Error('http'); return r.json(); }).then(function (j) {
+    XM = j; XL.done = true; XL.loading = false;
+    if (sh && sh.kind === 'word') renderSheet(); else if (ses && ses.kind === 'flash') render();   // a card opened before they arrived
+  }).catch(function () { XL.loading = false; });
+}
 
 /* 成语 (four-character idioms): inlined, with their own example sentences */
 var CT = D.CT || [];
